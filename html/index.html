@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dali</title>
+
+    <!-- styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- make responsive -->
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- load javascript -->
+    <script data-main="js/main" src="libs/require.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Dali</h1>
+            <input type="text" class="input-large main-search" placeholder="Endpoint URL" id="searchInput" />
+            <br/>
+            <a class="btn btn-success" href="#" id="goBtn">Go!</a>
+        </div>
+
+        <div class="row">
+            <div class="span10">
+                Resource
+            </div>
+            <div class="span2">
+                Relevance
+            </div>
+        </div>
+        <div class="row" id="resultContainer">
+        </div>
+    </div>
+
+    <!-- TEMPLATES -->
+    <script id="resultTemplate" type="text/x-dot-template">
+        <div class="row">
+            <div class="span10">
+                <i class="icon-{{? it.type === 'sparql'}}globe{{??}}file{{?}}"></i>
+                <a href="{{=it.url}}">{{=it.url}}</a>
+            </div>
+            <div class="span2">
+                <div class="progress progress-striped">
+                    <div class="bar" style="width: {{=it.relevance}}%;"></div>
+                </div>
+            </div>
+        </div>
+    </script>
+    
+
+</body>
+</html>

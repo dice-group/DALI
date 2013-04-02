@@ -1,0 +1,14 @@
+.jumbotron {
+	padding-top: 5em;
+	width: 100%;
+	text-align: center;
+}
+
+.btn-go {
+	margin-top: 10px;
+}
+
+.main-search {
+	width: 80%;
+	height: 24px;
+}
