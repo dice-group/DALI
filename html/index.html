@@ -24,14 +24,6 @@
             <a class="btn btn-success" href="#" id="goBtn">Go!</a>
         </div>
 
-        <div class="row">
-            <div class="span10">
-                Resource
-            </div>
-            <div class="span2">
-                Relevance
-            </div>
-        </div>
         <div class="row" id="resultContainer">
         </div>
     </div>
@@ -40,8 +32,8 @@
     <script id="resultTemplate" type="text/x-dot-template">
         <div class="row">
             <div class="span10">
-                <i class="icon-{{? it.type === 'sparql'}}globe{{??}}file{{?}}"></i>
-                <a href="{{=it.url}}">{{=it.url}}</a>
+                <i class="icon-{{? it.type === 'sparql'}}globe{{??}}file{{?}} result-icon"></i>
+                <a href="{{=it.url}}" class="result-link">{{=it.url}}</a>
             </div>
             <div class="span2">
                 <div class="progress progress-striped">

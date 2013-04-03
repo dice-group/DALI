@@ -26,28 +26,18 @@ require(['jquery', 'bootstrap', 'dot'], function($, _bootstrap, doT) {
         $.getJSON(queryEndpoint+"?endpoint="+encodeURIComponent(query), function(data){
             console.log(data);
 
-            var results = [],
+            var results = data,
                 html = "",
-                i = 0,
-                item, len,
-                key, rel;
+                i = 0, len = results.length;
 
-            for(key in data){
-                rel = Math.floor( parseFloat(data[key]) * 100.0 );
-                item = {
-                    url: key,
-                    relevance: rel,
-                    type: 'file'
-                };
-                if( i % 2 === 0 ){
-                    item.type = 'sparql';
-                }
-                i++;
-                results.push(item);
+            // convert relevance to % & sort descending
+            for(i = 0; i < len; i++){
+                results[i].relevance = Math.floor( parseFloat(results[i].relevance) * 100.0 );
             }
             results.sort(function(a,b) { return b.relevance - a.relevance; });
 
-            for(i = 0, len = results.length; i < len; i++){
+            // render
+            for(i = 0; i < len; i++){
                 html += resultTemplate(results[i]);
             }
 

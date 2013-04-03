@@ -12,3 +12,23 @@
 	width: 80%;
 	height: 24px;
 }
+
+#resultContainer {
+	padding-top: 20px;
+}
+
+.result-link {
+	width: 90%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	float: left;
+}
+
+.result-icon {
+	display: block;
+	float: left;
+	margin-top: 3px;
+	padding-right: 5px;
+}
