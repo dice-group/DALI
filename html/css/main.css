@@ -32,3 +32,10 @@
 	margin-top: 3px;
 	padding-right: 5px;
 }
+
+#searchProgress {
+	width: 0;
+	margin: auto;
+	padding-top: 70px;
+	padding-left: 14px;
+}

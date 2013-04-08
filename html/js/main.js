@@ -1,20 +1,23 @@
 requirejs.config({
     paths: {
-        jquery: ['../libs/jquery.min'],
+        jquery: '../libs/jquery.min',
         bootstrap: '../libs/bootstrap.min',
         dot: '../libs/doT.min',
+        spin: '../libs/spin.min'
     },
     shim: {
-        'bootstrap':{deps: ['jquery']}
+        'bootstrap': { deps: ['jquery'] }
     }
 });
 
-require(['jquery', 'bootstrap', 'dot'], function($, _bootstrap, doT) {
-    var queryEndpoint = "result",
+require(['jquery', 'bootstrap', 'dot', 'spinner'], function(_$, _bootstrap, doT, $) {
+    var queryEndpoint = "getdatasets",
         // cache dom pointers
         $goBtn = $("#goBtn"),
         $searchInput = $("#searchInput"),
         $resultContainer = $("#resultContainer"),
+        // spinner
+        progressSpinner = $("#searchProgress"),
         // tempaltes
         resultTemplate = doT.template( $('#resultTemplate').html() ),
 
@@ -23,8 +26,13 @@ require(['jquery', 'bootstrap', 'dot'], function($, _bootstrap, doT) {
         var query = $searchInput.val();
         $searchInput.val('');
 
+        // show spinner
+        progressSpinner.parent().show();
+
+        // do request
         $.getJSON(queryEndpoint+"?endpoint="+encodeURIComponent(query), function(data){
-            console.log(data);
+            // hide spinner
+            progressSpinner.parent().hide();
 
             var results = data,
                 html = "",
@@ -50,4 +58,7 @@ require(['jquery', 'bootstrap', 'dot'], function($, _bootstrap, doT) {
         if(e.keyCode === 13)
             doSearch();
     });
+
+    // init spinner
+    progressSpinner.spin();
 });
