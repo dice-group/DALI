@@ -1,0 +1,3074 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://id.southampton.ac.uk/dataset/eprints/latest.ttl>
+    void:classPartition [
+        void:class <http://purl.org/ontology/bibo/Manuscript> ;
+        void:entities 4240
+    ], [
+        void:class <http://purl.org/ontology/bibo/Conference> ;
+        void:entities 15690
+    ], [
+        void:class <http://purl.org/ontology/bibo/AudioVisualDocument> ;
+        void:entities 31
+    ], [
+        void:class <http://eprints.org/ontology/Document> ;
+        void:entities 59936
+    ], [
+        void:class <http://eprints.org/ontology/AdItemEPrint> ;
+        void:entities 230
+    ], [
+        void:class <http://purl.org/ontology/bibo/Thesis> ;
+        void:entities 2594
+    ], [
+        void:class <http://eprints.org/ontology/MonographEPrint> ;
+        void:entities 4240
+    ], [
+        void:class <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+        void:entities 22
+    ], [
+        void:class <http://purl.org/NET/c4dm/event.owl#Event> ;
+        void:entities 25
+    ], [
+        void:class <http://purl.org/void/provenance/ns/ProvenanceEvent> ;
+        void:entities 3
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:entities 6132
+    ], [
+        void:class <http://purl.org/ontology/bibo/AudioDocument> ;
+        void:entities 5
+    ], [
+        void:class <http://eprints.org/ontology/ThesisEPrint> ;
+        void:entities 2594
+    ], [
+        void:class <http://purl.org/ontology/bibo/Collection> ;
+        void:entities 13158
+    ], [
+        void:class <http://eprints.org/ontology/DatasetEPrint> ;
+        void:entities 5
+    ], [
+        void:class <http://purl.org/ontology/bibo/EditedBook> ;
+        void:entities 826
+    ], [
+        void:class <http://eprints.org/ontology/ArticleEPrint> ;
+        void:entities 48838
+    ], [
+        void:class <http://eprints.org/ontology/BookEPrint> ;
+        void:entities 2176
+    ], [
+        void:class <http://purl.org/ontology/bibo/Book> ;
+        void:entities 1350
+    ], [
+        void:class <http://purl.org/ontology/bibo/BookSection> ;
+        void:entities 9056
+    ], [
+        void:class <http://purl.org/ontology/bibo/AcademicArticle> ;
+        void:entities 66407
+    ], [
+        void:class <http://purl.org/ontology/bibo/Article> ;
+        void:entities 85807
+    ], [
+        void:class <http://eprints.org/ontology/EPrint> ;
+        void:entities 85805
+    ], [
+        void:class <http://purl.org/ontology/bibo/Patent> ;
+        void:entities 34
+    ], [
+        void:class <http://purl.org/ontology/bibo/Slideshow> ;
+        void:entities 569
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 241
+    ], [
+        void:class <http://eprints.org/ontology/MuItemEPrint> ;
+        void:entities 100
+    ], [
+        void:class <http://purl.org/openorg/AuthoritativeDataset> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/ontology/bibo/Document> ;
+        void:entities 25125
+    ], [
+        void:class <http://eprints.org/ontology/OtherEPrint> ;
+        void:entities 965
+    ], [
+        void:class <http://eprints.org/ontology/BookSectionEPrint> ;
+        void:entities 9056
+    ], [
+        void:class <http://purl.org/ontology/bibo/Image> ;
+        void:entities 166
+    ], [
+        void:class <http://eprints.org/ontology/ConferenceItemEPrint> ;
+        void:entities 17567
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 3553
+    ], [
+        void:class <http://eprints.org/ontology/PatentEPrint> ;
+        void:entities 34
+    ] ;
+    void:classes 35 ;
+    void:entities 575052 ;
+    void:properties 589 ;
+    void:propertyPartition [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 32 ;
+        void:property rdf:_110 ;
+        void:triples 32
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 32 ;
+        void:property rdf:_111 ;
+        void:triples 32
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 32 ;
+        void:property rdf:_112 ;
+        void:triples 32
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 32 ;
+        void:property rdf:_113 ;
+        void:triples 32
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/hasVersion> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property rdf:_118 ;
+        void:triples 31
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property rdf:_119 ;
+        void:triples 31
+    ], [
+        void:distinctObjects 54 ;
+        void:distinctSubjects 46 ;
+        void:property <http://eprints.org/ontology/hasDraft> ;
+        void:triples 54
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_367 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 556 ;
+        void:distinctSubjects 537 ;
+        void:property <http://eprints.org/ontology/hasAccepted> ;
+        void:triples 556
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.loc.gov/loc.terms/relators/SAD> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1737 ;
+        void:distinctSubjects 1790 ;
+        void:property <http://purl.org/ontology/bibo/isbn> ;
+        void:triples 1790
+    ], [
+        void:distinctObjects 84356 ;
+        void:distinctSubjects 84356 ;
+        void:property <http://purl.org/ontology/bibo/authorList> ;
+        void:triples 84356
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 47 ;
+        void:property <http://www.loc.gov/loc.terms/relators/CMP> ;
+        void:triples 53
+    ], [
+        void:distinctObjects 125 ;
+        void:distinctSubjects 125 ;
+        void:property <http://eprints.org/relation/ismediumThumbnailVersionOf> ;
+        void:triples 125
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/license> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 46 ;
+        void:distinctSubjects 46 ;
+        void:property <http://eprints.org/relation/hassmallThumbnailVersion> ;
+        void:triples 46
+    ], [
+        void:distinctObjects 37 ;
+        void:distinctSubjects 85476 ;
+        void:property <http://purl.org/ontology/bibo/status> ;
+        void:triples 160017
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/CMM> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 66202 ;
+        void:distinctSubjects 47127 ;
+        void:property <http://eprints.org/ontology/hasFile> ;
+        void:triples 66203
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_419 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_418 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_415 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_414 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_417 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_416 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_411 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_410 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_413 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_412 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_240 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_241 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_242 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_243 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_244 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_245 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_246 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_247 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_248 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_249 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.loc.gov/loc.terms/relators/ITR> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/void/provenance/ns/sourceDataset> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://eprints.org/relation/hasPart> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 20 ;
+        void:property <http://eprints.org/ontology/hasCoverImage> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://eprints.soton.ac.uk/69816/> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8879 ;
+        void:distinctSubjects 8879 ;
+        void:property <http://purl.org/ontology/bibo/editorList> ;
+        void:triples 8879
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 24 ;
+        void:property <http://eprints.org/relation/haslightboxThumbnailVersion> ;
+        void:triples 24
+    ], [
+        void:distinctObjects 20202 ;
+        void:distinctSubjects 86158 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 135963
+    ], [
+        void:distinctObjects 3374 ;
+        void:distinctSubjects 42296 ;
+        void:property <http://purl.org/ontology/bibo/issue> ;
+        void:triples 42296
+    ], [
+        void:distinctObjects 1058 ;
+        void:distinctSubjects 3448 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 3448
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.loc.gov/loc.terms/relators/ORM> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.loc.gov/loc.terms/relators/PRE> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 59 ;
+        void:distinctSubjects 56 ;
+        void:property <http://www.loc.gov/loc.terms/relators/PRF> ;
+        void:triples 92
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/PRG> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.loc.gov/loc.terms/relators/PRO> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_305 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_304 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_307 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_306 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_301 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_300 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_303 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_302 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 168135 ;
+        void:distinctSubjects 232721 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 246878
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/TCH> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_309 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_308 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_398 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_399 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_392 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_393 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_390 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_391 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_396 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_397 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_394 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_395 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 53 ;
+        void:distinctSubjects 53 ;
+        void:property rdf:_74 ;
+        void:triples 53
+    ], [
+        void:distinctObjects 52 ;
+        void:distinctSubjects 52 ;
+        void:property rdf:_75 ;
+        void:triples 52
+    ], [
+        void:distinctObjects 51 ;
+        void:distinctSubjects 51 ;
+        void:property rdf:_76 ;
+        void:triples 51
+    ], [
+        void:distinctObjects 49 ;
+        void:distinctSubjects 49 ;
+        void:property rdf:_77 ;
+        void:triples 49
+    ], [
+        void:distinctObjects 55 ;
+        void:distinctSubjects 55 ;
+        void:property rdf:_70 ;
+        void:triples 55
+    ], [
+        void:distinctObjects 54 ;
+        void:distinctSubjects 54 ;
+        void:property rdf:_71 ;
+        void:triples 54
+    ], [
+        void:distinctObjects 54 ;
+        void:distinctSubjects 54 ;
+        void:property rdf:_72 ;
+        void:triples 54
+    ], [
+        void:distinctObjects 54 ;
+        void:distinctSubjects 54 ;
+        void:property rdf:_73 ;
+        void:triples 54
+    ], [
+        void:distinctObjects 74 ;
+        void:distinctSubjects 89 ;
+        void:property <http://www.loc.gov/loc.terms/relators/ART> ;
+        void:triples 129
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 48 ;
+        void:property rdf:_78 ;
+        void:triples 48
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 48 ;
+        void:property rdf:_79 ;
+        void:triples 48
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.loc.gov/loc.terms/relators/ARR> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 59942 ;
+        void:distinctSubjects 24086 ;
+        void:property <http://eprints.org/ontology/hasDocument> ;
+        void:triples 59944
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_158 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_159 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 18123 ;
+        void:distinctSubjects 8880 ;
+        void:property <http://www.loc.gov/loc.terms/relators/EDT> ;
+        void:triples 20092
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property rdf:_150 ;
+        void:triples 19
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property rdf:_151 ;
+        void:triples 19
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property rdf:_152 ;
+        void:triples 19
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property rdf:_153 ;
+        void:triples 19
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property rdf:_154 ;
+        void:triples 19
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property rdf:_155 ;
+        void:triples 19
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_156 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_157 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 961 ;
+        void:distinctSubjects 968 ;
+        void:property rdf:_16 ;
+        void:triples 968
+    ], [
+        void:distinctObjects 66553 ;
+        void:distinctSubjects 47236 ;
+        void:property <http://purl.org/dc/terms/hasPart> ;
+        void:triples 66554
+    ], [
+        void:distinctObjects 175 ;
+        void:distinctSubjects 169 ;
+        void:property <http://eprints.org/ontology/hasSubmitted> ;
+        void:triples 175
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 36 ;
+        void:property rdf:_98 ;
+        void:triples 36
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 36 ;
+        void:property rdf:_99 ;
+        void:triples 36
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 36 ;
+        void:property rdf:_96 ;
+        void:triples 36
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 36 ;
+        void:property rdf:_97 ;
+        void:triples 36
+    ], [
+        void:distinctObjects 39 ;
+        void:distinctSubjects 39 ;
+        void:property rdf:_94 ;
+        void:triples 39
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 38 ;
+        void:property rdf:_95 ;
+        void:triples 38
+    ], [
+        void:distinctObjects 39 ;
+        void:distinctSubjects 39 ;
+        void:property rdf:_92 ;
+        void:triples 39
+    ], [
+        void:distinctObjects 39 ;
+        void:distinctSubjects 39 ;
+        void:property rdf:_93 ;
+        void:triples 39
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 41 ;
+        void:property rdf:_90 ;
+        void:triples 41
+    ], [
+        void:distinctObjects 39 ;
+        void:distinctSubjects 39 ;
+        void:property rdf:_91 ;
+        void:triples 39
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_442 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 210603 ;
+        void:property <http://xmlns.com/foaf/0.1/type> ;
+        void:triples 210603
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_440 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_441 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://id.southampton.ac.uk/ns/processIncludedFile> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 21646 ;
+        void:distinctSubjects 34040 ;
+        void:property <http://eprints.org/relation/isVersionOf> ;
+        void:triples 34040
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/MUS> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.loc.gov/loc.terms/relators/WAM> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 19776 ;
+        void:distinctSubjects 19778 ;
+        void:property <http://eprints.org/relation/isIndexCodesVersionOf> ;
+        void:triples 19778
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_284 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_285 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_286 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_287 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_280 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_281 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_282 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_283 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_288 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_289 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_239 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_238 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.loc.gov/loc.terms/relators/CSL> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 12453 ;
+        void:distinctSubjects 12457 ;
+        void:property <http://eprints.org/relation/haspreviewThumbnailVersion> ;
+        void:triples 12457
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_231 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_230 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_233 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_232 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_235 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_234 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_237 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_236 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/CSP> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 170 ;
+        void:distinctSubjects 104 ;
+        void:property <http://eprints.org/ontology/hasSupplemental> ;
+        void:triples 170
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.loc.gov/loc.terms/relators/SNG> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 45296 ;
+        void:distinctSubjects 45471 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 45631
+    ], [
+        void:distinctObjects 49663 ;
+        void:distinctSubjects 22414 ;
+        void:property <http://eprints.org/relation/hasVolatileVersion> ;
+        void:triples 49678
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 19 ;
+        void:property <http://www.loc.gov/loc.terms/relators/SPK> ;
+        void:triples 27
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/PHT> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_359 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_356 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.loc.gov/loc.terms/relators/RTM> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_354 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_355 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.loc.gov/loc.terms/relators/RTH> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_353 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_350 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_351 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property rdf:_121 ;
+        void:triples 31
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property rdf:_120 ;
+        void:triples 31
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property rdf:_123 ;
+        void:triples 31
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property rdf:_122 ;
+        void:triples 31
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property rdf:_125 ;
+        void:triples 31
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property rdf:_124 ;
+        void:triples 31
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 30 ;
+        void:property rdf:_127 ;
+        void:triples 30
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 30 ;
+        void:property rdf:_126 ;
+        void:triples 30
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 28 ;
+        void:property rdf:_129 ;
+        void:triples 28
+    ], [
+        void:distinctObjects 29 ;
+        void:distinctSubjects 29 ;
+        void:property rdf:_128 ;
+        void:triples 29
+    ], [
+        void:distinctObjects 7874 ;
+        void:distinctSubjects 7874 ;
+        void:property <http://purl.org/ontology/bibo/issn> ;
+        void:triples 7874
+    ], [
+        void:distinctObjects 242 ;
+        void:distinctSubjects 242 ;
+        void:property rdf:_29 ;
+        void:triples 242
+    ], [
+        void:distinctObjects 268 ;
+        void:distinctSubjects 278 ;
+        void:property rdf:_28 ;
+        void:triples 278
+    ], [
+        void:distinctObjects 295 ;
+        void:distinctSubjects 295 ;
+        void:property rdf:_27 ;
+        void:triples 295
+    ], [
+        void:distinctObjects 323 ;
+        void:distinctSubjects 323 ;
+        void:property rdf:_26 ;
+        void:triples 323
+    ], [
+        void:distinctObjects 346 ;
+        void:distinctSubjects 347 ;
+        void:property rdf:_25 ;
+        void:triples 347
+    ], [
+        void:distinctObjects 380 ;
+        void:distinctSubjects 383 ;
+        void:property rdf:_24 ;
+        void:triples 383
+    ], [
+        void:distinctObjects 420 ;
+        void:distinctSubjects 424 ;
+        void:property rdf:_23 ;
+        void:triples 424
+    ], [
+        void:distinctObjects 412 ;
+        void:distinctSubjects 352 ;
+        void:property <http://eprints.org/ontology/hasPresentation> ;
+        void:triples 412
+    ], [
+        void:distinctObjects 513 ;
+        void:distinctSubjects 518 ;
+        void:property rdf:_21 ;
+        void:triples 518
+    ], [
+        void:distinctObjects 565 ;
+        void:distinctSubjects 581 ;
+        void:property rdf:_20 ;
+        void:triples 581
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_352 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 113 ;
+        void:distinctSubjects 110 ;
+        void:property <http://eprints.org/ontology/hasOther> ;
+        void:triples 113
+    ], [
+        void:distinctObjects 178 ;
+        void:distinctSubjects 62932 ;
+        void:property <http://id.southampton.ac.uk/ns/producedByDivision> ;
+        void:triples 65897
+    ], [
+        void:distinctObjects 26477 ;
+        void:distinctSubjects 19901 ;
+        void:property <http://eprints.org/relation/hasIndexCodesVersion> ;
+        void:triples 26482
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_408 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_409 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_402 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_403 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_400 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_401 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_406 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_407 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_404 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_405 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.loc.gov/loc.terms/relators/DSR> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 25 ;
+        void:property <http://purl.org/NET/c4dm/event.owl#place> ;
+        void:triples 25
+    ], [
+        void:distinctObjects 1233 ;
+        void:distinctSubjects 68439 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 114174
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2006/time#hasBeginning> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.loc.gov/loc.terms/relators/CND> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_279 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_278 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_275 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_274 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_277 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_276 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_271 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_270 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_273 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_272 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 106 ;
+        void:distinctSubjects 103 ;
+        void:property <http://www.loc.gov/loc.terms/relators/CUR> ;
+        void:triples 149
+    ], [
+        void:distinctObjects 128 ;
+        void:distinctSubjects 87 ;
+        void:property <http://id.southampton.ac.uk/datasets/eprints/latest> ;
+        void:triples 134
+    ], [
+        void:distinctObjects 460 ;
+        void:distinctSubjects 461 ;
+        void:property rdf:_22 ;
+        void:triples 461
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_312 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_313 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_310 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_311 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_316 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_317 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_314 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_315 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 2296 ;
+        void:distinctSubjects 2180 ;
+        void:property <http://purl.org/dc/elements/1.1/hasVersion> ;
+        void:triples 2296
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_318 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_319 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_374 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_366 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_365 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property rdf:_364 ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property rdf:_363 ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property rdf:_362 ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property rdf:_361 ;
+        void:triples 2
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_360 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_369 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_368 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 62 ;
+        void:distinctSubjects 62 ;
+        void:property rdf:_63 ;
+        void:triples 62
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 63 ;
+        void:property rdf:_62 ;
+        void:triples 63
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 63 ;
+        void:property rdf:_61 ;
+        void:triples 63
+    ], [
+        void:distinctObjects 65 ;
+        void:distinctSubjects 65 ;
+        void:property rdf:_60 ;
+        void:triples 65
+    ], [
+        void:distinctObjects 57 ;
+        void:distinctSubjects 58 ;
+        void:property rdf:_67 ;
+        void:triples 58
+    ], [
+        void:distinctObjects 58 ;
+        void:distinctSubjects 58 ;
+        void:property rdf:_66 ;
+        void:triples 58
+    ], [
+        void:distinctObjects 59 ;
+        void:distinctSubjects 60 ;
+        void:property rdf:_65 ;
+        void:triples 60
+    ], [
+        void:distinctObjects 62 ;
+        void:distinctSubjects 62 ;
+        void:property rdf:_64 ;
+        void:triples 62
+    ], [
+        void:distinctObjects 55 ;
+        void:distinctSubjects 55 ;
+        void:property rdf:_69 ;
+        void:triples 55
+    ], [
+        void:distinctObjects 56 ;
+        void:distinctSubjects 56 ;
+        void:property rdf:_68 ;
+        void:triples 56
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://id.southampton.ac.uk/datasets/eprints/Introduction> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2160 ;
+        void:distinctSubjects 3553 ;
+        void:property <http://xmlns.com/foaf/0.1/givenName> ;
+        void:triples 3730
+    ], [
+        void:distinctObjects 832 ;
+        void:distinctSubjects 843 ;
+        void:property rdf:_17 ;
+        void:triples 843
+    ], [
+        void:distinctObjects 1273 ;
+        void:distinctSubjects 1290 ;
+        void:property rdf:_14 ;
+        void:triples 1290
+    ], [
+        void:distinctObjects 1096 ;
+        void:distinctSubjects 1109 ;
+        void:property rdf:_15 ;
+        void:triples 1109
+    ], [
+        void:distinctObjects 1946 ;
+        void:distinctSubjects 2004 ;
+        void:property rdf:_12 ;
+        void:triples 2004
+    ], [
+        void:distinctObjects 1545 ;
+        void:distinctSubjects 1575 ;
+        void:property rdf:_13 ;
+        void:triples 1575
+    ], [
+        void:distinctObjects 3338 ;
+        void:distinctSubjects 3492 ;
+        void:property rdf:_10 ;
+        void:triples 3492
+    ], [
+        void:distinctObjects 2541 ;
+        void:distinctSubjects 2621 ;
+        void:property rdf:_11 ;
+        void:triples 2621
+    ], [
+        void:distinctObjects 735 ;
+        void:distinctSubjects 748 ;
+        void:property rdf:_18 ;
+        void:triples 748
+    ], [
+        void:distinctObjects 642 ;
+        void:distinctSubjects 646 ;
+        void:property rdf:_19 ;
+        void:triples 646
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_165 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_164 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_167 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_166 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 4568 ;
+        void:distinctSubjects 4568 ;
+        void:property <http://eprints.org/relation/ispreviewThumbnailVersionOf> ;
+        void:triples 4568
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_161 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_160 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_163 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_162 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 47 ;
+        void:distinctSubjects 47 ;
+        void:property <http://eprints.org/relation/hasmediumThumbnailVersion> ;
+        void:triples 47
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 17 ;
+        void:property rdf:_169 ;
+        void:triples 17
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 17 ;
+        void:property rdf:_168 ;
+        void:triples 17
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_433 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://id.southampton.ac.uk/datasets/eprints/Catalogue of exhibition ISBN:978 0 9570574 0 1> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 85805 ;
+        void:property <http://purl.org/dc/elements/1.1/format> ;
+        void:triples 85805
+    ], [
+        void:distinctObjects 71580 ;
+        void:distinctSubjects 210603 ;
+        void:property <http://xmlns.com/foaf/0.1/family_name> ;
+        void:triples 211472
+    ], [
+        void:distinctObjects 85805 ;
+        void:distinctSubjects 85805 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 85805
+    ], [
+        void:distinctObjects 145 ;
+        void:distinctSubjects 35 ;
+        void:property <http://www.loc.gov/loc.terms/relators/CTB> ;
+        void:triples 146
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.loc.gov/loc.terms/relators/RES> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.loc.gov/loc.terms/relators/REV> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 41 ;
+        void:property rdf:_89 ;
+        void:triples 41
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 41 ;
+        void:property rdf:_88 ;
+        void:triples 41
+    ], [
+        void:distinctObjects 43 ;
+        void:distinctSubjects 43 ;
+        void:property rdf:_85 ;
+        void:triples 43
+    ], [
+        void:distinctObjects 45 ;
+        void:distinctSubjects 45 ;
+        void:property rdf:_84 ;
+        void:triples 45
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 41 ;
+        void:property rdf:_87 ;
+        void:triples 41
+    ], [
+        void:distinctObjects 42 ;
+        void:distinctSubjects 42 ;
+        void:property rdf:_86 ;
+        void:triples 42
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://id.southampton.ac.uk/datasets/eprints/ultimately_derived_from> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 47 ;
+        void:distinctSubjects 47 ;
+        void:property rdf:_81 ;
+        void:triples 47
+    ], [
+        void:distinctObjects 47 ;
+        void:distinctSubjects 47 ;
+        void:property rdf:_80 ;
+        void:triples 47
+    ], [
+        void:distinctObjects 47 ;
+        void:distinctSubjects 47 ;
+        void:property rdf:_83 ;
+        void:triples 47
+    ], [
+        void:distinctObjects 47 ;
+        void:distinctSubjects 47 ;
+        void:property rdf:_82 ;
+        void:triples 47
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/ASN> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_432 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_431 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_430 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_437 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_436 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 26 ;
+        void:property <http://www.loc.gov/loc.terms/relators/CRE> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_435 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_434 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_439 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_438 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_189 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_188 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property rdf:_187 ;
+        void:triples 13
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property rdf:_186 ;
+        void:triples 13
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property rdf:_185 ;
+        void:triples 13
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property rdf:_184 ;
+        void:triples 13
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_358 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 14 ;
+        void:property rdf:_183 ;
+        void:triples 14
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 14 ;
+        void:property rdf:_182 ;
+        void:triples 14
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property rdf:_181 ;
+        void:triples 15
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property rdf:_180 ;
+        void:triples 15
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_226 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_227 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_224 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_225 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_222 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_223 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://id.southampton.ac.uk/datasets/eprints/Journal article> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property rdf:_220 ;
+        void:triples 9
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_221 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.loc.gov/loc.terms/relators/IVR> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_228 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_229 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 10 ;
+        void:property <http://www.loc.gov/loc.terms/relators/IVE> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 24 ;
+        void:property <http://eprints.org/ontology/hasUpdated> ;
+        void:triples 28
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/LYR> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 123 ;
+        void:distinctSubjects 123 ;
+        void:property <http://eprints.org/relation/issmallThumbnailVersionOf> ;
+        void:triples 123
+    ], [
+        void:distinctObjects 1562 ;
+        void:distinctSubjects 1682 ;
+        void:property <http://www.loc.gov/loc.terms/relators/THS> ;
+        void:triples 2289
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.loc.gov/loc.terms/relators/AUI> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 6647 ;
+        void:distinctSubjects 20096 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 20096
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/isReferencedBy> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.loc.gov/loc.terms/relators/OTH> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 3134 ;
+        void:distinctSubjects 2436 ;
+        void:property <http://eprints.org/relation/hasCoversheetVersion> ;
+        void:triples 3134
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_329 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_328 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_323 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_322 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_321 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_320 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/AUD> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_327 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_326 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_325 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_324 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.loc.gov/loc.terms/relators/DRT> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 65 ;
+        void:distinctSubjects 65 ;
+        void:property rdf:_58 ;
+        void:triples 65
+    ], [
+        void:distinctObjects 65 ;
+        void:distinctSubjects 65 ;
+        void:property rdf:_59 ;
+        void:triples 65
+    ], [
+        void:distinctObjects 80 ;
+        void:distinctSubjects 80 ;
+        void:property rdf:_52 ;
+        void:triples 80
+    ], [
+        void:distinctObjects 76 ;
+        void:distinctSubjects 76 ;
+        void:property rdf:_53 ;
+        void:triples 76
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 86 ;
+        void:property rdf:_50 ;
+        void:triples 86
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/ELT> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 82 ;
+        void:distinctSubjects 82 ;
+        void:property rdf:_51 ;
+        void:triples 82
+    ], [
+        void:distinctObjects 66 ;
+        void:distinctSubjects 66 ;
+        void:property rdf:_56 ;
+        void:triples 66
+    ], [
+        void:distinctObjects 65 ;
+        void:distinctSubjects 65 ;
+        void:property rdf:_57 ;
+        void:triples 65
+    ], [
+        void:distinctObjects 74 ;
+        void:distinctSubjects 74 ;
+        void:property rdf:_54 ;
+        void:triples 74
+    ], [
+        void:distinctObjects 70 ;
+        void:distinctSubjects 70 ;
+        void:property rdf:_55 ;
+        void:triples 70
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.loc.gov/loc.terms/relators/ATT> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 23 ;
+        void:property rdf:_138 ;
+        void:triples 23
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 23 ;
+        void:property rdf:_139 ;
+        void:triples 23
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 24 ;
+        void:property rdf:_136 ;
+        void:triples 24
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 24 ;
+        void:property rdf:_137 ;
+        void:triples 24
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/void/provenance/ns/processType> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 27 ;
+        void:property rdf:_134 ;
+        void:triples 27
+    ], [
+        void:distinctObjects 25 ;
+        void:distinctSubjects 25 ;
+        void:property rdf:_135 ;
+        void:triples 25
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 27 ;
+        void:property rdf:_132 ;
+        void:triples 27
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 27 ;
+        void:property rdf:_133 ;
+        void:triples 27
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 27 ;
+        void:property rdf:_130 ;
+        void:triples 27
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 27 ;
+        void:property rdf:_131 ;
+        void:triples 27
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 287 ;
+        void:property <http://creativecommons.org/ns#license> ;
+        void:triples 287
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.loc.gov/loc.terms/relators/PBL> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/NRT> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.loc.gov/loc.terms/relators/AUS> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://eprints.org/ontology/hasMetadata> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 25723 ;
+        void:distinctSubjects 32959 ;
+        void:property rdf:_4 ;
+        void:triples 32959
+    ], [
+        void:distinctObjects 17803 ;
+        void:distinctSubjects 21615 ;
+        void:property rdf:_5 ;
+        void:triples 21615
+    ], [
+        void:distinctObjects 12567 ;
+        void:distinctSubjects 14669 ;
+        void:property rdf:_6 ;
+        void:triples 14669
+    ], [
+        void:distinctObjects 8756 ;
+        void:distinctSubjects 9936 ;
+        void:property rdf:_7 ;
+        void:triples 9936
+    ], [
+        void:distinctObjects 57255 ;
+        void:distinctSubjects 93235 ;
+        void:property rdf:_1 ;
+        void:triples 93235
+    ], [
+        void:distinctObjects 47978 ;
+        void:distinctSubjects 70941 ;
+        void:property rdf:_2 ;
+        void:triples 70941
+    ], [
+        void:distinctObjects 36748 ;
+        void:distinctSubjects 50360 ;
+        void:property rdf:_3 ;
+        void:triples 50360
+    ], [
+        void:distinctObjects 21645 ;
+        void:distinctSubjects 34038 ;
+        void:property <http://eprints.org/relation/isVolatileVersionOf> ;
+        void:triples 34038
+    ], [
+        void:distinctObjects 6232 ;
+        void:distinctSubjects 6809 ;
+        void:property rdf:_8 ;
+        void:triples 6809
+    ], [
+        void:distinctObjects 205186 ;
+        void:distinctSubjects 84356 ;
+        void:property <http://www.loc.gov/loc.terms/relators/AUT> ;
+        void:triples 313085
+    ], [
+        void:distinctObjects 4478 ;
+        void:distinctSubjects 4816 ;
+        void:property rdf:_9 ;
+        void:triples 4816
+    ], [
+        void:distinctObjects 2436 ;
+        void:distinctSubjects 3154 ;
+        void:property <http://eprints.org/relation/isCoversheetVersionOf> ;
+        void:triples 3154
+    ], [
+        void:distinctObjects 85805 ;
+        void:distinctSubjects 85805 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 85805
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_268 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_269 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_262 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_263 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_260 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_261 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_266 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_297 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_267 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_264 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_265 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property rdf:_219 ;
+        void:triples 9
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property rdf:_218 ;
+        void:triples 9
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property rdf:_217 ;
+        void:triples 11
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property rdf:_216 ;
+        void:triples 11
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property rdf:_215 ;
+        void:triples 11
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property rdf:_214 ;
+        void:triples 11
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property rdf:_213 ;
+        void:triples 11
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_296 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property rdf:_212 ;
+        void:triples 11
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property rdf:_211 ;
+        void:triples 11
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property rdf:_210 ;
+        void:triples 11
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_357 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/PTA> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 56 ;
+        void:distinctSubjects 32 ;
+        void:property <http://www.loc.gov/loc.terms/relators/PTH> ;
+        void:triples 74
+    ], [
+        void:distinctObjects 16058 ;
+        void:distinctSubjects 20931 ;
+        void:property <http://purl.org/ontology/bibo/presentedAt> ;
+        void:triples 20931
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 85805 ;
+        void:distinctSubjects 85805 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 85805
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_375 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_295 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_376 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_377 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_370 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_371 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_372 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_373 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_378 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_379 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/APP> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 80 ;
+        void:distinctSubjects 11 ;
+        void:property <http://www.loc.gov/loc.terms/relators/CLB> ;
+        void:triples 83
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property rdf:_294 ;
+        void:triples 7
+    ], [
+        void:distinctObjects 9318 ;
+        void:distinctSubjects 85802 ;
+        void:property <http://purl.org/dc/terms/date> ;
+        void:triples 85802
+    ], [
+        void:distinctObjects 99593 ;
+        void:distinctSubjects 101484 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 101484
+    ], [
+        void:distinctObjects 1483 ;
+        void:distinctSubjects 1453 ;
+        void:property <http://eprints.org/ontology/hasPublished> ;
+        void:triples 1483
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://id.southampton.ac.uk/datasets/eprints/Part 1> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://id.southampton.ac.uk/datasets/eprints/Part 2> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property rdf:_172 ;
+        void:triples 16
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property rdf:_173 ;
+        void:triples 16
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property rdf:_170 ;
+        void:triples 16
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property rdf:_171 ;
+        void:triples 16
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property rdf:_176 ;
+        void:triples 16
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property rdf:_293 ;
+        void:triples 7
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property rdf:_177 ;
+        void:triples 16
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property rdf:_174 ;
+        void:triples 16
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property rdf:_175 ;
+        void:triples 16
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property rdf:_178 ;
+        void:triples 16
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property rdf:_179 ;
+        void:triples 15
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/PFR> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 34 ;
+        void:distinctSubjects 34 ;
+        void:property rdf:_107 ;
+        void:triples 34
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 35 ;
+        void:property rdf:_106 ;
+        void:triples 35
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 35 ;
+        void:property rdf:_105 ;
+        void:triples 35
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 35 ;
+        void:property rdf:_104 ;
+        void:triples 35
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property rdf:_292 ;
+        void:triples 7
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 35 ;
+        void:property rdf:_103 ;
+        void:triples 35
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 36 ;
+        void:property rdf:_102 ;
+        void:triples 36
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 36 ;
+        void:property rdf:_101 ;
+        void:triples 36
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 36 ;
+        void:property rdf:_100 ;
+        void:triples 36
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/ADP> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 32 ;
+        void:property rdf:_109 ;
+        void:triples 32
+    ], [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 33 ;
+        void:property rdf:_108 ;
+        void:triples 33
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/FND> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_443 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://eprints.org/relation/isPartOf> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_291 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_385 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_420 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_421 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_422 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_423 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_424 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_425 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_426 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_427 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_428 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_290 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_429 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 241 ;
+        void:distinctSubjects 241 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 241
+    ], [
+        void:distinctObjects 125 ;
+        void:distinctSubjects 125 ;
+        void:property <http://eprints.org/relation/islightboxThumbnailVersionOf> ;
+        void:triples 125
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_198 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_199 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_194 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_195 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_196 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_197 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_190 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_299 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_191 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_192 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_193 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 149 ;
+        void:distinctSubjects 184546 ;
+        void:property rdf:type ;
+        void:triples 33687
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_253 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_252 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_251 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_250 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_257 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_256 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_298 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_255 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_254 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_259 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_258 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 205696 ;
+        void:distinctSubjects 84507 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 313878
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property void:sparqlEndpoint ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2006/time#hasEnd> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 584 ;
+        void:distinctSubjects 2535 ;
+        void:property <http://purl.org/dc/terms/issuer> ;
+        void:triples 5063
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 20 ;
+        void:property <http://eprints.soton.ac.uk/relators/EXH> ;
+        void:triples 70
+    ], [
+        void:distinctObjects 106 ;
+        void:distinctSubjects 56 ;
+        void:property <http://eprints.soton.ac.uk/relators/CPA> ;
+        void:triples 114
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_208 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_338 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_339 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_330 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_331 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_332 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_333 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_334 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_335 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_336 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_337 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property rdf:_209 ;
+        void:triples 11
+    ], [
+        void:distinctObjects 40295 ;
+        void:distinctSubjects 210603 ;
+        void:property <http://xmlns.com/foaf/0.1/givenname> ;
+        void:triples 221388
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_389 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_388 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/TRC> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 10 ;
+        void:property <http://www.loc.gov/loc.terms/relators/TRL> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_384 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_387 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_386 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_381 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_380 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.loc.gov/loc.terms/relators/BKD> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_383 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_382 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 90 ;
+        void:distinctSubjects 90 ;
+        void:property rdf:_49 ;
+        void:triples 90
+    ], [
+        void:distinctObjects 93 ;
+        void:distinctSubjects 93 ;
+        void:property rdf:_48 ;
+        void:triples 93
+    ], [
+        void:distinctObjects 2774 ;
+        void:distinctSubjects 3553 ;
+        void:property <http://xmlns.com/foaf/0.1/familyName> ;
+        void:triples 3558
+    ], [
+        void:distinctObjects 114 ;
+        void:distinctSubjects 114 ;
+        void:property rdf:_41 ;
+        void:triples 114
+    ], [
+        void:distinctObjects 116 ;
+        void:distinctSubjects 117 ;
+        void:property rdf:_40 ;
+        void:triples 117
+    ], [
+        void:distinctObjects 110 ;
+        void:distinctSubjects 110 ;
+        void:property rdf:_43 ;
+        void:triples 110
+    ], [
+        void:distinctObjects 113 ;
+        void:distinctSubjects 113 ;
+        void:property rdf:_42 ;
+        void:triples 113
+    ], [
+        void:distinctObjects 101 ;
+        void:distinctSubjects 102 ;
+        void:property rdf:_45 ;
+        void:triples 102
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_204 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 105 ;
+        void:distinctSubjects 105 ;
+        void:property rdf:_44 ;
+        void:triples 105
+    ], [
+        void:distinctObjects 95 ;
+        void:distinctSubjects 95 ;
+        void:property rdf:_47 ;
+        void:triples 95
+    ], [
+        void:distinctObjects 94 ;
+        void:distinctSubjects 95 ;
+        void:property rdf:_46 ;
+        void:triples 95
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 2479 ;
+        void:property <http://purl.org/ontology/bibo/degree> ;
+        void:triples 2479
+    ], [
+        void:distinctObjects 55953 ;
+        void:distinctSubjects 56521 ;
+        void:property <http://purl.org/ontology/bibo/abstract> ;
+        void:triples 56521
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property rdf:_149 ;
+        void:triples 19
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 20 ;
+        void:property rdf:_148 ;
+        void:triples 20
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 22 ;
+        void:property rdf:_143 ;
+        void:triples 22
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 22 ;
+        void:property rdf:_142 ;
+        void:triples 22
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 22 ;
+        void:property rdf:_141 ;
+        void:triples 22
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_205 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 23 ;
+        void:property rdf:_140 ;
+        void:triples 23
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 20 ;
+        void:property rdf:_147 ;
+        void:triples 20
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 20 ;
+        void:property rdf:_146 ;
+        void:triples 20
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 21 ;
+        void:property rdf:_145 ;
+        void:triples 21
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 21 ;
+        void:property rdf:_144 ;
+        void:triples 21
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_206 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_207 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_200 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_201 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_202 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property rdf:_203 ;
+        void:triples 12
+    ], [
+        void:distinctObjects 4400 ;
+        void:distinctSubjects 48061 ;
+        void:property <http://purl.org/ontology/bibo/volume> ;
+        void:triples 48061
+    ], [
+        void:distinctObjects 49664 ;
+        void:distinctSubjects 22415 ;
+        void:property <http://eprints.org/relation/hasVersion> ;
+        void:triples 49679
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_341 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_340 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_343 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_342 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_345 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_344 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_347 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_346 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_349 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_348 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/isRequiredBy> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 7 ;
+        void:property <http://id.southampton.ac.uk/datasets/eprints/mech_derived_from> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 242 ;
+        void:distinctSubjects 244 ;
+        void:property <http://eprints.org/relation/hasvisualisedThumbnailVersion> ;
+        void:triples 244
+    ], [
+        void:distinctObjects 218 ;
+        void:distinctSubjects 218 ;
+        void:property rdf:_30 ;
+        void:triples 218
+    ], [
+        void:distinctObjects 204 ;
+        void:distinctSubjects 204 ;
+        void:property rdf:_31 ;
+        void:triples 204
+    ], [
+        void:distinctObjects 183 ;
+        void:distinctSubjects 183 ;
+        void:property rdf:_32 ;
+        void:triples 183
+    ], [
+        void:distinctObjects 170 ;
+        void:distinctSubjects 170 ;
+        void:property rdf:_33 ;
+        void:triples 170
+    ], [
+        void:distinctObjects 156 ;
+        void:distinctSubjects 156 ;
+        void:property rdf:_34 ;
+        void:triples 156
+    ], [
+        void:distinctObjects 143 ;
+        void:distinctSubjects 143 ;
+        void:property rdf:_35 ;
+        void:triples 143
+    ], [
+        void:distinctObjects 138 ;
+        void:distinctSubjects 138 ;
+        void:property rdf:_36 ;
+        void:triples 138
+    ], [
+        void:distinctObjects 134 ;
+        void:distinctSubjects 134 ;
+        void:property rdf:_37 ;
+        void:triples 134
+    ], [
+        void:distinctObjects 128 ;
+        void:distinctSubjects 128 ;
+        void:property rdf:_38 ;
+        void:triples 128
+    ], [
+        void:distinctObjects 122 ;
+        void:distinctSubjects 122 ;
+        void:property rdf:_39 ;
+        void:triples 122
+    ], [
+        void:distinctObjects 7957 ;
+        void:distinctSubjects 7961 ;
+        void:property <http://eprints.org/relation/hasfullsizeThumbnailVersion> ;
+        void:triples 7961
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/void/provenance/ns/resultingDataset> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 32 ;
+        void:property rdf:_114 ;
+        void:triples 32
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property rdf:_115 ;
+        void:triples 31
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property rdf:_116 ;
+        void:triples 31
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property rdf:_117 ;
+        void:triples 31
+    ] ;
+    void:triples 4146393 ;
+    void:vocabulary <http://creativecommons.org/ns>, <http://eprints.org/ontology/>, <http://eprints.org/relation/>, <http://eprints.soton.ac.uk/relators/>, <http://id.southampton.ac.uk/datasets/eprints/>, <http://id.southampton.ac.uk/datasets/eprints/Catalogue of exhibition ISBN>, <http://id.southampton.ac.uk/ns/>, <http://purl.org/NET/c4dm/event.owl>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://purl.org/ontology/bibo/>, <http://purl.org/void/provenance/ns/>, <http://rdfs.org/ns/void>, <http://www.loc.gov/loc.terms/relators/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core>, <http://www.w3.org/2006/time>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

@@ -1,0 +1,694 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://home.bibleontology.com/download/bibleontology_11_6-23.zip>
+    void:classPartition [
+        void:class <http://bibleontology.com/class/Biblical_Period> ;
+        void:entities 10
+    ], [
+        void:class <http://purl.org/vocab/frbr/core#CorporateBody> ;
+        void:entities 1
+    ], [
+        void:class <http://www.geonames.org/ontology#Feature> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 21
+    ], [
+        void:class <http://purl.org/vocab/frbr/core#Item> ;
+        void:entities 5
+    ], [
+        void:class <http://bibleontology.com/class/Biblical_Events> ;
+        void:entities 101
+    ], [
+        void:class <http://purl.org/vocab/frbr/core#Text> ;
+        void:entities 2
+    ], [
+        void:class <http://bibleontology.com/class/Book_of_Bible> ;
+        void:entities 40
+    ], [
+        void:class <http://purl.org/vocab/frbr/core#Concept> ;
+        void:entities 8
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 56
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 33
+    ], [
+        void:class rdf:Statement ;
+        void:entities 3
+    ], [
+        void:class <http://bibleontology.com/class/Biblical_Roles> ;
+        void:entities 15
+    ], [
+        void:class <http://bibleontology.com/class/Biblical_Places> ;
+        void:entities 61
+    ], [
+        void:class <http://bibleontology.com/class/Typical_Places> ;
+        void:entities 3
+    ], [
+        void:class <http://purl.org/vocab/frbr/core#Work> ;
+        void:entities 40
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://bibleontology.com/class/Typical_Persons> ;
+        void:entities 7
+    ], [
+        void:class <http://purl.org/vocab/frbr/core#Manifestation> ;
+        void:entities 15
+    ], [
+        void:class <http://purl.org/vocab/frbr/core#MovingImage> ;
+        void:entities 2
+    ], [
+        void:class <http://bibleontology.com/class/Typical_Actions> ;
+        void:entities 1
+    ], [
+        void:class <http://bibleontology.com/class/Typical_Things> ;
+        void:entities 3
+    ], [
+        void:class <http://bibleontology.com/class/Important_Passages> ;
+        void:entities 100
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 4
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+        void:entities 2
+    ], [
+        void:class <http://bibleontology.com/class/Biblical_Figures> ;
+        void:entities 461
+    ], [
+        void:class <http://bibleontology.com/class/Typical_Institutions> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:entities 4
+    ], [
+        void:class <http://purl.org/vocab/frbr/core#Expression> ;
+        void:entities 18
+    ], [
+        void:class <http://bibleontology.com/class/Biblical_Subjects> ;
+        void:entities 75
+    ], [
+        void:class <http://bibleontology.com/class/Typical_Events> ;
+        void:entities 8
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 19
+    ], [
+        void:class <http://bibleontology.com/class/Relations_in_new_testament> ;
+        void:entities 27
+    ], [
+        void:class <http://purl.org/vocab/frbr/core#Person> ;
+        void:entities 2
+    ], [
+        void:class <http://bibleontology.com/class/Typical_Offices> ;
+        void:entities 3
+    ] ;
+    void:classes 35 ;
+    void:entities 1163 ;
+    void:properties 113 ;
+    void:propertyPartition [
+        void:distinctObjects 353 ;
+        void:distinctSubjects 371 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 371
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.skku.edu.ac.kr/oldTestamentBible.owl#are_brothers> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2004/02/skos/core#hasIcebreakingStory> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broaderTransitive> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 5 ;
+        void:property <http://purl.org/vocab/frbr/core#embodimentOf> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.geonames.org/ontology#locatedIn> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 9 ;
+        void:property <http://bibleontology.com/property/periodBelongsTo> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 69 ;
+        void:property <http://bibleontology.com/property/eventHasSubject> ;
+        void:triples 106
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/vocab/frbr/extended#isRelatedToWork> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 38 ;
+        void:property <http://bibleontology.com/property/bookHasPeriod> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 1151 ;
+        void:property rdf:type ;
+        void:triples 1111
+    ], [
+        void:distinctObjects 50 ;
+        void:distinctSubjects 26 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 52
+    ], [
+        void:distinctObjects 45 ;
+        void:distinctSubjects 45 ;
+        void:property <http://www.w3.org/2002/07/owl#inverseOf> ;
+        void:triples 45
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/vocab/frbr/core#owner> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/vocab/frbr/core#subject> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 27 ;
+        void:property <http://bibleontology.com/property/isWifeOf> ;
+        void:triples 28
+    ], [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 31 ;
+        void:property <http://bibleontology.com/property/disambiguates> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 15 ;
+        void:property <http://www.w3.org/2004/02/skos/core#narrower> ;
+        void:triples 39
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://bibleontology.com/property/isPassagesOfTypology> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 76 ;
+        void:property <http://bibleontology.com/property/eventInThisBook> ;
+        void:triples 81
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 27 ;
+        void:property <http://bibleontology.com/property/disambiguated> ;
+        void:triples 30
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.w3.org/2004/02/skos/core#hiddenLabel> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 69 ;
+        void:distinctSubjects 14 ;
+        void:property <http://bibleontology.com/property/isSubjectOfEvent> ;
+        void:triples 109
+    ], [
+        void:distinctObjects 194 ;
+        void:distinctSubjects 302 ;
+        void:property <http://bibleontology.com/property/hasParents> ;
+        void:triples 365
+    ], [
+        void:distinctObjects 25 ;
+        void:distinctSubjects 11 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 26
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 38 ;
+        void:property <http://bibleontology.com/property/isWrittenBy> ;
+        void:triples 44
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 12 ;
+        void:property <http://purl.org/vocab/frbr/core#realizationOf> ;
+        void:triples 56
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 10 ;
+        void:property <http://www.w3.org/2004/02/skos/core#related> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/vocab/frbr/core#producer> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/vocab/frbr/extended#isAnAlternativeManifestationTo> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 35 ;
+        void:property <http://bibleontology.com/property/bookProceededBy> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 64 ;
+        void:distinctSubjects 44 ;
+        void:property <http://bibleontology.com/property/placesHasEvent> ;
+        void:triples 78
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 13 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 148 ;
+        void:distinctSubjects 146 ;
+        void:property <http://bibleontology.com/property/hasSiblings> ;
+        void:triples 759
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 7 ;
+        void:property rdf:first ;
+        void:triples 7
+    ], [
+        void:distinctObjects 110 ;
+        void:distinctSubjects 65 ;
+        void:property <http://bibleontology.com/property/eventHasFigures> ;
+        void:triples 180
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 7 ;
+        void:property rdf:rest ;
+        void:triples 7
+    ], [
+        void:distinctObjects 54 ;
+        void:distinctSubjects 59 ;
+        void:property <http://bibleontology.com/property/passageHasSubject> ;
+        void:triples 90
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/status> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 5 ;
+        void:property <http://bibleontology.com/property/isOwnedBy> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://bibleontology.com/property/periodSucceededBy> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://bibleontology.com/property/hasHomepage> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 26 ;
+        void:property <http://bibleontology.com/property/hasRelationsInNT> ;
+        void:triples 26
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 14 ;
+        void:property <http://bibleontology.com/property/TypologyHasSubject> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 25 ;
+        void:distinctSubjects 25 ;
+        void:property <http://bibleontology.com/property/NTHasTypology> ;
+        void:triples 25
+    ], [
+        void:distinctObjects 142 ;
+        void:distinctSubjects 39 ;
+        void:property <http://bibleontology.com/property/hasProduced> ;
+        void:triples 223
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://bibleontology.com/property/photoHasPerson> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2004/02/skos/core#definition> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 203 ;
+        void:distinctSubjects 194 ;
+        void:property <http://bibleontology.com/property/meaningOfNames> ;
+        void:triples 208
+    ], [
+        void:distinctObjects 845 ;
+        void:distinctSubjects 940 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 941
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/vocab/frbr/core#exemplar> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 10 ;
+        void:property <http://purl.org/vocab/frbr/core#creatorOf> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property rdf:predicate ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/vocab/frbr/extended#isAReproductionOfManifestation> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 37 ;
+        void:property <http://bibleontology.com/property/workIsRelatedwith> ;
+        void:triples 39
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2004/02/skos/core#editorialNote> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 113 ;
+        void:distinctSubjects 113 ;
+        void:property <http://bibleontology.com/property/relatedPeople> ;
+        void:triples 325
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 22 ;
+        void:property <http://bibleontology.com/property/isRelatedEvent> ;
+        void:triples 23
+    ], [
+        void:distinctObjects 42 ;
+        void:distinctSubjects 63 ;
+        void:property <http://bibleontology.com/property/eventAtThisPlaces> ;
+        void:triples 76
+    ], [
+        void:distinctObjects 299 ;
+        void:distinctSubjects 193 ;
+        void:property <http://bibleontology.com/property/hasChildren> ;
+        void:triples 354
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 40 ;
+        void:property <http://purl.org/vocab/frbr/core#realization> ;
+        void:triples 44
+    ], [
+        void:distinctObjects 332 ;
+        void:distinctSubjects 298 ;
+        void:property <http://bibleontology.com/property/relatedChapters> ;
+        void:triples 384
+    ], [
+        void:distinctObjects 80 ;
+        void:distinctSubjects 14 ;
+        void:property <http://bibleontology.com/property/isRoleOf> ;
+        void:triples 90
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 55 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 57
+    ], [
+        void:distinctObjects 64 ;
+        void:distinctSubjects 110 ;
+        void:property <http://bibleontology.com/property/isRelatedInEvent> ;
+        void:triples 179
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 11 ;
+        void:property <http://bibleontology.com/property/isSubjectOfTyology> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 65 ;
+        void:distinctSubjects 19 ;
+        void:property <http://bibleontology.com/property/bookHasEvent> ;
+        void:triples 70
+    ], [
+        void:distinctObjects 180 ;
+        void:distinctSubjects 9 ;
+        void:property <http://bibleontology.com/property/periodHasFigures> ;
+        void:triples 184
+    ], [
+        void:distinctObjects 29 ;
+        void:distinctSubjects 32 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 32
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://bibleontology.com/property/isInPhoto> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 612 ;
+        void:distinctSubjects 472 ;
+        void:property <http://bibleontology.com/property/relatedVerses> ;
+        void:triples 740
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2004/02/skos/core#example> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 220 ;
+        void:property <http://bibleontology.com/property/belongsInPeriod> ;
+        void:triples 224
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 91 ;
+        void:property <http://bibleontology.com/property/isBornIn> ;
+        void:triples 94
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 66 ;
+        void:property <http://bibleontology.com/property/eventInThisPeriod> ;
+        void:triples 66
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2002/07/owl#unionOf> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property rdf:object ;
+        void:triples 2
+    ], [
+        void:distinctObjects 231 ;
+        void:distinctSubjects 230 ;
+        void:property <http://purl.org/vocab/frbr/extended#hasPartManifestation> ;
+        void:triples 233
+    ], [
+        void:distinctObjects 81 ;
+        void:distinctSubjects 33 ;
+        void:property <http://bibleontology.com/property/bookHasFigures> ;
+        void:triples 109
+    ], [
+        void:distinctObjects 745 ;
+        void:distinctSubjects 503 ;
+        void:property <http://bibleontology.com/property/explanation> ;
+        void:triples 755
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://xmlns.com/foaf/0.1/knows> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 1 ;
+        void:property <http://bibleontology.com/property/relatedWithWork> ;
+        void:triples 33
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 29 ;
+        void:property <http://bibleontology.com/property/writes> ;
+        void:triples 45
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://xmlns.com/foaf/0.1/gender> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 45 ;
+        void:distinctSubjects 40 ;
+        void:property <http://bibleontology.com/property/isSubjectOfPassage> ;
+        void:triples 66
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 18 ;
+        void:property <http://bibleontology.com/property/hasWife> ;
+        void:triples 32
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 141 ;
+        void:distinctSubjects 147 ;
+        void:property <http://bibleontology.com/property/hasTags> ;
+        void:triples 147
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 38 ;
+        void:property <http://bibleontology.com/property/bookSucceededby> ;
+        void:triples 38
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#disjointWith> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 82 ;
+        void:property <http://bibleontology.com/property/figuresInBook> ;
+        void:triples 110
+    ], [
+        void:distinctObjects 34 ;
+        void:distinctSubjects 38 ;
+        void:property <http://purl.org/vocab/frbr/core#creator> ;
+        void:triples 38
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 5 ;
+        void:property <http://bibleontology.com/property/own> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 18 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 65 ;
+        void:distinctSubjects 9 ;
+        void:property <http://bibleontology.com/property/periodHasEvent> ;
+        void:triples 65
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 51 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 53
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/vocab/frbr/extended#isPartOfManifestation> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://bibleontology.com/property/isPassagesOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 89 ;
+        void:property <http://bibleontology.com/property/hasRoles> ;
+        void:triples 101
+    ], [
+        void:distinctObjects 47 ;
+        void:distinctSubjects 48 ;
+        void:property <http://www.geonames.org/ontology#wikipediaArticle> ;
+        void:triples 48
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://bibleontology.com/property/typologyHasPassages> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/vocab/frbr/core#exemplarOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://bibleontology.com/property/periodProceededBy> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property rdf:subject ;
+        void:triples 2
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 25 ;
+        void:property <http://purl.org/vocab/frbr/core#embodiment> ;
+        void:triples 27
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 1 ;
+        void:property <http://bibleontology.com/property/relatedVideos> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.geonames.org/ontology#parentFeature> ;
+        void:triples 4
+    ] ;
+    void:triples 10362 ;
+    void:vocabulary <http://bibleontology.com/property>, <http://purl.org/dc/elements/1.1>, <http://purl.org/dc/terms>, <http://purl.org/vocab/frbr/core>, <http://purl.org/vocab/frbr/extended>, <http://www.geonames.org/ontology>, <http://www.skku.edu.ac.kr/oldTestamentBible.owl>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf/0.1> ;
+    a void:dataset .
+

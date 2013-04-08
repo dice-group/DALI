@@ -1,0 +1,138 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://curriculum.rkbexplorer.com/models/dump.tgz>
+    void:classPartition [
+        void:class <http://www.aktors.org/ontology/portal#Book-Reference> ;
+        void:entities 66
+    ], [
+        void:class <http://www.aktors.org/ontology/support#Calendar-Date> ;
+        void:entities 22
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Organization> ;
+        void:entities 62
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Person> ;
+        void:entities 253
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Article-Reference> ;
+        void:entities 10
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Project> ;
+        void:entities 1
+    ], [
+        void:class <http://courseware.rkbexplorer.com/ontologies/courseware#Course> ;
+        void:entities 21
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Web-Reference> ;
+        void:entities 79
+    ] ;
+    void:classes 8 ;
+    void:entities 514 ;
+    void:properties 18 ;
+    void:propertyPartition [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 21 ;
+        void:property <http://courseware.rkbexplorer.com/ontologies/courseware#has-title> ;
+        void:triples 21
+    ], [
+        void:distinctObjects 78 ;
+        void:distinctSubjects 80 ;
+        void:property <http://www.aktors.org/ontology/portal#has-URL> ;
+        void:triples 80
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 514 ;
+        void:property rdf:type ;
+        void:triples 255
+    ], [
+        void:distinctObjects 155 ;
+        void:distinctSubjects 21 ;
+        void:property <http://courseware.rkbexplorer.com/ontologies/courseware#has-courseware> ;
+        void:triples 176
+    ], [
+        void:distinctObjects 141 ;
+        void:distinctSubjects 155 ;
+        void:property <http://www.aktors.org/ontology/portal#has-title> ;
+        void:triples 155
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 46 ;
+        void:property <http://www.aktors.org/ontology/portal#has-affiliation> ;
+        void:triples 46
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 21 ;
+        void:property <http://courseware.rkbexplorer.com/ontologies/courseware#course-objectives> ;
+        void:triples 21
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 21 ;
+        void:property <http://courseware.rkbexplorer.com/ontologies/courseware#number-of-credits> ;
+        void:triples 21
+    ], [
+        void:distinctObjects 47 ;
+        void:distinctSubjects 73 ;
+        void:property <http://www.aktors.org/ontology/portal#published-by> ;
+        void:triples 74
+    ], [
+        void:distinctObjects 247 ;
+        void:distinctSubjects 155 ;
+        void:property <http://www.aktors.org/ontology/portal#has-author> ;
+        void:triples 290
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 22 ;
+        void:property <http://www.aktors.org/ontology/support#year-of> ;
+        void:triples 22
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 21 ;
+        void:property <http://courseware.rkbexplorer.com/ontologies/courseware#detailed-description> ;
+        void:triples 21
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 85 ;
+        void:property <http://www.aktors.org/ontology/support#has-pretty-name> ;
+        void:triples 85
+    ], [
+        void:distinctObjects 207 ;
+        void:distinctSubjects 207 ;
+        void:property <http://www.aktors.org/ontology/portal#full-name> ;
+        void:triples 207
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 21 ;
+        void:property <http://courseware.rkbexplorer.com/ontologies/courseware#has-author> ;
+        void:triples 25
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 75 ;
+        void:property <http://www.aktors.org/ontology/portal#has-date> ;
+        void:triples 75
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 21 ;
+        void:property <http://courseware.rkbexplorer.com/ontologies/courseware#submitted-by> ;
+        void:triples 21
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.aktors.org/ontology/portal#produces-output> ;
+        void:triples 18
+    ] ;
+    void:triples 2479 ;
+    void:vocabulary <http://courseware.rkbexplorer.com/ontologies/courseware>, <http://www.aktors.org/ontology/portal>, <http://www.aktors.org/ontology/support>, <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

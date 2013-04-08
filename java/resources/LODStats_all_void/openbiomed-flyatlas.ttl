@@ -1,0 +1,635 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.open-biomed.org.uk/open-biomed-data/flyatlas-201102.tar.gz>
+    void:classPartition [
+        void:class <http://purl.org/NET/flyatlas/schema#LarvalCentralNervousSystemAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00004928> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#LarvalHindgutAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00004052> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00005786> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00000004> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#MidgutAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00003209> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#S2CellsAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#LarvalTracheaAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#LarvalTubuleAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#TubuleAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#HindgutAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00005384> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00005382> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00005383> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#HeartAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#LarvalCarcassAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00005095> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00001896> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#OvaryAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#MatedSpermathecaAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#BrainAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#AdultFatBodyAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#TestisAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00004959> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#SalivaryGlandAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#AdultCarcassAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#EyeAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#HeadAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#AccessoryGlandAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#ThoracicoabdominalGanglionAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#LarvalSalivaryGlandAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#LarvalMidgutAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#Assay> ;
+        void:entities 487994
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00003133> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00003154> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#Sample> ;
+        void:entities 54
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00005737> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00001919> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00005711> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00005575> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#LarvalFatBodyAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#CropAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#VirginSpermathecaAssay> ;
+        void:entities 18769
+    ], [
+        void:class <http://purl.org/obo/owl/FBbt#FBbt_00004865> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/NET/flyatlas/schema#ProbeData> ;
+        void:entities 36510
+    ] ;
+    void:classes 47 ;
+    void:entities 1013581 ;
+    void:properties 94 ;
+    void:propertyPartition [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#testis_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_acc> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#ovary> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_sgland> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 111030 ;
+        void:distinctSubjects 487994 ;
+        void:property <http://purl.org/NET/flyatlas/schema#mean> ;
+        void:triples 487994
+    ], [
+        void:distinctObjects 1046 ;
+        void:distinctSubjects 18770 ;
+        void:property <http://purl.org/NET/flyatlas/schema#testis_to_all> ;
+        void:triples 18770
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#l_fatbody> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#s2cells> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 10857 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#fly_mean> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#afb> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#eye_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_crop> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#l_midgut> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#l_fatbody_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 442 ;
+        void:distinctSubjects 487994 ;
+        void:property <http://purl.org/NET/flyatlas/schema#sample> ;
+        void:triples 487994
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_ganglion> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#l_midgut_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#sptv_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#midgut> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#l_sgland_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#hindgut_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#sptv> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#sgland_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_lsgland> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#sptm> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_lcar> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#sgland> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 50 ;
+        void:distinctSubjects 18770 ;
+        void:property <http://purl.org/NET/flyatlas/schema#testis_to_all_calls> ;
+        void:triples 18770
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_lhindgut> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 469279 ;
+        void:distinctSubjects 506817 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 506817
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_sptv> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#s2cells_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_testis> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_afb> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#ovary_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 14431 ;
+        void:distinctSubjects 14710 ;
+        void:property <http://purl.org/NET/flyatlas/schema#gene> ;
+        void:triples 15852
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#lftrachea> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 41469 ;
+        void:distinctSubjects 487994 ;
+        void:property <http://purl.org/NET/flyatlas/schema#sem> ;
+        void:triples 487994
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_tubule> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_sptm> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_lmidgut> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 487994 ;
+        void:property <http://purl.org/NET/flyatlas/schema#probe> ;
+        void:triples 487994
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#fly_present> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#tubule> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#brain> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_lcns> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_lfatbody> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#l_hindgut> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#head_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_hindgut> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#hindgut> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#acc> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#lcar> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_ltubule> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#lcns_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#afb_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_head> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#tubule_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 51 ;
+        void:distinctSubjects 487994 ;
+        void:property <http://purl.org/NET/flyatlas/schema#call> ;
+        void:triples 487994
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#lcar_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#ta_ganglion_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#heart> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_brain> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 487994 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present> ;
+        void:triples 487994
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#brain_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18654 ;
+        void:distinctSubjects 487994 ;
+        void:property <http://purl.org/NET/flyatlas/schema#ratio> ;
+        void:triples 487994
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#heart_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#l_sgland> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#midgut_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_heart> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#acc_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#l_hindgut_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#ta_ganglion> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#sptm_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#crop_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_ovary> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_lftrachea> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#lcns> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 4060 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#fly_sem> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#l_tubule> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_carcass> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#crop> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#lftrachea_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#eye> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#head> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#l_tubule_call> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 29184 ;
+        void:distinctSubjects 495160 ;
+        void:property <http://purl.org/NET/flyatlas/schema#to_testis> ;
+        void:triples 491840
+    ], [
+        void:distinctObjects 515 ;
+        void:distinctSubjects 524774 ;
+        void:property rdf:type ;
+        void:triples 39723
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#carcass> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 18769 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#testis> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_eye> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_s2cells> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#present_in_midgut> ;
+        void:triples 18769
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 18769 ;
+        void:property <http://purl.org/NET/flyatlas/schema#carcass_call> ;
+        void:triples 18769
+    ] ;
+    void:triples 7017526 ;
+    void:vocabulary <http://purl.org/NET/flyatlas/schema>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:dataset .
+

@@ -1,0 +1,177 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://rdfdata.eionet.europa.eu/eea/data_dump.rdf>
+    void:classPartition [
+        void:class <http://rdfdata.eionet.europa.eu/eea/ontology/BiogeographicalRegion> ;
+        void:entities 19
+    ], [
+        void:class <http://rdfdata.eionet.europa.eu/eea/ontology/CountryGroup> ;
+        void:entities 13
+    ], [
+        void:class <http://rdfdata.eionet.europa.eu/eea/ontology/Determinand> ;
+        void:entities 768
+    ], [
+        void:class <http://rdfdata.eionet.europa.eu/eea/ontology/Country> ;
+        void:entities 64
+    ], [
+        void:class rdf:Property ;
+        void:entities 8
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 4
+    ] ;
+    void:classes 6 ;
+    void:entities 878 ;
+    void:properties 27 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/source> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 118 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/category> ;
+        void:triples 118
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/date> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 125 ;
+        void:distinctSubjects 124 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/shortName> ;
+        void:triples 125
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 876 ;
+        void:property rdf:type ;
+        void:triples 484
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 9 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/hasFigure> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 61 ;
+        void:distinctSubjects 12 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/hasMember> ;
+        void:triples 167
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 133 ;
+        void:distinctSubjects 146 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/acronym> ;
+        void:triples 146
+    ], [
+        void:distinctObjects 96 ;
+        void:distinctSubjects 96 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/name> ;
+        void:triples 96
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 96 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/parent> ;
+        void:triples 96
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 767 ;
+        void:distinctSubjects 768 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/detName> ;
+        void:triples 769
+    ], [
+        void:distinctObjects 55 ;
+        void:distinctSubjects 55 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/nationality> ;
+        void:triples 55
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://creativecommons.org/ns#license> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 767 ;
+        void:distinctSubjects 768 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/detCode> ;
+        void:triples 768
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://creativecommons.org/ns#morePermissions> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 96 ;
+        void:distinctSubjects 96 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/code> ;
+        void:triples 96
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 16 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/formula> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 61 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/memberOf> ;
+        void:triples 160
+    ], [
+        void:distinctObjects 390 ;
+        void:distinctSubjects 124 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 390
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 27 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/hasBioGeoRegion> ;
+        void:triples 84
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 19 ;
+        void:property <http://rdfdata.eionet.europa.eu/eea/ontology/isMarine> ;
+        void:triples 19
+    ] ;
+    void:triples 4022 ;
+    void:vocabulary <http://creativecommons.org/ns>, <http://purl.org/dc>, <http://rdfdata.eionet.europa.eu/eea>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl> ;
+    a void:dataset .
+

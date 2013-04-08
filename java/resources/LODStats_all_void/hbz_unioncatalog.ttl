@@ -1,0 +1,452 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://lobid.org/download/dumps/DE-605/example.rdfmab.ttl>
+    void:classes 0 ;
+    void:entities 1 ;
+    void:properties 86 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/433_1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/200b29> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/090_1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/026_1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/540a2b> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/700l1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/200b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/001_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/089_1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/025a2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/070b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/700_2a> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/902_1f> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/437_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/003_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/128b29> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/523_2p> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/331_1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/523_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/113_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/425a1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/540a2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/201_2a> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/129_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/088__a> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/088__b> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/088__c> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/088__e> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/070b1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/128b2b> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/128b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/002a1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/108b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/101_2a> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/108b2b> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/435a2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/116b2b> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/116b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/124b29> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/451_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/100b29> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/036a2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/026_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/104b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/001_1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/359_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/070_1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/415_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/108b29> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/070a2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/100b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/410_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/124b2b> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/124b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/037b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/517_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/080_1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/116b29> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/105_2a> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/070_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/104b29> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/334_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/417_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/003_1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/112b29> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/511_2p> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/700l2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/902_2f> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/511_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/120b29> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/335_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/425b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/331_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/050> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/010_1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/100b2b> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/334_1a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/412_2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/120b2b> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/120b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/553a2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/112b2b> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/112b2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/030> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/002a2a> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfmab:field/080_2a> ;
+        void:triples 1
+    ] ;
+    void:triples 128 ;
+    a void:dataset .
+

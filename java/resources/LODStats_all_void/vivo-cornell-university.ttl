@@ -1,0 +1,204 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://vivo.cornell.edu/individual/PamelaGraham/PamelaGraham.rdf>
+    void:classPartition [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 1
+    ], [
+        void:class <http://vivoweb.org/ontology/core#Position> ;
+        void:entities 1
+    ], [
+        void:class <http://vivoweb.org/ontology/core#NonAcademicPosition> ;
+        void:entities 1
+    ], [
+        void:class <http://vivo.library.cornell.edu/ns/0.1#CornellAffiliatedPerson> ;
+        void:entities 1
+    ], [
+        void:class <http://vivoweb.org/ontology/core#NonAcademic> ;
+        void:entities 1
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Agent> ;
+        void:entities 1
+    ], [
+        void:class <http://vivo.library.cornell.edu/ns/0.1#InternalThing> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Thing> ;
+        void:entities 2
+    ], [
+        void:class <http://vivo.library.cornell.edu/ns/0.1#CornellEmployee> ;
+        void:entities 1
+    ], [
+        void:class <http://vivo.cornell.edu/ns/mannadditions/0.1#CornellNonAcademicStaff> ;
+        void:entities 1
+    ] ;
+    void:classes 10 ;
+    void:entities 3 ;
+    void:properties 30 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#netId> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#primaryWorkingTitle> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivoweb.org/ontology/core#hrJobTitle> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#primaryUnitCode> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#LDAPJobNumber> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vitro.mannlib.cornell.edu/ns/vitro/public#mainImage> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivoweb.org/ontology/newhr#headInd> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivoweb.org/ontology/core#primaryEmail> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#mostSpecificType> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#emplId> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivoweb.org/ontology/core#personInPosition> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#PrefName> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivoweb.org/ontology/newhr#company> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#Unitid> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#LastName> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.library.cornell.edu/ns/0.1#CornellemailnetId> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#primaryJobcodeLdesc> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 2 ;
+        void:property rdf:type ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#Name> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#FirstName> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/lastName> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivoweb.org/ontology/core#positionInOrganization> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivoweb.org/ontology/core#webpage> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivoweb.org/ontology/core#positionForPerson> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/firstName> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivoweb.org/ontology/core#middleName> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#modTime> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#moniker> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#WorkingTitle> ;
+        void:triples 1
+    ] ;
+    void:triples 44 ;
+    void:vocabulary <http://vitro.mannlib.cornell.edu/ns/vitro/0.7>, <http://vitro.mannlib.cornell.edu/ns/vitro/public>, <http://vivo.cornell.edu/ns/hr/0.9/hr.owl>, <http://vivo.library.cornell.edu/ns/0.1>, <http://vivoweb.org/ontology/core>, <http://vivoweb.org/ontology/newhr>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

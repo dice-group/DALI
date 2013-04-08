@@ -1,0 +1,165 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://logd.tw.rpi.edu/source/twc-rpi-edu/file/instance-hub-us-federal-agencies/version/2011-Oct-09/conversion/twc-rpi-edu-instance-hub-us-federal-agencies-2011-Oct-09.ttl>
+    void:classPartition [
+        void:class <http://logd.tw.rpi.edu/source/twc-rpi-edu/dataset/instance-hub-us-federal-agencies/vocab/US_agency> ;
+        void:entities 7
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 1
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:entities 102
+    ], [
+        void:class <http://logd.tw.rpi.edu/source/twc-rpi-edu/dataset/instance-hub-us-federal-agencies/vocab/US_Agency> ;
+        void:entities 102
+    ], [
+        void:class rdf:Property ;
+        void:entities 9
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 3
+    ] ;
+    void:classes 7 ;
+    void:entities 233 ;
+    void:properties 25 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 8 ;
+        void:property <http://purl.org/twc/vocab/conversion/enhancement_layer> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 121 ;
+        void:property rdf:type ;
+        void:triples 118
+    ], [
+        void:distinctObjects 91 ;
+        void:distinctSubjects 91 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 91
+    ], [
+        void:distinctObjects 102 ;
+        void:distinctSubjects 102 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://open.vocab.org/terms/csvHeader> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://purl.org/twc/vocab/conversion/enhances> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 102 ;
+        void:distinctSubjects 102 ;
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 110 ;
+        void:property <http://purl.org/dc/terms/isReferencedBy> ;
+        void:triples 110
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 109 ;
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme> ;
+        void:triples 109
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 102 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 66 ;
+        void:distinctSubjects 62 ;
+        void:property <http://xmlns.com/foaf/0.1/nick> ;
+        void:triples 66
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 103 ;
+        void:distinctSubjects 110 ;
+        void:property <http://open.vocab.org/terms/csvRow> ;
+        void:triples 110
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 17 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 10 ;
+        void:property <http://xmlns.com/foaf/0.1/page> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 102 ;
+        void:distinctSubjects 102 ;
+        void:property <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 17 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/alternative> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://logd.tw.rpi.edu/source/twc-rpi-edu/dataset/instance-hub-us-federal-agencies/vocab/enhancement/1/intermediate_parent_agency> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 102 ;
+        void:distinctSubjects 102 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 102 ;
+        void:property void:inDataset ;
+        void:triples 102
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://open.vocab.org/terms/csvCol> ;
+        void:triples 8
+    ] ;
+    void:triples 1414 ;
+    void:vocabulary <http://logd.tw.rpi.edu/source>, <http://open.vocab.org/terms>, <http://purl.org/dc>, <http://purl.org/twc>, <http://rdfs.org/ns/void>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2000/10/swap/pim/contact>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

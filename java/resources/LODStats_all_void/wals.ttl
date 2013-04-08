@@ -1,0 +1,1080 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://mlode.nlp2rdf.org/downloads/wals.nt.gz>
+    void:classPartition [
+        void:class <http://wals.info/vocabulary/language> ;
+        void:entities 2678
+    ], [
+        void:class <http://wals.info/vocabulary/datapoint> ;
+        void:entities 76492
+    ], [
+        void:class <http://wals.info/vocabulary/genus> ;
+        void:entities 510
+    ], [
+        void:class <http://wals.info/vocabulary/chapter> ;
+        void:entities 144
+    ], [
+        void:class rdf:Property ;
+        void:entities 205
+    ], [
+        void:class <http://wals.info/vocabulary/value> ;
+        void:entities 1143
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 6
+    ] ;
+    void:classes 7 ;
+    void:entities 81178 ;
+    void:properties 207 ;
+    void:propertyPartition [
+        void:distinctObjects 170 ;
+        void:distinctSubjects 170 ;
+        void:property <http://wals.info/feature/f125A> ;
+        void:triples 170
+    ], [
+        void:distinctObjects 160 ;
+        void:distinctSubjects 160 ;
+        void:property <http://wals.info/feature/f21B> ;
+        void:triples 160
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 23 ;
+        void:property <http://wals.info/feature/f90E> ;
+        void:triples 23
+    ], [
+        void:distinctObjects 234 ;
+        void:distinctSubjects 234 ;
+        void:property <http://wals.info/feature/f41A> ;
+        void:triples 234
+    ], [
+        void:distinctObjects 301 ;
+        void:distinctSubjects 301 ;
+        void:property <http://wals.info/feature/f64A> ;
+        void:triples 301
+    ], [
+        void:distinctObjects 883 ;
+        void:distinctSubjects 883 ;
+        void:property <http://wals.info/feature/f92A> ;
+        void:triples 883
+    ], [
+        void:distinctObjects 230 ;
+        void:distinctSubjects 230 ;
+        void:property <http://wals.info/feature/f138A> ;
+        void:triples 230
+    ], [
+        void:distinctObjects 193 ;
+        void:distinctSubjects 193 ;
+        void:property <http://wals.info/feature/f79A> ;
+        void:triples 193
+    ], [
+        void:distinctObjects 500 ;
+        void:distinctSubjects 500 ;
+        void:property <http://wals.info/feature/f16A> ;
+        void:triples 500
+    ], [
+        void:distinctObjects 500 ;
+        void:distinctSubjects 500 ;
+        void:property <http://wals.info/feature/f84A> ;
+        void:triples 500
+    ], [
+        void:distinctObjects 291 ;
+        void:distinctSubjects 291 ;
+        void:property <http://wals.info/feature/f34A> ;
+        void:triples 291
+    ], [
+        void:distinctObjects 380 ;
+        void:distinctSubjects 380 ;
+        void:property <http://wals.info/feature/f100A> ;
+        void:triples 380
+    ], [
+        void:distinctObjects 1142 ;
+        void:distinctSubjects 1142 ;
+        void:property <http://wals.info/feature/f95A> ;
+        void:triples 1142
+    ], [
+        void:distinctObjects 1159 ;
+        void:distinctSubjects 1159 ;
+        void:property <http://wals.info/feature/f112A> ;
+        void:triples 1159
+    ], [
+        void:distinctObjects 563 ;
+        void:distinctSubjects 563 ;
+        void:property <http://wals.info/feature/f1A> ;
+        void:triples 563
+    ], [
+        void:distinctObjects 244 ;
+        void:distinctSubjects 244 ;
+        void:property <http://wals.info/feature/f58A> ;
+        void:triples 244
+    ], [
+        void:distinctObjects 621 ;
+        void:distinctSubjects 621 ;
+        void:property <http://wals.info/feature/f90C> ;
+        void:triples 621
+    ], [
+        void:distinctObjects 1154 ;
+        void:distinctSubjects 1154 ;
+        void:property <http://wals.info/feature/f89A> ;
+        void:triples 1154
+    ], [
+        void:distinctObjects 243 ;
+        void:distinctSubjects 243 ;
+        void:property <http://wals.info/feature/f58B> ;
+        void:triples 243
+    ], [
+        void:distinctObjects 167 ;
+        void:distinctSubjects 167 ;
+        void:property <http://wals.info/feature/f121A> ;
+        void:triples 167
+    ], [
+        void:distinctObjects 379 ;
+        void:distinctSubjects 379 ;
+        void:property <http://wals.info/feature/f104A> ;
+        void:triples 379
+    ], [
+        void:distinctObjects 567 ;
+        void:distinctSubjects 567 ;
+        void:property <http://wals.info/feature/f18A> ;
+        void:triples 567
+    ], [
+        void:distinctObjects 145 ;
+        void:distinctSubjects 145 ;
+        void:property <http://wals.info/feature/f22A> ;
+        void:triples 145
+    ], [
+        void:distinctObjects 971 ;
+        void:distinctSubjects 971 ;
+        void:property <http://wals.info/feature/f26A> ;
+        void:triples 971
+    ], [
+        void:distinctObjects 120 ;
+        void:distinctSubjects 120 ;
+        void:property <http://wals.info/feature/f135A> ;
+        void:triples 120
+    ], [
+        void:distinctObjects 567 ;
+        void:distinctSubjects 567 ;
+        void:property <http://wals.info/feature/f8A> ;
+        void:triples 567
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 81178 ;
+        void:property rdf:type ;
+        void:triples 78579
+    ], [
+        void:distinctObjects 1132 ;
+        void:distinctSubjects 1132 ;
+        void:property <http://wals.info/feature/f69A> ;
+        void:triples 1132
+    ], [
+        void:distinctObjects 4201 ;
+        void:distinctSubjects 4533 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 4533
+    ], [
+        void:distinctObjects 326 ;
+        void:distinctSubjects 326 ;
+        void:property <http://wals.info/feature/f46A> ;
+        void:triples 326
+    ], [
+        void:distinctObjects 234 ;
+        void:distinctSubjects 234 ;
+        void:property <http://wals.info/feature/f74A> ;
+        void:triples 234
+    ], [
+        void:distinctObjects 2479 ;
+        void:distinctSubjects 2620 ;
+        void:property <http://wals.info/vocabulary/hasIsoCode> ;
+        void:triples 2691
+    ], [
+        void:distinctObjects 198 ;
+        void:distinctSubjects 198 ;
+        void:property <http://wals.info/feature/f29A> ;
+        void:triples 198
+    ], [
+        void:distinctObjects 196 ;
+        void:distinctSubjects 196 ;
+        void:property <http://wals.info/feature/f131A> ;
+        void:triples 196
+    ], [
+        void:distinctObjects 1139 ;
+        void:distinctSubjects 76492 ;
+        void:property <http://wals.info/vocabulary/hasValue> ;
+        void:triples 76492
+    ], [
+        void:distinctObjects 562 ;
+        void:distinctSubjects 562 ;
+        void:property <http://wals.info/feature/f11A> ;
+        void:triples 562
+    ], [
+        void:distinctObjects 261 ;
+        void:distinctSubjects 261 ;
+        void:property <http://wals.info/feature/f50A> ;
+        void:triples 261
+    ], [
+        void:distinctObjects 67 ;
+        void:distinctSubjects 67 ;
+        void:property <http://wals.info/feature/f81B> ;
+        void:triples 67
+    ], [
+        void:distinctObjects 1377 ;
+        void:distinctSubjects 1377 ;
+        void:property <http://wals.info/feature/f81A> ;
+        void:triples 1377
+    ], [
+        void:distinctObjects 124 ;
+        void:distinctSubjects 124 ;
+        void:property <http://wals.info/feature/f61A> ;
+        void:triples 124
+    ], [
+        void:distinctObjects 617 ;
+        void:distinctSubjects 617 ;
+        void:property <http://wals.info/feature/f129A> ;
+        void:triples 617
+    ], [
+        void:distinctObjects 143 ;
+        void:distinctSubjects 143 ;
+        void:property <http://wals.info/feature/f128A> ;
+        void:triples 143
+    ], [
+        void:distinctObjects 380 ;
+        void:distinctSubjects 380 ;
+        void:property <http://wals.info/feature/f103A> ;
+        void:triples 380
+    ], [
+        void:distinctObjects 660 ;
+        void:distinctSubjects 660 ;
+        void:property <http://wals.info/feature/f94A> ;
+        void:triples 660
+    ], [
+        void:distinctObjects 954 ;
+        void:distinctSubjects 954 ;
+        void:property <http://wals.info/feature/f116A> ;
+        void:triples 954
+    ], [
+        void:distinctObjects 119 ;
+        void:distinctSubjects 119 ;
+        void:property <http://wals.info/feature/f132A> ;
+        void:triples 119
+    ], [
+        void:distinctObjects 297 ;
+        void:distinctSubjects 297 ;
+        void:property <http://wals.info/feature/f113A> ;
+        void:triples 297
+    ], [
+        void:distinctObjects 567 ;
+        void:distinctSubjects 567 ;
+        void:property <http://wals.info/feature/f6A> ;
+        void:triples 567
+    ], [
+        void:distinctObjects 386 ;
+        void:distinctSubjects 386 ;
+        void:property <http://wals.info/feature/f120A> ;
+        void:triples 386
+    ], [
+        void:distinctObjects 620 ;
+        void:distinctSubjects 620 ;
+        void:property <http://wals.info/feature/f37A> ;
+        void:triples 620
+    ], [
+        void:distinctObjects 880 ;
+        void:distinctSubjects 2678 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 2678
+    ], [
+        void:distinctObjects 609 ;
+        void:distinctSubjects 609 ;
+        void:property <http://wals.info/feature/f144B> ;
+        void:triples 609
+    ], [
+        void:distinctObjects 469 ;
+        void:distinctSubjects 469 ;
+        void:property <http://wals.info/feature/f9A> ;
+        void:triples 469
+    ], [
+        void:distinctObjects 481 ;
+        void:distinctSubjects 481 ;
+        void:property <http://wals.info/feature/f91A> ;
+        void:triples 481
+    ], [
+        void:distinctObjects 57 ;
+        void:distinctSubjects 57 ;
+        void:property <http://wals.info/feature/f144F> ;
+        void:triples 57
+    ], [
+        void:distinctObjects 567 ;
+        void:distinctSubjects 567 ;
+        void:property <http://wals.info/feature/f5A> ;
+        void:triples 567
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 35 ;
+        void:property <http://wals.info/feature/f144G> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 465 ;
+        void:distinctSubjects 465 ;
+        void:property <http://wals.info/feature/f144D> ;
+        void:triples 465
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 48 ;
+        void:property <http://wals.info/feature/f144E> ;
+        void:triples 48
+    ], [
+        void:distinctObjects 168 ;
+        void:distinctSubjects 168 ;
+        void:property <http://wals.info/feature/f47A> ;
+        void:triples 168
+    ], [
+        void:distinctObjects 222 ;
+        void:distinctSubjects 222 ;
+        void:property <http://wals.info/feature/f66A> ;
+        void:triples 222
+    ], [
+        void:distinctObjects 421 ;
+        void:distinctSubjects 421 ;
+        void:property <http://wals.info/feature/f144H> ;
+        void:triples 421
+    ], [
+        void:distinctObjects 422 ;
+        void:distinctSubjects 422 ;
+        void:property <http://wals.info/feature/f144I> ;
+        void:triples 422
+    ], [
+        void:distinctObjects 45 ;
+        void:distinctSubjects 45 ;
+        void:property <http://wals.info/feature/f144N> ;
+        void:triples 45
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property <http://wals.info/feature/f144O> ;
+        void:triples 31
+    ], [
+        void:distinctObjects 572 ;
+        void:distinctSubjects 572 ;
+        void:property <http://wals.info/feature/f144L> ;
+        void:triples 572
+    ], [
+        void:distinctObjects 183 ;
+        void:distinctSubjects 183 ;
+        void:property <http://wals.info/feature/f109A> ;
+        void:triples 183
+    ], [
+        void:distinctObjects 54 ;
+        void:distinctSubjects 54 ;
+        void:property <http://wals.info/feature/f144M> ;
+        void:triples 54
+    ], [
+        void:distinctObjects 244 ;
+        void:distinctSubjects 244 ;
+        void:property <http://wals.info/feature/f10A> ;
+        void:triples 244
+    ], [
+        void:distinctObjects 489 ;
+        void:distinctSubjects 489 ;
+        void:property <http://wals.info/feature/f144S> ;
+        void:triples 489
+    ], [
+        void:distinctObjects 408 ;
+        void:distinctSubjects 408 ;
+        void:property <http://wals.info/feature/f144P> ;
+        void:triples 408
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 40 ;
+        void:property <http://wals.info/feature/f10B> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 152 ;
+        void:distinctSubjects 152 ;
+        void:property <http://wals.info/feature/f144V> ;
+        void:triples 152
+    ], [
+        void:distinctObjects 151 ;
+        void:distinctSubjects 151 ;
+        void:property <http://wals.info/feature/f144W> ;
+        void:triples 151
+    ], [
+        void:distinctObjects 152 ;
+        void:distinctSubjects 152 ;
+        void:property <http://wals.info/feature/f144T> ;
+        void:triples 152
+    ], [
+        void:distinctObjects 418 ;
+        void:distinctSubjects 418 ;
+        void:property <http://wals.info/feature/f77A> ;
+        void:triples 418
+    ], [
+        void:distinctObjects 151 ;
+        void:distinctSubjects 151 ;
+        void:property <http://wals.info/feature/f144X> ;
+        void:triples 151
+    ], [
+        void:distinctObjects 183 ;
+        void:distinctSubjects 183 ;
+        void:property <http://wals.info/feature/f109B> ;
+        void:triples 183
+    ], [
+        void:distinctObjects 1498 ;
+        void:distinctSubjects 1498 ;
+        void:property <http://wals.info/feature/f82A> ;
+        void:triples 1498
+    ], [
+        void:distinctObjects 118 ;
+        void:distinctSubjects 118 ;
+        void:property <http://wals.info/feature/f110A> ;
+        void:triples 118
+    ], [
+        void:distinctObjects 1366 ;
+        void:distinctSubjects 1366 ;
+        void:property <http://wals.info/feature/f87A> ;
+        void:triples 1366
+    ], [
+        void:distinctObjects 564 ;
+        void:distinctSubjects 564 ;
+        void:property <http://wals.info/feature/f3A> ;
+        void:triples 564
+    ], [
+        void:distinctObjects 193 ;
+        void:distinctSubjects 193 ;
+        void:property <http://wals.info/feature/f79B> ;
+        void:triples 193
+    ], [
+        void:distinctObjects 169 ;
+        void:distinctSubjects 169 ;
+        void:property <http://wals.info/feature/f127A> ;
+        void:triples 169
+    ], [
+        void:distinctObjects 175 ;
+        void:distinctSubjects 175 ;
+        void:property <http://wals.info/feature/f106A> ;
+        void:triples 175
+    ], [
+        void:distinctObjects 230 ;
+        void:distinctSubjects 230 ;
+        void:property <http://wals.info/feature/f137A> ;
+        void:triples 230
+    ], [
+        void:distinctObjects 386 ;
+        void:distinctSubjects 386 ;
+        void:property <http://wals.info/feature/f118A> ;
+        void:triples 386
+    ], [
+        void:distinctObjects 165 ;
+        void:distinctSubjects 165 ;
+        void:property <http://wals.info/feature/f20A> ;
+        void:triples 165
+    ], [
+        void:distinctObjects 236 ;
+        void:distinctSubjects 236 ;
+        void:property <http://wals.info/feature/f25A> ;
+        void:triples 236
+    ], [
+        void:distinctObjects 230 ;
+        void:distinctSubjects 230 ;
+        void:property <http://wals.info/feature/f137B> ;
+        void:triples 230
+    ], [
+        void:distinctObjects 378 ;
+        void:distinctSubjects 378 ;
+        void:property <http://wals.info/feature/f44A> ;
+        void:triples 378
+    ], [
+        void:distinctObjects 1066 ;
+        void:distinctSubjects 1066 ;
+        void:property <http://wals.info/feature/f33A> ;
+        void:triples 1066
+    ], [
+        void:distinctObjects 375 ;
+        void:distinctSubjects 375 ;
+        void:property <http://wals.info/feature/f72A> ;
+        void:triples 375
+    ], [
+        void:distinctObjects 527 ;
+        void:distinctSubjects 527 ;
+        void:property <http://wals.info/feature/f13A> ;
+        void:triples 527
+    ], [
+        void:distinctObjects 27003 ;
+        void:distinctSubjects 2620 ;
+        void:property <http://purl.org/dc/terms/relation> ;
+        void:triples 29328
+    ], [
+        void:distinctObjects 322 ;
+        void:distinctSubjects 322 ;
+        void:property <http://wals.info/feature/f52A> ;
+        void:triples 322
+    ], [
+        void:distinctObjects 234 ;
+        void:distinctSubjects 234 ;
+        void:property <http://wals.info/feature/f63A> ;
+        void:triples 234
+    ], [
+        void:distinctObjects 1316 ;
+        void:distinctSubjects 1316 ;
+        void:property <http://wals.info/feature/f97A> ;
+        void:triples 1316
+    ], [
+        void:distinctObjects 1200 ;
+        void:distinctSubjects 1287 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 1287
+    ], [
+        void:distinctObjects 547 ;
+        void:distinctSubjects 547 ;
+        void:property <http://wals.info/feature/f70A> ;
+        void:triples 547
+    ], [
+        void:distinctObjects 879 ;
+        void:distinctSubjects 879 ;
+        void:property <http://wals.info/feature/f96A> ;
+        void:triples 879
+    ], [
+        void:distinctObjects 2676 ;
+        void:distinctSubjects 76492 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 76492
+    ], [
+        void:distinctObjects 310 ;
+        void:distinctSubjects 310 ;
+        void:property <http://wals.info/feature/f111A> ;
+        void:triples 310
+    ], [
+        void:distinctObjects 1326 ;
+        void:distinctSubjects 1326 ;
+        void:property <http://wals.info/feature/f143F> ;
+        void:triples 1326
+    ], [
+        void:distinctObjects 1223 ;
+        void:distinctSubjects 1223 ;
+        void:property <http://wals.info/feature/f88A> ;
+        void:triples 1223
+    ], [
+        void:distinctObjects 1326 ;
+        void:distinctSubjects 1326 ;
+        void:property <http://wals.info/feature/f143E> ;
+        void:triples 1326
+    ], [
+        void:distinctObjects 243 ;
+        void:distinctSubjects 243 ;
+        void:property <http://wals.info/feature/f59A> ;
+        void:triples 243
+    ], [
+        void:distinctObjects 261 ;
+        void:distinctSubjects 261 ;
+        void:property <http://wals.info/feature/f35A> ;
+        void:triples 261
+    ], [
+        void:distinctObjects 174 ;
+        void:distinctSubjects 174 ;
+        void:property <http://wals.info/feature/f126A> ;
+        void:triples 174
+    ], [
+        void:distinctObjects 378 ;
+        void:distinctSubjects 378 ;
+        void:property <http://wals.info/feature/f105A> ;
+        void:triples 378
+    ], [
+        void:distinctObjects 235 ;
+        void:distinctSubjects 235 ;
+        void:property <http://wals.info/feature/f25B> ;
+        void:triples 235
+    ], [
+        void:distinctObjects 144 ;
+        void:distinctSubjects 192 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 192
+    ], [
+        void:distinctObjects 162 ;
+        void:distinctSubjects 162 ;
+        void:property <http://wals.info/feature/f21A> ;
+        void:triples 162
+    ], [
+        void:distinctObjects 567 ;
+        void:distinctSubjects 567 ;
+        void:property <http://wals.info/feature/f19A> ;
+        void:triples 567
+    ], [
+        void:distinctObjects 120 ;
+        void:distinctSubjects 120 ;
+        void:property <http://wals.info/feature/f134A> ;
+        void:triples 120
+    ], [
+        void:distinctObjects 386 ;
+        void:distinctSubjects 386 ;
+        void:property <http://wals.info/feature/f119A> ;
+        void:triples 386
+    ], [
+        void:distinctObjects 257 ;
+        void:distinctSubjects 257 ;
+        void:property <http://wals.info/feature/f32A> ;
+        void:triples 257
+    ], [
+        void:distinctObjects 1326 ;
+        void:distinctSubjects 1326 ;
+        void:property <http://wals.info/feature/f143A> ;
+        void:triples 1326
+    ], [
+        void:distinctObjects 207 ;
+        void:distinctSubjects 207 ;
+        void:property <http://wals.info/feature/f45A> ;
+        void:triples 207
+    ], [
+        void:distinctObjects 222 ;
+        void:distinctSubjects 222 ;
+        void:property <http://wals.info/feature/f68A> ;
+        void:triples 222
+    ], [
+        void:distinctObjects 240 ;
+        void:distinctSubjects 240 ;
+        void:property <http://wals.info/feature/f75A> ;
+        void:triples 240
+    ], [
+        void:distinctObjects 251 ;
+        void:distinctSubjects 251 ;
+        void:property <http://wals.info/feature/f54A> ;
+        void:triples 251
+    ], [
+        void:distinctObjects 486 ;
+        void:distinctSubjects 486 ;
+        void:property <http://wals.info/feature/f12A> ;
+        void:triples 486
+    ], [
+        void:distinctObjects 193 ;
+        void:distinctSubjects 193 ;
+        void:property <http://wals.info/feature/f80A> ;
+        void:triples 193
+    ], [
+        void:distinctObjects 198 ;
+        void:distinctSubjects 198 ;
+        void:property <http://wals.info/feature/f28A> ;
+        void:triples 198
+    ], [
+        void:distinctObjects 1032 ;
+        void:distinctSubjects 1032 ;
+        void:property <http://wals.info/feature/f51A> ;
+        void:triples 1032
+    ], [
+        void:distinctObjects 138 ;
+        void:distinctSubjects 138 ;
+        void:property <http://wals.info/feature/f60A> ;
+        void:triples 138
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://wals.info/feature/f141A> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 222 ;
+        void:distinctSubjects 222 ;
+        void:property <http://wals.info/feature/f65A> ;
+        void:triples 222
+    ], [
+        void:distinctObjects 1357 ;
+        void:distinctSubjects 2678 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 2678
+    ], [
+        void:distinctObjects 200 ;
+        void:distinctSubjects 200 ;
+        void:property <http://wals.info/feature/f39A> ;
+        void:triples 200
+    ], [
+        void:distinctObjects 71 ;
+        void:distinctSubjects 71 ;
+        void:property <http://wals.info/feature/f39B> ;
+        void:triples 71
+    ], [
+        void:distinctObjects 201 ;
+        void:distinctSubjects 201 ;
+        void:property <http://wals.info/feature/f42A> ;
+        void:triples 201
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 35 ;
+        void:property <http://wals.info/feature/f139A> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 418 ;
+        void:distinctSubjects 418 ;
+        void:property <http://wals.info/feature/f78A> ;
+        void:triples 418
+    ], [
+        void:distinctObjects 500 ;
+        void:distinctSubjects 500 ;
+        void:property <http://wals.info/feature/f15A> ;
+        void:triples 500
+    ], [
+        void:distinctObjects 564 ;
+        void:distinctSubjects 564 ;
+        void:property <http://wals.info/feature/f2A> ;
+        void:triples 564
+    ], [
+        void:distinctObjects 2678 ;
+        void:distinctSubjects 2678 ;
+        void:property <http://wals.info/vocabulary/hasWalsCode> ;
+        void:triples 2678
+    ], [
+        void:distinctObjects 1248 ;
+        void:distinctSubjects 1248 ;
+        void:property <http://wals.info/feature/f86A> ;
+        void:triples 1248
+    ], [
+        void:distinctObjects 283 ;
+        void:distinctSubjects 283 ;
+        void:property <http://wals.info/feature/f124A> ;
+        void:triples 283
+    ], [
+        void:distinctObjects 373 ;
+        void:distinctSubjects 373 ;
+        void:property <http://wals.info/feature/f107A> ;
+        void:triples 373
+    ], [
+        void:distinctObjects 190 ;
+        void:distinctSubjects 190 ;
+        void:property <http://wals.info/feature/f98A> ;
+        void:triples 190
+    ], [
+        void:distinctObjects 1191 ;
+        void:distinctSubjects 1191 ;
+        void:property <http://wals.info/feature/f144A> ;
+        void:triples 1191
+    ], [
+        void:distinctObjects 230 ;
+        void:distinctSubjects 230 ;
+        void:property <http://wals.info/feature/f136B> ;
+        void:triples 230
+    ], [
+        void:distinctObjects 230 ;
+        void:distinctSubjects 230 ;
+        void:property <http://wals.info/feature/f136A> ;
+        void:triples 230
+    ], [
+        void:distinctObjects 240 ;
+        void:distinctSubjects 240 ;
+        void:property <http://wals.info/feature/f117A> ;
+        void:triples 240
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 144 ;
+        void:property <http://wals.info/vocabulary/chapterArea> ;
+        void:triples 144
+    ], [
+        void:distinctObjects 186 ;
+        void:distinctSubjects 186 ;
+        void:property <http://wals.info/feature/f108B> ;
+        void:triples 186
+    ], [
+        void:distinctObjects 257 ;
+        void:distinctSubjects 257 ;
+        void:property <http://wals.info/feature/f30A> ;
+        void:triples 257
+    ], [
+        void:distinctObjects 194 ;
+        void:distinctSubjects 194 ;
+        void:property <http://wals.info/feature/f108A> ;
+        void:triples 194
+    ], [
+        void:distinctObjects 319 ;
+        void:distinctSubjects 319 ;
+        void:property <http://wals.info/feature/f73A> ;
+        void:triples 319
+    ], [
+        void:distinctObjects 321 ;
+        void:distinctSubjects 321 ;
+        void:property <http://wals.info/feature/f53A> ;
+        void:triples 321
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 38 ;
+        void:property <http://wals.info/feature/f140A> ;
+        void:triples 38
+    ], [
+        void:distinctObjects 447 ;
+        void:distinctSubjects 447 ;
+        void:property <http://wals.info/feature/f144J> ;
+        void:triples 447
+    ], [
+        void:distinctObjects 172 ;
+        void:distinctSubjects 172 ;
+        void:property <http://wals.info/feature/f99A> ;
+        void:triples 172
+    ], [
+        void:distinctObjects 225 ;
+        void:distinctSubjects 225 ;
+        void:property <http://wals.info/feature/f43A> ;
+        void:triples 225
+    ], [
+        void:distinctObjects 168 ;
+        void:distinctSubjects 168 ;
+        void:property <http://wals.info/feature/f62A> ;
+        void:triples 168
+    ], [
+        void:distinctObjects 447 ;
+        void:distinctSubjects 447 ;
+        void:property <http://wals.info/feature/f144K> ;
+        void:triples 447
+    ], [
+        void:distinctObjects 825 ;
+        void:distinctSubjects 825 ;
+        void:property <http://wals.info/feature/f90A> ;
+        void:triples 825
+    ], [
+        void:distinctObjects 5899 ;
+        void:distinctSubjects 69403 ;
+        void:property <http://purl.org/dc/terms/references> ;
+        void:triples 82189
+    ], [
+        void:distinctObjects 534 ;
+        void:distinctSubjects 534 ;
+        void:property <http://wals.info/feature/f38A> ;
+        void:triples 534
+    ], [
+        void:distinctObjects 191 ;
+        void:distinctSubjects 191 ;
+        void:property <http://wals.info/feature/f90B> ;
+        void:triples 191
+    ], [
+        void:distinctObjects 502 ;
+        void:distinctSubjects 502 ;
+        void:property <http://wals.info/feature/f14A> ;
+        void:triples 502
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 63 ;
+        void:property <http://wals.info/feature/f90D> ;
+        void:triples 63
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://wals.info/feature/f90G> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 10 ;
+        void:property <http://wals.info/feature/f90F> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 378 ;
+        void:distinctSubjects 378 ;
+        void:property <http://wals.info/feature/f48A> ;
+        void:triples 378
+    ], [
+        void:distinctObjects 119 ;
+        void:distinctSubjects 119 ;
+        void:property <http://wals.info/feature/f133A> ;
+        void:triples 119
+    ], [
+        void:distinctObjects 297 ;
+        void:distinctSubjects 297 ;
+        void:property <http://wals.info/feature/f114A> ;
+        void:triples 297
+    ], [
+        void:distinctObjects 378 ;
+        void:distinctSubjects 378 ;
+        void:property <http://wals.info/feature/f102A> ;
+        void:triples 378
+    ], [
+        void:distinctObjects 567 ;
+        void:distinctSubjects 567 ;
+        void:property <http://wals.info/feature/f7A> ;
+        void:triples 567
+    ], [
+        void:distinctObjects 237 ;
+        void:distinctSubjects 237 ;
+        void:property <http://wals.info/feature/f36A> ;
+        void:triples 237
+    ], [
+        void:distinctObjects 112 ;
+        void:distinctSubjects 112 ;
+        void:property <http://wals.info/feature/f123A> ;
+        void:triples 112
+    ], [
+        void:distinctObjects 1326 ;
+        void:distinctSubjects 1326 ;
+        void:property <http://wals.info/feature/f143G> ;
+        void:triples 1326
+    ], [
+        void:distinctObjects 411 ;
+        void:distinctSubjects 411 ;
+        void:property <http://wals.info/feature/f144R> ;
+        void:triples 411
+    ], [
+        void:distinctObjects 368 ;
+        void:distinctSubjects 368 ;
+        void:property <http://wals.info/feature/f27A> ;
+        void:triples 368
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://wals.info/feature/f143D> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 81 ;
+        void:distinctSubjects 81 ;
+        void:property <http://wals.info/feature/f143C> ;
+        void:triples 81
+    ], [
+        void:distinctObjects 120 ;
+        void:distinctSubjects 120 ;
+        void:property <http://wals.info/feature/f143B> ;
+        void:triples 120
+    ], [
+        void:distinctObjects 116 ;
+        void:distinctSubjects 116 ;
+        void:property <http://wals.info/feature/f56A> ;
+        void:triples 116
+    ], [
+        void:distinctObjects 200 ;
+        void:distinctSubjects 200 ;
+        void:property <http://wals.info/feature/f40A> ;
+        void:triples 200
+    ], [
+        void:distinctObjects 222 ;
+        void:distinctSubjects 222 ;
+        void:property <http://wals.info/feature/f67A> ;
+        void:triples 222
+    ], [
+        void:distinctObjects 901 ;
+        void:distinctSubjects 901 ;
+        void:property <http://wals.info/feature/f93A> ;
+        void:triples 901
+    ], [
+        void:distinctObjects 408 ;
+        void:distinctSubjects 408 ;
+        void:property <http://wals.info/feature/f144Q> ;
+        void:triples 408
+    ], [
+        void:distinctObjects 207 ;
+        void:distinctSubjects 207 ;
+        void:property <http://wals.info/feature/f76A> ;
+        void:triples 207
+    ], [
+        void:distinctObjects 1185 ;
+        void:distinctSubjects 1185 ;
+        void:property <http://wals.info/feature/f85A> ;
+        void:triples 1185
+    ], [
+        void:distinctObjects 323 ;
+        void:distinctSubjects 323 ;
+        void:property <http://wals.info/feature/f17A> ;
+        void:triples 323
+    ], [
+        void:distinctObjects 1519 ;
+        void:distinctSubjects 1519 ;
+        void:property <http://wals.info/feature/f83A> ;
+        void:triples 1519
+    ], [
+        void:distinctObjects 510 ;
+        void:distinctSubjects 2678 ;
+        void:property <http://wals.info/vocabulary/hasGenus> ;
+        void:triples 2678
+    ], [
+        void:distinctObjects 902 ;
+        void:distinctSubjects 902 ;
+        void:property <http://wals.info/feature/f57A> ;
+        void:triples 902
+    ], [
+        void:distinctObjects 4426 ;
+        void:distinctSubjects 2542 ;
+        void:property <http://wals.info/vocabulary/altName> ;
+        void:triples 4924
+    ], [
+        void:distinctObjects 711 ;
+        void:distinctSubjects 711 ;
+        void:property <http://wals.info/feature/f101A> ;
+        void:triples 711
+    ], [
+        void:distinctObjects 261 ;
+        void:distinctSubjects 261 ;
+        void:property <http://wals.info/feature/f49A> ;
+        void:triples 261
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 17 ;
+        void:property <http://wals.info/feature/f144U> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 28 ;
+        void:property <http://wals.info/feature/f144C> ;
+        void:triples 28
+    ], [
+        void:distinctObjects 593 ;
+        void:distinctSubjects 593 ;
+        void:property <http://wals.info/feature/f130A> ;
+        void:triples 593
+    ], [
+        void:distinctObjects 236 ;
+        void:distinctSubjects 236 ;
+        void:property <http://wals.info/feature/f23A> ;
+        void:triples 236
+    ], [
+        void:distinctObjects 206 ;
+        void:distinctSubjects 206 ;
+        void:property <http://wals.info/feature/f115A> ;
+        void:triples 206
+    ], [
+        void:distinctObjects 72 ;
+        void:distinctSubjects 72 ;
+        void:property <http://wals.info/feature/f130B> ;
+        void:triples 72
+    ], [
+        void:distinctObjects 567 ;
+        void:distinctSubjects 567 ;
+        void:property <http://wals.info/feature/f4A> ;
+        void:triples 567
+    ], [
+        void:distinctObjects 257 ;
+        void:distinctSubjects 257 ;
+        void:property <http://wals.info/feature/f31A> ;
+        void:triples 257
+    ], [
+        void:distinctObjects 166 ;
+        void:distinctSubjects 166 ;
+        void:property <http://wals.info/feature/f122A> ;
+        void:triples 166
+    ], [
+        void:distinctObjects 495 ;
+        void:distinctSubjects 495 ;
+        void:property <http://wals.info/feature/f71A> ;
+        void:triples 495
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property <http://wals.info/feature/f144Y> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 236 ;
+        void:distinctSubjects 236 ;
+        void:property <http://wals.info/feature/f24A> ;
+        void:triples 236
+    ], [
+        void:distinctObjects 143 ;
+        void:distinctSubjects 143 ;
+        void:property <http://wals.info/feature/f142A> ;
+        void:triples 143
+    ], [
+        void:distinctObjects 400 ;
+        void:distinctSubjects 400 ;
+        void:property <http://wals.info/feature/f55A> ;
+        void:triples 400
+    ] ;
+    void:triples 447940 ;
+    void:vocabulary <http://purl.org/dc/terms/>, <http://wals.info/feature/>, <http://wals.info/vocabulary/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2003/01/geo/wgs84_pos> ;
+    a void:Dataset .
+

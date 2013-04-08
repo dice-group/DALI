@@ -1,0 +1,120 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.archivesdefrance.culture.gouv.fr/thesaurus/data/Matiere?includeSchemes=true>
+    void:classPartition [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 1498
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:entities 1
+    ] ;
+    void:classes 2 ;
+    void:entities 1499 ;
+    void:properties 18 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1498 ;
+        void:distinctSubjects 1498 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 1498
+    ], [
+        void:distinctObjects 72 ;
+        void:distinctSubjects 73 ;
+        void:property <http://www.w3.org/2004/02/skos/core#closeMatch> ;
+        void:triples 75
+    ], [
+        void:distinctObjects 450 ;
+        void:distinctSubjects 450 ;
+        void:property <http://xmlns.com/foaf/0.1/focus> ;
+        void:triples 450
+    ], [
+        void:distinctObjects 957 ;
+        void:distinctSubjects 889 ;
+        void:property <http://www.w3.org/2004/02/skos/core#exactMatch> ;
+        void:triples 965
+    ], [
+        void:distinctObjects 1011 ;
+        void:distinctSubjects 431 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 1011
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:date ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1478 ;
+        void:distinctSubjects 287 ;
+        void:property <http://www.w3.org/2004/02/skos/core#narrower> ;
+        void:triples 1478
+    ], [
+        void:distinctObjects 56 ;
+        void:distinctSubjects 58 ;
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote> ;
+        void:triples 58
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1498 ;
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme> ;
+        void:triples 1498
+    ], [
+        void:distinctObjects 288 ;
+        void:distinctSubjects 1487 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 1487
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1499 ;
+        void:property rdf:type ;
+        void:triples 789
+    ], [
+        void:distinctObjects 593 ;
+        void:distinctSubjects 598 ;
+        void:property <http://www.w3.org/2004/02/skos/core#related> ;
+        void:triples 988
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 148 ;
+        void:distinctSubjects 154 ;
+        void:property <http://www.w3.org/2004/02/skos/core#changeNote> ;
+        void:triples 154
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2004/02/skos/core#hasTopConcept> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 1
+    ] ;
+    void:triples 11177 ;
+    void:vocabulary <http://purl.org/dc>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

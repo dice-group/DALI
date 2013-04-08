@@ -1,0 +1,156 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://data.dcs.shef.ac.uk/dump/datadcs-withdblpV1-28Feb2010.rdf>
+    void:classPartition [
+        void:class <http://purl.org/net/provenance/ns#Representation> ;
+        void:entities 6
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 106
+    ], [
+        void:class <http://purl.org/net/provenance/ns#HumanActor> ;
+        void:entities 1
+    ], [
+        void:class <http://zeitkunst.org/bibtex/0.1/bibtex.owl#Entry> ;
+        void:entities 963
+    ], [
+        void:class <http://purl.org/net/provenance/ns#NonHumanActor> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/net/provenance/ns#DataItem> ;
+        void:entities 12
+    ], [
+        void:class <http://purl.org/net/provenance/ns#DataAccess> ;
+        void:entities 6
+    ], [
+        void:class <http://purl.org/net/provenance/ns#DataCreation> ;
+        void:entities 6
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Group> ;
+        void:entities 6
+    ] ;
+    void:classes 9 ;
+    void:entities 1101 ;
+    void:properties 21 ;
+    void:propertyPartition [
+        void:distinctObjects 429 ;
+        void:distinctSubjects 98 ;
+        void:property <http://xmlns.com/foaf/0.1/page> ;
+        void:triples 822
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 12 ;
+        void:property <http://purl.org/net/provenance/ns#performedBy> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 1047 ;
+        void:distinctSubjects 70 ;
+        void:property <http://xmlns.com/foaf/0.1/made> ;
+        void:triples 1795
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 1101 ;
+        void:property rdf:type ;
+        void:triples 976
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/net/provenance/ns#operatedBy> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 963 ;
+        void:property <http://zeitkunst.org/bibtex/0.1/bibtex.owl#hasYear> ;
+        void:triples 963
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/net/provenance/ns#createdBy> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 670 ;
+        void:distinctSubjects 893 ;
+        void:property <http://zeitkunst.org/bibtex/0.1/bibtex.owl#hasBookTitle> ;
+        void:triples 893
+    ], [
+        void:distinctObjects 70 ;
+        void:distinctSubjects 960 ;
+        void:property <http://xmlns.com/foaf/0.1/maker> ;
+        void:triples 1608
+    ], [
+        void:distinctObjects 106 ;
+        void:distinctSubjects 6 ;
+        void:property <http://xmlns.com/foaf/0.1/member> ;
+        void:triples 113
+    ], [
+        void:distinctObjects 903 ;
+        void:distinctSubjects 963 ;
+        void:property <http://zeitkunst.org/bibtex/0.1/bibtex.owl#title> ;
+        void:triples 963
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 20 ;
+        void:property <http://xmlns.com/foaf/0.1/img> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/net/provenance/ns#retrievedBy> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 12 ;
+        void:property <http://purl.org/net/provenance/ns#performedAt> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 23 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 23
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 114 ;
+        void:distinctSubjects 112 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 114
+    ], [
+        void:distinctObjects 102 ;
+        void:distinctSubjects 95 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/net/provenance/ns#usedData> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://xmlns.com/foaf/0.1/workplaceHomepage> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/net/provenance/ns#containedBy> ;
+        void:triples 6
+    ] ;
+    void:triples 8596 ;
+    void:vocabulary <http://purl.org/net/provenance/ns>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2002/07/owl>, <http://xmlns.com/foaf/0.1>, <http://zeitkunst.org/bibtex/0.1/bibtex.owl> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

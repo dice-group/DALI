@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www4.wiwiss.fu-berlin.de/diseasome/diseasome_dump.nt.bz2>
+    void:classPartition [
+        void:class <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseases> ;
+        void:entities 4213
+    ], [
+        void:class rdf:Property ;
+        void:entities 17
+    ], [
+        void:class <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/genes> ;
+        void:entities 3919
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 2
+    ] ;
+    void:classes 4 ;
+    void:entities 8152 ;
+    void:properties 19 ;
+    void:propertyPartition [
+        void:distinctObjects 3919 ;
+        void:distinctSubjects 4213 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/associatedGene> ;
+        void:triples 9743
+    ], [
+        void:distinctObjects 1778 ;
+        void:distinctSubjects 2929 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/omimPage> ;
+        void:triples 2929
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 4213 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/class> ;
+        void:triples 4213
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 1284 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/classDegree> ;
+        void:triples 1284
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2002/07/owl#equivalentProperty> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 426 ;
+        void:distinctSubjects 426 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/hgncId> ;
+        void:triples 426
+    ], [
+        void:distinctObjects 3919 ;
+        void:distinctSubjects 3919 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/bio2rdfSymbol> ;
+        void:triples 3919
+    ], [
+        void:distinctObjects 2235 ;
+        void:distinctSubjects 1456 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/possibleDrug> ;
+        void:triples 14325
+    ], [
+        void:distinctObjects 3642 ;
+        void:distinctSubjects 4213 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/name> ;
+        void:triples 4213
+    ], [
+        void:distinctObjects 915 ;
+        void:distinctSubjects 2929 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/chromosomalLocation> ;
+        void:triples 2929
+    ], [
+        void:distinctObjects 7561 ;
+        void:distinctSubjects 8132 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 8132
+    ], [
+        void:distinctObjects 426 ;
+        void:distinctSubjects 426 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/geneId> ;
+        void:triples 426
+    ], [
+        void:distinctObjects 2774 ;
+        void:distinctSubjects 2268 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 2899
+    ], [
+        void:distinctObjects 1778 ;
+        void:distinctSubjects 2929 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/omim> ;
+        void:triples 2929
+    ], [
+        void:distinctObjects 1284 ;
+        void:distinctSubjects 2929 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/diseaseSubtypeOf> ;
+        void:triples 2929
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 1284 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/size> ;
+        void:triples 1284
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 8151 ;
+        void:property rdf:type ;
+        void:triples 4858
+    ], [
+        void:distinctObjects 25 ;
+        void:distinctSubjects 1284 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/degree> ;
+        void:triples 1284
+    ], [
+        void:distinctObjects 426 ;
+        void:distinctSubjects 426 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/hgncIdPage> ;
+        void:triples 426
+    ] ;
+    void:triples 91182 ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www4.wiwiss.fu-berlin.de/diseasome> ;
+    a void:dataset .
+

@@ -1,0 +1,154 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://os.rkbexplorer.com/models/dump.tgz>
+    void:classPartition [
+        void:class <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#District> ;
+        void:entities 238
+    ], [
+        void:class <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#CivilParish> ;
+        void:entities 10439
+    ], [
+        void:class <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#County> ;
+        void:entities 35
+    ], [
+        void:class <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#LondonBorough> ;
+        void:entities 33
+    ], [
+        void:class <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#Community> ;
+        void:entities 868
+    ], [
+        void:class <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#Country> ;
+        void:entities 1
+    ], [
+        void:class <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#MetropolitanDistrict> ;
+        void:entities 36
+    ], [
+        void:class <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#EuropeanRegion> ;
+        void:entities 11
+    ], [
+        void:class <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#UnitaryAuthority> ;
+        void:entities 100
+    ], [
+        void:class <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#GreaterLondonAuthority> ;
+        void:entities 1
+    ] ;
+    void:classes 10 ;
+    void:entities 11763 ;
+    void:properties 20 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.0/date> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5218 ;
+        void:distinctSubjects 263 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#completelySpatiallyContains> ;
+        void:triples 5218
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 11762 ;
+        void:property rdf:type ;
+        void:triples 6125
+    ], [
+        void:distinctObjects 6518 ;
+        void:distinctSubjects 337 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#tangentiallySpatiallyContains> ;
+        void:triples 6518
+    ], [
+        void:distinctObjects 11733 ;
+        void:distinctSubjects 11761 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#hasArea> ;
+        void:triples 11761
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.0/rights> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10786 ;
+        void:distinctSubjects 11762 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#hasVernacularName> ;
+        void:triples 11766
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/Rabbit/v1.0/Rabbit.owl#Scope> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.0/creator> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 11739 ;
+        void:distinctSubjects 11739 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#borders> ;
+        void:triples 66146
+    ], [
+        void:distinctObjects 455 ;
+        void:distinctSubjects 455 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#hasOfficialName> ;
+        void:triples 455
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 22 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#hasOfficialWelshName> ;
+        void:triples 22
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#isSpatiallyEqualTo> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.0/publisher> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 11750 ;
+        void:distinctSubjects 11750 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#hasCensusCode> ;
+        void:triples 11750
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/Rabbit/v1.0/Rabbit.owl#Purpose> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10840 ;
+        void:distinctSubjects 11762 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 11762
+    ], [
+        void:distinctObjects 10863 ;
+        void:distinctSubjects 11761 ;
+        void:property <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf#hasBoundaryLineName> ;
+        void:triples 11761
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.0/hasVersion> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.0/title> ;
+        void:triples 1
+    ] ;
+    void:triples 148931 ;
+    void:vocabulary <http://purl.org/dc/elements/1.0/>, <http://www.ordnancesurvey.co.uk/ontology/AdministrativeGeography/v2.0/AdministrativeGeography.rdf>, <http://www.ordnancesurvey.co.uk/ontology/Rabbit/v1.0/Rabbit.owl>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+

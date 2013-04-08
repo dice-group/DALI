@@ -1,0 +1,182 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www4.wiwiss.fu-berlin.de/dailymed/dailymed_dump.nt.bz2>
+    void:classPartition [
+        void:class <http://www4.wiwiss.fu-berlin.de/drugbank/vocab/resource/class/Offer> ;
+        void:entities 4308
+    ], [
+        void:class <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/drugs> ;
+        void:entities 4308
+    ], [
+        void:class <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/ingredients> ;
+        void:entities 4956
+    ], [
+        void:class <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/organization> ;
+        void:entities 711
+    ], [
+        void:class rdf:Property ;
+        void:entities 26
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 4
+    ] ;
+    void:classes 6 ;
+    void:entities 10015 ;
+    void:properties 28 ;
+    void:propertyPartition [
+        void:distinctObjects 2657 ;
+        void:distinctSubjects 4308 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name> ;
+        void:triples 4308
+    ], [
+        void:distinctObjects 2623 ;
+        void:distinctSubjects 3119 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/overdosage> ;
+        void:triples 3119
+    ], [
+        void:distinctObjects 1672 ;
+        void:distinctSubjects 4269 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeMoiety> ;
+        void:triples 4269
+    ], [
+        void:distinctObjects 3708 ;
+        void:distinctSubjects 3839 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/dosage> ;
+        void:triples 3839
+    ], [
+        void:distinctObjects 524 ;
+        void:distinctSubjects 1593 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug> ;
+        void:triples 1593
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 10005 ;
+        void:property rdf:type ;
+        void:triples 8511
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/sideEffect> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 1047 ;
+        void:distinctSubjects 1207 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/boxedWarning> ;
+        void:triples 1207
+    ], [
+        void:distinctObjects 3229 ;
+        void:distinctSubjects 4162 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/inactiveIngredient> ;
+        void:triples 28367
+    ], [
+        void:distinctObjects 3714 ;
+        void:distinctSubjects 3738 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/description> ;
+        void:triples 3738
+    ], [
+        void:distinctObjects 1908 ;
+        void:distinctSubjects 4284 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/activeIngredient> ;
+        void:triples 4284
+    ], [
+        void:distinctObjects 708 ;
+        void:distinctSubjects 873 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/possibleDiseaseTarget> ;
+        void:triples 6124
+    ], [
+        void:distinctObjects 3369 ;
+        void:distinctSubjects 3683 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/indication> ;
+        void:triples 3683
+    ], [
+        void:distinctObjects 3604 ;
+        void:distinctSubjects 3741 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/clinicalPharmacology> ;
+        void:triples 3741
+    ], [
+        void:distinctObjects 2658 ;
+        void:distinctSubjects 3448 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/contraindication> ;
+        void:triples 3448
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 43 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/supplementalPatientMaterial> ;
+        void:triples 43
+    ], [
+        void:distinctObjects 8935 ;
+        void:distinctSubjects 9975 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 9975
+    ], [
+        void:distinctObjects 3180 ;
+        void:distinctSubjects 3214 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/precaution> ;
+        void:triples 3214
+    ], [
+        void:distinctObjects 3522 ;
+        void:distinctSubjects 3783 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/adverseReaction> ;
+        void:triples 3783
+    ], [
+        void:distinctObjects 2573 ;
+        void:distinctSubjects 2738 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/warning> ;
+        void:triples 2738
+    ], [
+        void:distinctObjects 711 ;
+        void:distinctSubjects 4271 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/representedOrganization> ;
+        void:triples 4271
+    ], [
+        void:distinctObjects 4271 ;
+        void:distinctSubjects 711 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/producesDrug> ;
+        void:triples 4271
+    ], [
+        void:distinctObjects 3787 ;
+        void:distinctSubjects 3801 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/supply> ;
+        void:triples 3801
+    ], [
+        void:distinctObjects 3268 ;
+        void:distinctSubjects 4308 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName> ;
+        void:triples 4308
+    ], [
+        void:distinctObjects 9818 ;
+        void:distinctSubjects 3902 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 31903
+    ], [
+        void:distinctObjects 2141 ;
+        void:distinctSubjects 4308 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine> ;
+        void:triples 4308
+    ], [
+        void:distinctObjects 57 ;
+        void:distinctSubjects 4308 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/routeOfAdministration> ;
+        void:triples 4308
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass> ;
+        void:triples 5
+    ] ;
+    void:triples 164276 ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www4.wiwiss.fu-berlin.de/dailymed> ;
+    a void:dataset .
+

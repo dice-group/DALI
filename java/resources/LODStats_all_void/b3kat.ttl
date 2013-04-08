@@ -1,0 +1,239 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://lod.b3kat.de/download/lod.b3kat.de.part0.rdf.gz>
+    void:classPartition [
+        void:class <http://purl.org/ontology/bibo/Thesis> ;
+        void:entities 129386
+    ], [
+        void:class <http://purl.org/dc/dcmitype/Collection> ;
+        void:entities 20
+    ], [
+        void:class <http://purl.org/ontology/bibo/Report> ;
+        void:entities 193
+    ], [
+        void:class <http://purl.org/ontology/bibo/MultiVolumeBook> ;
+        void:entities 46
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Document> ;
+        void:entities 583697
+    ], [
+        void:class <http://purl.org/ontology/bibo/Map> ;
+        void:entities 58192
+    ], [
+        void:class <http://purl.org/ontology/bibo/Series> ;
+        void:entities 3112
+    ], [
+        void:class <http://purl.org/ontology/bibo/AudioVisualDocument> ;
+        void:entities 492
+    ], [
+        void:class <http://purl.org/ontology/bibo/Website> ;
+        void:entities 4
+    ], [
+        void:class <http://purl.org/ontology/bibo/Image> ;
+        void:entities 3
+    ], [
+        void:class <http://purl.org/ontology/bibo/Book> ;
+        void:entities 957179
+    ], [
+        void:class <http://rdvocab.info/termList/RDAMediaType/1002> ;
+        void:entities 11348
+    ], [
+        void:class <http://purl.org/dc/dcmitype/Software> ;
+        void:entities 887
+    ], [
+        void:class <http://purl.org/ontology/bibo/Proceedings> ;
+        void:entities 28410
+    ], [
+        void:class <http://purl.org/ontology/bibo/Manuscript> ;
+        void:entities 7
+    ], [
+        void:class <http://purl.org/ontology/bibo/AudioDocument> ;
+        void:entities 2228
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 318578
+    ], [
+        void:class <http://purl.org/vocab/frbr/core#Item> ;
+        void:entities 3506105
+    ], [
+        void:class <http://purl.org/ontology/bibo/Newspaper> ;
+        void:entities 7
+    ], [
+        void:class <http://purl.org/ontology/bibo/Periodical> ;
+        void:entities 9
+    ] ;
+    void:classes 20 ;
+    void:entities 5604127 ;
+    void:properties 31 ;
+    void:propertyPartition [
+        void:distinctObjects 379957 ;
+        void:distinctSubjects 442038 ;
+        void:property <http://iflastandards.info/ns/isbd/elements/P1006> ;
+        void:triples 442038
+    ], [
+        void:distinctObjects 1053 ;
+        void:distinctSubjects 19873 ;
+        void:property <http://www.geonames.org/ontology#countryCode> ;
+        void:triples 19873
+    ], [
+        void:distinctObjects 12287 ;
+        void:distinctSubjects 961741 ;
+        void:property <http://purl.org/dc/terms/issued> ;
+        void:triples 961753
+    ], [
+        void:distinctObjects 1162 ;
+        void:distinctSubjects 5387595 ;
+        void:property rdf:type ;
+        void:triples 333806
+    ], [
+        void:distinctObjects 186935 ;
+        void:distinctSubjects 125022 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 186968
+    ], [
+        void:distinctObjects 109276 ;
+        void:distinctSubjects 410430 ;
+        void:property <http://purl.org/ontology/bibo/volume> ;
+        void:triples 415644
+    ], [
+        void:distinctObjects 926401 ;
+        void:distinctSubjects 966175 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 966175
+    ], [
+        void:distinctObjects 114 ;
+        void:distinctSubjects 3506105 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 3506105
+    ], [
+        void:distinctObjects 14497 ;
+        void:distinctSubjects 3506105 ;
+        void:property <http://purl.org/vocab/frbr/core#owner> ;
+        void:triples 3506105
+    ], [
+        void:distinctObjects 552340 ;
+        void:distinctSubjects 623685 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 748486
+    ], [
+        void:distinctObjects 389021 ;
+        void:distinctSubjects 364422 ;
+        void:property <http://purl.org/ontology/bibo/isbn> ;
+        void:triples 390986
+    ], [
+        void:distinctObjects 267693 ;
+        void:distinctSubjects 299492 ;
+        void:property <http://purl.org/ontology/bibo/editor> ;
+        void:triples 378247
+    ], [
+        void:distinctObjects 1081516 ;
+        void:distinctSubjects 627441 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 2257021
+    ], [
+        void:distinctObjects 232938 ;
+        void:distinctSubjects 669335 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 669335
+    ], [
+        void:distinctObjects 409996 ;
+        void:distinctSubjects 179233 ;
+        void:property <http://purl.org/dc/terms/hasPart> ;
+        void:triples 409918
+    ], [
+        void:distinctObjects 2960 ;
+        void:distinctSubjects 4152 ;
+        void:property <http://purl.org/ontology/bibo/issn> ;
+        void:triples 4160
+    ], [
+        void:distinctObjects 1165 ;
+        void:distinctSubjects 1284 ;
+        void:property <http://purl.org/dc/terms/contributor> ;
+        void:triples 1462
+    ], [
+        void:distinctObjects 179248 ;
+        void:distinctSubjects 386857 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 417147
+    ], [
+        void:distinctObjects 121295 ;
+        void:distinctSubjects 874420 ;
+        void:property <http://iflastandards.info/ns/isbd/elements/P1016> ;
+        void:triples 874420
+    ], [
+        void:distinctObjects 87331 ;
+        void:distinctSubjects 86462 ;
+        void:property <http://purl.org/dc/terms/alternative> ;
+        void:triples 106355
+    ], [
+        void:distinctObjects 479701 ;
+        void:distinctSubjects 624368 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 624368
+    ], [
+        void:distinctObjects 1179 ;
+        void:distinctSubjects 25249 ;
+        void:property <http://rdvocab.info/Elements/placeOfPublication> ;
+        void:triples 25249
+    ], [
+        void:distinctObjects 4803 ;
+        void:distinctSubjects 966175 ;
+        void:property <http://purl.org/dc/terms/language> ;
+        void:triples 1003303
+    ], [
+        void:distinctObjects 3506105 ;
+        void:distinctSubjects 964622 ;
+        void:property <http://purl.org/vocab/frbr/core#exemplar> ;
+        void:triples 3506105
+    ], [
+        void:distinctObjects 719 ;
+        void:distinctSubjects 256 ;
+        void:property <http://id.loc.gov/vocabulary/relators/prf> ;
+        void:triples 803
+    ], [
+        void:distinctObjects 1176377 ;
+        void:distinctSubjects 1290146 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 1399681
+    ], [
+        void:distinctObjects 5969 ;
+        void:distinctSubjects 6217 ;
+        void:property <http://id.loc.gov/vocabulary/relators/hnr> ;
+        void:triples 6314
+    ], [
+        void:distinctObjects 3857408 ;
+        void:distinctSubjects 4097952 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 4230828
+    ], [
+        void:distinctObjects 413344 ;
+        void:distinctSubjects 789225 ;
+        void:property <http://purl.org/dc/terms/extent> ;
+        void:triples 789225
+    ], [
+        void:distinctObjects 587637 ;
+        void:distinctSubjects 391320 ;
+        void:property <http://purl.org/dc/elements/1.1/subject> ;
+        void:triples 902877
+    ], [
+        void:distinctObjects 220 ;
+        void:distinctSubjects 219 ;
+        void:property <http://purl.org/dc/terms/tableOfContents> ;
+        void:triples 220
+    ] ;
+    void:triples 37748706 ;
+    void:vocabulary <http://id.loc.gov/vocabulary/relators/>, <http://iflastandards.info/ns/isbd/elements/>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://purl.org/ontology/bibo/>, <http://purl.org/vocab/frbr/core>, <http://rdvocab.info/Elements/>, <http://www.geonames.org/ontology>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

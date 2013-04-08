@@ -1,0 +1,124 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.lexvo.org/resources/lexvo_latest.rdf.gz>
+    void:classPartition [
+        void:class <lvont:Character> ;
+        void:entities 98212
+    ], [
+        void:class <lvont:Language> ;
+        void:entities 7781
+    ], [
+        void:class <lvont:GeographicRegion> ;
+        void:entities 309
+    ], [
+        void:class <lvont:Script> ;
+        void:entities 143
+    ], [
+        void:class <lvont:CJKRadical> ;
+        void:entities 214
+    ] ;
+    void:classes 5 ;
+    void:entities 116879 ;
+    void:properties 17 ;
+    void:propertyPartition [
+        void:distinctObjects 416 ;
+        void:distinctSubjects 436 ;
+        void:property <http://xmlns.com/foaf/0.1/focus> ;
+        void:triples 436
+    ], [
+        void:distinctObjects 184 ;
+        void:distinctSubjects 184 ;
+        void:property <http://lexvo.org/ontology#iso639P1Code> ;
+        void:triples 184
+    ], [
+        void:distinctObjects 7772 ;
+        void:distinctSubjects 7772 ;
+        void:property <http://lexvo.org/ontology#iso639P3PCode> ;
+        void:triples 7772
+    ], [
+        void:distinctObjects 414 ;
+        void:distinctSubjects 414 ;
+        void:property <http://lexvo.org/ontology#iso6392TCode> ;
+        void:triples 414
+    ], [
+        void:distinctObjects 114 ;
+        void:distinctSubjects 114 ;
+        void:property <http://lexvo.org/ontology#iso639P5Code> ;
+        void:triples 114
+    ], [
+        void:distinctObjects 481 ;
+        void:distinctSubjects 481 ;
+        void:property <http://lexvo.org/ontology#iso6392BCode> ;
+        void:triples 481
+    ], [
+        void:distinctObjects 436 ;
+        void:distinctSubjects 416 ;
+        void:property <http://lexvo.org/ontology#isFocusOf> ;
+        void:triples 436
+    ], [
+        void:distinctObjects 137705 ;
+        void:distinctSubjects 8629 ;
+        void:property <http://lexvo.org/ontology#label> ;
+        void:triples 139465
+    ], [
+        void:distinctObjects 215 ;
+        void:distinctSubjects 680 ;
+        void:property <http://lexvo.org/ontology#means> ;
+        void:triples 680
+    ], [
+        void:distinctObjects 7772 ;
+        void:distinctSubjects 7772 ;
+        void:property <http://www.w3.org/2008/05/skos#prefLabel> ;
+        void:triples 7772
+    ], [
+        void:distinctObjects 103629 ;
+        void:distinctSubjects 8368 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 105249
+    ], [
+        void:distinctObjects 15599 ;
+        void:distinctSubjects 14291 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 20642
+    ], [
+        void:distinctObjects 143 ;
+        void:distinctSubjects 143 ;
+        void:property <http://lexvo.org/ontology#iso15924Alphacode> ;
+        void:triples 143
+    ], [
+        void:distinctObjects 170166 ;
+        void:distinctSubjects 98212 ;
+        void:property <http://lexvo.org/ontology#represents> ;
+        void:triples 219752
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 106659 ;
+        void:property rdf:type ;
+        void:triples 78850
+    ], [
+        void:distinctObjects 44618 ;
+        void:distinctSubjects 48537 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 48829
+    ], [
+        void:distinctObjects 550 ;
+        void:distinctSubjects 527 ;
+        void:property <http://lexvo.org/ontology#nearlySameAs> ;
+        void:triples 550
+    ] ;
+    void:triples 693067 ;
+    void:vocabulary <http://lexvo.org/ontology>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2008/05/skos>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

@@ -1,0 +1,134 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://italy.rkbexplorer.com/models/dump.tgz>
+    void:classPartition [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 6
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Researcher> ;
+        void:entities 6
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#PhD-Student> ;
+        void:entities 3
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Professor-In-Academia> ;
+        void:entities 3
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Postal-Address> ;
+        void:entities 3
+    ] ;
+    void:classes 5 ;
+    void:entities 21 ;
+    void:properties 19 ;
+    void:propertyPartition [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.aktors.org/ontology/portal#address-pretty-label> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.aktors.org/ontology/portal#has-affiliation> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.aktors.org/ontology/portal#address-postcode> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.aktors.org/ontology/portal#has-telephone-number> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.aktors.org/ontology/portal#full-name> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.aktors.org/ontology/portal#family-name> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.aktors.org/ontology/portal#address-city-or-village> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.aktors.org/ontology/portal#has-web-address> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.aktors.org/ontology/portal#given-name> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.aktors.org/ontology/portal#has-affiliation-to-unit> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.aktors.org/ontology/portal#has-appelation> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.aktors.org/ontology/portal#has-email-address> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.aktors.org/ontology/portal#has-postal-address> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 21 ;
+        void:property rdf:type ;
+        void:triples 11
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 12
+    ] ;
+    void:triples 180 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1/>, <http://www.aktors.org/ontology/portal>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl> ;
+    a void:Dataset .
+

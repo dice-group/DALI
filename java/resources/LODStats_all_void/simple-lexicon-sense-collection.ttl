@@ -1,0 +1,32 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.languagelibrary.eu/owl/simple/inds/simplelistindividuals.owl>
+    void:classPartition [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ] ;
+    void:classes 1 ;
+    void:entities 1 ;
+    void:properties 1 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:type ;
+        void:triples 1
+    ] ;
+    void:triples 1 ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:Dataset .
+

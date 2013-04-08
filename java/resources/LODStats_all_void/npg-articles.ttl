@@ -1,0 +1,28 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://data.nature.com/sparql?query=construct{?s?p?o.}where{graph<http://ns.nature.com/graphs/articles\u003E{?s?p?o.}}limit25>
+    void:classes 0 ;
+    void:entities 25 ;
+    void:properties 1 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 25 ;
+        void:property <http://prismstandard.org/namespaces/basic/2.1/aggregationType> ;
+        void:triples 25
+    ] ;
+    void:triples 25 ;
+    void:vocabulary <http://prismstandard.org/namespaces/basic/2.1/> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

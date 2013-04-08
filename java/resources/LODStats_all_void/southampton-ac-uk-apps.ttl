@@ -1,0 +1,205 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://id.southampton.ac.uk/dataset/apps/latest.rdf>
+    void:classPartition [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 12
+    ], [
+        void:class <http://purl.org/void/provenance/ns/ProvenenceEvent> ;
+        void:entities 3
+    ], [
+        void:class <http://id.southampton.ac.uk/ns/App> ;
+        void:entities 15
+    ], [
+        void:class <http://www.w3.org/ns/prov#Activity> ;
+        void:entities 3
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/OnlineAccount> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/openorg/AuthoritativeDataset> ;
+        void:entities 2
+    ], [
+        void:class <http://www.w3.org/ns/prov#Entity> ;
+        void:entities 8
+    ] ;
+    void:classes 7 ;
+    void:entities 49 ;
+    void:properties 32 ;
+    void:propertyPartition [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/ns/prov#startedAtTime> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 19 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/conformsTo> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/void/provenance/ns/sourceDataset> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 1 ;
+        void:property <http://id.southampton.ac.uk/ns/processIncludedFile> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 13 ;
+        void:property <http://purl.org/dc/terms/requires> ;
+        void:triples 21
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/ns/prov#used> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 39 ;
+        void:property rdf:type ;
+        void:triples 43
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 17 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 26 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 26
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/ns/prov#generated> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 13 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/accountName> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 14 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2006/time#hasEnd> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 10 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2006/time#hasBeginning> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/void/provenance/ns/processType> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox_sha1sum> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/ns/prov#endedAtTime> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/accountProfilePage> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 15 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/ns/prov#hadPrimarySource> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/accountServiceHomepage> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 15 ;
+        void:property <http://id.southampton.ac.uk/ns/appType> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property void:sparqlEndpoint ;
+        void:triples 2
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/account> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/void/provenance/ns/resultingDataset> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/license> ;
+        void:triples 2
+    ] ;
+    void:triples 320 ;
+    void:vocabulary <http://id.southampton.ac.uk/ns/>, <http://purl.org/dc/terms/>, <http://purl.org/void/provenance/ns/>, <http://rdfs.org/ns/void>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2006/time>, <http://www.w3.org/ns/prov>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

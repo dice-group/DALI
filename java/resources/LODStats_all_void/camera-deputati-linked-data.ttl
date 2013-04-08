@@ -1,0 +1,92 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://dati.camera.it/ocd/files/organo.rdf.gz>
+    void:classPartition [
+        void:class <http://dati.camera.it/ocd/organo> ;
+        void:entities 1134
+    ] ;
+    void:classes 1 ;
+    void:entities 36313 ;
+    void:properties 13 ;
+    void:propertyPartition [
+        void:distinctObjects 47 ;
+        void:distinctSubjects 1134 ;
+        void:property <http://dati.camera.it/ocd/rif_leg> ;
+        void:triples 1134
+    ], [
+        void:distinctObjects 7433 ;
+        void:distinctSubjects 947 ;
+        void:property <http://dati.camera.it/ocd/rif_ufficioParlamentare> ;
+        void:triples 7433
+    ], [
+        void:distinctObjects 35179 ;
+        void:distinctSubjects 1046 ;
+        void:property <http://dati.camera.it/ocd/haMembro> ;
+        void:triples 35179
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 907 ;
+        void:property <http://purl.org/dc/elements/1.1/type> ;
+        void:triples 907
+    ], [
+        void:distinctObjects 11631 ;
+        void:distinctSubjects 30094 ;
+        void:property <http://dati.camera.it/ocd/rif_deputato> ;
+        void:triples 30094
+    ], [
+        void:distinctObjects 551 ;
+        void:distinctSubjects 1134 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 1134
+    ], [
+        void:distinctObjects 238 ;
+        void:distinctSubjects 265 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 265
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1134 ;
+        void:property rdf:type ;
+        void:triples 1122
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 19 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 8478 ;
+        void:distinctSubjects 36313 ;
+        void:property <http://purl.org/dc/elements/1.1/date> ;
+        void:triples 36313
+    ], [
+        void:distinctObjects 34791 ;
+        void:distinctSubjects 36313 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 36313
+    ], [
+        void:distinctObjects 51 ;
+        void:distinctSubjects 197 ;
+        void:property <http://purl.org/dc/elements/1.1/coverage> ;
+        void:triples 197
+    ], [
+        void:distinctObjects 2848 ;
+        void:distinctSubjects 5085 ;
+        void:property <http://dati.camera.it/ocd/rif_senatore> ;
+        void:triples 5085
+    ] ;
+    void:triples 155207 ;
+    void:vocabulary <http://dati.camera.it/ocd/>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

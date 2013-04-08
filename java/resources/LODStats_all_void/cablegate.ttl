@@ -1,0 +1,203 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://river.styx.org/ww/2010/12/cablegraph.rdf>
+    void:classPartition [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:entities 3
+    ], [
+        void:class <http://river.styx.org/ww/2010/12/cablegraph#Cable> ;
+        void:entities 1869
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Document> ;
+        void:entities 7
+    ], [
+        void:class <http://purl.org/dc/terms/IMT> ;
+        void:entities 7
+    ], [
+        void:class <http://river.styx.org/ww/2010/12/cablegraph#Tag> ;
+        void:entities 358
+    ], [
+        void:class <http://river.styx.org/ww/2010/12/cablegraph#Station> ;
+        void:entities 270
+    ], [
+        void:class void:Dataset ;
+        void:entities 1
+    ] ;
+    void:classes 8 ;
+    void:entities 2581 ;
+    void:properties 31 ;
+    void:propertyPartition [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://purl.org/dc/terms/format> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOF> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 506 ;
+        void:distinctSubjects 544 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 549
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 1 ;
+        void:property void:dataDump ;
+        void:triples 3
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property rdf:value ;
+        void:triples 7
+    ], [
+        void:distinctObjects 1729 ;
+        void:distinctSubjects 1869 ;
+        void:property <http://purl.org/dc/terms/issued> ;
+        void:triples 1869
+    ], [
+        void:distinctObjects 2139 ;
+        void:distinctSubjects 2139 ;
+        void:property <http://www.w3.org/2004/02/skos/core#notation> ;
+        void:triples 2139
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 1869 ;
+        void:property <http://purl.org/dc/terms/accessRights> ;
+        void:triples 2343
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 2517 ;
+        void:property rdf:type ;
+        void:triples 2185
+    ], [
+        void:distinctObjects 1814 ;
+        void:distinctSubjects 1828 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 1828
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property void:vocabulary ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 64 ;
+        void:distinctSubjects 64 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 64
+    ], [
+        void:distinctObjects 141 ;
+        void:distinctSubjects 199 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 201
+    ], [
+        void:distinctObjects 1869 ;
+        void:distinctSubjects 1869 ;
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ;
+        void:triples 1869
+    ], [
+        void:distinctObjects 64 ;
+        void:distinctSubjects 64 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 64
+    ], [
+        void:distinctObjects 358 ;
+        void:distinctSubjects 1244 ;
+        void:property <http://www.holygoat.co.uk/owl/redwood/0.1/tags/tag> ;
+        void:triples 6843
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 7 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/rights> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property void:triples ;
+        void:triples 1
+    ], [
+        void:distinctObjects 133 ;
+        void:distinctSubjects 188 ;
+        void:property <http://purl.org/dc/terms/spatial> ;
+        void:triples 190
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 143 ;
+        void:distinctSubjects 200 ;
+        void:property <http://xmlns.com/foaf/0.1/page> ;
+        void:triples 207
+    ], [
+        void:distinctObjects 109 ;
+        void:distinctSubjects 191 ;
+        void:property <http://river.styx.org/ww/2010/12/cablegraph#neighbour> ;
+        void:triples 568
+    ], [
+        void:distinctObjects 199 ;
+        void:distinctSubjects 1869 ;
+        void:property <http://river.styx.org/ww/2010/12/cablegraph#origin> ;
+        void:triples 1869
+    ], [
+        void:distinctObjects 49 ;
+        void:distinctSubjects 1557 ;
+        void:property <http://river.styx.org/ww/2010/12/cablegraph#destination> ;
+        void:triples 1557
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 2496 ;
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme> ;
+        void:triples 2497
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property void:sparqlEndpoint ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 55 ;
+        void:distinctSubjects 57 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 57
+    ], [
+        void:distinctObjects 107 ;
+        void:distinctSubjects 1869 ;
+        void:property <http://purl.org/dc/terms/available> ;
+        void:triples 1869
+    ] ;
+    void:triples 29146 ;
+    void:vocabulary <http://purl.org/dc>, <http://rdfs.org/ns/void>, <http://river.styx.org/ww/2010/12/cablegraph>, <http://www.holygoat.co.uk/owl>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2003/01/geo/wgs84_pos>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

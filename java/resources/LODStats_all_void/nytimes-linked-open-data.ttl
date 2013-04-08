@@ -1,0 +1,127 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://data.nytimes.com/people.rdf>
+    void:classPartition [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 4979
+    ] ;
+    void:classes 1 ;
+    void:entities 9958 ;
+    void:properties 20 ;
+    void:propertyPartition [
+        void:distinctObjects 214 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://data.nytimes.com/elements/associated_article_count> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 4979 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://creativecommons.org/ns#attributionName> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 885 ;
+        void:distinctSubjects 885 ;
+        void:property <http://www.w3.org/2004/02/skos/core#definition> ;
+        void:triples 885
+    ], [
+        void:distinctObjects 1301 ;
+        void:distinctSubjects 4281 ;
+        void:property <http://data.nytimes.com/elements/latest_use> ;
+        void:triples 4281
+    ], [
+        void:distinctObjects 46 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://data.nytimes.com/elements/number_of_variants> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 4480 ;
+        void:distinctSubjects 4480 ;
+        void:property <http://data.nytimes.com/elements/topicPage> ;
+        void:triples 4480
+    ], [
+        void:distinctObjects 4979 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://creativecommons.org/ns#attributionURL> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://creativecommons.org/ns#license> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 4979 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://data.nytimes.com/elements/search_api_query> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 14884 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 14884
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 4979 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4979 ;
+        void:property rdf:type ;
+        void:triples 4898
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://data.nytimes.com/elements/mapping_strategy> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://purl.org/dc/terms/rightsHolder> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4979 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 4979
+    ], [
+        void:distinctObjects 1230 ;
+        void:distinctSubjects 4281 ;
+        void:property <http://data.nytimes.com/elements/first_use> ;
+        void:triples 4281
+    ] ;
+    void:triples 103496 ;
+    void:vocabulary <http://creativecommons.org/ns>, <http://data.nytimes.com/elements>, <http://purl.org/dc/elements/1.1>, <http://purl.org/dc/terms>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf/0.1> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

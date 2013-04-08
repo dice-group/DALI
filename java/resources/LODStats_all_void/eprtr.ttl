@@ -1,0 +1,77 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://prtr.ec.europa.eu/rdf/Facility.rdf>
+    void:classPartition [
+        void:class <http://prtr.ec.europa.eu/rdf/schema.rdf#Facility> ;
+        void:entities 45524
+    ] ;
+    void:classes 1 ;
+    void:entities 48880 ;
+    void:properties 10 ;
+    void:propertyPartition [
+        void:distinctObjects 36424 ;
+        void:distinctSubjects 45135 ;
+        void:property <http://prtr.ec.europa.eu/rdf/schema.rdf#streetName> ;
+        void:triples 45135
+    ], [
+        void:distinctObjects 23962 ;
+        void:distinctSubjects 45025 ;
+        void:property <http://prtr.ec.europa.eu/rdf/schema.rdf#postalCode> ;
+        void:triples 45025
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 45524 ;
+        void:property <http://prtr.ec.europa.eu/rdf/schema.rdf#confidentialIndicator> ;
+        void:triples 45524
+    ], [
+        void:distinctObjects 41434 ;
+        void:distinctSubjects 45524 ;
+        void:property <http://prtr.ec.europa.eu/rdf/schema.rdf#facilityName> ;
+        void:triples 45524
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 45524 ;
+        void:property rdf:type ;
+        void:triples 44622
+    ], [
+        void:distinctObjects 45524 ;
+        void:distinctSubjects 45524 ;
+        void:property <http://prtr.ec.europa.eu/rdf/schema.rdf#latestReport> ;
+        void:triples 45524
+    ], [
+        void:distinctObjects 59 ;
+        void:distinctSubjects 45524 ;
+        void:property <http://prtr.ec.europa.eu/rdf/schema.rdf#inCountry> ;
+        void:triples 45524
+    ], [
+        void:distinctObjects 3682 ;
+        void:distinctSubjects 21573 ;
+        void:property <http://prtr.ec.europa.eu/rdf/schema.rdf#buildingNumber> ;
+        void:triples 21573
+    ], [
+        void:distinctObjects 386183 ;
+        void:distinctSubjects 58923 ;
+        void:property <http://prtr.ec.europa.eu/rdf/schema.rdf#hasReport> ;
+        void:triples 386183
+    ], [
+        void:distinctObjects 20841 ;
+        void:distinctSubjects 43972 ;
+        void:property <http://prtr.ec.europa.eu/rdf/schema.rdf#city> ;
+        void:triples 43972
+    ] ;
+    void:triples 769508 ;
+    void:vocabulary <http://prtr.ec.europa.eu/rdf/schema.rdf>, <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:Dataset .
+

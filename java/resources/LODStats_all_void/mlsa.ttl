@@ -1,0 +1,116 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://mlode.nlp2rdf.org/downloads/mlsa.nt.gz>
+    void:classPartition [
+        void:class <http://asv.informatik.uni-leipzig.de/mlsa/Shifter> ;
+        void:entities 21
+    ], [
+        void:class <http://asv.informatik.uni-leipzig.de/mlsa/NegativeWord> ;
+        void:entities 304
+    ], [
+        void:class <http://asv.informatik.uni-leipzig.de/mlsa/Diminisher> ;
+        void:entities 12
+    ], [
+        void:class <http://purl.org/olia/olia-top.owl#Word> ;
+        void:entities 1371
+    ], [
+        void:class <http://asv.informatik.uni-leipzig.de/mlsa/PositiveWord> ;
+        void:entities 317
+    ], [
+        void:class <http://asv.informatik.uni-leipzig.de/mlsa/Intensifier> ;
+        void:entities 67
+    ], [
+        void:class <http://asv.informatik.uni-leipzig.de/mlsa/NeutralWord> ;
+        void:entities 682
+    ], [
+        void:class <http://purl.org/olia/olia.owl#Phrase> ;
+        void:entities 731
+    ], [
+        void:class <http://purl.org/olia/olia.owl#Sentence> ;
+        void:entities 270
+    ] ;
+    void:classes 9 ;
+    void:entities 2381 ;
+    void:properties 13 ;
+    void:propertyPartition [
+        void:distinctObjects 1371 ;
+        void:distinctSubjects 731 ;
+        void:property <http://asv.informatik.uni-leipzig.de/mlsa/containsWord> ;
+        void:triples 3876
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 2372 ;
+        void:property rdf:type ;
+        void:triples 3403
+    ], [
+        void:distinctObjects 436 ;
+        void:distinctSubjects 435 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 436
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 270 ;
+        void:property <http://asv.informatik.uni-leipzig.de/mlsa/polarityAssessment> ;
+        void:triples 333
+    ], [
+        void:distinctObjects 731 ;
+        void:distinctSubjects 240 ;
+        void:property <http://asv.informatik.uni-leipzig.de/mlsa/containsPhrase> ;
+        void:triples 738
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 270 ;
+        void:property <http://asv.informatik.uni-leipzig.de/mlsa/polarityAssessmentMaj> ;
+        void:triples 270
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 270 ;
+        void:property <http://asv.informatik.uni-leipzig.de/mlsa/factualityAssessmentMajority> ;
+        void:triples 270
+    ], [
+        void:distinctObjects 1371 ;
+        void:distinctSubjects 1371 ;
+        void:property <http://purl.org/dc/terms/relation> ;
+        void:triples 1371
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 2372 ;
+        void:property <http://purl.org/linguistics/gold/inLanguage> ;
+        void:triples 7116
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 270 ;
+        void:property <http://asv.informatik.uni-leipzig.de/mlsa/factualityAssessment> ;
+        void:triples 322
+    ], [
+        void:distinctObjects 2370 ;
+        void:distinctSubjects 2379 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 2383
+    ] ;
+    void:triples 20898 ;
+    void:vocabulary <http://asv.informatik.uni-leipzig.de/mlsa/>, <http://purl.org/dc/terms/>, <http://purl.org/linguistics/gold/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+

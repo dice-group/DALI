@@ -1,0 +1,74 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.languagelibrary.eu/owl/simple/lemonsource/simple_lemonallindividuals.owl>
+    void:classPartition [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://www.monnetproject.eu/lemon#LexicalSense> ;
+        void:entities 5343
+    ], [
+        void:class <http://www.monnetproject.eu/lemon#Lexicon> ;
+        void:entities 1
+    ], [
+        void:class <http://www.monnetproject.eu/lemon#LexicalEntry> ;
+        void:entities 3936
+    ], [
+        void:class <http://www.monnetproject.eu/lemon#Form> ;
+        void:entities 3936
+    ] ;
+    void:classes 5 ;
+    void:entities 13217 ;
+    void:properties 7 ;
+    void:propertyPartition [
+        void:distinctObjects 5343 ;
+        void:distinctSubjects 3936 ;
+        void:property <http://www.monnetproject.eu/lemon#sense> ;
+        void:triples 5343
+    ], [
+        void:distinctObjects 3936 ;
+        void:distinctSubjects 3936 ;
+        void:property <http://www.monnetproject.eu/lemon#canonicalForm> ;
+        void:triples 3936
+    ], [
+        void:distinctObjects 3936 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.monnetproject.eu/lemon#entry> ;
+        void:triples 3936
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 13217 ;
+        void:property rdf:type ;
+        void:triples 12353
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.monnetproject.eu/lemon#language> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3936 ;
+        void:distinctSubjects 3936 ;
+        void:property <http://www.monnetproject.eu/lemon#writtenRep> ;
+        void:triples 3936
+    ], [
+        void:distinctObjects 5343 ;
+        void:distinctSubjects 5343 ;
+        void:property <http://www.monnetproject.eu/lemon#reference> ;
+        void:triples 5343
+    ] ;
+    void:triples 35712 ;
+    void:vocabulary <http://www.monnetproject.eu/lemon>, <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:Dataset .
+

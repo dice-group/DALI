@@ -1,0 +1,67 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.zaragoza.es/datosabiertos/sparql?query=CONSTRUCT+{%0D%0A%3Finstance+a+%3Chttp%3A%2F%2Fpurl.org%2Fctic%2Finfraestructuras%2Forganizacion%23OrganoPublico%3E+%3B%0D%0A+%3Fp+%3Fo+.%0D%0A}%0D%0AWHERE+{+%0D%0A%3Finstance+a+%3Chttp%3A%2F%2Fpurl.org%2Fctic%2Finfraestructuras%2Forganizacion%23OrganoPublico%3E+%3B%0D%0A+%3Fp+%3Fo+.%0D%0A}&format=application/rdf+xml>
+    void:classPartition [
+        void:class <http://purl.org/ctic/infraestructuras/organizacion#OrganoPublico> ;
+        void:entities 141
+    ] ;
+    void:classes 1 ;
+    void:entities 141 ;
+    void:properties 8 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 141 ;
+        void:property rdf:type ;
+        void:triples 139
+    ], [
+        void:distinctObjects 140 ;
+        void:distinctSubjects 19 ;
+        void:property <http://purl.org/ctic/infraestructuras/organizacion#depende> ;
+        void:triples 140
+    ], [
+        void:distinctObjects 139 ;
+        void:distinctSubjects 140 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 140
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 140 ;
+        void:property <http://purl.org/ctic/infraestructuras/organizacion#dependeDe> ;
+        void:triples 140
+    ], [
+        void:distinctObjects 139 ;
+        void:distinctSubjects 140 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 140
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 140 ;
+        void:property <http://purl.org/ctic/infraestructuras/organizacion#areaOrganizativa> ;
+        void:triples 140
+    ], [
+        void:distinctObjects 140 ;
+        void:distinctSubjects 140 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 140
+    ], [
+        void:distinctObjects 1790 ;
+        void:distinctSubjects 128 ;
+        void:property <http://purl.org/ctic/infraestructuras/organizacion#centroServicios> ;
+        void:triples 1790
+    ] ;
+    void:triples 2771 ;
+    void:vocabulary <http://purl.org/ctic/infraestructuras/organizacion>, <http://purl.org/dc/terms/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+

@@ -1,0 +1,170 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://pisa.rkbexplorer.com/models/dump.tgz>
+    void:classPartition [
+        void:class <http://www.aktors.org/ontology/portal#Book-Reference> ;
+        void:entities 2
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Publishing-House> ;
+        void:entities 7
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Proceedings-Paper-Reference> ;
+        void:entities 98
+    ], [
+        void:class <http://www.aktors.org/ontology/support#Calendar-Date> ;
+        void:entities 20
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Journal> ;
+        void:entities 18
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Book-Section-Reference> ;
+        void:entities 17
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Article-Reference> ;
+        void:entities 23
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 20
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Person> ;
+        void:entities 112
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Technical-Report-Reference> ;
+        void:entities 41
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Conference-Proceedings-Reference> ;
+        void:entities 195
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Publication-Reference> ;
+        void:entities 18
+    ] ;
+    void:classes 12 ;
+    void:entities 571 ;
+    void:properties 22 ;
+    void:propertyPartition [
+        void:distinctObjects 88 ;
+        void:distinctSubjects 179 ;
+        void:property <http://www.aktors.org/ontology/portal#has-author> ;
+        void:triples 643
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 20 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 20 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 93 ;
+        void:distinctSubjects 93 ;
+        void:property <http://www.aktors.org/ontology/portal#has-page-numbers> ;
+        void:triples 93
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 571 ;
+        void:property rdf:type ;
+        void:triples 329
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 22 ;
+        void:property <http://www.aktors.org/ontology/portal#edited-by> ;
+        void:triples 46
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 20 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 23 ;
+        void:property <http://www.aktors.org/ontology/portal#has-volume> ;
+        void:triples 23
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 20 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property <http://www.aktors.org/ontology/portal#has-publication-reference> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 20 ;
+        void:property <http://www.aktors.org/ontology/support#year-of> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.aktors.org/ontology/portal#has-URL> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 20 ;
+        void:property <http://www.aktors.org/ontology/support#has-pretty-name> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 22 ;
+        void:property <http://www.aktors.org/ontology/portal#has-number> ;
+        void:triples 22
+    ], [
+        void:distinctObjects 116 ;
+        void:distinctSubjects 112 ;
+        void:property <http://www.aktors.org/ontology/portal#full-name> ;
+        void:triples 116
+    ], [
+        void:distinctObjects 195 ;
+        void:distinctSubjects 98 ;
+        void:property <http://www.aktors.org/ontology/portal#paper-in-proceedings> ;
+        void:triples 195
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 20 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 291 ;
+        void:distinctSubjects 401 ;
+        void:property <http://www.aktors.org/ontology/portal#has-title> ;
+        void:triples 401
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 20 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 23 ;
+        void:property <http://www.aktors.org/ontology/portal#article-of-journal> ;
+        void:triples 23
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 18 ;
+        void:property <http://www.aktors.org/ontology/portal#published-by> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 376 ;
+        void:property <http://www.aktors.org/ontology/portal#has-date> ;
+        void:triples 376
+    ] ;
+    void:triples 8780 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://www.aktors.org/ontology/portal>, <http://www.aktors.org/ontology/support>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl> ;
+    a void:Dataset .
+

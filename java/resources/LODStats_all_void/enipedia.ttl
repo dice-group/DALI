@@ -1,0 +1,1748 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://enipedia.tudelft.nl/downloads/enipedia.rdf>
+    void:classPartition [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Intangible> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Pulp> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Company> ;
+        void:entities 4783
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:D13Model_EnergyConsumer> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Natural_Gas_Terminal> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Integration_of_energy_sources_into_energy_systems> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Energy_Company> ;
+        void:entities 4757
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:LNGTerminal> ;
+        void:entities 111
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:UsedWood> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:D13Model_Government> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Organisation> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:NaturalGasStorage> ;
+        void:entities 152
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:GreyEnergy> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Refinery_Terminal> ;
+        void:entities 6
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:HeatSource> ;
+        void:entities 7
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Bibtex/Techreport> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Person> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Biofuels_Manufacturer> ;
+        void:entities 4
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Recycling> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Integration_of_sectors> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Integration_of_components_into_a_system> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:PowerplantTest2> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Integration_of_industries_into_eco-parks> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:FoodIndustryWaste> ;
+        void:entities 5
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Powerplant> ;
+        void:entities 53952
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:NaturalGasModel> ;
+        void:entities 4
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Coal_and_Biomass_Fired_Power_Generation> ;
+        void:entities 3
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:NaturalGasRefactor> ;
+        void:entities 14
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Power_Conversion_Unit> ;
+        void:entities 19
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:EUMember> ;
+        void:entities 27
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Coal_and_Biomass_Terminal> ;
+        void:entities 5
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:PeelAndPit> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:NaturalGasHub> ;
+        void:entities 12
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Wood> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Furnace> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 316
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Steam_and_Power> ;
+        void:entities 7
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Process> ;
+        void:entities 86
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Gas_Turbine> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:FatAndOil> ;
+        void:entities 8
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Americas> ;
+        void:entities 38
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:D13Model_Agent> ;
+        void:entities 3
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Africa> ;
+        void:entities 56
+    ], [
+        void:class <http://semantic-mediawiki.org/swivt/1.0#Subject> ;
+        void:entities 412857
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:GasBalancingModel_GasSupplyContract> ;
+        void:entities 31
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Hydrocarbon> ;
+        void:entities 12
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Chemicals_Manufacturer> ;
+        void:entities 49
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Renewable_Power_Generation> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:EnergyPerson> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Integration_of_sustainability_in_energy_systems-27_design> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:NorthAmerica> ;
+        void:entities 26
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:EnergyConcept> ;
+        void:entities 32
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:InorganicChemical> ;
+        void:entities 29
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:UnitName> ;
+        void:entities 4
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Material> ;
+        void:entities 27
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 162
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:NaturalGasConcept> ;
+        void:entities 13
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Direct_Carbon_Fuel_Cell> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Pipeline> ;
+        void:entities 357
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:NaturalGasConcepts> ;
+        void:entities 3
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Pod> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:GasReserve> ;
+        void:entities 12
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Metal> ;
+        void:entities 12
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Organization> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Location> ;
+        void:entities 5
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Refinery> ;
+        void:entities 6
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:GoodName> ;
+        void:entities 507
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:GasBalancingModel_TSO> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Reference> ;
+        void:entities 7
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:NaturalGasInterconnector> ;
+        void:entities 196
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Europe> ;
+        void:entities 47
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Agent> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Steam_Turbine> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:AgentBasedModel> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Pollutant> ;
+        void:entities 3
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Integration_of_functions> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Prices> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:External_Links> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:OrganicChemical> ;
+        void:entities 16
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:BRICSMember> ;
+        void:entities 5
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:PowerplantTest> ;
+        void:entities 40791
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:SPARQLQueries> ;
+        void:entities 9
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:PIGSMember> ;
+        void:entities 4
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:TODO> ;
+        void:entities 6
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:AgentBasedModelAgent> ;
+        void:entities 8
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:SouthAmerica> ;
+        void:entities 14
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:FreshWood> ;
+        void:entities 5
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Facility> ;
+        void:entities 142
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Integration_of_new_technology_into_existing_technology> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Biomass> ;
+        void:entities 13
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:NaturalGasNOC> ;
+        void:entities 13
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Industrial_Gases_and_Water> ;
+        void:entities 7
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Edible_Oils_Refinery> ;
+        void:entities 5
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:OPECMember> ;
+        void:entities 12
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:GasTSO> ;
+        void:entities 32
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Model> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Fuel> ;
+        void:entities 27
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Facility_To_Merge> ;
+        void:entities 3
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Countries_with_WEEE_Directive_Not_Transposed_as_of_November,_2005> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Nuclear_Reactor> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Tank_Terminal_for_Oil_Products> ;
+        void:entities 11
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 190
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:External_Datasets> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:ChlorinatedHydroCarbon> ;
+        void:entities 3
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Direct_Carbon_Fuel_Cell_Systems> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:GasBalancingModel_ProgramResponsibleParty> ;
+        void:entities 7
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Polymer> ;
+        void:entities 10
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Semantic_MediaWiki_documentation> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:PipelineInterconnector> ;
+        void:entities 85
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Mobile_Phone_Recycling> ;
+        void:entities 4
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Tank_Terminal_for_Chemicals,_Biofuels_and_Edible_Oils> ;
+        void:entities 16
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:How_To> ;
+        void:entities 3
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:D13Model_EnergyProducer> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Manual> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Asia> ;
+        void:entities 47
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Boiler> ;
+        void:entities 3
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:WoodWaste> ;
+        void:entities 7
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:EnergyCarrier> ;
+        void:entities 17
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Gas_Fired_Power_Generation> ;
+        void:entities 5
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:NaturalGasTechnology> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Country> ;
+        void:entities 204
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:US_State> ;
+        void:entities 56
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:FinancialConcept> ;
+        void:entities 3
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:NaturalGasData> ;
+        void:entities 2
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Countries_with_WEEE_Directive_Transposed_as_of_November,_2005> ;
+        void:entities 23
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:Generator> ;
+        void:entities 1
+    ], [
+        void:class <http://enipedia.tudelft.nl/wiki/Category:OECDMemeber> ;
+        void:entities 35
+    ] ;
+    void:classes 128 ;
+    void:entities 413521 ;
+    void:properties 268 ;
+    void:propertyPartition [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 9 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Date_of_Operation> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Condensing> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 291 ;
+        void:distinctSubjects 354 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineFrom> ;
+        void:triples 354
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Vacuum_Distallation> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 37 ;
+        void:distinctSubjects 37 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:EPRTR_ID> ;
+        void:triples 37
+    ], [
+        void:distinctObjects 6002 ;
+        void:distinctSubjects 53936 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Intensity-23kg> ;
+        void:triples 53936
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 9 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Edible_Oils> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 95 ;
+        void:distinctSubjects 53936 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Continent> ;
+        void:triples 53936
+    ], [
+        void:distinctObjects 413374 ;
+        void:distinctSubjects 413373 ;
+        void:property <http://semantic-mediawiki.org/swivt/1.0#page> ;
+        void:triples 413374
+    ], [
+        void:distinctObjects 267 ;
+        void:distinctSubjects 463 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built> ;
+        void:triples 463
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 31 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasBalancingModel_GasSupplier> ;
+        void:triples 31
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 320 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:FromCountry> ;
+        void:triples 320
+    ], [
+        void:distinctObjects 93 ;
+        void:distinctSubjects 152 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasStoragePeakOutput-23m3> ;
+        void:triples 152
+    ], [
+        void:distinctObjects 67 ;
+        void:distinctSubjects 27 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Uses> ;
+        void:triples 72
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 35 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Draft> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:HasProperty> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 66 ;
+        void:distinctSubjects 72 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:P.O._Box> ;
+        void:triples 72
+    ], [
+        void:distinctObjects 1025 ;
+        void:distinctSubjects 4119 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Parentcompany> ;
+        void:triples 4119
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:TechnicallyRecoverableShaleGasResources> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 6726 ;
+        void:distinctSubjects 8479 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Zipcode> ;
+        void:triples 8479
+    ], [
+        void:distinctObjects 1671 ;
+        void:distinctSubjects 53936 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Isocountry> ;
+        void:triples 53936
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:HF-Alkylation> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 196 ;
+        void:distinctSubjects 196 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineLength-23km> ;
+        void:triples 196
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 282 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasFlowTransport> ;
+        void:triples 282
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 19 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Capacity_MW-23MW> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 19 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Operating_and_maintenance_costs_per_year-23EUR> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 69 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Operating_efficiency> ;
+        void:triples 69
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Steam_pressure-23bar> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 27064 ;
+        void:distinctSubjects 53937 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Energyoutput2000-23J> ;
+        void:triples 53937
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 32 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:OilProduction> ;
+        void:triples 32
+    ], [
+        void:distinctObjects 14133 ;
+        void:distinctSubjects 53938 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Carbonemissions-23kg> ;
+        void:triples 53938
+    ], [
+        void:distinctObjects 26645 ;
+        void:distinctSubjects 36462 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Longitude> ;
+        void:triples 36462
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 6 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Number_of_Berths> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Boiler> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 152 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasStorageType> ;
+        void:triples 152
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 16 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Min_Tank_Capacity> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Hydro-Cracker> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 7 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasPrice-23-E2-82-AC> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 51 ;
+        void:distinctSubjects 119 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Is_product_of> ;
+        void:triples 119
+    ], [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 68 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:CoalProvenReserves-23Mt> ;
+        void:triples 68
+    ], [
+        void:distinctObjects 90 ;
+        void:distinctSubjects 106 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:RegasificationCapacityLNG-23m3> ;
+        void:triples 106
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 91 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasPrices> ;
+        void:triples 91
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:MemberOf> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 230 ;
+        void:distinctSubjects 12402 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Fuel_type> ;
+        void:triples 12781
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Testproperty> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 12 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasProduction-23m3> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 148 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Start_Date> ;
+        void:triples 148
+    ], [
+        void:distinctObjects 77 ;
+        void:distinctSubjects 88 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Address> ;
+        void:triples 88
+    ], [
+        void:distinctObjects 90366 ;
+        void:distinctSubjects 90736 ;
+        void:property <http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate> ;
+        void:triples 90736
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 16 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_commissioned> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 45 ;
+        void:distinctSubjects 189 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Notes> ;
+        void:triples 189
+    ], [
+        void:distinctObjects 49 ;
+        void:distinctSubjects 168 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasFlowsTo> ;
+        void:triples 168
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineLength-23-16> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Sex> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Crude_Capacity> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Move> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 183 ;
+        void:distinctSubjects 325 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Product> ;
+        void:triples 325
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 67 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Availability> ;
+        void:triples 67
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Has_symbol> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 61 ;
+        void:distinctSubjects 149 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Is_investment_of> ;
+        void:triples 149
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Pollutantrelease> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 129 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Location> ;
+        void:triples 129
+    ], [
+        void:distinctObjects 59 ;
+        void:distinctSubjects 97 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Employees> ;
+        void:triples 97
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Intensity2000> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-236-2C1982> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 19 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Investment_per_capacity_MW-23EUR-2FkW> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 74 ;
+        void:distinctSubjects 103 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Site_Size> ;
+        void:triples 103
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 21 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Number_of_Berths_Seagoing_Vessels> ;
+        void:triples 21
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 79 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasBalancingModel_GasUnits> ;
+        void:triples 79
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 35 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Status> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 16 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Max_Tank_Capacity> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 67 ;
+        void:distinctSubjects 320 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:ToCountry> ;
+        void:triples 320
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:D13Model_AnnualEnergyDemand> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 31 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Price> ;
+        void:triples 31
+    ], [
+        void:distinctObjects 273 ;
+        void:distinctSubjects 354 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineTo> ;
+        void:triples 354
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 5 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Quay_Length> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 12691 ;
+        void:distinctSubjects 53937 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Carbonemissions2000-23kg> ;
+        void:triples 53937
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-238-2C1963> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 54767 ;
+        void:distinctSubjects 54780 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Name> ;
+        void:triples 54780
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 16 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Power_plant_type> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Visbreaker> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 79 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Hourofday> ;
+        void:triples 79
+    ], [
+        void:distinctObjects 1831 ;
+        void:distinctSubjects 1888 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Wikipedia_page> ;
+        void:triples 1888
+    ], [
+        void:distinctObjects 60 ;
+        void:distinctSubjects 65 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:OilConsumption-23m3> ;
+        void:triples 65
+    ], [
+        void:distinctObjects 69660 ;
+        void:distinctSubjects 208122 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Energyoutput-23J> ;
+        void:triples 208122
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Author_of> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 445 ;
+        void:distinctSubjects 2819 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Reference> ;
+        void:triples 2819
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 17 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:OilConsumption> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Generation_capacity_thermal> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 315 ;
+        void:distinctSubjects 146 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Has_domain_and_range> ;
+        void:triples 707
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Url> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 10 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Fuelprice-23eur-2Fmwh> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 19 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Total_investment_cost-23EUR> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 35176 ;
+        void:distinctSubjects 53748 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:City> ;
+        void:triples 53748
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasExport> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 8 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Is_availability_of> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 7 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Fuelemissions-23g-2FMJ> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Surname> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-236-2C1992> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:TightGasReserves-23m3> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 154185 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Emission_name> ;
+        void:triples 154185
+    ], [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 68 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:CoalProduction-23Mt> ;
+        void:triples 68
+    ], [
+        void:distinctObjects 75 ;
+        void:distinctSubjects 102 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PostCode> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 98 ;
+        void:distinctSubjects 102 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Telephone> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:CoalBedMethaneReserves-23m3> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 282 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasFlowFrom> ;
+        void:triples 282
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_decommissioned> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Intensity> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasProduction> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 50 ;
+        void:distinctSubjects 50 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Label> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 135 ;
+        void:distinctSubjects 149 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Description> ;
+        void:triples 149
+    ], [
+        void:distinctObjects 34006 ;
+        void:distinctSubjects 154183 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Amount_emissions-23kg> ;
+        void:triples 154183
+    ], [
+        void:distinctObjects 1117 ;
+        void:distinctSubjects 1633 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Generation_capacity-23W> ;
+        void:triples 1633
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-231> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-237> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-236> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-235> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 25686 ;
+        void:distinctSubjects 36469 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Latitude> ;
+        void:triples 36469
+    ], [
+        void:distinctObjects 29313 ;
+        void:distinctSubjects 53217 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Ownercompany> ;
+        void:triples 53218
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-239> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-238> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasBalancingModel_Bidprice> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Height-23m> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 48 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasBalancingModel_SupplyCapacityOf> ;
+        void:triples 48
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 3 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Fuelemissions-23mj-7D-7D-7Dg-2Fmj> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 128 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Units> ;
+        void:triples 128
+    ], [
+        void:distinctObjects 53939 ;
+        void:distinctSubjects 53939 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:CarmaId> ;
+        void:triples 53939
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 9 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Cooling_method> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Has_agent> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 93 ;
+        void:distinctSubjects 152 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasStoragePeakOutputEnergy-23GWh> ;
+        void:triples 152
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 91 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasPriceYear> ;
+        void:triples 91
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Owners> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 73 ;
+        void:distinctSubjects 282 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasFlowTo> ;
+        void:triples 282
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 32 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:OilProvenReserves> ;
+        void:triples 32
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Draft-23-E2-80-9323> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Draft-23-E2-80-9321> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Furnace_type> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 38420 ;
+        void:distinctSubjects 54081 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Point> ;
+        void:triples 54081
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:D13Model_RiskAversion> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Site_Size-23-29> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 57 ;
+        void:distinctSubjects 308382 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year> ;
+        void:triples 308382
+    ], [
+        void:distinctObjects 311 ;
+        void:distinctSubjects 314 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:FromLat> ;
+        void:triples 314
+    ], [
+        void:distinctObjects 51 ;
+        void:distinctSubjects 51 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Abbreviation> ;
+        void:triples 51
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 9 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Producer> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 31 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasBalancingModel_GasConsumer> ;
+        void:triples 31
+    ], [
+        void:distinctObjects 78 ;
+        void:distinctSubjects 92 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Is_output_of> ;
+        void:triples 92
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Money> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 194 ;
+        void:distinctSubjects 413526 ;
+        void:property rdf:type ;
+        void:triples 175300
+    ], [
+        void:distinctObjects 311 ;
+        void:distinctSubjects 314 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:FromLng> ;
+        void:triples 314
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 4 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Author> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 413362 ;
+        void:distinctSubjects 413373 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 413374
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:ShaleGasReserves-23m3> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 45 ;
+        void:distinctSubjects 90 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Cost> ;
+        void:triples 90
+    ], [
+        void:distinctObjects 16255 ;
+        void:distinctSubjects 53937 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Carbonemissionsnextdecade-23kg> ;
+        void:triples 53937
+    ], [
+        void:distinctObjects 3302 ;
+        void:distinctSubjects 8651 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:County> ;
+        void:triples 8651
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Draft-23-E2-80-9320> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 50 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:OilProduction-23m3> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 129 ;
+        void:distinctSubjects 152 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasStorageWorkingCapacity-23m3> ;
+        void:triples 152
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 26 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Generation_capacity_thermal-23W> ;
+        void:triples 26
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Generation_capacity> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 25 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Number_of_Berths_Inland_Shipping> ;
+        void:triples 25
+    ], [
+        void:distinctObjects 89 ;
+        void:distinctSubjects 137 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasProduction-23m3> ;
+        void:triples 137
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Atmospheric_Distillation> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 101 ;
+        void:distinctSubjects 135 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GINI> ;
+        void:triples 135
+    ], [
+        void:distinctObjects 158 ;
+        void:distinctSubjects 196 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasInterconnectorFirmCapacity-23GWh> ;
+        void:triples 196
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://semantic-mediawiki.org/swivt/1.0#creationDate> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineLength-23mustbeavalidlocation.-26lt-3B-2Fspan-26gt-3B-26lt-3B-2Fdiv-26gt-3B-26lt-3Bbr-2F-26gt-3B-26lt-3Bbr> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 106 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NumberOfTanks> ;
+        void:triples 106
+    ], [
+        void:distinctObjects 413374 ;
+        void:distinctSubjects 413373 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 413374
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasBalancingModel_AllowedImbalance> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 184 ;
+        void:distinctSubjects 282 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasFlowVolume-23m3> ;
+        void:triples 282
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 7 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasBalancingModel_OperatingCash> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Refinery_Capacity> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Value> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1755 ;
+        void:distinctSubjects 1808 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:DBpedia_Page> ;
+        void:triples 1808
+    ], [
+        void:distinctObjects 148 ;
+        void:distinctSubjects 47 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Has_other_names> ;
+        void:triples 170
+    ], [
+        void:distinctObjects 78 ;
+        void:distinctSubjects 114 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Is_input_of> ;
+        void:triples 114
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Percent> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 7 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Email> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 89 ;
+        void:distinctSubjects 91 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasPrice> ;
+        void:triples 91
+    ], [
+        void:distinctObjects 315 ;
+        void:distinctSubjects 318 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:ToLng> ;
+        void:triples 318
+    ], [
+        void:distinctObjects 315 ;
+        void:distinctSubjects 318 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:ToLat> ;
+        void:triples 318
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-234> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 14 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:LNGExport-23m3> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 96 ;
+        void:distinctSubjects 138 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasProvenResources-23m3> ;
+        void:triples 138
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 282 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasFlow> ;
+        void:triples 282
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 137 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:TechnicallyRecoverableShaleGasResources-23m3> ;
+        void:triples 137
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-23-1938> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 39 ;
+        void:distinctSubjects 137 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasExport-23m3> ;
+        void:triples 137
+    ], [
+        void:distinctObjects 29 ;
+        void:distinctSubjects 34 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Number_of_Tanks> ;
+        void:triples 34
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 91 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasPriceArea> ;
+        void:triples 91
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Thermal_Crackers> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 8 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Fuel> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 4 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Gas_turbine> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 51 ;
+        void:distinctSubjects 413373 ;
+        void:property <http://semantic-mediawiki.org/swivt/1.0#wikiNamespace> ;
+        void:triples 413373
+    ], [
+        void:distinctObjects 7662 ;
+        void:distinctSubjects 53936 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Intensitynextdecade-23kg> ;
+        void:triples 53936
+    ], [
+        void:distinctObjects 101 ;
+        void:distinctSubjects 122 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineLength> ;
+        void:triples 122
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasConsumption> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Son> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 58 ;
+        void:distinctSubjects 137 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasImport-23m3> ;
+        void:triples 137
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 170 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineDiameter> ;
+        void:triples 170
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 20 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Chemical_Production_and_Biofuels> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 67 ;
+        void:distinctSubjects 106 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:StorageCapacityLNG-23m3> ;
+        void:triples 106
+    ], [
+        void:distinctObjects 2454 ;
+        void:distinctSubjects 2539 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Is_reference_and_notes_of> ;
+        void:triples 2539
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 4 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Catalytic_Reforming> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 83 ;
+        void:distinctSubjects 106 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:RegasificationCapacityGas-23m3> ;
+        void:triples 106
+    ], [
+        void:distinctObjects 36365 ;
+        void:distinctSubjects 53938 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Energyoutputnextdecade-23J> ;
+        void:triples 53938
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-234-2C2007> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Time> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 35 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineMaximumAnnualCapacity-23m3> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Supervisor> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 27 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Total_Capacity> ;
+        void:triples 27
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Has_min_cardinality> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:FirstName> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 42 ;
+        void:distinctSubjects 50 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:OilProvenReserves-23m3> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 319 ;
+        void:distinctSubjects 320 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineCode> ;
+        void:triples 320
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Intensitynextdecade> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Back_pressure> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1694 ;
+        void:distinctSubjects 54149 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Country> ;
+        void:triples 54149
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Generation_capacity-23-2C8MW> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 19 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Powerplant> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 1304 ;
+        void:distinctSubjects 5112 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Metroarea> ;
+        void:triples 5112
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Site_Size-23-26amp-3BMPP2> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 15 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Heat_source> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 85 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Operating_cost-23-E2-82-AC> ;
+        void:triples 85
+    ], [
+        void:distinctObjects 5942 ;
+        void:distinctSubjects 53936 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Intensity2000-23kg> ;
+        void:triples 53936
+    ], [
+        void:distinctObjects 93 ;
+        void:distinctSubjects 102 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Website> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasImport> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Hycon> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Valau> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 106 ;
+        void:distinctSubjects 137 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasConsumption-23m3> ;
+        void:triples 137
+    ], [
+        void:distinctObjects 51398 ;
+        void:distinctSubjects 154188 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Is_emission_of> ;
+        void:triples 154188
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Steam_turbine> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 19 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Pipeline> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Operator> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Fluid-Bed_Cat_Cracker> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 314 ;
+        void:distinctSubjects 314 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GeoPath> ;
+        void:triples 314
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PartOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Flexicoker> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Age> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 106 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NumberOfTrains> ;
+        void:triples 106
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Electrical_efficiency> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineMaximumAnnualCapacity-23-10> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/lastName> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 196 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:NaturalGasInterconnectorType> ;
+        void:triples 196
+    ], [
+        void:distinctObjects 2987 ;
+        void:distinctSubjects 2999 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:EGRID_ID> ;
+        void:triples 2999
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Number_of_stages> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 51398 ;
+        void:distinctSubjects 154188 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Is_electricity_production_of> ;
+        void:triples 154188
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Title> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 10429 ;
+        void:distinctSubjects 48872 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:State> ;
+        void:triples 48872
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Year_built-239-2C2011> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasReserves-23m3> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 2048 ;
+        void:distinctSubjects 8179 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Congdist> ;
+        void:triples 8179
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 13 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineMaximumAnnualCapacity> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 61 ;
+        void:distinctSubjects 95 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Capacity> ;
+        void:triples 95
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:D13Model_GovernmentCorruption> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:MaritalStatus> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GoodLabels> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 12 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GIRI> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 5095 ;
+        void:distinctSubjects 4833 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 5158
+    ], [
+        void:distinctObjects 43 ;
+        void:distinctSubjects 113 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:GasFlowsFrom> ;
+        void:triples 113
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 55 ;
+        void:distinctSubjects 68 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:CoalConsumption-23Mt> ;
+        void:triples 68
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 148 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:End_Date> ;
+        void:triples 148
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:Reactor_type> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property <http://enipedia.tudelft.nl/wiki/Property:PipelineMaximumAnnualCapacity-23-16> ;
+        void:triples 3
+    ] ;
+    void:triples 4463909 ;
+    void:vocabulary <http://enipedia.tudelft.nl/wiki/Property>, <http://semantic-mediawiki.org/swivt/1.0>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://xmlns.com/foaf/0.1> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

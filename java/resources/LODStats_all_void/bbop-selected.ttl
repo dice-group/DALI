@@ -1,0 +1,174 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://purl.org/hcls/2007/kb-sources/obo-in-owl.tgz>
+    void:classPartition [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 15
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 29631
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+        void:entities 17
+    ], [
+        void:class <http://www.geneontology.org/formats/oboInOwl#DbXref> ;
+        void:entities 53600
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 6
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:entities 37
+    ], [
+        void:class <http://www.geneontology.org/formats/oboInOwl#Synonym> ;
+        void:entities 39372
+    ], [
+        void:class <http://www.geneontology.org/formats/oboInOwl#Definition> ;
+        void:entities 28347
+    ], [
+        void:class <http://www.geneontology.org/formats/oboInOwl#Subset> ;
+        void:entities 10
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Restriction> ;
+        void:entities 4632
+    ] ;
+    void:classes 10 ;
+    void:entities 155633 ;
+    void:properties 24 ;
+    void:propertyPartition [
+        void:distinctObjects 1368 ;
+        void:distinctSubjects 1117 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> ;
+        void:triples 1368
+    ], [
+        void:distinctObjects 3510 ;
+        void:distinctSubjects 10066 ;
+        void:property <http://purl.org/obo/owl/obo#part_of> ;
+        void:triples 119951
+    ], [
+        void:distinctObjects 28347 ;
+        void:distinctSubjects 28347 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasDefinition> ;
+        void:triples 28347
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 4632 ;
+        void:property <http://www.w3.org/2002/07/owl#onProperty> ;
+        void:triples 4632
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#savedBy> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 23 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 25
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 158114 ;
+        void:property rdf:type ;
+        void:triples 86744
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasDate> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 31801 ;
+        void:distinctSubjects 13347 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ;
+        void:triples 31801
+    ], [
+        void:distinctObjects 14575 ;
+        void:distinctSubjects 29446 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 43930
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property <http://www.w3.org/2002/07/owl#inverseOf> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 7253 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#inSubset> ;
+        void:triples 7590
+    ], [
+        void:distinctObjects 15264 ;
+        void:distinctSubjects 53600 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasURI> ;
+        void:triples 53600
+    ], [
+        void:distinctObjects 53600 ;
+        void:distinctSubjects 34461 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ;
+        void:triples 53600
+    ], [
+        void:distinctObjects 5199 ;
+        void:distinctSubjects 3274 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> ;
+        void:triples 5199
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasSubset> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 2484 ;
+        void:distinctSubjects 4632 ;
+        void:property <http://www.w3.org/2002/07/owl#someValuesFrom> ;
+        void:triples 4632
+    ], [
+        void:distinctObjects 778 ;
+        void:distinctSubjects 570 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> ;
+        void:triples 778
+    ], [
+        void:distinctObjects 110167 ;
+        void:distinctSubjects 150797 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 150798
+    ], [
+        void:distinctObjects 1594 ;
+        void:distinctSubjects 1071 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> ;
+        void:triples 1594
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasDefaultNamespace> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 5637 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> ;
+        void:triples 5637
+    ], [
+        void:distinctObjects 1412 ;
+        void:distinctSubjects 2626 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 2627
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 23841 ;
+        void:property <http://www.geneontology.org/formats/oboInOwl#hasNamespace> ;
+        void:triples 23842
+    ] ;
+    void:triples 711552 ;
+    void:vocabulary <http://purl.org/obo/owl/obo>, <http://www.geneontology.org/formats/oboInOwl>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl> ;
+    a void:dataset .
+

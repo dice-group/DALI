@@ -1,0 +1,91 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://unlocode.rkbexplorer.com/models/dump.tgz>
+    void:classPartition [
+        void:class <http://www.aktors.org/ontology/portal#Country> ;
+        void:entities 237
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 3
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Municipal-Unit> ;
+        void:entities 969
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Town> ;
+        void:entities 47998
+    ] ;
+    void:classes 4 ;
+    void:entities 49206 ;
+    void:properties 11 ;
+    void:propertyPartition [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 44543 ;
+        void:distinctSubjects 49203 ;
+        void:property <http://www.aktors.org/ontology/support#has-pretty-name> ;
+        void:triples 49383
+    ], [
+        void:distinctObjects 28086 ;
+        void:distinctSubjects 47340 ;
+        void:property <http://www.aktors.org/ontology/portal#has-longitude> ;
+        void:triples 47397
+    ], [
+        void:distinctObjects 25430 ;
+        void:distinctSubjects 47340 ;
+        void:property <http://www.aktors.org/ontology/portal#has-latitude> ;
+        void:triples 47397
+    ], [
+        void:distinctObjects 1070 ;
+        void:distinctSubjects 47998 ;
+        void:property <http://www.aktors.org/ontology/portal#is-located-in> ;
+        void:triples 47999
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 49206 ;
+        void:property rdf:type ;
+        void:triples 24856
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 969 ;
+        void:property <http://www.aktors.org/ontology/portal#is-part-of> ;
+        void:triples 969
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 3
+    ] ;
+    void:triples 242968 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1/>, <http://www.aktors.org/ontology/portal>, <http://www.aktors.org/ontology/support>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl> ;
+    a void:Dataset .
+

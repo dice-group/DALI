@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://dump.linkedopendata.it/grrt>
+    void:classPartition [
+        void:class <http://purl.org/net7/vocab/gracc/v1#LocationOfAccommodationProvisioning> ;
+        void:entities 16800
+    ], [
+        void:class <http://purl.org/goodrelations/v1#Offering> ;
+        void:entities 16800
+    ], [
+        void:class <http://purl.org/net7/vocab/gracc/v1#Accommodation> ;
+        void:entities 16800
+    ], [
+        void:class <http://www.w3.org/2006/vcard/ns#Address> ;
+        void:entities 13958
+    ], [
+        void:class <http://www.w3.org/2006/vcard/ns#Tel> ;
+        void:entities 14709
+    ], [
+        void:class <http://purl.org/goodrelations/v1#BusinessEntity> ;
+        void:entities 16800
+    ], [
+        void:class <http://www.w3.org/2006/vcard/ns#Fax> ;
+        void:entities 11075
+    ] ;
+    void:classes 7 ;
+    void:entities 117845 ;
+    void:properties 19 ;
+    void:propertyPartition [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 3837 ;
+        void:property <http://purl.org/net7/vocab/gracc/v1#stars> ;
+        void:triples 3837
+    ], [
+        void:distinctObjects 16800 ;
+        void:distinctSubjects 16800 ;
+        void:property <http://purl.org/goodrelations/v1#offers> ;
+        void:triples 16800
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 106942 ;
+        void:property rdf:type ;
+        void:triples 96592
+    ], [
+        void:distinctObjects 13969 ;
+        void:distinctSubjects 14912 ;
+        void:property <http://www.w3.org/2006/vcard/ns#adr> ;
+        void:triples 14912
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 16387 ;
+        void:property <http://purl.org/net7/vocab/gracc/v1#accommodationType> ;
+        void:triples 16387
+    ], [
+        void:distinctObjects 8392 ;
+        void:distinctSubjects 9419 ;
+        void:property <http://www.w3.org/2006/vcard/ns#url> ;
+        void:triples 9419
+    ], [
+        void:distinctObjects 1510 ;
+        void:distinctSubjects 1510 ;
+        void:property <http://www.w3.org/2006/vcard/ns#photo> ;
+        void:triples 1510
+    ], [
+        void:distinctObjects 16800 ;
+        void:distinctSubjects 16800 ;
+        void:property <http://www.w3.org/2006/vcard/ns#geo> ;
+        void:triples 16800
+    ], [
+        void:distinctObjects 7518 ;
+        void:distinctSubjects 10575 ;
+        void:property <http://www.w3.org/2006/vcard/ns#latitude> ;
+        void:triples 10575
+    ], [
+        void:distinctObjects 382 ;
+        void:distinctSubjects 9868 ;
+        void:property <http://www.w3.org/2006/vcard/ns#locality> ;
+        void:triples 9868
+    ], [
+        void:distinctObjects 13958 ;
+        void:distinctSubjects 13958 ;
+        void:property <http://www.w3.org/2006/vcard/ns#street-address> ;
+        void:triples 13958
+    ], [
+        void:distinctObjects 7521 ;
+        void:distinctSubjects 10575 ;
+        void:property <http://www.w3.org/2006/vcard/ns#longitude> ;
+        void:triples 10575
+    ], [
+        void:distinctObjects 16800 ;
+        void:distinctSubjects 16800 ;
+        void:property <http://purl.org/goodrelations/v1#includes> ;
+        void:triples 16800
+    ], [
+        void:distinctObjects 16800 ;
+        void:distinctSubjects 16800 ;
+        void:property <http://purl.org/goodrelations/v1#availableAtOrFrom> ;
+        void:triples 16800
+    ], [
+        void:distinctObjects 19621 ;
+        void:distinctSubjects 25784 ;
+        void:property rdf:value ;
+        void:triples 25784
+    ], [
+        void:distinctObjects 156 ;
+        void:distinctSubjects 14611 ;
+        void:property <http://purl.org/net7/vocab/gracc/v1#facility> ;
+        void:triples 59044
+    ], [
+        void:distinctObjects 25784 ;
+        void:distinctSubjects 14740 ;
+        void:property <http://www.w3.org/2006/vcard/ns#tel> ;
+        void:triples 25784
+    ], [
+        void:distinctObjects 42774 ;
+        void:distinctSubjects 47485 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 47503
+    ], [
+        void:distinctObjects 10312 ;
+        void:distinctSubjects 11414 ;
+        void:property <http://www.w3.org/2006/vcard/ns#email> ;
+        void:triples 11414
+    ] ;
+    void:triples 434712 ;
+    void:vocabulary <http://purl.org/goodrelations/v1>, <http://purl.org/net7/vocab/gracc/v1>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2006/vcard/ns> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

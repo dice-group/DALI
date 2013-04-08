@@ -1,0 +1,248 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.bibsonomy.org/burst/>
+    void:classPartition [
+        void:class <http://purl.org/rss/1.0/item> ;
+        void:entities 5
+    ], [
+        void:class <http://purl.org/rss/1.0/channel> ;
+        void:entities 1
+    ], [
+        void:class rdf:Bag ;
+        void:entities 5
+    ], [
+        void:class <http://swrc.ontoware.org/ontology#Organization> ;
+        void:entities 5
+    ], [
+        void:class rdf:Seq ;
+        void:entities 6
+    ], [
+        void:class <http://swrc.ontoware.org/ontology#Person> ;
+        void:entities 8
+    ], [
+        void:class <http://swrc.ontoware.org/ontology#Field> ;
+        void:entities 17
+    ], [
+        void:class <http://swrc.ontoware.org/ontology#Book> ;
+        void:entities 5
+    ] ;
+    void:classes 8 ;
+    void:entities 47 ;
+    void:properties 40 ;
+    void:propertyPartition [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property rdf:_4 ;
+        void:triples 4
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property rdf:_5 ;
+        void:triples 4
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property rdf:_6 ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_7 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 11 ;
+        void:property rdf:_1 ;
+        void:triples 11
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_2 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_3 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://swrc.ontoware.org/ontology#number> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/rss/1.0/link> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_8 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_9 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://xmlns.com/burst/0.1/publication> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://purl.org/rss/1.0/modules/content/encoded> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 17 ;
+        void:property <http://swrc.ontoware.org/ontology#value> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://swrc.ontoware.org/ontology#author> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 47 ;
+        void:property rdf:type ;
+        void:triples 52
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://swrc.ontoware.org/ontology#address> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://swrc.ontoware.org/ontology#pages> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://swrc.ontoware.org/ontology#editor> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 5 ;
+        void:property <http://swrc.ontoware.org/ontology#year> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/rss/1.0/items> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/dc/elements/1.1/date> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://purl.org/rss/1.0/modules/taxonomy/topics> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/rss/1.0/title> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://swrc.ontoware.org/ontology#date> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://swrc.ontoware.org/ontology#keywords> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/rss/1.0/description> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_12 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_13 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 17 ;
+        void:property <http://swrc.ontoware.org/ontology#key> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 5 ;
+        void:property <http://swrc.ontoware.org/ontology#hasExtraField> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_10 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 5 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_11 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://swrc.ontoware.org/ontology#publisher> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property <http://swrc.ontoware.org/ontology#name> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://swrc.ontoware.org/ontology#series> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://swrc.ontoware.org/ontology#title> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://purl.org/dc/elements/1.1/subject> ;
+        void:triples 5
+    ] ;
+    void:triples 260 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1>, <http://purl.org/rss/1.0>, <http://purl.org/rss/1.0/modules/content>, <http://purl.org/rss/1.0/modules/taxonomy>, <http://swrc.ontoware.org/ontology>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2002/07/owl>, <http://xmlns.com/burst/0.1> ;
+    a void:dataset .
+

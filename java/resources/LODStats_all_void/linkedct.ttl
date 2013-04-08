@@ -1,0 +1,729 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.cs.toronto.edu/%7Eoktie/linkedct/linkedct-live-dump-latest.nt.bz2>
+    void:classPartition [
+        void:class <http://data.linkedct.org/vocab/resource/city> ;
+        void:entities 39141
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/country> ;
+        void:entities 187
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/provenance> ;
+        void:entities 141744
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/eligibility> ;
+        void:entities 139306
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/sponsor_group> ;
+        void:entities 38492
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/responsible_party> ;
+        void:entities 55218
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/condition> ;
+        void:entities 35096
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/facility> ;
+        void:entities 413462
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/overall_official> ;
+        void:entities 115625
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/location> ;
+        void:entities 519863
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/contact> ;
+        void:entities 167528
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/mesh_term> ;
+        void:entities 5852
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/link> ;
+        void:entities 27923
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/external_linkage> ;
+        void:entities 315460
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/keyword> ;
+        void:entities 109761
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/oversight_info> ;
+        void:entities 5467
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/arm_group> ;
+        void:entities 169221
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/condition_browse> ;
+        void:entities 23186
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/state> ;
+        void:entities 5269
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/linkage_method> ;
+        void:entities 2
+    ], [
+        void:class rdf:Property ;
+        void:entities 123
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/intervention> ;
+        void:entities 199169
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/address> ;
+        void:entities 113815
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/investigator> ;
+        void:entities 103356
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 28
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/intervention_browse> ;
+        void:entities 18905
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/reference> ;
+        void:entities 104163
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/outcome> ;
+        void:entities 460117
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/trial> ;
+        void:entities 141649
+    ], [
+        void:class <http://data.linkedct.org/vocab/resource/sponsor> ;
+        void:entities 26038
+    ] ;
+    void:classes 30 ;
+    void:entities 8892829 ;
+    void:properties 123 ;
+    void:propertyPartition [
+        void:distinctObjects 19394 ;
+        void:distinctSubjects 20523 ;
+        void:property <http://data.linkedct.org/vocab/resource/eligibility_study_pop> ;
+        void:triples 20523
+    ], [
+        void:distinctObjects 121876 ;
+        void:distinctSubjects 141744 ;
+        void:property <http://data.linkedct.org/vocab/resource/provenance_time_updated> ;
+        void:triples 141744
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 136496 ;
+        void:property <http://data.linkedct.org/vocab/resource/has_expanded_access> ;
+        void:triples 136496
+    ], [
+        void:distinctObjects 88915 ;
+        void:distinctSubjects 133005 ;
+        void:property <http://data.linkedct.org/vocab/resource/contact_email> ;
+        void:triples 133005
+    ], [
+        void:distinctObjects 138872 ;
+        void:distinctSubjects 139285 ;
+        void:property <http://data.linkedct.org/vocab/resource/eligibility_criteria> ;
+        void:triples 139285
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/overall_status> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 141744 ;
+        void:property <http://data.linkedct.org/vocab/resource/provenance_encoding> ;
+        void:triples 141744
+    ], [
+        void:distinctObjects 141744 ;
+        void:distinctSubjects 141744 ;
+        void:property <http://data.linkedct.org/vocab/resource/provenance_url> ;
+        void:triples 141744
+    ], [
+        void:distinctObjects 38490 ;
+        void:distinctSubjects 141605 ;
+        void:property <http://data.linkedct.org/vocab/resource/sponsor_group> ;
+        void:triples 141605
+    ], [
+        void:distinctObjects 35094 ;
+        void:distinctSubjects 141108 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_condition> ;
+        void:triples 223829
+    ], [
+        void:distinctObjects 4460 ;
+        void:distinctSubjects 5467 ;
+        void:property <http://data.linkedct.org/vocab/resource/oversight_info_authority> ;
+        void:triples 5467
+    ], [
+        void:distinctObjects 283 ;
+        void:distinctSubjects 141118 ;
+        void:property <http://data.linkedct.org/vocab/resource/verification_date> ;
+        void:triples 141118
+    ], [
+        void:distinctObjects 107925 ;
+        void:distinctSubjects 199169 ;
+        void:property <http://data.linkedct.org/vocab/resource/intervention_intervention_name> ;
+        void:triples 199169
+    ], [
+        void:distinctObjects 4010 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/firstreceived_date> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 757 ;
+        void:distinctSubjects 3719 ;
+        void:property <http://data.linkedct.org/vocab/resource/firstreceived_results_date> ;
+        void:triples 3719
+    ], [
+        void:distinctObjects 39141 ;
+        void:distinctSubjects 39141 ;
+        void:property <http://data.linkedct.org/vocab/resource/city_city_name> ;
+        void:triples 39141
+    ], [
+        void:distinctObjects 5467 ;
+        void:distinctSubjects 141605 ;
+        void:property <http://data.linkedct.org/vocab/resource/oversight_info> ;
+        void:triples 141605
+    ], [
+        void:distinctObjects 23175 ;
+        void:distinctSubjects 122072 ;
+        void:property <http://data.linkedct.org/vocab/resource/condition_browse> ;
+        void:triples 122072
+    ], [
+        void:distinctObjects 43172 ;
+        void:distinctSubjects 53857 ;
+        void:property <http://data.linkedct.org/vocab/resource/overall_contact> ;
+        void:triples 53857
+    ], [
+        void:distinctObjects 350 ;
+        void:distinctSubjects 139306 ;
+        void:property <http://data.linkedct.org/vocab/resource/eligibility_maximum_age> ;
+        void:triples 139306
+    ], [
+        void:distinctObjects 141649 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/id_info_nct_id> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 169221 ;
+        void:property <http://data.linkedct.org/vocab/resource/arm_group_arm_group_type> ;
+        void:triples 169221
+    ], [
+        void:distinctObjects 442239 ;
+        void:distinctSubjects 519858 ;
+        void:property <http://data.linkedct.org/vocab/resource/location_facility> ;
+        void:triples 519858
+    ], [
+        void:distinctObjects 124 ;
+        void:distinctSubjects 4637 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_removed_countries> ;
+        void:triples 12756
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 139306 ;
+        void:property <http://data.linkedct.org/vocab/resource/eligibility_gender> ;
+        void:triples 139306
+    ], [
+        void:distinctObjects 119442 ;
+        void:distinctSubjects 135968 ;
+        void:property <http://data.linkedct.org/vocab/resource/outcome_description> ;
+        void:triples 135968
+    ], [
+        void:distinctObjects 5269 ;
+        void:distinctSubjects 5269 ;
+        void:property <http://data.linkedct.org/vocab/resource/state_state_name> ;
+        void:triples 5269
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 20485 ;
+        void:property <http://data.linkedct.org/vocab/resource/eligibility_sampling_method> ;
+        void:triples 20485
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 3979 ;
+        void:property <http://data.linkedct.org/vocab/resource/oversight_info_has_dmc> ;
+        void:triples 3979
+    ], [
+        void:distinctObjects 204 ;
+        void:distinctSubjects 139306 ;
+        void:property <http://data.linkedct.org/vocab/resource/eligibility_minimum_age> ;
+        void:triples 139306
+    ], [
+        void:distinctObjects 115617 ;
+        void:distinctSubjects 118368 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_overall_official> ;
+        void:triples 156630
+    ], [
+        void:distinctObjects 117337 ;
+        void:distinctSubjects 395163 ;
+        void:property <http://data.linkedct.org/vocab/resource/outcome_time_frame> ;
+        void:triples 395163
+    ], [
+        void:distinctObjects 217233 ;
+        void:distinctSubjects 382370 ;
+        void:property <http://data.linkedct.org/vocab/resource/facility_facility_name> ;
+        void:triples 382370
+    ], [
+        void:distinctObjects 10582 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/source> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 199171 ;
+        void:property <http://data.linkedct.org/vocab/resource/intervention_intervention_type> ;
+        void:triples 199171
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/phase> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 141744 ;
+        void:distinctSubjects 141744 ;
+        void:property <http://data.linkedct.org/vocab/resource/provenance_label> ;
+        void:triples 141744
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 103356 ;
+        void:property <http://data.linkedct.org/vocab/resource/investigator_role> ;
+        void:triples 103356
+    ], [
+        void:distinctObjects 90924 ;
+        void:distinctSubjects 18484 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_reference> ;
+        void:triples 106353
+    ], [
+        void:distinctObjects 92247 ;
+        void:distinctSubjects 143343 ;
+        void:property <http://data.linkedct.org/vocab/resource/contact_phone> ;
+        void:triples 143343
+    ], [
+        void:distinctObjects 19679 ;
+        void:distinctSubjects 22596 ;
+        void:property <http://data.linkedct.org/vocab/resource/overall_contact_backup> ;
+        void:triples 22596
+    ], [
+        void:distinctObjects 383132 ;
+        void:distinctSubjects 460118 ;
+        void:property <http://data.linkedct.org/vocab/resource/outcome_measure> ;
+        void:triples 460118
+    ], [
+        void:distinctObjects 55212 ;
+        void:distinctSubjects 113454 ;
+        void:property <http://data.linkedct.org/vocab/resource/responsible_party> ;
+        void:triples 113454
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 315460 ;
+        void:property <http://data.linkedct.org/vocab/resource/has_linkage_method> ;
+        void:triples 315460
+    ], [
+        void:distinctObjects 3251538 ;
+        void:distinctSubjects 3495156 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 3608978
+    ], [
+        void:distinctObjects 5150 ;
+        void:distinctSubjects 51731 ;
+        void:property <http://data.linkedct.org/vocab/resource/address_state> ;
+        void:triples 51731
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 20628 ;
+        void:property <http://data.linkedct.org/vocab/resource/number_of_groups> ;
+        void:triples 20628
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/study_type> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 3301 ;
+        void:distinctSubjects 23186 ;
+        void:property <http://data.linkedct.org/vocab/resource/condition_browse_mesh_term> ;
+        void:triples 91113
+    ], [
+        void:distinctObjects 267 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/required_header_download_date> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 141701 ;
+        void:property <http://data.linkedct.org/vocab/resource/provenance_ip> ;
+        void:triples 141701
+    ], [
+        void:distinctObjects 39610 ;
+        void:distinctSubjects 42395 ;
+        void:property <http://data.linkedct.org/vocab/resource/id_info_secondary_id> ;
+        void:triples 42395
+    ], [
+        void:distinctObjects 4346 ;
+        void:distinctSubjects 5660 ;
+        void:property <http://data.linkedct.org/vocab/resource/biospec_descr> ;
+        void:triples 5660
+    ], [
+        void:distinctObjects 132812 ;
+        void:distinctSubjects 134508 ;
+        void:property <http://data.linkedct.org/vocab/resource/official_title> ;
+        void:triples 134508
+    ], [
+        void:distinctObjects 38662 ;
+        void:distinctSubjects 113815 ;
+        void:property <http://data.linkedct.org/vocab/resource/address_city> ;
+        void:triples 113815
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 26038 ;
+        void:property <http://data.linkedct.org/vocab/resource/sponsor_agency_class> ;
+        void:triples 26038
+    ], [
+        void:distinctObjects 45479 ;
+        void:distinctSubjects 114015 ;
+        void:property <http://data.linkedct.org/vocab/resource/overall_official_affiliation> ;
+        void:triples 114015
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/required_header_link_text> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 18905 ;
+        void:distinctSubjects 18905 ;
+        void:property <http://data.linkedct.org/vocab/resource/intervention_browse_label> ;
+        void:triples 18905
+    ], [
+        void:distinctObjects 17917 ;
+        void:distinctSubjects 29409 ;
+        void:property <http://data.linkedct.org/vocab/resource/collaborator> ;
+        void:triples 54035
+    ], [
+        void:distinctObjects 27916 ;
+        void:distinctSubjects 32952 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_link> ;
+        void:triples 42724
+    ], [
+        void:distinctObjects 315446 ;
+        void:distinctSubjects 142097 ;
+        void:property <http://data.linkedct.org/vocab/resource/has_external_linkage> ;
+        void:triples 315446
+    ], [
+        void:distinctObjects 21451 ;
+        void:distinctSubjects 87149 ;
+        void:property <http://data.linkedct.org/vocab/resource/intervention_browse> ;
+        void:triples 139131
+    ], [
+        void:distinctObjects 466 ;
+        void:distinctSubjects 136942 ;
+        void:property <http://data.linkedct.org/vocab/resource/start_date> ;
+        void:triples 136942
+    ], [
+        void:distinctObjects 169218 ;
+        void:distinctSubjects 95213 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_arm_group> ;
+        void:triples 197350
+    ], [
+        void:distinctObjects 3696 ;
+        void:distinctSubjects 4664 ;
+        void:property <http://data.linkedct.org/vocab/resource/why_stopped> ;
+        void:triples 4664
+    ], [
+        void:distinctObjects 183 ;
+        void:distinctSubjects 126632 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_location_countries> ;
+        void:triples 191185
+    ], [
+        void:distinctObjects 109759 ;
+        void:distinctSubjects 108530 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_keyword> ;
+        void:triples 496572
+    ], [
+        void:distinctObjects 7019 ;
+        void:distinctSubjects 17713 ;
+        void:property <http://data.linkedct.org/vocab/resource/contact_phone_ext> ;
+        void:triples 17713
+    ], [
+        void:distinctObjects 139294 ;
+        void:distinctSubjects 141060 ;
+        void:property <http://data.linkedct.org/vocab/resource/eligibility> ;
+        void:triples 141060
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 41462 ;
+        void:property <http://data.linkedct.org/vocab/resource/is_section_801> ;
+        void:triples 41462
+    ], [
+        void:distinctObjects 103326 ;
+        void:distinctSubjects 82283 ;
+        void:property <http://data.linkedct.org/vocab/resource/location_investigator> ;
+        void:triples 119409
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://data.linkedct.org/vocab/resource/linkage_method_type> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 535574 ;
+        void:distinctSubjects 126337 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_location> ;
+        void:triples 1031390
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 137346 ;
+        void:property <http://data.linkedct.org/vocab/resource/eligibility_healthy_volunteers> ;
+        void:triples 137346
+    ], [
+        void:distinctObjects 183 ;
+        void:distinctSubjects 113815 ;
+        void:property <http://data.linkedct.org/vocab/resource/address_country> ;
+        void:triples 113815
+    ], [
+        void:distinctObjects 141649 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/trialid> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 71399 ;
+        void:distinctSubjects 167516 ;
+        void:property <http://data.linkedct.org/vocab/resource/intervention_arm_group_label> ;
+        void:triples 167516
+    ], [
+        void:distinctObjects 128591 ;
+        void:distinctSubjects 136626 ;
+        void:property <http://data.linkedct.org/vocab/resource/arm_group_description> ;
+        void:triples 136626
+    ], [
+        void:distinctObjects 329594 ;
+        void:distinctSubjects 384392 ;
+        void:property <http://xmlns.com/foaf/spec/#term_lastName> ;
+        void:triples 384392
+    ], [
+        void:distinctObjects 108055 ;
+        void:distinctSubjects 142087 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 213294
+    ], [
+        void:distinctObjects 22814 ;
+        void:distinctSubjects 27081 ;
+        void:property <http://data.linkedct.org/vocab/resource/acronym> ;
+        void:triples 27081
+    ], [
+        void:distinctObjects 141649 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/required_header_url> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 161048 ;
+        void:distinctSubjects 120449 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_primary_outcome> ;
+        void:triples 168893
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 215865 ;
+        void:property <http://data.linkedct.org/vocab/resource/location_status> ;
+        void:triples 215865
+    ], [
+        void:distinctObjects 15000 ;
+        void:distinctSubjects 20990 ;
+        void:property <http://data.linkedct.org/vocab/resource/location_contact_backup> ;
+        void:triples 21111
+    ], [
+        void:distinctObjects 47159 ;
+        void:distinctSubjects 78892 ;
+        void:property <http://data.linkedct.org/vocab/resource/address_zip> ;
+        void:triples 78892
+    ], [
+        void:distinctObjects 141484 ;
+        void:distinctSubjects 141744 ;
+        void:property <http://data.linkedct.org/vocab/resource/provenance_time_added> ;
+        void:triples 141744
+    ], [
+        void:distinctObjects 199163 ;
+        void:distinctSubjects 123074 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_intervention> ;
+        void:triples 240404
+    ], [
+        void:distinctObjects 187 ;
+        void:distinctSubjects 187 ;
+        void:property <http://data.linkedct.org/vocab/resource/country_country_name> ;
+        void:triples 187
+    ], [
+        void:distinctObjects 2589 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/lastchanged_date> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 14875 ;
+        void:distinctSubjects 6435 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_results_reference> ;
+        void:triples 15358
+    ], [
+        void:distinctObjects 1726 ;
+        void:distinctSubjects 1726 ;
+        void:property <http://data.linkedct.org/vocab/resource/id_info_nct_alias> ;
+        void:triples 1726
+    ], [
+        void:distinctObjects 301221 ;
+        void:distinctSubjects 94849 ;
+        void:property <http://data.linkedct.org/vocab/resource/trial_secondary_outcome> ;
+        void:triples 316705
+    ], [
+        void:distinctObjects 25388 ;
+        void:distinctSubjects 27923 ;
+        void:property <http://xmlns.com/foaf/spec/#term_page> ;
+        void:triples 27923
+    ], [
+        void:distinctObjects 90268 ;
+        void:distinctSubjects 112364 ;
+        void:property <http://data.linkedct.org/vocab/resource/location_contact> ;
+        void:triples 112364
+    ], [
+        void:distinctObjects 139122 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/id_info_org_study_id> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 91924 ;
+        void:property <http://data.linkedct.org/vocab/resource/number_of_arms> ;
+        void:triples 91924
+    ], [
+        void:distinctObjects 31512 ;
+        void:distinctSubjects 59685 ;
+        void:property <http://data.linkedct.org/vocab/resource/intervention_other_name> ;
+        void:triples 59685
+    ], [
+        void:distinctObjects 1565753 ;
+        void:distinctSubjects 3037787 ;
+        void:property <http://data.linkedct.org/vocab/resource/has_provenance> ;
+        void:triples 8303957
+    ], [
+        void:distinctObjects 127639 ;
+        void:distinctSubjects 413451 ;
+        void:property <http://data.linkedct.org/vocab/resource/facility_address> ;
+        void:triples 413451
+    ], [
+        void:distinctObjects 148694 ;
+        void:distinctSubjects 170145 ;
+        void:property <http://data.linkedct.org/vocab/resource/intervention_description> ;
+        void:triples 170145
+    ], [
+        void:distinctObjects 3274 ;
+        void:distinctSubjects 133970 ;
+        void:property <http://data.linkedct.org/vocab/resource/enrollment> ;
+        void:triples 133970
+    ], [
+        void:distinctObjects 3363 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/study_design> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 10475 ;
+        void:distinctSubjects 25585 ;
+        void:property <http://data.linkedct.org/vocab/resource/link_description> ;
+        void:triples 25585
+    ], [
+        void:distinctObjects 24049 ;
+        void:distinctSubjects 54930 ;
+        void:property <http://data.linkedct.org/vocab/resource/responsible_party_organization> ;
+        void:triples 54930
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 403972 ;
+        void:property <http://data.linkedct.org/vocab/resource/outcome_safety_issue> ;
+        void:triples 403972
+    ], [
+        void:distinctObjects 50177 ;
+        void:distinctSubjects 55108 ;
+        void:property <http://data.linkedct.org/vocab/resource/responsible_party_name_title> ;
+        void:triples 55108
+    ], [
+        void:distinctObjects 83883 ;
+        void:distinctSubjects 84747 ;
+        void:property <http://data.linkedct.org/vocab/resource/detailed_description> ;
+        void:triples 84747
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 113508 ;
+        void:property <http://data.linkedct.org/vocab/resource/overall_official_role> ;
+        void:triples 113508
+    ], [
+        void:distinctObjects 140249 ;
+        void:distinctSubjects 141649 ;
+        void:property <http://data.linkedct.org/vocab/resource/brief_title> ;
+        void:triples 141649
+    ], [
+        void:distinctObjects 12103 ;
+        void:distinctSubjects 38492 ;
+        void:property <http://data.linkedct.org/vocab/resource/sponsor_group_lead_sponsor> ;
+        void:triples 38492
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 114607 ;
+        void:property <http://data.linkedct.org/vocab/resource/is_fda_regulated> ;
+        void:triples 114607
+    ], [
+        void:distinctObjects 543 ;
+        void:distinctSubjects 111886 ;
+        void:property <http://data.linkedct.org/vocab/resource/completion_date> ;
+        void:triples 111886
+    ], [
+        void:distinctObjects 104155 ;
+        void:distinctSubjects 104163 ;
+        void:property <http://data.linkedct.org/vocab/resource/reference_citation> ;
+        void:triples 104163
+    ], [
+        void:distinctObjects 105531 ;
+        void:distinctSubjects 315447 ;
+        void:property <http://data.linkedct.org/vocab/resource/to_resource> ;
+        void:triples 315447
+    ], [
+        void:distinctObjects 58 ;
+        void:distinctSubjects 3495160 ;
+        void:property rdf:type ;
+        void:triples 36300
+    ], [
+        void:distinctObjects 97579 ;
+        void:distinctSubjects 104163 ;
+        void:property <http://data.linkedct.org/vocab/resource/reference_PMID> ;
+        void:triples 104163
+    ], [
+        void:distinctObjects 26001 ;
+        void:distinctSubjects 26038 ;
+        void:property <http://data.linkedct.org/vocab/resource/sponsor_agency> ;
+        void:triples 26038
+    ], [
+        void:distinctObjects 471 ;
+        void:distinctSubjects 109804 ;
+        void:property <http://data.linkedct.org/vocab/resource/primary_completion_date> ;
+        void:triples 109804
+    ], [
+        void:distinctObjects 141694 ;
+        void:distinctSubjects 141744 ;
+        void:property <http://data.linkedct.org/vocab/resource/provenance_signature> ;
+        void:triples 141744
+    ] ;
+    void:triples 32128876 ;
+    void:vocabulary <http://data.linkedct.org/vocab/resource/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://xmlns.com/foaf/spec/> ;
+    a void:Dataset .
+

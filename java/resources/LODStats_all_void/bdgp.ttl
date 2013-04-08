@@ -1,0 +1,94 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.open-biomed.org.uk/open-biomed-data/bdgp-images-all-20110211.tar.gz>
+    void:classPartition [
+        void:class <http://purl.org/net/bdgp/schema/Term> ;
+        void:entities 6006
+    ], [
+        void:class <http://purl.org/net/bdgp/schema/Evidence> ;
+        void:entities 75791
+    ], [
+        void:class <http://purl.org/net/bdgp/schema/Image> ;
+        void:entities 89981
+    ], [
+        void:class <http://purl.org/net/bdgp/schema/Association> ;
+        void:entities 91240
+    ], [
+        void:class <http://purl.org/net/bdgp/schema/GeneProduct> ;
+        void:entities 7703
+    ] ;
+    void:classes 5 ;
+    void:entities 270721 ;
+    void:properties 11 ;
+    void:propertyPartition [
+        void:distinctObjects 7703 ;
+        void:distinctSubjects 7703 ;
+        void:property <http://purl.org/net/bdgp/schema/symbol> ;
+        void:triples 7703
+    ], [
+        void:distinctObjects 6006 ;
+        void:distinctSubjects 6006 ;
+        void:property <http://purl.org/net/bdgp/schema/accession> ;
+        void:triples 6006
+    ], [
+        void:distinctObjects 67417 ;
+        void:distinctSubjects 75791 ;
+        void:property <http://purl.org/net/bdgp/schema/evidence> ;
+        void:triples 338640
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 270721 ;
+        void:property rdf:type ;
+        void:triples 135872
+    ], [
+        void:distinctObjects 14636 ;
+        void:distinctSubjects 7480 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 18132
+    ], [
+        void:distinctObjects 6295 ;
+        void:distinctSubjects 91240 ;
+        void:property <http://purl.org/net/bdgp/schema/geneProduct> ;
+        void:triples 91240
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 74612 ;
+        void:property <http://purl.org/net/bdgp/schema/imageToTerm> ;
+        void:triples 74614
+    ], [
+        void:distinctObjects 310 ;
+        void:distinctSubjects 91240 ;
+        void:property <http://purl.org/net/bdgp/schema/term> ;
+        void:triples 91240
+    ], [
+        void:distinctObjects 89979 ;
+        void:distinctSubjects 89979 ;
+        void:property <http://purl.org/net/bdgp/schema/imagePath> ;
+        void:triples 89979
+    ], [
+        void:distinctObjects 6006 ;
+        void:distinctSubjects 6006 ;
+        void:property <http://purl.org/net/bdgp/schema/name> ;
+        void:triples 6006
+    ], [
+        void:distinctObjects 75791 ;
+        void:distinctSubjects 74247 ;
+        void:property <http://purl.org/net/bdgp/schema/associate> ;
+        void:triples 75791
+    ] ;
+    void:triples 1080060 ;
+    void:vocabulary <http://purl.org/net/bdgp/schema/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:Dataset .
+

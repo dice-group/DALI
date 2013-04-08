@@ -1,0 +1,1444 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<https://commondatastorage.googleapis.com/ckannet-storage/2011-11-03T123441/VulneraPedia.full.v0.5.rdf>
+    void:classPartition [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AResource_Management_Errors> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AString_Format_Overflow_in_syslog()> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Special_Elements_in_Output_Used_by_a_Downstream_Component_(-27Injection-27)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AProbabilistic_Techniques> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASubverting_Environment_Variable_Values> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ABuffer_Overflow_in_an_API_Call> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMalicious_Logic_Insertion_into_Product_Software_via_Externally_Manipulated_Component> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASecurity_Features> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AExternal_Influence_of_Sphere_Definition> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ABuffer_Attacks> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AOperation_on_Resource_in_Wrong_Phase_of_Lifetime> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMissing_Initialization> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AOverflow_Buffers> ;
+        void:entities 8
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AHost_Discovery> ;
+        void:entities 7
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AProtection_Mechanism_Failure> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AResource_Manipulation> ;
+        void:entities 13
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Trailing_Special_Elements> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AEmbedding_Scripts_in_Nonscript_Elements> ;
+        void:entities 11
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AClient-2DServer_Protocol_Manipulation> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AThreat_Agent> ;
+        void:entities 14
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACategoryTest01> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInformation_Exposure_Through_Behavioral_Discrepancy> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AData_Structure_Attacks> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMalicious_Logic_Insertion_into_Product_Memory> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ATarget_Influence_via_Psychological_Principles> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Link_Resolution_Before_File_Access_(-27Link_Following-27)> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ALeverage_Alternate_Encoding> ;
+        void:entities 9
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ALogging_and_Auditing_Vulnerability> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AScale> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Encoding_or_Escaping_of_Output> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASensitive_Data_Protection_Vulnerability> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AOut-2Dof-2Dbounds_Read> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIncorrect_Type_Conversion_or_Cast> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASensitive_Information_Uncleared_Before_Release> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAuthentication_Control> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUse_of_Potentially_Dangerous_Function> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIncorrect_Conversion_between_Numeric_Types> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AResource_Depletion> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ARemote_Code_Inclusion> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASubvert_Code-2Dsigning_Facilities> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ATarget_Influence_via_Neuro-2DLinguistic_Programming_(NLP)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Internal_Special_Elements> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AResource_Depletion_through_Allocation> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Locking> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMalicious_Software_Update> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASignal_Handler_with_Functionality_that_is_not_Asynchronous-2DSafe> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Delimiters> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInformation_Exposure> ;
+        void:entities 9
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACode_Quality_Vulnerability> ;
+        void:entities 13
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Leading_Special_Elements> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACode_Injection> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ALeveraging_Time-2Dof-2DCheck_and_Time-2Dof-2DUse_(TOCTOU)_Race_Conditions> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInfrastructure_Manipulation> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APassword_in_Configuration_File> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ATrust_of_System_Event_Data> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASynchronization_and_Timing_Vulnerability> ;
+        void:entities 12
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACleartext_Storage_of_Sensitive_Information> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AOut-2Dof-2Dbounds_Write> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASupply_Chain_Attacks> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASocial_Information_Gathering_Attacks> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAuthentication_Vulnerability> ;
+        void:entities 13
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIncorrect_Control_Flow_Scoping> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APath_Traversal> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUnprotected_Alternate_Channel> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMan_in_the_Middle_Attack> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAttack> ;
+        void:entities 319
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInsufficient_Entropy> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AApplication_API_Message_Manipulation_via_Man-2Din-2Dthe-2DMiddle> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUse_of_Function_with_Inconsistent_Implementations> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AVariable_Manipulation> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Multiple_Internal_Special_Elements> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACleansing,_Canonicalization,_and_Comparison_Errors> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APath_Traversal_Attack> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACleartext_Transmission_of_Sensitive_Information> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIndicator_of_Poor_Code_Quality> ;
+        void:entities 13
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Wildcards_or_Matching_Symbols> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInjection> ;
+        void:entities 14
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASession_Management_Vulnerability> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ATCP/IP_Fingerprinting_Probes> ;
+        void:entities 9
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFile_and_Directory_Information_Exposure> ;
+        void:entities 10
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAuthorization_Vulnerability> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInsufficient_Encapsulation> ;
+        void:entities 18
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AReliance_on_Undefined,_Unspecified,_or_Implementation-2DDefined_Behavior> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Handling_of_Exceptional_Conditions> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AComparison_of_Object_References_Instead_of_Object_Contents> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AConcurrency_Control> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APhishing> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AProduct-2DGenerated_Error_Message_Information_Leak> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ALog_Injection-2DTampering-2DForging> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAbuse_of_Communication_Channels> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 42
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUse_of_Multiple_Resources_with_Duplicate_Identifier> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AExploiting_Trust_in_Client_(aka_Make_the_Client_Invisible)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFailure_to_Fulfill_API_Contract_(-27API_Abuse-27)> ;
+        void:entities 10
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AScanning_for_Devices,_Systems,_or_Routes> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInformation_Leak_Through_Log_Files> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUNIX_Path_Link_Problems> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ARemoving-5Cshort-2Dcircuiting_-27guard_logic-27> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMismatched_Memory_Management_Routines> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AExpression_Issues> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUse_of_Insufficiently_Random_Values> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AURL_Encoding> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASoap_Manipulation> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AData_Interception_Attacks> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ARegistry_Manipulation> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ATime_and_State> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AWindows_Virtual_File_Problems> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ARelative_Path_Traversal> ;
+        void:entities 12
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAbuse_of_Functionality> ;
+        void:entities 12
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AExternally_Controlled_Reference_to_a_Resource_in_Another_Sphere> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AError_Handling_Control> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AProtocol_Errors> ;
+        void:entities 13
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AVulnerability> ;
+        void:entities 462
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFailure_to_Follow_Specification> ;
+        void:entities 9
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AParameter_Injection> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIncorrect_Privilege_Assignment> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AICMP_Fingerprinting_Probes> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APath_Equivalence-3A_-27filename.-27_(Trailing_Dot)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Access_Control_(Authorization)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACharacter_Injection> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMalicious_Code_Attack> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInsufficiently_Protected_Credentials> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AControl> ;
+        void:entities 46
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AClickjacking> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AEmbedding_Script_(XSS_)_in_HTTP_Headers> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AContainment_Errors_(Container_Errors)> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3A.NET_Environment_Issues> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AExploitation_of_Session_Variables,_Resource_IDs_and_other_Trusted_Credentials> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ABlind_SQL_Injection> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACode_Inclusion> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASQL_Injection> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AScript_Injection> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMissing_Custom_Error_Page> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASimple_Script_Injection> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIncorrect_Calculation> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AGeneral_Logic_Error_Vulnerability> ;
+        void:entities 26
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAuthentication_Bypass_by_Spoofing> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACryptographic_Vulnerability> ;
+        void:entities 14
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAuthentication_Abuse> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Script_in_Attributes_in_a_Web_Page> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMissing_Release_of_Resource_after_Effective_Lifetime> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ALogging_and_Auditing_Control> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInput_Validation_Vulnerability> ;
+        void:entities 13
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAPI_Abuse> ;
+        void:entities 11
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ABuffer_Overflow_via_Environment_Variables> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACryptographic_Issues> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AASP.NET_Environment_Issues> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AConfiguration-5CEnvironment_manipulation> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ABypassing_Card_or_Badge-2DBased_Systems> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AHacking_Hardware_Devices_or_Components> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ALifting_cached,_sensitive_data_embedded_in_client_distributions_(thick_or_thin)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AExposed_Dangerous_Method_or_Function> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMissing_Encryption_of_Sensitive_Data> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIP_Fingerprinting_Probes> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Check_or_Handling_of_Exceptional_Conditions> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AError_Handling_Vulnerability> ;
+        void:entities 13
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMalicious_Logic_Inserted_Into_Product_Software> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AExposure_of_Resource_to_Wrong_Sphere> ;
+        void:entities 10
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFile_Descriptor_Exhaustion> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFingerprinting_Remote_Operating_Systems> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASensitive_Data_Under_Web_Root> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIncorrect_Synchronization> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AExploitation_of_Authorization> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AString_Errors> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAccess_Control_Bypass_Through_User-2DControlled_Key> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ALifting_Data_Embedded_in_Client_Distributions> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APassword_Management_Vulnerability> ;
+        void:entities 9
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAlways-2DIncorrect_Control_Flow_Implementation> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACryptographic_Control> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AXEE_(XML_Entity_Expansion)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APassword_Brute_Forcing> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Special_Elements_used_in_an_SQL_Command_(-27SQL_Injection-27)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APermission_Issues> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASniffing_Attacks> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAnalytic_Attacks> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AJ2EE_Environment_Issues> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMac_Virtual_File_Problems> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AState_Issues> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APointer_Issues> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AXML_Parser_Attack> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AWeaknesses_that_Affect_System_Processes> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AExpired_Pointer_Dereference> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AExploitation_of_Authentication> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFiles_or_Directories_Accessible_to_External_Parties> ;
+        void:entities 11
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUse_of_Low-2DLevel_Functionality> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AForceful_Browsing> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASOAP_Parameter_Tampering> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AWeaknesses_that_Affect_Memory> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Input_Validation> ;
+        void:entities 17
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIncomplete_Filtering_of_Special_Elements> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AResource_Location_Attacks> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AOmission_of_Security-2Drelevant_Information> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUser_Interface_Security_Issues> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AEnvironmental_Vulnerability> ;
+        void:entities 20
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInjection_(Injecting_Control_Plane_content_through_the_Data_Plane)> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIncomplete_Cleanup> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInformation_Leak_Through_Caching> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASmall_Space_of_Random_Values> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AOnly_Filtering_Special_Elements_at_a_Specified_Location> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASession_Management_Control> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Handling_of_File_Names_that_Identify_Virtual_Resources> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASecurityAttribute> ;
+        void:entities 9
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUse_of_a_Non-2Dreentrant_Function_in_a_Concurrent_Context> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AConcurrency_Issues> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AWeaknesses_that_Affect_Files_or_Directories> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Authentication> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASpoofing> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AApplication_API_Navigation_Remapping> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ATarget_Influence_via_Social_Engineering> ;
+        void:entities 7
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInadequate_Encryption_Strength> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ABuffer_Access_with_Incorrect_Length_Value> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AReverse_Engineering> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AManipulate_Canonicalization> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAPI_Abuse-5CMisuse> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AViolating_Implicit_Assumptions_Regarding_XML_Content_(aka_XML_Denial_of_Service_(XDoS))> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AContent_Spoofing> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFootprinting> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInsufficient_Comparison> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ABypassing_Physical_Locks> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Resource_Shutdown_or_Release> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Multiple_Trailing_Special_Elements> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ATime_and_State_Attacks> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ANumeric_Errors> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACommand_Delimiters> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AEmbedding_NULL_Bytes> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAuthorization_Control> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAuthentication_Bypass_Issues> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInterpretation_Conflict> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIdentity_Spoofing_(Impersonation)> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInitialization_and_Cleanup_Errors> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIncomplete_Filtering_of_One_or_More_Instances_of_Special_Elements> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFailure_to_Sanitize_Special_Element> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACredentials_Management> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAccess_Control_(Authorization)_Issues> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFunctionality_Misuse> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFlash_Injection> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACommand_Injection> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFile_Manipulation> ;
+        void:entities 8
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ALeveraging_Race_Conditions> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUncontrolled_Resource_Consumption_(-27Resource_Exhaustion-27)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInsufficient_Verification_of_Data_Authenticity> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFingerprinting> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APrivilege_Escalation> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Resolution_of_Path_Equivalence> ;
+        void:entities 15
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APermissive_Regular_Expression> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APrivacy_Violation> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Multiple_Leading_Special_Elements> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACommon_resource_location_exploration> ;
+        void:entities 1
+    ], [
+        void:class <http://usefulinc.com/ns/doap#version> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUse_of_a_Broken_or_Risky_Cryptographic_Algorithm> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMobile_Code_Issues> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AReverse_Engineer_an_Executable_to_Expose_Assumed_Hidden_Functionality_or_Content> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AOften_Misused-3A_Arguments_and_Parameters> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AEmbedded_Malicious_Code> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMissing_Synchronization> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AWeb_Problems> ;
+        void:entities 6
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AExploitation_of_Privilege-5CTrust> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Validation_of_Host-2Dspecific_Certificate_Data> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInsufficient_Control_Flow_Management> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ATest> ;
+        void:entities 11
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AProtocol_Manipulation> ;
+        void:entities 7
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Handling_of_Highly_Compressed_Data_(Data_Amplification)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ARange_and_Type_Error_Vulnerability> ;
+        void:entities 34
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAbsolute_Path_Traversal> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ATarget_Influence_via_Perception_of_Reciprocation> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInformation_Exposure_Through_Debug_Information> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Special_Elements> ;
+        void:entities 11
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Resource_Locking> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 58
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIncorrect_Permission_Assignment_for_Critical_Resource> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUse_of_Dangerous_API> ;
+        void:entities 13
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIntranet_attacker> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUse_of_Incorrect_Operator> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInternet_attacker> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AWindows_Path_Link_Problems> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APath_Equivalence-3A_-27file.name-27_(Internal_Dot)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ADuplicate_Operations_on_Resource> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AStruts_Validation_Problems> ;
+        void:entities 10
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ABuffer_Copy_without_Checking_Size_of_Input_(-27Classic_Buffer_Overflow-27)> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APassively_Sniff_and_Capture_Application_Code_Bound_for_Authorized_Client> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFunction_Call_With_Incorrectly_Specified_Argument_Value> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AUsing_Slashes_in_Alternate_Encoding> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Directives_in_Statically_Saved_Code_(-27Static_Code_Injection-27)> ;
+        void:entities 1
+    ], [
+        void:class <http://semantic-mediawiki.org/swivt/1.0#Subject> ;
+        void:entities 951
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AJ2EE_Time_and_State_Issues> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMissing_Reference_to_Active_Allocated_Resource> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AHandler_Errors> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AReliance_on_Cookies_without_Validation_and_Integrity_Checking> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASession_Credential_Falsification_through_Forging> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AManipulating_User_State> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AXML_Injection> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AModification_of_Assumed-2DImmutable_Data_(MAID)> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APrivilege_Defined_With_Unsafe_Actions> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AFunction_Call_with_Incorrectly_Specified_Arguments> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AEnvironment> ;
+        void:entities 9
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAccess_of_Memory_Location_After_End_of_Buffer> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AData_Excavation_Attacks> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AProbing_an_Application_Through_Targeting_its_Error_Reporting> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ABuffer_Overflow_in_Local_Command-2DLine_Utilities> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ACritical_Public_Variable_Without_Final_Modifier> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AHijacking_a_Privileged_Thread_of_Execution> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AEncryption_Brute_Forcing> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASoftware_Integrity_Attacks> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMalicious_Logic_Insertion_via_Counterfeit_Hardware> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ADead_Code> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInformation_Leak_Through_Source_Code> ;
+        void:entities 3
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMalware_Infection_into_Product_Software> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AReliance_on_Untrusted_Inputs_in_a_Security_Decision> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 735
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AWeak_Password_Requirements> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAllocation_of_Resources_Without_Limits_or_Throttling> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AHTTP_Request_Splitting> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AMalware_Propagation_via_USB_Stick> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AEncoding_Control> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AVulnerability_Subconcept_Test> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AImproper_Neutralization_of_Input_During_Web_Page_Generation_(-27Cross-2Dsite_Scripting-27)> ;
+        void:entities 7
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAudit_Log_Manipulation> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ARelease_of_Invalid_Pointer_or_Reference> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAccess_of_Memory_Location_Before_Start_of_Buffer> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInteger_Attacks> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AEncoding_Error> ;
+        void:entities 5
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AManipulating_Opaque_Client-2Dbased_Data_Tokens> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3APort_Scanning> ;
+        void:entities 9
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASocial_Information_Gathering_via_Pretexting> ;
+        void:entities 4
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AAccessing_Functionality_Not_Properly_Constrained_by_ACLs> ;
+        void:entities 2
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AInput_Validation_Control> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3ASchema_Poisoning> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AEmail_Injection> ;
+        void:entities 1
+    ], [
+        void:class <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Category-3AIncorrect_Resource_Transfer_Between_Spheres> ;
+        void:entities 1
+    ] ;
+    void:classes 330 ;
+    void:entities 1787 ;
+    void:properties 86 ;
+    void:propertyPartition [
+        void:distinctObjects 29 ;
+        void:distinctSubjects 32 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ASecurity_Requirement> ;
+        void:triples 32
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ASec_analyst> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 110 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3APurpose> ;
+        void:triples 137
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#file-release> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1724 ;
+        void:distinctSubjects 1724 ;
+        void:property <http://semantic-mediawiki.org/swivt/1.0#page> ;
+        void:triples 1724
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ADifficulty_to_Implement> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 29 ;
+        void:distinctSubjects 235 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AFactor> ;
+        void:triples 235
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 225 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AConsequence_Scope> ;
+        void:triples 444
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 8 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AOriginal_URI> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 8 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AOperating_Platform> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#revision> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 17 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AOverview> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 569 ;
+        void:distinctSubjects 633 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AReference> ;
+        void:triples 1130
+    ], [
+        void:distinctObjects 25 ;
+        void:distinctSubjects 271 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ALanguage> ;
+        void:triples 454
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 325 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ASeverity> ;
+        void:triples 325
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 657 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AExposure_Period> ;
+        void:triples 1088
+    ], [
+        void:distinctObjects 341 ;
+        void:distinctSubjects 836 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AAttack> ;
+        void:triples 1598
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1719 ;
+        void:distinctSubjects 1724 ;
+        void:property <http://semantic-mediawiki.org/swivt/1.0#wikiPageModificationDate> ;
+        void:triples 1724
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 31 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AFunctional_Area> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 223 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ASecurityAttribute> ;
+        void:triples 442
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AWhite_Box_Definition> ;
+        void:triples 31
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ADelete_page_script> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 110 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AMethod_of_Attack> ;
+        void:triples 227
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 133 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AOperating_System> ;
+        void:triples 142
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 122 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ALikelihood_of_Exploit> ;
+        void:triples 124
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 19 ;
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass> ;
+        void:triples 25
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 109 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AAvailability_Impact> ;
+        void:triples 109
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 187 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ALikelihood> ;
+        void:triples 241
+    ], [
+        void:distinctObjects 1469 ;
+        void:distinctSubjects 319 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AVulnerability_Instance> ;
+        void:triples 1661
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AEbarear> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 24 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AMode_of_Introduction> ;
+        void:triples 28
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AMITRE> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AWeb_developer> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 425 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ALanguage_Class> ;
+        void:triples 425
+    ], [
+        void:distinctObjects 760 ;
+        void:distinctSubjects 764 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ACWE_Identificator> ;
+        void:triples 764
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 17 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AObfuscation_Technique> ;
+        void:triples 23
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#release> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 41 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ARelated_Guideline> ;
+        void:triples 71
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ACreateBot> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ATest> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 31 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 21 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AEnabling_Factor_for_Explotaitation> ;
+        void:triples 36
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3APropertyTest01> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 33 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AIndicator-2DWarning_of_Attack> ;
+        void:triples 44
+    ], [
+        void:distinctObjects 94 ;
+        void:distinctSubjects 54 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ADetection_Method> ;
+        void:triples 118
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 113 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AAttack_Motivation_-2D_Consequence> ;
+        void:triples 299
+    ], [
+        void:distinctObjects 330 ;
+        void:distinctSubjects 1787 ;
+        void:property rdf:type ;
+        void:triples 3720
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 4 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ADc-3Adescription> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://semantic-mediawiki.org/swivt/1.0#creationDate> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 81 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AControl> ;
+        void:triples 144
+    ], [
+        void:distinctObjects 1724 ;
+        void:distinctSubjects 1724 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 1724
+    ], [
+        void:distinctObjects 271 ;
+        void:distinctSubjects 407 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AVulnerability> ;
+        void:triples 1056
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 40 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3APrevalence> ;
+        void:triples 47
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 3 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AWeb_Reputation> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 116 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AArchitectural_Paradigm> ;
+        void:triples 143
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AImplemention> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 403 ;
+        void:distinctSubjects 405 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ACAPEC_Identificator> ;
+        void:triples 405
+    ], [
+        void:distinctObjects 119 ;
+        void:distinctSubjects 113 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AAttacker_Skill_or_Knowledge_Required> ;
+        void:triples 139
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 1724 ;
+        void:property <http://semantic-mediawiki.org/swivt/1.0#wikiNamespace> ;
+        void:triples 1724
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3APblanco> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 106 ;
+        void:distinctSubjects 60 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AProbing_Technique> ;
+        void:triples 112
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2002/07/owl#equivalentProperty> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 108 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AFramework> ;
+        void:triples 113
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 8 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ARequired_Resource> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ADpozog> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 836 ;
+        void:distinctSubjects 705 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AExample> ;
+        void:triples 919
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AJamaldonado> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1272 ;
+        void:distinctSubjects 679 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AMitigation> ;
+        void:triples 1988
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 57 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AAffected_Resource> ;
+        void:triples 59
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 109 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AConfidentiality_Impact> ;
+        void:triples 109
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 17 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ATerminology_Note> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 1326 ;
+        void:distinctSubjects 1350 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 1353
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 77 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ACausal_Nature> ;
+        void:triples 77
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 55 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ATarget_Attack_Surface> ;
+        void:triples 55
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 310 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AScale> ;
+        void:triples 551
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ADownload> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1673 ;
+        void:distinctSubjects 1724 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 1724
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 109 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AIntegrity_Impact> ;
+        void:triples 109
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 111 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AKnowledge_Level> ;
+        void:triples 137
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 64 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ARelated_Security_Principle> ;
+        void:triples 121
+    ], [
+        void:distinctObjects 71 ;
+        void:distinctSubjects 50 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AAlternate_Term> ;
+        void:triples 74
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 1555 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AProvider> ;
+        void:triples 1556
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AAdministrador> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3AOwasp> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 12 ;
+        void:property <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:URIResolver/Property-3ATechnology_Name> ;
+        void:triples 14
+    ] ;
+    void:triples 32089 ;
+    void:vocabulary <http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special>, <http://purl.org/dc/terms>, <http://semantic-mediawiki.org/swivt/1.0>, <http://usefulinc.com/ns/doap>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl> ;
+    a void:dataset .
+

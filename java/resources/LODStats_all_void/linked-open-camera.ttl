@@ -1,0 +1,170 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://dump.linkedopendata.it/loc>
+    void:classPartition [
+        void:class <http://purl.org/net7/locs/v1#ConvenzioneObbligatoria> ;
+        void:entities 7
+    ], [
+        void:class <http://purl.org/net7/locs/v1#Contratto> ;
+        void:entities 291
+    ], [
+        void:class <http://purl.org/net7/vocab/locs/v1#Pagamento> ;
+        void:entities 24
+    ], [
+        void:class <http://purl.org/net7/locs/v1#Consulenza> ;
+        void:entities 9
+    ], [
+        void:class <http://www.w3.org/2006/vcard/ns#Address> ;
+        void:entities 167
+    ], [
+        void:class <http://purl.org/goodrelations/v1#BusinessEntity> ;
+        void:entities 345
+    ], [
+        void:class <http://purl.org/net7/locs/v1#Collaborazione> ;
+        void:entities 14
+    ] ;
+    void:classes 7 ;
+    void:entities 910 ;
+    void:properties 25 ;
+    void:propertyPartition [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 90 ;
+        void:property <http://purl.org/net7/vocab/locs/v1#note> ;
+        void:triples 90
+    ], [
+        void:distinctObjects 345 ;
+        void:distinctSubjects 321 ;
+        void:property <http://purl.org/net7/vocab/locs/v1#fornitore> ;
+        void:triples 396
+    ], [
+        void:distinctObjects 82 ;
+        void:distinctSubjects 82 ;
+        void:property <http://www.w3.org/2006/vcard/ns#email> ;
+        void:triples 82
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 857 ;
+        void:property rdf:type ;
+        void:triples 809
+    ], [
+        void:distinctObjects 285 ;
+        void:distinctSubjects 345 ;
+        void:property <http://purl.org/net7/vocab/locs/v1#ammontare> ;
+        void:triples 345
+    ], [
+        void:distinctObjects 283 ;
+        void:distinctSubjects 321 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 321
+    ], [
+        void:distinctObjects 53 ;
+        void:distinctSubjects 166 ;
+        void:property <http://www.w3.org/2006/vcard/ns#locality> ;
+        void:triples 167
+    ], [
+        void:distinctObjects 163 ;
+        void:distinctSubjects 167 ;
+        void:property <http://www.w3.org/2006/vcard/ns#street-address> ;
+        void:triples 167
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 167 ;
+        void:property <http://www.w3.org/2006/vcard/ns#country-name> ;
+        void:triples 167
+    ], [
+        void:distinctObjects 163 ;
+        void:distinctSubjects 166 ;
+        void:property <http://purl.org/goodrelations/v1#legalName> ;
+        void:triples 166
+    ], [
+        void:distinctObjects 153 ;
+        void:distinctSubjects 153 ;
+        void:property <http://purl.org/net7/vocab/locs/v1#activity> ;
+        void:triples 153
+    ], [
+        void:distinctObjects 334 ;
+        void:distinctSubjects 344 ;
+        void:property <http://purl.org/net7/vocab/locs/v1#originalName> ;
+        void:triples 344
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 153 ;
+        void:property <http://purl.org/net7/vocab/locs/v1#legalForm> ;
+        void:triples 153
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 24 ;
+        void:property <http://purl.org/net7/vocab/locs/v1#pagamento> ;
+        void:triples 24
+    ], [
+        void:distinctObjects 871 ;
+        void:distinctSubjects 884 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 885
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 24 ;
+        void:property <http://purl.org/dc/elements/1.1/date> ;
+        void:triples 24
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 70 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 70
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property <http://www.w3.org/2008/05/skos#exactMatch> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2006/vcard/ns#url> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 35 ;
+        void:property <http://purl.org/net7/vocab/locs/v1#activityType> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 162 ;
+        void:property <http://www.w3.org/2006/vcard/ns#region> ;
+        void:triples 162
+    ], [
+        void:distinctObjects 100 ;
+        void:distinctSubjects 165 ;
+        void:property <http://www.w3.org/2006/vcard/ns#postal-code> ;
+        void:triples 165
+    ], [
+        void:distinctObjects 122 ;
+        void:distinctSubjects 124 ;
+        void:property <http://www.w3.org/2006/vcard/ns#tel> ;
+        void:triples 124
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 321 ;
+        void:property <http://purl.org/net7/vocab/locs/v1#settore> ;
+        void:triples 321
+    ], [
+        void:distinctObjects 167 ;
+        void:distinctSubjects 167 ;
+        void:property <http://www.w3.org/2006/vcard/ns#adr> ;
+        void:triples 167
+    ] ;
+    void:triples 5398 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1>, <http://purl.org/goodrelations/v1>, <http://purl.org/net7/vocab/locs/v1>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2006/vcard/ns>, <http://www.w3.org/2008/05/skos> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

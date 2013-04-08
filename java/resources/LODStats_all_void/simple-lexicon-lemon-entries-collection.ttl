@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.languagelibrary.eu/owl/simple/lemonsource/simple_lemonlistindividuals.owl>
+    void:classPartition [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://www.monnetproject.eu/lemon#Lexicon> ;
+        void:entities 1
+    ], [
+        void:class <http://www.monnetproject.eu/lemon#LexicalEntry> ;
+        void:entities 3936
+    ] ;
+    void:classes 3 ;
+    void:entities 3938 ;
+    void:properties 3 ;
+    void:propertyPartition [
+        void:distinctObjects 3936 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.monnetproject.eu/lemon#entry> ;
+        void:triples 3936
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.monnetproject.eu/lemon#language> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3938 ;
+        void:property rdf:type ;
+        void:triples 3753
+    ] ;
+    void:triples 7875 ;
+    void:vocabulary <http://www.monnetproject.eu/lemon>, <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:Dataset .
+

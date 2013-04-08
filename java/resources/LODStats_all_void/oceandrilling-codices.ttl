@@ -1,0 +1,164 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://data.oceandrilling.org/models/codices.ttl>
+    void:classPartition [
+        void:class <http://data.oceandrilling.org/core/1/IODP> ;
+        void:entities 151
+    ], [
+        void:class <http://data.oceandrilling.org/core/1/expedition> ;
+        void:entities 3022
+    ], [
+        void:class <http://data.oceandrilling.org/core/1/ODP> ;
+        void:entities 1767
+    ], [
+        void:class <http://data.oceandrilling.org/core/1/DSDP> ;
+        void:entities 1104
+    ], [
+        void:class <foaf:Organization> ;
+        void:entities 3022
+    ] ;
+    void:classes 5 ;
+    void:entities 3941 ;
+    void:properties 25 ;
+    void:propertyPartition [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 142 ;
+        void:property <http://www.oceandrilling.org/core/1/proceedingreport> ;
+        void:triples 142
+    ], [
+        void:distinctObjects 2122 ;
+        void:distinctSubjects 3022 ;
+        void:property <http://www.oceandrilling.org/core/1/waterdepth> ;
+        void:triples 3022
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 3022 ;
+        void:property <http://www.w3.org/2002/07/owl#sameas> ;
+        void:triples 6044
+    ], [
+        void:distinctObjects 482 ;
+        void:distinctSubjects 482 ;
+        void:property <http://www.oceandrilling.org/core/1/logdata> ;
+        void:triples 482
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 3022 ;
+        void:property rdf:type ;
+        void:triples 9046
+    ], [
+        void:distinctObjects 199 ;
+        void:distinctSubjects 2868 ;
+        void:property <http://www.oceandrilling.org/core/1/initialreportvolume> ;
+        void:triples 2868
+    ], [
+        void:distinctObjects 1183 ;
+        void:distinctSubjects 1766 ;
+        void:property <http://www.oceandrilling.org/core/1/coreRecovery> ;
+        void:triples 1766
+    ], [
+        void:distinctObjects 120 ;
+        void:distinctSubjects 1909 ;
+        void:property <http://www.oceandrilling.org/core/1/preliminaryreport> ;
+        void:triples 1909
+    ], [
+        void:distinctObjects 1254 ;
+        void:distinctSubjects 3022 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 3022
+    ], [
+        void:distinctObjects 4371 ;
+        void:distinctSubjects 1541 ;
+        void:property <http://www.w3.org/2004/02/skos/core#narrower> ;
+        void:triples 7393
+    ], [
+        void:distinctObjects 1199 ;
+        void:distinctSubjects 3022 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 3022
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 3022 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 6044
+    ], [
+        void:distinctObjects 1257 ;
+        void:distinctSubjects 1766 ;
+        void:property <http://www.oceandrilling.org/core/1/coreInterval> ;
+        void:triples 1766
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3022 ;
+        void:property <http://www.oceandrilling.org/core/1/program> ;
+        void:triples 3022
+    ], [
+        void:distinctObjects 194 ;
+        void:distinctSubjects 1766 ;
+        void:property <http://www.oceandrilling.org/core/1/drilled> ;
+        void:triples 1766
+    ], [
+        void:distinctObjects 103 ;
+        void:distinctSubjects 1730 ;
+        void:property <http://www.oceandrilling.org/core/1/scientificreportvolume> ;
+        void:triples 1730
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2004/02/skos/core#note> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 745 ;
+        void:distinctSubjects 1766 ;
+        void:property <http://www.oceandrilling.org/core/1/percentRecovery> ;
+        void:triples 1766
+    ], [
+        void:distinctObjects 114 ;
+        void:distinctSubjects 1909 ;
+        void:property <http://www.oceandrilling.org/core/1/scientificprospectus> ;
+        void:triples 1909
+    ], [
+        void:distinctObjects 2046 ;
+        void:distinctSubjects 3022 ;
+        void:property <http://www.oceandrilling.org/core/1/coreCount> ;
+        void:triples 3022
+    ], [
+        void:distinctObjects 1229 ;
+        void:distinctSubjects 3726 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 6126
+    ], [
+        void:distinctObjects 112 ;
+        void:distinctSubjects 1821 ;
+        void:property <http://www.oceandrilling.org/core/1/expeditionsite> ;
+        void:triples 1821
+    ], [
+        void:distinctObjects 1371 ;
+        void:distinctSubjects 1766 ;
+        void:property <http://www.oceandrilling.org/core/1/penetration> ;
+        void:triples 1766
+    ], [
+        void:distinctObjects 1802 ;
+        void:distinctSubjects 2977 ;
+        void:property <http://www.oceandrilling.org/core/1/coredata> ;
+        void:triples 2977
+    ], [
+        void:distinctObjects 298 ;
+        void:distinctSubjects 857 ;
+        void:property <http://www.oceandrilling.org/core/1/vcddata> ;
+        void:triples 857
+    ] ;
+    void:triples 73317 ;
+    void:vocabulary <http://www.oceandrilling.org/core/1>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2003/01/geo/wgs84_pos>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf/0.1> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

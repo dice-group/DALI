@@ -1,0 +1,233 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.yovisto.com/labs/dumps/latest.ttl.tar.gz>
+    void:classPartition [
+        void:class <http://www.yovisto.com/ontology/0.9/VideoSegment> ;
+        void:entities 505527
+    ], [
+        void:class <http://www.yovisto.com/ontology/0.9/organization> ;
+        void:entities 472
+    ], [
+        void:class <http://www.yovisto.com/ontology/0.9/Collection> ;
+        void:entities 664
+    ], [
+        void:class <http://www.yovisto.com/ontology/0.9/Speaker> ;
+        void:entities 2845
+    ], [
+        void:class <http://www.yovisto.com/ontology/0.9/Video> ;
+        void:entities 10504
+    ], [
+        void:class <http://www.yovisto.com/ontology/0.9/Category> ;
+        void:entities 35
+    ], [
+        void:class <http://www.yovisto.com/ontology/0.9/User> ;
+        void:entities 35
+    ], [
+        void:class <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tag> ;
+        void:entities 29904
+    ] ;
+    void:classes 8 ;
+    void:entities 4194562 ;
+    void:properties 37 ;
+    void:propertyPartition [
+        void:distinctObjects 201940 ;
+        void:distinctSubjects 282828 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 282828
+    ], [
+        void:distinctObjects 29904 ;
+        void:distinctSubjects 15054 ;
+        void:property <http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> ;
+        void:triples 29904
+    ], [
+        void:distinctObjects 2776 ;
+        void:distinctSubjects 12678 ;
+        void:property <http://purl.org/dc/elements/1.1/contributor> ;
+        void:triples 15098
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 933 ;
+        void:property <http://xmlns.com/foaf/0.1/title> ;
+        void:triples 933
+    ], [
+        void:distinctObjects 1402 ;
+        void:distinctSubjects 2767 ;
+        void:property <http://xmlns.com/foaf/0.1/given_name> ;
+        void:triples 2767
+    ], [
+        void:distinctObjects 505338 ;
+        void:distinctSubjects 505338 ;
+        void:property <http://xmlns.com/foaf/0.1/thumbnail> ;
+        void:triples 505338
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 35 ;
+        void:property <http://www.w3.org/2008/05/skos#prefLabel> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 259 ;
+        void:distinctSubjects 206 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 261
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 549986 ;
+        void:property rdf:type ;
+        void:triples 952
+    ], [
+        void:distinctObjects 70 ;
+        void:distinctSubjects 35 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 70
+    ], [
+        void:distinctObjects 193378 ;
+        void:distinctSubjects 289080 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 289080
+    ], [
+        void:distinctObjects 505338 ;
+        void:distinctSubjects 505338 ;
+        void:property <http://xmlns.com/foaf/0.1/img> ;
+        void:triples 505338
+    ], [
+        void:distinctObjects 1562 ;
+        void:distinctSubjects 4087 ;
+        void:property <http://purl.org/dc/terms/alternative> ;
+        void:triples 4087
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 20 ;
+        void:property <http://xmlns.com/foaf/0.1/logo> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 15054 ;
+        void:distinctSubjects 15052 ;
+        void:property <http://www.holygoat.co.uk/owl/redwood/0.1/tags/tag> ;
+        void:triples 15054
+    ], [
+        void:distinctObjects 520046 ;
+        void:distinctSubjects 520046 ;
+        void:property <http://purl.org/dc/elements/1.1/identifier> ;
+        void:triples 520046
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 10500 ;
+        void:property <http://purl.org/dc/elements/1.1/format> ;
+        void:triples 10500
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 17 ;
+        void:property <http://www.w3.org/2008/05/skos#related> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 10988 ;
+        void:distinctSubjects 516028 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 516028
+    ], [
+        void:distinctObjects 2470 ;
+        void:distinctSubjects 2845 ;
+        void:property <http://xmlns.com/foaf/0.1/familyName> ;
+        void:triples 2845
+    ], [
+        void:distinctObjects 162 ;
+        void:distinctSubjects 167 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 167
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 35 ;
+        void:property <http://xmlns.com/foaf/0.1/accountName> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 90 ;
+        void:distinctSubjects 664 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 664
+    ], [
+        void:distinctObjects 2470 ;
+        void:distinctSubjects 2845 ;
+        void:property <http://xmlns.com/foaf/0.1/surname> ;
+        void:triples 2845
+    ], [
+        void:distinctObjects 1402 ;
+        void:distinctSubjects 2767 ;
+        void:property <http://xmlns.com/foaf/0.1/firstName> ;
+        void:triples 2767
+    ], [
+        void:distinctObjects 8273 ;
+        void:distinctSubjects 520578 ;
+        void:property <http://rhizomik.net/ontologies/2005/03/Mpeg7-2001.owl#MediaTimePoint> ;
+        void:triples 520578
+    ], [
+        void:distinctObjects 520578 ;
+        void:distinctSubjects 506128 ;
+        void:property <http://rhizomik.net/ontologies/2005/03/Mpeg7-2001.owl#MediaTime> ;
+        void:triples 520579
+    ], [
+        void:distinctObjects 14763 ;
+        void:distinctSubjects 520578 ;
+        void:property <http://rhizomik.net/ontologies/2005/03/Mpeg7-2001.owl#duration> ;
+        void:triples 520578
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 10501 ;
+        void:property <http://purl.org/dc/elements/1.1/language> ;
+        void:triples 10501
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 2648 ;
+        void:property <http://web.resource.org/cc/license> ;
+        void:triples 2648
+    ], [
+        void:distinctObjects 3267 ;
+        void:distinctSubjects 3317 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 3317
+    ], [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 15054 ;
+        void:property <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> ;
+        void:triples 15054
+    ], [
+        void:distinctObjects 4588 ;
+        void:distinctSubjects 10504 ;
+        void:property <http://purl.org/dc/terms/extent> ;
+        void:triples 10504
+    ], [
+        void:distinctObjects 2121 ;
+        void:distinctSubjects 10165 ;
+        void:property <http://purl.org/dc/elements/1.1/coverage> ;
+        void:triples 10165
+    ], [
+        void:distinctObjects 129 ;
+        void:distinctSubjects 10698 ;
+        void:property <http://purl.org/dc/elements/1.1/subject> ;
+        void:triples 10698
+    ], [
+        void:distinctObjects 13425 ;
+        void:distinctSubjects 29904 ;
+        void:property <http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> ;
+        void:triples 29904
+    ], [
+        void:distinctObjects 6506 ;
+        void:distinctSubjects 16878 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 21113
+    ] ;
+    void:triples 4932352 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://rhizomik.net/ontologies/2005/03/Mpeg7-2001.owl>, <http://web.resource.org/cc/>, <http://www.holygoat.co.uk/owl/redwood/0.1/tags/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2008/05/skos>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

@@ -1,0 +1,679 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://rdf.myexperiment.org/myexperiment.rdf.gz>
+    void:classPartition [
+        void:class <http://rdf.myexperiment.org/ontologies/packs/RemotePackEntry> ;
+        void:entities 420
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/annotations/Review> ;
+        void:entities 12
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/contributions/File> ;
+        void:entities 436
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/base/ContentType> ;
+        void:entities 96
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/annotations/Rating> ;
+        void:entities 150
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/components/Sink> ;
+        void:entities 8802
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/base/GroupAnnouncement> ;
+        void:entities 20
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/base/Group> ;
+        void:entities 303
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/annotations/Favourite> ;
+        void:entities 204
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/components/OtherProcessor> ;
+        void:entities 16962
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/attrib_credit/Creditation> ;
+        void:entities 2164
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 5
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/components/Link> ;
+        void:entities 43243
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/contributions/Workflow> ;
+        void:entities 1853
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/base/User> ;
+        void:entities 7309
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/snarm/Policy> ;
+        void:entities 2478
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/annotations/Citation> ;
+        void:entities 17
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/components/WSDLProcessor> ;
+        void:entities 3742
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/contributions/WorkflowVersion> ;
+        void:entities 2374
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/base/Membership> ;
+        void:entities 1577
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/packs/Relationship> ;
+        void:entities 52
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/base/License> ;
+        void:entities 12
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/components/Source> ;
+        void:entities 6466
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/packs/LocalPackEntry> ;
+        void:entities 854
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/base/Announcement> ;
+        void:entities 60
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/packs/Pack> ;
+        void:entities 189
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/attrib_credit/Attribution> ;
+        void:entities 315
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/components/Output> ;
+        void:entities 43243
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/snarm/RestrictedAccess> ;
+        void:entities 10056
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/annotations/Tagging> ;
+        void:entities 8294
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/annotations/Comment> ;
+        void:entities 261
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/components/Input> ;
+        void:entities 43243
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/annotations/Tag> ;
+        void:entities 3231
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/components/DataflowProcessor> ;
+        void:entities 2163
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/components/BeanshellProcessor> ;
+        void:entities 4384
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/packs/RelationshipEntry> ;
+        void:entities 52
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/base/Friendship> ;
+        void:entities 1263
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/components/Dataflow> ;
+        void:entities 4044
+    ], [
+        void:class <http://rdf.myexperiment.org/ontologies/components/Processor> ;
+        void:entities 1599
+    ] ;
+    void:classes 40 ;
+    void:entities 221955 ;
+    void:properties 107 ;
+    void:propertyPartition [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 20 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/announced-to> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 2374 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/version-number> ;
+        void:triples 2374
+    ], [
+        void:distinctObjects 83 ;
+        void:distinctSubjects 4663 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-content-type> ;
+        void:triples 4663
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 14 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/citation-url> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 1229 ;
+        void:distinctSubjects 172 ;
+        void:property <http://www.openarchives.org/ore/terms/aggregates> ;
+        void:triples 1326
+    ], [
+        void:distinctObjects 4027 ;
+        void:distinctSubjects 5632 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/executes-dataflow> ;
+        void:triples 5632
+    ], [
+        void:distinctObjects 173864 ;
+        void:distinctSubjects 4008 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/has-component> ;
+        void:triples 173864
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 16 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/has-citation> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 80 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-announcer> ;
+        void:triples 80
+    ], [
+        void:distinctObjects 483 ;
+        void:distinctSubjects 807 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/field> ;
+        void:triples 807
+    ], [
+        void:distinctObjects 20958 ;
+        void:distinctSubjects 29560 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 29560
+    ], [
+        void:distinctObjects 1353 ;
+        void:distinctSubjects 1475 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/text> ;
+        void:triples 1475
+    ], [
+        void:distinctObjects 492 ;
+        void:distinctSubjects 4078 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/processor-uri> ;
+        void:triples 4078
+    ], [
+        void:distinctObjects 4227 ;
+        void:distinctSubjects 4227 ;
+        void:property <http://rdf.myexperiment.org/ontologies/contributions/preview> ;
+        void:triples 4227
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 17 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/published-at> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 4227 ;
+        void:distinctSubjects 4227 ;
+        void:property <http://rdf.myexperiment.org/ontologies/contributions/thumbnail-big> ;
+        void:triples 4227
+    ], [
+        void:distinctObjects 127 ;
+        void:distinctSubjects 127 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/contact-details> ;
+        void:triples 127
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 8 ;
+        void:property <http://web.resource.org/cc/permits> ;
+        void:triples 22
+    ], [
+        void:distinctObjects 204 ;
+        void:distinctSubjects 90 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-favourite> ;
+        void:triples 204
+    ], [
+        void:distinctObjects 635 ;
+        void:distinctSubjects 6589 ;
+        void:property <http://rdfs.org/sioc/ns#has_owner> ;
+        void:triples 6589
+    ], [
+        void:distinctObjects 2430 ;
+        void:distinctSubjects 2455 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/accepted-at> ;
+        void:triples 2455
+    ], [
+        void:distinctObjects 8294 ;
+        void:distinctSubjects 1790 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/for-tagging> ;
+        void:triples 8294
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 52 ;
+        void:property rdf:object ;
+        void:triples 52
+    ], [
+        void:distinctObjects 949 ;
+        void:distinctSubjects 2458 ;
+        void:property <http://rdf.myexperiment.org/ontologies/viewings_downloads/viewed> ;
+        void:triples 2458
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 150 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/rating-score> ;
+        void:triples 150
+    ], [
+        void:distinctObjects 150 ;
+        void:distinctSubjects 114 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/has-rating> ;
+        void:triples 150
+    ], [
+        void:distinctObjects 8294 ;
+        void:distinctSubjects 1755 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/has-tagging> ;
+        void:triples 8294
+    ], [
+        void:distinctObjects 4952 ;
+        void:distinctSubjects 4952 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox_sha1sum> ;
+        void:triples 4952
+    ], [
+        void:distinctObjects 465 ;
+        void:distinctSubjects 292 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/has-comment> ;
+        void:triples 465
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 20 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/public-announcement> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 1027 ;
+        void:distinctSubjects 303 ;
+        void:property <http://rdfs.org/sioc/ns#has_member> ;
+        void:triples 1757
+    ], [
+        void:distinctObjects 437 ;
+        void:distinctSubjects 569 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/waits-on> ;
+        void:triples 594
+    ], [
+        void:distinctObjects 1853 ;
+        void:distinctSubjects 1853 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-current-version> ;
+        void:triples 1853
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 7309 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/receive-notifications> ;
+        void:triples 7309
+    ], [
+        void:distinctObjects 42170 ;
+        void:distinctSubjects 86486 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/for-component> ;
+        void:triples 86486
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/format> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 181 ;
+        void:distinctSubjects 315 ;
+        void:property <http://rdf.myexperiment.org/ontologies/attrib_credit/attributes> ;
+        void:triples 315
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property <http://web.resource.org/cc/prohibits> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 96 ;
+        void:property <http://purl.org/dc/terms/type> ;
+        void:triples 96
+    ], [
+        void:distinctObjects 7528 ;
+        void:distinctSubjects 7612 ;
+        void:property <http://rdfs.org/sioc/ns#name> ;
+        void:triples 7612
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/publisher> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1650 ;
+        void:distinctSubjects 7580 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/processor-script> ;
+        void:triples 7580
+    ], [
+        void:distinctObjects 21251 ;
+        void:distinctSubjects 122462 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 122462
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 14 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/publication> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 5783 ;
+        void:distinctSubjects 5784 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/activated-at> ;
+        void:triples 5784
+    ], [
+        void:distinctObjects 521 ;
+        void:distinctSubjects 337 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-version> ;
+        void:triples 521
+    ], [
+        void:distinctObjects 1790 ;
+        void:distinctSubjects 8294 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/uses-tag> ;
+        void:triples 8294
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 4663 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-license> ;
+        void:triples 4663
+    ], [
+        void:distinctObjects 1133 ;
+        void:distinctSubjects 2840 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-requester> ;
+        void:triples 2840
+    ], [
+        void:distinctObjects 172 ;
+        void:distinctSubjects 1326 ;
+        void:property <http://www.openarchives.org/ore/terms/proxyIn> ;
+        void:triples 1326
+    ], [
+        void:distinctObjects 1326 ;
+        void:distinctSubjects 172 ;
+        void:property <http://rdf.myexperiment.org/ontologies/packs/has-entry> ;
+        void:triples 1326
+    ], [
+        void:distinctObjects 10060 ;
+        void:distinctSubjects 2478 ;
+        void:property <http://rdf.myexperiment.org/ontologies/snarm/has-access> ;
+        void:triples 15053
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 10056 ;
+        void:property <http://rdf.myexperiment.org/ontologies/snarm/has-access-type> ;
+        void:triples 10056
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 52 ;
+        void:property rdf:subject ;
+        void:triples 52
+    ], [
+        void:distinctObjects 492 ;
+        void:distinctSubjects 10056 ;
+        void:property <http://rdf.myexperiment.org/ontologies/snarm/has-accesser> ;
+        void:triples 10056
+    ], [
+        void:distinctObjects 763 ;
+        void:distinctSubjects 1802 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/example-value> ;
+        void:triples 2117
+    ], [
+        void:distinctObjects 1835 ;
+        void:distinctSubjects 8938 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/annotates> ;
+        void:triples 8938
+    ], [
+        void:distinctObjects 16478 ;
+        void:distinctSubjects 15863 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 16496
+    ], [
+        void:distinctObjects 984 ;
+        void:distinctSubjects 2396 ;
+        void:property <http://rdf.myexperiment.org/ontologies/viewings_downloads/downloaded> ;
+        void:triples 2396
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 15233 ;
+        void:distinctSubjects 19411 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 19411
+    ], [
+        void:distinctObjects 601 ;
+        void:distinctSubjects 3294 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/service-name> ;
+        void:triples 3294
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 152 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/authority-name> ;
+        void:triples 152
+    ], [
+        void:distinctObjects 1920 ;
+        void:distinctSubjects 2164 ;
+        void:property <http://rdf.myexperiment.org/ontologies/attrib_credit/has-creditable> ;
+        void:triples 2164
+    ], [
+        void:distinctObjects 1229 ;
+        void:distinctSubjects 1326 ;
+        void:property <http://www.openarchives.org/ore/terms/proxyFor> ;
+        void:triples 1326
+    ], [
+        void:distinctObjects 2478 ;
+        void:distinctSubjects 4852 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-policy> ;
+        void:triples 4852
+    ], [
+        void:distinctObjects 1263 ;
+        void:distinctSubjects 714 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-friendship> ;
+        void:triples 2525
+    ], [
+        void:distinctObjects 61 ;
+        void:distinctSubjects 221949 ;
+        void:property rdf:type ;
+        void:triples 115682
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 7309 ;
+        void:property <http://rdfs.org/sioc/ns#avatar> ;
+        void:triples 7309
+    ], [
+        void:distinctObjects 4663 ;
+        void:distinctSubjects 4663 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/content-url> ;
+        void:triples 4663
+    ], [
+        void:distinctObjects 1995 ;
+        void:distinctSubjects 173864 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/belongs-to-workflow> ;
+        void:triples 173864
+    ], [
+        void:distinctObjects 542 ;
+        void:distinctSubjects 547 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/interests> ;
+        void:triples 547
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2374 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/is-current-version> ;
+        void:triples 2374
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 17 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/authors> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 2860 ;
+        void:distinctSubjects 2860 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/last-seen-at> ;
+        void:triples 2860
+    ], [
+        void:distinctObjects 545 ;
+        void:distinctSubjects 1093 ;
+        void:property <http://xmlns.com/foaf/0.1/based_near> ;
+        void:triples 1093
+    ], [
+        void:distinctObjects 1559 ;
+        void:distinctSubjects 2193 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 2193
+    ], [
+        void:distinctObjects 189 ;
+        void:distinctSubjects 189 ;
+        void:property <http://www.openarchives.org/ore/terms/isDescribedBy> ;
+        void:triples 189
+    ], [
+        void:distinctObjects 4227 ;
+        void:distinctSubjects 4227 ;
+        void:property <http://rdf.myexperiment.org/ontologies/contributions/svg> ;
+        void:triples 4227
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 5 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/accessed-at> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 43243 ;
+        void:distinctSubjects 43243 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/from-output> ;
+        void:triples 43243
+    ], [
+        void:distinctObjects 361 ;
+        void:distinctSubjects 2164 ;
+        void:property <http://rdf.myexperiment.org/ontologies/attrib_credit/credits> ;
+        void:triples 2164
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 8 ;
+        void:property <http://web.resource.org/cc/requires> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 43243 ;
+        void:distinctSubjects 43243 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/to-input> ;
+        void:triples 43243
+    ], [
+        void:distinctObjects 70 ;
+        void:distinctSubjects 26921 ;
+        void:property <http://rdf.myexperiment.org/ontologies/components/processor-type> ;
+        void:triples 26921
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://rdf.myexperiment.org/ontologies/annotations/has-review> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 601 ;
+        void:distinctSubjects 1280 ;
+        void:property <http://dbpedia.org/ontology/residence> ;
+        void:triples 2354
+    ], [
+        void:distinctObjects 4036 ;
+        void:distinctSubjects 9070 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 9070
+    ], [
+        void:distinctObjects 1576 ;
+        void:distinctSubjects 936 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-membership> ;
+        void:triples 1576
+    ], [
+        void:distinctObjects 780 ;
+        void:distinctSubjects 2840 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-accepter> ;
+        void:triples 2840
+    ], [
+        void:distinctObjects 81 ;
+        void:distinctSubjects 1267 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/country> ;
+        void:triples 1267
+    ], [
+        void:distinctObjects 58746 ;
+        void:distinctSubjects 33945 ;
+        void:property <http://purl.org/dc/terms/hasFormat> ;
+        void:triples 58746
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 413 ;
+        void:distinctSubjects 8938 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/has-annotator> ;
+        void:triples 8938
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 4227 ;
+        void:distinctSubjects 4227 ;
+        void:property <http://rdf.myexperiment.org/ontologies/contributions/thumbnail> ;
+        void:triples 4227
+    ], [
+        void:distinctObjects 208 ;
+        void:distinctSubjects 315 ;
+        void:property <http://rdf.myexperiment.org/ontologies/attrib_credit/has-attributable> ;
+        void:triples 315
+    ], [
+        void:distinctObjects 261 ;
+        void:distinctSubjects 3672 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/last-edited-by> ;
+        void:triples 3672
+    ], [
+        void:distinctObjects 1853 ;
+        void:distinctSubjects 2374 ;
+        void:property <http://purl.org/dc/terms/isVersionOf> ;
+        void:triples 2374
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 52 ;
+        void:property rdf:predicate ;
+        void:triples 52
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/language> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 7229 ;
+        void:distinctSubjects 7309 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 7309
+    ], [
+        void:distinctObjects 1659 ;
+        void:distinctSubjects 1661 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox> ;
+        void:triples 1661
+    ], [
+        void:distinctObjects 2700 ;
+        void:distinctSubjects 4663 ;
+        void:property <http://rdf.myexperiment.org/ontologies/base/filename> ;
+        void:triples 4663
+    ] ;
+    void:triples 1272356 ;
+    void:vocabulary <http://dbpedia.org/ontology>, <http://purl.org/dc>, <http://rdf.myexperiment.org/ontologies>, <http://rdfs.org/sioc/ns>, <http://web.resource.org/cc>, <http://www.openarchives.org/ore>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

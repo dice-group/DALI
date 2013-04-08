@@ -1,0 +1,190 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://klappstuhlclub.de/wp/wp-content/plugins/RDF2WP/Output/EntireBlogExporter.php?format=text/plain>
+    void:classPartition [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 92
+    ], [
+        void:class <http://rdfs.org/sioc/types#BlogPost> ;
+        void:entities 229
+    ] ;
+    void:classes 2 ;
+    void:entities 321 ;
+    void:properties 32 ;
+    void:propertyPartition [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 29 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/anwesend> ;
+        void:triples 98
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 175 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/stadt> ;
+        void:triples 175
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/video> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 166 ;
+        void:distinctSubjects 178 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/nummer> ;
+        void:triples 178
+    ], [
+        void:distinctObjects 202 ;
+        void:distinctSubjects 205 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 205
+    ], [
+        void:distinctObjects 212 ;
+        void:distinctSubjects 229 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/content> ;
+        void:triples 229
+    ], [
+        void:distinctObjects 202 ;
+        void:distinctSubjects 205 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 205
+    ], [
+        void:distinctObjects 151 ;
+        void:distinctSubjects 177 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/datum> ;
+        void:triples 177
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 229 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 229
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 229 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/editLink> ;
+        void:triples 229
+    ], [
+        void:distinctObjects 92 ;
+        void:distinctSubjects 223 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 680
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/ort> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/besucher> ;
+        void:triples 21
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/wiki> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/nachtrag> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 202 ;
+        void:distinctSubjects 205 ;
+        void:property <http://www.georss.org/georss/point> ;
+        void:triples 205
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/beschreibung> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/slogan> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/name> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/X-logie> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 229 ;
+        void:property <http://purl.org/dc/terms/license> ;
+        void:triples 229
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 30 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/aktivitaeten> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/event> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/wikipedia> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/facebook> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/titel> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/Special> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/thumbnail> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/x-logie> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 40 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/trilogie> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 321 ;
+        void:property rdf:type ;
+        void:triples 318
+    ], [
+        void:distinctObjects 229 ;
+        void:distinctSubjects 229 ;
+        void:property <http://www.klappstuhlclub.de/wp/posts/title> ;
+        void:triples 229
+    ] ;
+    void:triples 4158 ;
+    void:vocabulary <http://purl.org/dc/terms/>, <http://www.georss.org/georss/>, <http://www.klappstuhlclub.de/wp/posts/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2003/01/geo/wgs84_pos> ;
+    a void:Dataset .
+

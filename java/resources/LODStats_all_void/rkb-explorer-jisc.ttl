@@ -1,0 +1,215 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://jisc.rkbexplorer.com/models/dump.tgz>
+    void:classPartition [
+        void:class <http://purl.org/ontology/bibo/Article> ;
+        void:entities 2734
+    ], [
+        void:class <http://www.rkbexplorer.com/ontologies/jisc#Programme> ;
+        void:entities 57
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 1064
+    ], [
+        void:class <http://www.rkbexplorer.com/ontologies/jisc#Governance> ;
+        void:entities 27
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:entities 349
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 19
+    ], [
+        void:class <http://www.rkbexplorer.com/ontologies/jisc#Project> ;
+        void:entities 1267
+    ] ;
+    void:classes 7 ;
+    void:entities 8724 ;
+    void:properties 34 ;
+    void:propertyPartition [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 19 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 38
+    ], [
+        void:distinctObjects 128 ;
+        void:distinctSubjects 56 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#programme-contact> ;
+        void:triples 128
+    ], [
+        void:distinctObjects 247 ;
+        void:distinctSubjects 1064 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#affiliation> ;
+        void:triples 1064
+    ], [
+        void:distinctObjects 181 ;
+        void:distinctSubjects 1743 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#output-tag> ;
+        void:triples 6620
+    ], [
+        void:distinctObjects 733 ;
+        void:distinctSubjects 2730 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#delivery-date> ;
+        void:triples 2730
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 5517 ;
+        void:property rdf:type ;
+        void:triples 2827
+    ], [
+        void:distinctObjects 869 ;
+        void:distinctSubjects 883 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#homepage> ;
+        void:triples 883
+    ], [
+        void:distinctObjects 116 ;
+        void:distinctSubjects 852 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#workpackage> ;
+        void:triples 852
+    ], [
+        void:distinctObjects 950 ;
+        void:distinctSubjects 2734 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 2734
+    ], [
+        void:distinctObjects 2734 ;
+        void:distinctSubjects 1319 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#has-output> ;
+        void:triples 2734
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 3150 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#role> ;
+        void:triples 3152
+    ], [
+        void:distinctObjects 1064 ;
+        void:distinctSubjects 3150 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#contact> ;
+        void:triples 3150
+    ], [
+        void:distinctObjects 1848 ;
+        void:distinctSubjects 2270 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#url> ;
+        void:triples 2270
+    ], [
+        void:distinctObjects 3328 ;
+        void:distinctSubjects 4015 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#description> ;
+        void:triples 4015
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 2582 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#theme> ;
+        void:triples 3359
+    ], [
+        void:distinctObjects 707 ;
+        void:distinctSubjects 715 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#short-name> ;
+        void:triples 715
+    ], [
+        void:distinctObjects 500 ;
+        void:distinctSubjects 518 ;
+        void:property <http://xmlns.com/foaf/0.1/telephone> ;
+        void:triples 518
+    ], [
+        void:distinctObjects 349 ;
+        void:distinctSubjects 1184 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#institution> ;
+        void:triples 1763
+    ], [
+        void:distinctObjects 56 ;
+        void:distinctSubjects 1267 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#programme> ;
+        void:triples 1267
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 4058 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#status> ;
+        void:triples 4058
+    ], [
+        void:distinctObjects 521 ;
+        void:distinctSubjects 1014 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#job-title> ;
+        void:triples 1014
+    ], [
+        void:distinctObjects 44 ;
+        void:distinctSubjects 2601 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#output-type> ;
+        void:triples 2926
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 1698 ;
+        void:distinctSubjects 1700 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#name> ;
+        void:triples 1700
+    ], [
+        void:distinctObjects 322 ;
+        void:distinctSubjects 1323 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#end-date> ;
+        void:triples 1323
+    ], [
+        void:distinctObjects 280 ;
+        void:distinctSubjects 1324 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#start-date> ;
+        void:triples 1324
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 19 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 27 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#type> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 1064 ;
+        void:distinctSubjects 1064 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 1064
+    ], [
+        void:distinctObjects 1009 ;
+        void:distinctSubjects 1010 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox> ;
+        void:triples 1010
+    ], [
+        void:distinctObjects 3025 ;
+        void:distinctSubjects 1241 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#participant> ;
+        void:triples 3025
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 884 ;
+        void:property <http://www.rkbexplorer.com/ontologies/jisc#governance> ;
+        void:triples 1021
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 19 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 19
+    ] ;
+    void:triples 79877 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://www.rkbexplorer.com/ontologies/jisc>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

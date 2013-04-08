@@ -1,0 +1,57 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.ntnu.no/ub/data/tekord>
+    void:classPartition [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 15374
+    ] ;
+    void:classes 1 ;
+    void:entities 15374 ;
+    void:properties 6 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 15374 ;
+        void:property rdf:type ;
+        void:triples 14557
+    ], [
+        void:distinctObjects 13108 ;
+        void:distinctSubjects 15325 ;
+        void:property <file:///Users/rurikgreenall/www.ntnu.no/ub/data/nl#udc> ;
+        void:triples 16318
+    ], [
+        void:distinctObjects 15371 ;
+        void:distinctSubjects 15374 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 15374
+    ], [
+        void:distinctObjects 1083 ;
+        void:distinctSubjects 929 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 1083
+    ], [
+        void:distinctObjects 2064 ;
+        void:distinctSubjects 975 ;
+        void:property <http://www.w3.org/2004/02/skos/core#narrower> ;
+        void:triples 2064
+    ], [
+        void:distinctObjects 975 ;
+        void:distinctSubjects 2061 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 2061
+    ] ;
+    void:triples 52274 ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:Dataset .
+

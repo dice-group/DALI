@@ -1,0 +1,32 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://disi.unitn.it/~knowdive/dataset/delicious/all/tags>
+    void:classPartition [
+        void:class <http://www.holygoat.co.uk/owl/redwood/0.1/tags#Tag> ;
+        void:entities 2832
+    ] ;
+    void:classes 1 ;
+    void:entities 2832 ;
+    void:properties 1 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2832 ;
+        void:property rdf:type ;
+        void:triples 1457
+    ] ;
+    void:triples 2832 ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

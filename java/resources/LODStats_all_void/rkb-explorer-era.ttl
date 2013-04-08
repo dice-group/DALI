@@ -1,0 +1,72 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://era.rkbexplorer.com/models/dump.tgz>
+    void:classPartition [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 4
+    ] ;
+    void:classes 1 ;
+    void:entities 54536 ;
+    void:properties 9 ;
+    void:propertyPartition [
+        void:distinctObjects 54500 ;
+        void:distinctSubjects 54536 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 54536
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4 ;
+        void:property rdf:type ;
+        void:triples 4
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 20707 ;
+        void:distinctSubjects 20712 ;
+        void:property <http://era.rkbexplorer.com/id/title> ;
+        void:triples 20712
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 177 ;
+        void:distinctSubjects 20712 ;
+        void:property <http://era.rkbexplorer.com/id/fieldOfResearch> ;
+        void:triples 27426
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 20712 ;
+        void:property <http://era.rkbexplorer.com/id/rank> ;
+        void:triples 20712
+    ], [
+        void:distinctObjects 33848 ;
+        void:distinctSubjects 20712 ;
+        void:property <http://era.rkbexplorer.com/id/issn> ;
+        void:triples 33848
+    ] ;
+    void:triples 233722 ;
+    void:vocabulary <http://era.rkbexplorer.com/id/>, <http://purl.org/dc/elements/1.1/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

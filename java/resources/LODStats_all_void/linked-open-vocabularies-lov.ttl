@@ -1,0 +1,263 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://labs.mondeca.com/dataset/lov>
+    void:classPartition [
+        void:class <http://labs.mondeca.com/vocab/voaf#Vocabulary> ;
+        void:entities 262
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 129
+    ], [
+        void:class void:Dataset ;
+        void:entities 1
+    ], [
+        void:class <http://moat-project.org/ns#Tag> ;
+        void:entities 42
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:entities 34
+    ], [
+        void:class <http://labs.mondeca.com/vocab/voaf#VocabularySpace> ;
+        void:entities 39
+    ], [
+        void:class <http://purl.org/stuff/rev#Review> ;
+        void:entities 1173
+    ], [
+        void:class <http://dbpedia.org/class/yago/Employee-ownedCompanies> ;
+        void:entities 1
+    ] ;
+    void:classes 8 ;
+    void:entities 1882 ;
+    void:properties 43 ;
+    void:propertyPartition [
+        void:distinctObjects 177 ;
+        void:distinctSubjects 224 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 224
+    ], [
+        void:distinctObjects 65 ;
+        void:distinctSubjects 63 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 65
+    ], [
+        void:distinctObjects 599 ;
+        void:distinctSubjects 1173 ;
+        void:property <http://purl.org/stuff/rev#text> ;
+        void:triples 1173
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 2 ;
+        void:property <http://labs.mondeca.com/vocab/voaf#dataset> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 29 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 62
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 15 ;
+        void:property <http://labs.mondeca.com/vocab/voaf#generalizes> ;
+        void:triples 25
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property void:dataDump ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/homePage> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 1173 ;
+        void:property <http://purl.org/dc/terms/date> ;
+        void:triples 1173
+    ], [
+        void:distinctObjects 262 ;
+        void:distinctSubjects 262 ;
+        void:property <http://purl.org/vocab/vann/preferredNamespaceUri> ;
+        void:triples 262
+    ], [
+        void:distinctObjects 86 ;
+        void:distinctSubjects 134 ;
+        void:property <http://labs.mondeca.com/vocab/voaf#extends> ;
+        void:triples 242
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 1681 ;
+        void:property rdf:type ;
+        void:triples 881
+    ], [
+        void:distinctObjects 1173 ;
+        void:distinctSubjects 181 ;
+        void:property <http://purl.org/stuff/rev#hasReview> ;
+        void:triples 1173
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://xmlns.com/foaf/0.1/account> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 302 ;
+        void:distinctSubjects 302 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 302
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 31 ;
+        void:property <http://labs.mondeca.com/vocab/voaf#reliesOn> ;
+        void:triples 53
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 280 ;
+        void:distinctSubjects 277 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 282
+    ], [
+        void:distinctObjects 39 ;
+        void:distinctSubjects 39 ;
+        void:property <http://labs.mondeca.com/vocab/voaf#hasEquivalencesWith> ;
+        void:triples 59
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <rdfs:label> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 49 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 49
+    ], [
+        void:distinctObjects 300 ;
+        void:distinctSubjects 39 ;
+        void:property <http://purl.org/dc/terms/hasPart> ;
+        void:triples 300
+    ], [
+        void:distinctObjects 78 ;
+        void:distinctSubjects 78 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 78
+    ], [
+        void:distinctObjects 70 ;
+        void:distinctSubjects 262 ;
+        void:property <http://labs.mondeca.com/vocab/voaf#classNumber> ;
+        void:triples 262
+    ], [
+        void:distinctObjects 76 ;
+        void:distinctSubjects 86 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 86
+    ], [
+        void:distinctObjects 42 ;
+        void:distinctSubjects 42 ;
+        void:property <http://lexvo.org/ontology#representedBy> ;
+        void:triples 42
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://creativecommons.org/ns#license> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 90 ;
+        void:distinctSubjects 262 ;
+        void:property <http://labs.mondeca.com/vocab/voaf#propertyNumber> ;
+        void:triples 262
+    ], [
+        void:distinctObjects 137 ;
+        void:distinctSubjects 1348 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 1464
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 5 ;
+        void:property <http://labs.mondeca.com/vocab/voaf#hasDisjunctionsWith> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 211 ;
+        void:property <http://labs.mondeca.com/vocab/voaf#metadataVoc> ;
+        void:triples 520
+    ], [
+        void:distinctObjects 75 ;
+        void:distinctSubjects 147 ;
+        void:property <http://labs.mondeca.com/vocab/voaf#specializes> ;
+        void:triples 298
+    ], [
+        void:distinctObjects 262 ;
+        void:distinctSubjects 262 ;
+        void:property <http://purl.org/vocab/vann/preferredNamespacePrefix> ;
+        void:triples 262
+    ], [
+        void:distinctObjects 234 ;
+        void:distinctSubjects 235 ;
+        void:property <http://purl.org/ontology/bibo/shortTitle> ;
+        void:triples 235
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://labs.mondeca.com/vocab/voaf#similar> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 11 ;
+        void:property <http://purl.org/dc/terms/contributor> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property void:sparqlEndpoint ;
+        void:triples 1
+    ], [
+        void:distinctObjects 186 ;
+        void:distinctSubjects 262 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 264
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 8 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 203 ;
+        void:property <http://purl.org/dc/terms/language> ;
+        void:triples 278
+    ], [
+        void:distinctObjects 42 ;
+        void:distinctSubjects 42 ;
+        void:property <http://www.holygoat.co.uk/owl/redwood/0.1/tags/name> ;
+        void:triples 42
+    ] ;
+    void:triples 11285 ;
+    void:vocabulary <http://creativecommons.org/ns>, <http://labs.mondeca.com/vocab/voaf>, <http://lexvo.org/ontology>, <http://purl.org/dc>, <http://purl.org/ontology>, <http://purl.org/stuff/rev>, <http://purl.org/vocab>, <http://rdfs.org/ns/void>, <http://www.holygoat.co.uk/owl>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2003/06/sw-vocab-status/ns>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

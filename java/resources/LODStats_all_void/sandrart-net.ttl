@@ -1,0 +1,272 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://ta.sandrart.net/dump.rdf.gz>
+    void:classPartition [
+        void:class <http://purl.org/ontology/bibo/Proceedings> ;
+        void:entities 3
+    ], [
+        void:class <http://purl.org/ontology/bibo/Manuscript> ;
+        void:entities 11
+    ], [
+        void:class <http://erlangen-crm.org/120111/E22_Man-Made_Object> ;
+        void:entities 4810
+    ], [
+        void:class <http://umbel.org/umbel/sc/Artist_Visual> ;
+        void:entities 1479
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 4995
+    ], [
+        void:class <http://purl.org/ontology/bibo/MultiVolumeBook> ;
+        void:entities 244
+    ], [
+        void:class <http://erlangen-crm.org/120111/E53_Place> ;
+        void:entities 1787
+    ], [
+        void:class <http://erlangen-crm.org/120111/E82_Actor_Appellation> ;
+        void:entities 5041
+    ], [
+        void:class <http://erlangen-crm.org/120111/E74_Group> ;
+        void:entities 46
+    ], [
+        void:class <http://umbel.org/umbel/sc/PenOrPencilDrawing> ;
+        void:entities 569
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Group> ;
+        void:entities 52
+    ], [
+        void:class <http://umbel.org/umbel/sc/Painting_ArtForm> ;
+        void:entities 1265
+    ], [
+        void:class <http://purl.org/ontology/bibo/Thesis> ;
+        void:entities 33
+    ], [
+        void:class <http://umbel.org/umbel/sc/Sculpture> ;
+        void:entities 312
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Agent> ;
+        void:entities 38
+    ], [
+        void:class <http://erlangen-crm.org/120111/E35_Title> ;
+        void:entities 4877
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:entities 2
+    ], [
+        void:class <http://erlangen-crm.org/120111/E12_Production> ;
+        void:entities 9202
+    ], [
+        void:class <http://umbel.org/umbel/sc/ArtObject> ;
+        void:entities 4809
+    ], [
+        void:class <http://erlangen-crm.org/120111/E39_Actor> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/ontology/bibo/Book> ;
+        void:entities 1571
+    ], [
+        void:class <http://erlangen-crm.org/current/E22_Man-Made_Object> ;
+        void:entities 881
+    ], [
+        void:class <http://purl.org/ontology/bibo/Article> ;
+        void:entities 420
+    ], [
+        void:class <http://erlangen-crm.org/120111/E20_Biological_Object> ;
+        void:entities 1
+    ], [
+        void:class <http://umbel.org/umbel/sc/Building> ;
+        void:entities 83
+    ], [
+        void:class <http://erlangen-crm.org/120111/E21_Person> ;
+        void:entities 4995
+    ] ;
+    void:classes 26 ;
+    void:entities 33471 ;
+    void:properties 34 ;
+    void:propertyPartition [
+        void:distinctObjects 81 ;
+        void:distinctSubjects 94 ;
+        void:property <http://purl.org/vocab/relationship/apprenticeTo> ;
+        void:triples 100
+    ], [
+        void:distinctObjects 429 ;
+        void:distinctSubjects 222 ;
+        void:property <http://erlangen-crm.org/120111/P62i_is_depicted_by> ;
+        void:triples 481
+    ], [
+        void:distinctObjects 81 ;
+        void:distinctSubjects 81 ;
+        void:property <http://purl.org/vocab/relationship/spouseOf> ;
+        void:triples 84
+    ], [
+        void:distinctObjects 4877 ;
+        void:distinctSubjects 4877 ;
+        void:property <http://erlangen-crm.org/120111/P102_has_title> ;
+        void:triples 4877
+    ], [
+        void:distinctObjects 202 ;
+        void:distinctSubjects 722 ;
+        void:property <http://erlangen-crm.org/120111/P89_falls_within> ;
+        void:triples 727
+    ], [
+        void:distinctObjects 5041 ;
+        void:distinctSubjects 5041 ;
+        void:property <http://erlangen-crm.org/120111/P131_is_identified_by> ;
+        void:triples 5041
+    ], [
+        void:distinctObjects 4630 ;
+        void:distinctSubjects 4877 ;
+        void:property rdf:value ;
+        void:triples 4877
+    ], [
+        void:distinctObjects 103 ;
+        void:distinctSubjects 387 ;
+        void:property <http://erlangen-crm.org/120111/P49_has_former_or_current_keeper> ;
+        void:triples 428
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 33250 ;
+        void:property rdf:type ;
+        void:triples 25893
+    ], [
+        void:distinctObjects 151 ;
+        void:distinctSubjects 151 ;
+        void:property <http://purl.org/vocab/relationship/siblingOf> ;
+        void:triples 216
+    ], [
+        void:distinctObjects 4601 ;
+        void:distinctSubjects 3843 ;
+        void:property <http://erlangen-crm.org/120111/P108i_was_produced_by> ;
+        void:triples 4601
+    ], [
+        void:distinctObjects 14351 ;
+        void:distinctSubjects 14351 ;
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ;
+        void:triples 14351
+    ], [
+        void:distinctObjects 103 ;
+        void:distinctSubjects 152 ;
+        void:property <http://purl.org/vocab/relationship/childOf> ;
+        void:triples 169
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/vocab/relationship/closeFriendOf> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 189 ;
+        void:property <http://www.geonames.org/ontology#parentFeature> ;
+        void:triples 190
+    ], [
+        void:distinctObjects 722 ;
+        void:distinctSubjects 202 ;
+        void:property <http://erlangen-crm.org/120111/P89i_contains> ;
+        void:triples 727
+    ], [
+        void:distinctObjects 3843 ;
+        void:distinctSubjects 4601 ;
+        void:property <http://erlangen-crm.org/120111/P108_has_produced> ;
+        void:triples 4601
+    ], [
+        void:distinctObjects 5029 ;
+        void:distinctSubjects 5041 ;
+        void:property <http://erlangen-crm.org/120111/P3_has_note> ;
+        void:triples 5041
+    ], [
+        void:distinctObjects 1989 ;
+        void:distinctSubjects 1989 ;
+        void:property <http://www.geonames.org/ontology#name> ;
+        void:triples 1989
+    ], [
+        void:distinctObjects 194 ;
+        void:distinctSubjects 32 ;
+        void:property <http://erlangen-crm.org/120111/P107_has_current_or_former_member> ;
+        void:triples 195
+    ], [
+        void:distinctObjects 152 ;
+        void:distinctSubjects 103 ;
+        void:property <http://purl.org/vocab/relationship/parentOf> ;
+        void:triples 169
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 194 ;
+        void:property <http://erlangen-crm.org/120111/P107i_is_current_or_former_member_of> ;
+        void:triples 195
+    ], [
+        void:distinctObjects 4973 ;
+        void:distinctSubjects 4977 ;
+        void:property <http://RDVocab.info/ElementsGr2/biographicalInformation> ;
+        void:triples 4977
+    ], [
+        void:distinctObjects 94 ;
+        void:distinctSubjects 81 ;
+        void:property <http://purl.org/vocab/relationship/mentorOf> ;
+        void:triples 100
+    ], [
+        void:distinctObjects 509 ;
+        void:distinctSubjects 4601 ;
+        void:property <http://erlangen-crm.org/120111/P14_carried_out_by> ;
+        void:triples 4601
+    ], [
+        void:distinctObjects 235 ;
+        void:distinctSubjects 72 ;
+        void:property <http://xmlns.com/foaf/0.1/member> ;
+        void:triples 241
+    ], [
+        void:distinctObjects 4601 ;
+        void:distinctSubjects 509 ;
+        void:property <http://erlangen-crm.org/120111/P14i_performed> ;
+        void:triples 4601
+    ], [
+        void:distinctObjects 6856 ;
+        void:distinctSubjects 7239 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 7239
+    ], [
+        void:distinctObjects 387 ;
+        void:distinctSubjects 103 ;
+        void:property <http://erlangen-crm.org/120111/P49i_is_former_or_current_keeper_of> ;
+        void:triples 428
+    ], [
+        void:distinctObjects 222 ;
+        void:distinctSubjects 429 ;
+        void:property <http://erlangen-crm.org/120111/P62_depicts> ;
+        void:triples 481
+    ], [
+        void:distinctObjects 1115 ;
+        void:distinctSubjects 226 ;
+        void:property <http://erlangen-crm.org/120111/P46_is_composed_of> ;
+        void:triples 1119
+    ], [
+        void:distinctObjects 226 ;
+        void:distinctSubjects 1115 ;
+        void:property <http://erlangen-crm.org/120111/P46i_forms_part_of> ;
+        void:triples 1119
+    ], [
+        void:distinctObjects 5037 ;
+        void:distinctSubjects 5049 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 5049
+    ], [
+        void:distinctObjects 6243 ;
+        void:distinctSubjects 3547 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 6251
+    ] ;
+    void:triples 132795 ;
+    void:vocabulary <http://RDVocab.info/ElementsGr2>, <http://erlangen-crm.org/120111>, <http://purl.org/dc>, <http://purl.org/vocab>, <http://www.geonames.org/ontology>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2002/07/owl>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

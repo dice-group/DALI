@@ -1,0 +1,295 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.w3.org/2006/03/wn/wn20/download/wn20full.zip>
+    void:classPartition [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 18
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/VerbWordSense> ;
+        void:entities 24632
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/Collocation> ;
+        void:entities 67451
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 14
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 27
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/AdjectiveSatelliteWordSense> ;
+        void:entities 21370
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 5
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/AdjectiveWordSense> ;
+        void:entities 9646
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/AdjectiveSynset> ;
+        void:entities 7482
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/AdverbSynset> ;
+        void:entities 3664
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/AdverbWordSense> ;
+        void:entities 5808
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/Word> ;
+        void:entities 78761
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Datatype> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/NounSynset> ;
+        void:entities 79689
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+        void:entities 4
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/NounWordSense> ;
+        void:entities 141691
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/AdjectiveSatelliteSynset> ;
+        void:entities 11081
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Restriction> ;
+        void:entities 30
+    ], [
+        void:class rdf:Property ;
+        void:entities 27
+    ], [
+        void:class <http://www.w3.org/2006/03/wn/wn20/schema/VerbSynset> ;
+        void:entities 13508
+    ] ;
+    void:classes 22 ;
+    void:entities 470118 ;
+    void:properties 41 ;
+    void:propertyPartition [
+        void:distinctObjects 115424 ;
+        void:distinctSubjects 115424 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/synsetId> ;
+        void:triples 115424
+    ], [
+        void:distinctObjects 798 ;
+        void:distinctSubjects 778 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/sameVerbGroupAs> ;
+        void:triples 874
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.w3.org/2002/07/owl#cardinality> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 325 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/frame> ;
+        void:triples 367
+    ], [
+        void:distinctObjects 12841 ;
+        void:distinctSubjects 16148 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/derivationallyRelated> ;
+        void:triples 21488
+    ], [
+        void:distinctObjects 3906 ;
+        void:distinctSubjects 3914 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/antonymOf> ;
+        void:triples 3994
+    ], [
+        void:distinctObjects 203147 ;
+        void:distinctSubjects 115424 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/containsWordSense> ;
+        void:triples 203147
+    ], [
+        void:distinctObjects 586 ;
+        void:distinctSubjects 326 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/seeAlso> ;
+        void:triples 590
+    ], [
+        void:distinctObjects 654 ;
+        void:distinctSubjects 547 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/substanceMeronymOf> ;
+        void:triples 787
+    ], [
+        void:distinctObjects 114780 ;
+        void:distinctSubjects 115424 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/gloss> ;
+        void:triples 115424
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 30 ;
+        void:property <http://www.w3.org/2002/07/owl#onProperty> ;
+        void:triples 30
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 37 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 37
+    ], [
+        void:distinctObjects 146212 ;
+        void:distinctSubjects 146212 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/lexicalForm> ;
+        void:triples 146212
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/2002/07/owl#disjointWith> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 11 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 34 ;
+        void:distinctSubjects 464874 ;
+        void:property rdf:type ;
+        void:triples 144726
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:first ;
+        void:triples 6
+    ], [
+        void:distinctObjects 3073 ;
+        void:distinctSubjects 3209 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/adverbPertainsTo> ;
+        void:triples 3209
+    ], [
+        void:distinctObjects 160 ;
+        void:distinctSubjects 1226 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/classifiedByRegion> ;
+        void:triples 1280
+    ], [
+        void:distinctObjects 11085 ;
+        void:distinctSubjects 2656 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/similarTo> ;
+        void:triples 11098
+    ], [
+        void:distinctObjects 3588 ;
+        void:distinctSubjects 7512 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/partMeronymOf> ;
+        void:triples 8636
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:rest ;
+        void:triples 6
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 14 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 42
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 22 ;
+        void:property <http://www.w3.org/2002/07/owl#inverseOf> ;
+        void:triples 22
+    ], [
+        void:distinctObjects 422 ;
+        void:distinctSubjects 5961 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/classifiedByTopic> ;
+        void:triples 6166
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 37 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 107 ;
+        void:distinctSubjects 124 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/participleOf> ;
+        void:triples 124
+    ], [
+        void:distinctObjects 159540 ;
+        void:distinctSubjects 203147 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/word> ;
+        void:triples 203147
+    ], [
+        void:distinctObjects 906 ;
+        void:distinctSubjects 203147 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/tagCount> ;
+        void:triples 203147
+    ], [
+        void:distinctObjects 29 ;
+        void:distinctSubjects 981 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/classifiedByUsage> ;
+        void:triples 983
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property <http://www.w3.org/2002/07/owl#allValuesFrom> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 3451 ;
+        void:distinctSubjects 4575 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/adjectivePertainsTo> ;
+        void:triples 4711
+    ], [
+        void:distinctObjects 629 ;
+        void:distinctSubjects 324 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/attribute> ;
+        void:triples 648
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 13 ;
+        void:property <http://www.w3.org/2002/07/owl#someValuesFrom> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 20093 ;
+        void:distinctSubjects 92634 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/hyponymOf> ;
+        void:triples 94842
+    ], [
+        void:distinctObjects 245533 ;
+        void:distinctSubjects 318571 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 318571
+    ], [
+        void:distinctObjects 44 ;
+        void:distinctSubjects 43 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 44
+    ], [
+        void:distinctObjects 197 ;
+        void:distinctSubjects 216 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/causes> ;
+        void:triples 218
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2002/07/owl#unionOf> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 5516 ;
+        void:distinctSubjects 12118 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/memberMeronymOf> ;
+        void:triples 12205
+    ], [
+        void:distinctObjects 288 ;
+        void:distinctSubjects 391 ;
+        void:property <http://www.w3.org/2006/03/wn/wn20/schema/entails> ;
+        void:triples 409
+    ] ;
+    void:triples 1942952 ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2006/03/wn/wn20/schema> ;
+    a void:dataset .
+

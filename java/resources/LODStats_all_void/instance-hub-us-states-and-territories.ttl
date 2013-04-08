@@ -1,0 +1,124 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://logd.tw.rpi.edu/source/twc-rpi-edu/file/instance-hub-us-states-and-territories/version/2011-Oct-09/conversion/twc-rpi-edu-instance-hub-us-states-and-territories-2011-Oct-09.ttl>
+    void:classPartition [
+        void:class <http://logd.tw.rpi.edu/source/twc-rpi-edu/dataset/instance-hub-us-states-and-territories/vocab/District> ;
+        void:entities 1
+    ], [
+        void:class rdf:Property ;
+        void:entities 10
+    ], [
+        void:class <http://logd.tw.rpi.edu/source/twc-rpi-edu/dataset/instance-hub-us-states-and-territories/vocab/State> ;
+        void:entities 50
+    ], [
+        void:class <http://logd.tw.rpi.edu/source/twc-rpi-edu/dataset/instance-hub-us-states-and-territories/vocab/Territory> ;
+        void:entities 5
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 1
+    ] ;
+    void:classes 5 ;
+    void:entities 125 ;
+    void:properties 17 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 9 ;
+        void:property <http://purl.org/twc/vocab/conversion/enhancement_layer> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 56 ;
+        void:property void:inDataset ;
+        void:triples 56
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 9 ;
+        void:property <http://open.vocab.org/terms/csvHeader> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 56 ;
+        void:distinctSubjects 56 ;
+        void:property <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> ;
+        void:triples 56
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 9 ;
+        void:property <http://purl.org/twc/vocab/conversion/enhances> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 56 ;
+        void:distinctSubjects 56 ;
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ;
+        void:triples 56
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 57 ;
+        void:distinctSubjects 65 ;
+        void:property <http://open.vocab.org/terms/csvRow> ;
+        void:triples 65
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 65 ;
+        void:property <http://purl.org/dc/terms/isReferencedBy> ;
+        void:triples 65
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://open.vocab.org/terms/csvCol> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 56 ;
+        void:distinctSubjects 56 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 56
+    ], [
+        void:distinctObjects 56 ;
+        void:distinctSubjects 56 ;
+        void:property <http://logd.tw.rpi.edu/source/twc-rpi-edu/dataset/instance-hub-us-states-and-territories/vocab/enhancement/1/fips> ;
+        void:triples 56
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 66 ;
+        void:property rdf:type ;
+        void:triples 37
+    ], [
+        void:distinctObjects 340 ;
+        void:distinctSubjects 59 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 340
+    ], [
+        void:distinctObjects 56 ;
+        void:distinctSubjects 56 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 56
+    ] ;
+    void:triples 933 ;
+    void:vocabulary <http://logd.tw.rpi.edu/source>, <http://open.vocab.org/terms>, <http://purl.org/dc>, <http://purl.org/twc>, <http://rdfs.org/ns/void>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2000/10/swap/pim/contact>, <http://www.w3.org/2002/07/owl>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

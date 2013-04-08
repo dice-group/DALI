@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://telegraphis.net/data/countries/countries.rdf>
+    void:classPartition [
+        void:class <http://telegraphis.net/ontology/measurement/code#Code> ;
+        void:entities 738
+    ], [
+        void:class <http://www.geonames.org/ontology#Country> ;
+        void:entities 246
+    ], [
+        void:class <http://telegraphis.net/ontology/geography/geography#Code> ;
+        void:entities 246
+    ], [
+        void:class <http://telegraphis.net/ontology/measurement/measurement#Measurement> ;
+        void:entities 246
+    ] ;
+    void:classes 4 ;
+    void:entities 1476 ;
+    void:properties 19 ;
+    void:propertyPartition [
+        void:distinctObjects 246 ;
+        void:distinctSubjects 246 ;
+        void:property <http://telegraphis.net/ontology/geography/geography#landArea> ;
+        void:triples 246
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 1476 ;
+        void:property rdf:type ;
+        void:triples 766
+    ], [
+        void:distinctObjects 246 ;
+        void:distinctSubjects 246 ;
+        void:property <http://telegraphis.net/ontology/geography/geography#isoAlpha2> ;
+        void:triples 246
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 984 ;
+        void:property <http://telegraphis.net/ontology/measurement/code#inCodeScheme> ;
+        void:triples 984
+    ], [
+        void:distinctObjects 246 ;
+        void:distinctSubjects 246 ;
+        void:property <http://telegraphis.net/ontology/geography/geography#isoNumeric> ;
+        void:triples 246
+    ], [
+        void:distinctObjects 984 ;
+        void:distinctSubjects 246 ;
+        void:property <http://telegraphis.net/ontology/measurement/code#hasCode> ;
+        void:triples 984
+    ], [
+        void:distinctObjects 418 ;
+        void:distinctSubjects 246 ;
+        void:property <http://telegraphis.net/ontology/geography/geography#isoShortName> ;
+        void:triples 418
+    ], [
+        void:distinctObjects 246 ;
+        void:distinctSubjects 246 ;
+        void:property <http://www.geonames.org/ontology#name> ;
+        void:triples 246
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 246 ;
+        void:property <http://telegraphis.net/ontology/geography/geography#onContinent> ;
+        void:triples 246
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 246 ;
+        void:property <http://telegraphis.net/ontology/measurement/measurement#quantityMeasured> ;
+        void:triples 246
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 246 ;
+        void:property <http://www.geonames.org/ontology#featureCode> ;
+        void:triples 246
+    ], [
+        void:distinctObjects 166 ;
+        void:distinctSubjects 230 ;
+        void:property <http://telegraphis.net/ontology/geography/geography#currency> ;
+        void:triples 246
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 246 ;
+        void:property <http://telegraphis.net/ontology/measurement/measurement#unit> ;
+        void:triples 246
+    ], [
+        void:distinctObjects 1060 ;
+        void:distinctSubjects 1230 ;
+        void:property rdf:value ;
+        void:triples 1230
+    ], [
+        void:distinctObjects 240 ;
+        void:distinctSubjects 246 ;
+        void:property <http://www.geonames.org/ontology#population> ;
+        void:triples 246
+    ], [
+        void:distinctObjects 241 ;
+        void:distinctSubjects 241 ;
+        void:property <http://telegraphis.net/ontology/geography/geography#capital> ;
+        void:triples 241
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 246 ;
+        void:property <http://www.geonames.org/ontology#featureClass> ;
+        void:triples 246
+    ], [
+        void:distinctObjects 971 ;
+        void:distinctSubjects 246 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 971
+    ], [
+        void:distinctObjects 246 ;
+        void:distinctSubjects 246 ;
+        void:property <http://telegraphis.net/ontology/geography/geography#isoAlpha3> ;
+        void:triples 246
+    ] ;
+    void:triples 9330 ;
+    void:vocabulary <http://telegraphis.net/ontology/geography/geography>, <http://telegraphis.net/ontology/measurement/code>, <http://telegraphis.net/ontology/measurement/measurement>, <http://www.geonames.org/ontology>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2002/07/owl> ;
+    a void:dataset .
+

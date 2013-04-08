@@ -1,0 +1,116 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://source.data.gov.uk/data/patents/bis-research-explorer/2010-03-04/patents.data.gov.uk.nt>
+    void:classPartition [
+        void:class <http://xmlns.com/foaf/0.1/Agent> ;
+        void:entities 890
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:entities 415
+    ], [
+        void:class <http://patents.data.gov.uk/def/patents/Patent> ;
+        void:entities 491
+    ], [
+        void:class <http://research.data.gov.uk/def/project/Location> ;
+        void:entities 390
+    ] ;
+    void:classes 4 ;
+    void:entities 2187 ;
+    void:properties 16 ;
+    void:propertyPartition [
+        void:distinctObjects 492 ;
+        void:distinctSubjects 492 ;
+        void:property <http://patents.data.gov.uk/def/patents/inventor> ;
+        void:triples 492
+    ], [
+        void:distinctObjects 332 ;
+        void:distinctSubjects 375 ;
+        void:property <http://research.data.gov.uk/def/project/postcode> ;
+        void:triples 375
+    ], [
+        void:distinctObjects 492 ;
+        void:distinctSubjects 492 ;
+        void:property <http://patents.data.gov.uk/def/patents/patentID> ;
+        void:triples 492
+    ], [
+        void:distinctObjects 437 ;
+        void:distinctSubjects 491 ;
+        void:property <http://patents.data.gov.uk/def/patents/lodgedDate> ;
+        void:triples 491
+    ], [
+        void:distinctObjects 1217 ;
+        void:distinctSubjects 1304 ;
+        void:property <http://patents.data.gov.uk/def/patents/address> ;
+        void:triples 1304
+    ], [
+        void:distinctObjects 207 ;
+        void:distinctSubjects 492 ;
+        void:property <http://patents.data.gov.uk/def/patents/agent> ;
+        void:triples 541
+    ], [
+        void:distinctObjects 343 ;
+        void:distinctSubjects 390 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 390
+    ], [
+        void:distinctObjects 397 ;
+        void:distinctSubjects 492 ;
+        void:property <http://patents.data.gov.uk/def/patents/applicant> ;
+        void:triples 510
+    ], [
+        void:distinctObjects 389 ;
+        void:distinctSubjects 389 ;
+        void:property <http://research.data.gov.uk/def/project/location> ;
+        void:triples 389
+    ], [
+        void:distinctObjects 343 ;
+        void:distinctSubjects 390 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 390
+    ], [
+        void:distinctObjects 1724 ;
+        void:distinctSubjects 1793 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 1999
+    ], [
+        void:distinctObjects 492 ;
+        void:distinctSubjects 492 ;
+        void:property <http://xmlns.com/foaf/0.1/page> ;
+        void:triples 492
+    ], [
+        void:distinctObjects 430 ;
+        void:distinctSubjects 492 ;
+        void:property <http://patents.data.gov.uk/def/patents/filingDate> ;
+        void:triples 492
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 2186 ;
+        void:property rdf:type ;
+        void:triples 1251
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 491 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 491
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 492 ;
+        void:property <http://patents.data.gov.uk/def/patents/footNote> ;
+        void:triples 593
+    ] ;
+    void:triples 11627 ;
+    void:vocabulary <http://patents.data.gov.uk/def/patents/>, <http://purl.org/dc/terms/>, <http://research.data.gov.uk/def/project/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2003/01/geo/wgs84_pos>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

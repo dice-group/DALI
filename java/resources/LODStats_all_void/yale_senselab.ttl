@@ -1,0 +1,167 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://purl.org/ycmi/senselab/neuron_ontology.owl>
+    void:classPartition [
+        void:class <http://purl.org/science/owl/sciencecommons/pubmed_record> ;
+        void:entities 268
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 9
+    ], [
+        void:class <http://purl.org/obo/owl/ECO#ECO_0000033> ;
+        void:entities 695
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 2288
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/science/sciencecommons/gene_record> ;
+        void:entities 141
+    ], [
+        void:class <http://purl.org/science/owl/sciencecommons/protein_record> ;
+        void:entities 111
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/science/owl/sciencecommons/journal_article> ;
+        void:entities 268
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Restriction> ;
+        void:entities 2235
+    ] ;
+    void:classes 11 ;
+    void:entities 7767 ;
+    void:properties 22 ;
+    void:propertyPartition [
+        void:distinctObjects 874 ;
+        void:distinctSubjects 874 ;
+        void:property <http://www.w3.org/2002/07/owl#intersectionOf> ;
+        void:triples 874
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 256 ;
+        void:distinctSubjects 256 ;
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass> ;
+        void:triples 256
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 2235 ;
+        void:property <http://www.w3.org/2002/07/owl#onProperty> ;
+        void:triples 2235
+    ], [
+        void:distinctObjects 268 ;
+        void:distinctSubjects 567 ;
+        void:property <http://purl.org/science/owl/sciencecommons/cites_evidence_source> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.w3.org/2002/07/owl#disjointWith> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 6018 ;
+        void:property rdf:type ;
+        void:triples 3238
+    ], [
+        void:distinctObjects 889 ;
+        void:distinctSubjects 1749 ;
+        void:property rdf:first ;
+        void:triples 1749
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property <http://www.w3.org/2002/07/owl#complementOf> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 876 ;
+        void:distinctSubjects 1749 ;
+        void:property rdf:rest ;
+        void:triples 1749
+    ], [
+        void:distinctObjects 1177 ;
+        void:distinctSubjects 1383 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 2611
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#versionInfo> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 268 ;
+        void:distinctSubjects 268 ;
+        void:property <http://purl.org/science/owl/sciencecommons/identified_by_pmid> ;
+        void:triples 268
+    ], [
+        void:distinctObjects 1164 ;
+        void:distinctSubjects 1981 ;
+        void:property <http://www.w3.org/2002/07/owl#someValuesFrom> ;
+        void:triples 1981
+    ], [
+        void:distinctObjects 533 ;
+        void:distinctSubjects 521 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 533
+    ], [
+        void:distinctObjects 695 ;
+        void:distinctSubjects 695 ;
+        void:property <http://purl.org/science/owl/sciencecommons/has_supporting_evidence> ;
+        void:triples 695
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2006/12/owl11#onClass> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 606 ;
+        void:distinctSubjects 831 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 841
+    ], [
+        void:distinctObjects 252 ;
+        void:distinctSubjects 253 ;
+        void:property <http://www.w3.org/2002/07/owl#hasValue> ;
+        void:triples 253
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#cardinality> ;
+        void:triples 1
+    ] ;
+    void:triples 20682 ;
+    void:vocabulary <http://purl.org/science>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2006/12/owl11> ;
+    a void:dataset .
+

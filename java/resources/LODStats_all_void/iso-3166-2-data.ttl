@@ -1,0 +1,111 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://ontologi.es/place/>
+    void:classPartition [
+        void:class <http://xmlns.com/foaf/0.1/Document> ;
+        void:entities 1
+    ], [
+        void:class <http://www.geonames.org/ontology#Feature> ;
+        void:entities 3746
+    ], [
+        void:class void:Dataset ;
+        void:entities 1
+    ], [
+        void:class <http://www.geonames.org/ontology#Country> ;
+        void:entities 244
+    ] ;
+    void:classes 4 ;
+    void:entities 3993 ;
+    void:properties 15 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property void:feature ;
+        void:triples 1
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 1 ;
+        void:property void:vocabulary ;
+        void:triples 4
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property void:uriRegexPattern ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3991 ;
+        void:distinctSubjects 3990 ;
+        void:property <http://www.w3.org/2004/02/skos/core#notation> ;
+        void:triples 3991
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 1 ;
+        void:property void:exampleResource ;
+        void:triples 4
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3888 ;
+        void:distinctSubjects 3990 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 3997
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/format> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 3992 ;
+        void:property rdf:type ;
+        void:triples 3801
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/license> ;
+        void:triples 1
+    ] ;
+    void:triples 12020 ;
+    void:vocabulary <http://purl.org/dc>, <http://rdfs.org/ns/void>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

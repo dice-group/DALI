@@ -1,0 +1,177 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<https://commondatastorage.googleapis.com/ckannet-storage/2012-09-28T132839/Sample67rdfxml.rdf>
+    void:classPartition [
+        void:class <http://portal.organic-edunet.eu:8080/linkeddata/resource/identifier> ;
+        void:entities 1
+    ] ;
+    void:classes 1 ;
+    void:entities 12 ;
+    void:properties 30 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#location> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:type ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#description> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#contribution-entity> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/coverage> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#typical-age-range> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#intended-enduser-role> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#meta-metadata-contribution-entity> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#keyword> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 10 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#cost> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#meta-metadata-contribution-date> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#structure> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#copyright-and-otherrestrictions> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/rights> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#meta-metadata-entry> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#meta-metadata-contribution-role> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#metadata-schema> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#contribution-date> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/language> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/format> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#annotation-entity> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#contribution-role> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#technical-size> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#catalog> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ltsc.ieee.org/rdf/lomv1p0/lom#context> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/type> ;
+        void:triples 1
+    ] ;
+    void:triples 46 ;
+    void:vocabulary <http://ltsc.ieee.org/rdf/lomv1p0/lom>, <http://purl.org/dc/terms/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

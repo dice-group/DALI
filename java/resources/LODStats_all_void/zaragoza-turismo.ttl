@@ -1,0 +1,445 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.zaragoza.es/turruta/sparql?query=CONSTRUCT+{%3Fs+%3Fp+%3Fo}+FROM+%3Chttp%3A%2F%2Fwww.zaragoza.es%2Fturruta%3E+WHERE+{+%3Fs+%3Fp+%3Fo+}&format=application%2Frdf%2Bxml>
+    void:classPartition [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Recurso-de-zaragoza> ;
+        void:entities 8153
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Mercado> ;
+        void:entities 5
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Fortaleza> ;
+        void:entities 8
+    ], [
+        void:class <http://www.loa-cnr.it/ontologies/ExtendedDnS#social-role> ;
+        void:entities 2
+    ], [
+        void:class <http://www.loa-cnr.it/ontologies/DOLCE-Lite#event> ;
+        void:entities 219
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Evento-de-zaragoza> ;
+        void:entities 219
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+        void:entities 1
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Perfil-de-turista> ;
+        void:entities 2
+    ], [
+        void:class <http://www.loa-cnr.it/ontologies/DOLCE-Lite#temporal-region> ;
+        void:entities 22
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 24
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Preferencia-de-ruta> ;
+        void:entities 4
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 51
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Escultura> ;
+        void:entities 13
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Restaurante> ;
+        void:entities 949
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Palacio> ;
+        void:entities 18
+    ], [
+        void:class <http://www.loa-cnr.it/ontologies/ExtendedDnS#course> ;
+        void:entities 27
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Interes-turistico> ;
+        void:entities 21
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Grupo-de-viaje> ;
+        void:entities 5
+    ], [
+        void:class <http://www.loa-cnr.it/ontologies/Collectives#social-type-collective> ;
+        void:entities 5
+    ], [
+        void:class <http://www.loa-cnr.it/ontologies/CommonSenseMapping#geographical-object> ;
+        void:entities 8153
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AllDifferent> ;
+        void:entities 8
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Dia-de-la-semana> ;
+        void:entities 7
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DataRange> ;
+        void:entities 1
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Accesibilidad-de-movilidad-reducida> ;
+        void:entities 3
+    ], [
+        void:class <http://www.loa-cnr.it/ontologies/DOLCE-Lite#quality> ;
+        void:entities 37
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Intervalo-de-visita> ;
+        void:entities 75
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Edificio-historico> ;
+        void:entities 6866
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 13
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Recurso-hostelero> ;
+        void:entities 1098
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Alojamiento> ;
+        void:entities 149
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Dia-Festivo> ;
+        void:entities 13
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Entorno-natural> ;
+        void:entities 5
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Museo> ;
+        void:entities 9
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+        void:entities 3
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Temporada> ;
+        void:entities 2
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico> ;
+        void:entities 7022
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Calificacion> ;
+        void:entities 5
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Viaje> ;
+        void:entities 4
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Ruta-turistica> ;
+        void:entities 2
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Preferencia-de-usuario> ;
+        void:entities 27
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Datatype> ;
+        void:entities 5
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Zona-verde> ;
+        void:entities 55
+    ], [
+        void:class <http://www.loa-cnr.it/ontologies/Plans#plan-execution> ;
+        void:entities 2
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Edificio-religioso> ;
+        void:entities 53
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Recurso-comercial> ;
+        void:entities 33
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Sector-comercial> ;
+        void:entities 28
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Monumento> ;
+        void:entities 6967
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:entities 13
+    ], [
+        void:class <http://www.loa-cnr.it/ontologies/ExtendedDnS#activity> ;
+        void:entities 4
+    ], [
+        void:class <http://idi.fundacionctic.org/cruzar/turismo#Estilo-artistico> ;
+        void:entities 8
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Restriction> ;
+        void:entities 24
+    ] ;
+    void:classes 52 ;
+    void:entities 8970 ;
+    void:properties 53 ;
+    void:propertyPartition [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 70 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#opening-time> ;
+        void:triples 70
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 181 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#visit-duration> ;
+        void:triples 181
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.loa-cnr.it/ontologies/ExtendedDnS#covers> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://jena.hpl.hp.com/2003/RuleReasoner#ruleSet> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 24 ;
+        void:property <http://www.w3.org/2002/07/owl#onProperty> ;
+        void:triples 24
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 36 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 36
+    ], [
+        void:distinctObjects 60 ;
+        void:distinctSubjects 60 ;
+        void:property <http://www.w3.org/2002/07/owl#differentFrom> ;
+        void:triples 578
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://www.w3.org/2002/07/owl#disjointWith> ;
+        void:triples 78
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 7022 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#has-interest> ;
+        void:triples 14295
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 8686 ;
+        void:property rdf:type ;
+        void:triples 62582
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.loa-cnr.it/ontologies/ExtendedDnS#expected-setting-for> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 76 ;
+        void:distinctSubjects 78 ;
+        void:property rdf:first ;
+        void:triples 78
+    ], [
+        void:distinctObjects 1535 ;
+        void:distinctSubjects 1303 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#address> ;
+        void:triples 1614
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 41 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#horario> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 7022 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#poi-relevance> ;
+        void:triples 7022
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 21 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#interest-relevance> ;
+        void:triples 21
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://jena.hpl.hp.com/2003/RuleReasoner#ruleMode> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 78 ;
+        void:property rdf:rest ;
+        void:triples 78
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 35 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 58
+    ], [
+        void:distinctObjects 1468 ;
+        void:distinctSubjects 1657 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 1660
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.w3.org/2002/07/owl#inverseOf> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#versionInfo> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 37 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 37
+    ], [
+        void:distinctObjects 1468 ;
+        void:distinctSubjects 1657 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 1660
+    ], [
+        void:distinctObjects 81 ;
+        void:distinctSubjects 219 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#final-date> ;
+        void:triples 219
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 25 ;
+        void:property <http://www.loa-cnr.it/ontologies/DOLCE-Lite#r-location> ;
+        void:triples 25
+    ], [
+        void:distinctObjects 1633 ;
+        void:distinctSubjects 1629 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#id-idezar> ;
+        void:triples 1653
+    ], [
+        void:distinctObjects 8031 ;
+        void:distinctSubjects 8369 ;
+        void:property <http://purl.org/dc/elements/1.1/identifier> ;
+        void:triples 8369
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#begining-date> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 539 ;
+        void:distinctSubjects 587 ;
+        void:property <http://xmlns.com/foaf/0.1/depiction> ;
+        void:triples 587
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2002/07/owl#allValuesFrom> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#date> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#oneOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.w3.org/2002/07/owl#distinctMembers> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 1061 ;
+        void:property <http://www.loa-cnr.it/ontologies/DOLCE-Lite#has-quality> ;
+        void:triples 1164
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 70 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#closing-time> ;
+        void:triples 70
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 8369 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 8369
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 14 ;
+        void:property <http://www.w3.org/2002/07/owl#someValuesFrom> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 2169 ;
+        void:distinctSubjects 7049 ;
+        void:property <http://www.w3.org/2004/02/skos/core#definition> ;
+        void:triples 7694
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#ending-date> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 8461 ;
+        void:distinctSubjects 8520 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 8801
+    ], [
+        void:distinctObjects 75 ;
+        void:distinctSubjects 33 ;
+        void:property <http://www.loa-cnr.it/ontologies/TemporalRelations#present-at> ;
+        void:triples 75
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 66 ;
+        void:distinctSubjects 67 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 67
+    ], [
+        void:distinctObjects 96 ;
+        void:distinctSubjects 219 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#initial-date> ;
+        void:triples 219
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.w3.org/2002/07/owl#unionOf> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://idi.fundacionctic.org/cruzar/turismo#necessity-relevance> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 75 ;
+        void:property <http://www.loa-cnr.it/ontologies/DOLCE-Lite#part-of> ;
+        void:triples 314
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.loa-cnr.it/ontologies/ExtendedDnS#performs> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 8369 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#location> ;
+        void:triples 16738
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#cardinality> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 219 ;
+        void:property <http://purl.org/dc/elements/1.1/subject> ;
+        void:triples 219
+    ] ;
+    void:triples 146797 ;
+    void:vocabulary <http://idi.fundacionctic.org/cruzar/turismo>, <http://jena.hpl.hp.com/2003/RuleReasoner>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://www.loa-cnr.it/ontologies/DOLCE-Lite>, <http://www.loa-cnr.it/ontologies/ExtendedDnS>, <http://www.loa-cnr.it/ontologies/TemporalRelations>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2003/01/geo/wgs84_pos>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

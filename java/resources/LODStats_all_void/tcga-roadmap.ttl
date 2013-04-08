@@ -1,0 +1,163 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://agalpha.mathbiol.org/download?file=tcga.nt&accept=text%2Fplain&path=%2Frepositories%2Ftcga%2Fstatements>
+    void:classPartition [
+        void:class <http://purl.org/tcga/core#center-type> ;
+        void:entities 4
+    ], [
+        void:class <http://purl.org/tcga/core#file> ;
+        void:entities 243989
+    ], [
+        void:class <http://purl.org/tcga/core#center-domain> ;
+        void:entities 14
+    ], [
+        void:class <http://purl.org/tcga/core#File> ;
+        void:entities 54745
+    ], [
+        void:class <http://purl.org/tcga/core#CenterDomain> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/tcga/core#Archive> ;
+        void:entities 7481
+    ], [
+        void:class <http://purl.org/tcga/core#platform> ;
+        void:entities 36
+    ], [
+        void:class <http://purl.org/tcga/core#data-type> ;
+        void:entities 15
+    ], [
+        void:class <http://purl.org/tcga/core#disease-study> ;
+        void:entities 29
+    ], [
+        void:class <http://purl.org/tcga/core#DataType> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/tcga/core#DiseaseStudy> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/tcga/core#Platform> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/tcga/core#archive> ;
+        void:entities 9297
+    ] ;
+    void:classes 13 ;
+    void:entities 315632 ;
+    void:properties 20 ;
+    void:propertyPartition [
+        void:distinctObjects 246 ;
+        void:distinctSubjects 54743 ;
+        void:property <http://purl.org/tcga/core#diseaseStudy> ;
+        void:triples 54743
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 243988 ;
+        void:property <http://purl.org/tcga/core#center-type> ;
+        void:triples 243988
+    ], [
+        void:distinctObjects 68 ;
+        void:distinctSubjects 62231 ;
+        void:property <http://purl.org/tcga/core#firstSeen> ;
+        void:triples 62231
+    ], [
+        void:distinctObjects 80 ;
+        void:distinctSubjects 315612 ;
+        void:property rdf:type ;
+        void:triples 22744
+    ], [
+        void:distinctObjects 370 ;
+        void:distinctSubjects 298726 ;
+        void:property <http://purl.org/tcga/core#platform> ;
+        void:triples 298726
+    ], [
+        void:distinctObjects 148 ;
+        void:distinctSubjects 242783 ;
+        void:property <http://purl.org/tcga/core#data-type> ;
+        void:triples 242783
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 54743 ;
+        void:property <http://purl.org/tcga/core#centerType> ;
+        void:triples 54743
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 28 ;
+        void:property <http://purl.org/tcga/core#fullName> ;
+        void:triples 28
+    ], [
+        void:distinctObjects 244 ;
+        void:distinctSubjects 243989 ;
+        void:property <http://purl.org/tcga/core#disease-study> ;
+        void:triples 243989
+    ], [
+        void:distinctObjects 106 ;
+        void:distinctSubjects 54407 ;
+        void:property <http://purl.org/tcga/core#dataType> ;
+        void:triples 54407
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 267554 ;
+        void:property <http://purl.org/tcga/core#lastSeen> ;
+        void:triples 947235
+    ], [
+        void:distinctObjects 791 ;
+        void:distinctSubjects 54745 ;
+        void:property <http://purl.org/tcga/core#lastModified> ;
+        void:triples 54745
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 14 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 29026 ;
+        void:distinctSubjects 297340 ;
+        void:property <http://purl.org/tcga/core#archive> ;
+        void:triples 297340
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 10 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 3749 ;
+        void:distinctSubjects 253381 ;
+        void:property <http://purl.org/tcga/core#last-modified> ;
+        void:triples 253747
+    ], [
+        void:distinctObjects 136 ;
+        void:distinctSubjects 243984 ;
+        void:property <http://purl.org/tcga/core#center-domain> ;
+        void:triples 243984
+    ], [
+        void:distinctObjects 115 ;
+        void:distinctSubjects 54743 ;
+        void:property <http://purl.org/tcga/core#centerDomain> ;
+        void:triples 54743
+    ], [
+        void:distinctObjects 292219 ;
+        void:distinctSubjects 315612 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 315612
+    ], [
+        void:distinctObjects 340184 ;
+        void:distinctSubjects 315612 ;
+        void:property <http://purl.org/tcga/core#url> ;
+        void:triples 340184
+    ] ;
+    void:triples 4513138 ;
+    void:vocabulary <http://purl.org/tcga/core>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

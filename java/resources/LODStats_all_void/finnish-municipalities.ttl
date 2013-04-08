@@ -1,0 +1,203 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://onki.fi/en/browser/downloadfile/kunnat?o=http%3A%2F%2Fwww.yso.fi%2Fonto%2Fkunnat&f=kunnat%2Fkunnat2011-skos.ttl>
+    void:classPartition [
+        void:class <http://www.yso.fi/onto/kunnat/ELYkeskus> ;
+        void:entities 16
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#Collection> ;
+        void:entities 8
+    ], [
+        void:class rdf:Property ;
+        void:entities 8
+    ], [
+        void:class <http://www.yso.fi/onto/kunnat/Kunta> ;
+        void:entities 336
+    ], [
+        void:class <http://www.yso.fi/onto/kunnat/Aluehallintovirasto> ;
+        void:entities 7
+    ], [
+        void:class <http://www.yso.fi/onto/kunnat/Sairaanhoitopiiri> ;
+        void:entities 21
+    ], [
+        void:class <http://www.yso.fi/onto/kunnat/Maakunta> ;
+        void:entities 19
+    ], [
+        void:class <http://www.yso.fi/onto/kunnat/Seutukunta> ;
+        void:entities 70
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 495
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:entities 1
+    ], [
+        void:class <http://www.yso.fi/onto/kunnat/Suuralue> ;
+        void:entities 5
+    ], [
+        void:class <http://www.yso.fi/onto/kunnat/Kielisuhde> ;
+        void:entities 4
+    ], [
+        void:class <http://www.yso.fi/onto/kunnat/Vaalipiiri> ;
+        void:entities 16
+    ] ;
+    void:classes 13 ;
+    void:entities 521 ;
+    void:properties 28 ;
+    void:propertyPartition [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 336 ;
+        void:property <http://www.yso.fi/onto/kunnat/elykeskus> ;
+        void:triples 336
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 336 ;
+        void:property <http://www.yso.fi/onto/kunnat/sairaanhoitopiiri> ;
+        void:triples 336
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 592 ;
+        void:distinctSubjects 503 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 595
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 336 ;
+        void:property <http://www.yso.fi/onto/kunnat/kielisuhde> ;
+        void:triples 336
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 512 ;
+        void:property rdf:type ;
+        void:triples 949
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/source> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 336 ;
+        void:distinctSubjects 336 ;
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ;
+        void:triples 336
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 336 ;
+        void:property <http://www.yso.fi/onto/kunnat/vaalipiiri> ;
+        void:triples 336
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 495 ;
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme> ;
+        void:triples 495
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2004/02/skos/core#topConceptOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 336 ;
+        void:property <http://www.yso.fi/onto/kunnat/maakunta> ;
+        void:triples 336
+    ], [
+        void:distinctObjects 158 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.w3.org/2004/02/skos/core#member> ;
+        void:triples 158
+    ], [
+        void:distinctObjects 494 ;
+        void:distinctSubjects 158 ;
+        void:property <http://www.w3.org/2004/02/skos/core#narrower> ;
+        void:triples 2846
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 17 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 336 ;
+        void:property <http://www.yso.fi/onto/kunnat/aluehallintovirasto> ;
+        void:triples 336
+    ], [
+        void:distinctObjects 70 ;
+        void:distinctSubjects 336 ;
+        void:property <http://www.yso.fi/onto/kunnat/seutukunta> ;
+        void:triples 336
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2004/02/skos/core#hasTopConcept> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 336 ;
+        void:property <http://www.yso.fi/onto/kunnat/suuralue> ;
+        void:triples 336
+    ], [
+        void:distinctObjects 158 ;
+        void:distinctSubjects 494 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 2846
+    ], [
+        void:distinctObjects 336 ;
+        void:distinctSubjects 336 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 336
+    ] ;
+    void:triples 11380 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core>, <http://www.yso.fi/onto/kunnat/>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

@@ -1,0 +1,67 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://opendatacommunities-downloads.s3.amazonaws.com/lsoa.ttl.zip>
+    void:classPartition [
+        void:class <http://opendatacommunities.org/def/geography#LSOA> ;
+        void:entities 34378
+    ] ;
+    void:classes 1 ;
+    void:entities 34378 ;
+    void:properties 8 ;
+    void:propertyPartition [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 34378 ;
+        void:property rdf:type ;
+        void:triples 34267
+    ], [
+        void:distinctObjects 354 ;
+        void:distinctSubjects 32482 ;
+        void:property <http://statistics.data.gov.uk/def/administrative-geography/district> ;
+        void:triples 32482
+    ], [
+        void:distinctObjects 32441 ;
+        void:distinctSubjects 34378 ;
+        void:property <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/easting> ;
+        void:triples 34378
+    ], [
+        void:distinctObjects 32620 ;
+        void:distinctSubjects 34378 ;
+        void:property <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/northing> ;
+        void:triples 34378
+    ], [
+        void:distinctObjects 34378 ;
+        void:distinctSubjects 34378 ;
+        void:property <http://www.w3.org/2004/02/skos/core#notation> ;
+        void:triples 34378
+    ], [
+        void:distinctObjects 33018 ;
+        void:distinctSubjects 34378 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 34378
+    ], [
+        void:distinctObjects 32364 ;
+        void:distinctSubjects 34378 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 34378
+    ], [
+        void:distinctObjects 34378 ;
+        void:distinctSubjects 34378 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 34378
+    ] ;
+    void:triples 273128 ;
+    void:vocabulary <http://data.ordnancesurvey.co.uk/ontology/spatialrelations>, <http://statistics.data.gov.uk/def/administrative-geography>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2003/01/geo/wgs84_pos>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:dataset .
+

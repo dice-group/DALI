@@ -1,0 +1,131 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://nuts.geovocab.org/data/0.91/nuts-rdf-0.91.ttl>
+    void:classPartition [
+        void:class <http://geovocab.org/geometry#Polygon> ;
+        void:entities 2397
+    ], [
+        void:class <http://geovocab.org/geometry#MultiPolygon> ;
+        void:entities 145
+    ], [
+        void:class <http://geovocab.org/geometry#LinearRing> ;
+        void:entities 2465
+    ], [
+        void:class <http://rdfdata.eionet.europa.eu/ramon/ontology/NUTSRegion> ;
+        void:entities 1927
+    ] ;
+    void:classes 4 ;
+    void:entities 149352 ;
+    void:properties 19 ;
+    void:propertyPartition [
+        void:distinctObjects 2465 ;
+        void:distinctSubjects 2465 ;
+        void:property <http://geovocab.org/geometry#posList> ;
+        void:triples 2465
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 6934 ;
+        void:property rdf:type ;
+        void:triples 6702
+    ], [
+        void:distinctObjects 71209 ;
+        void:distinctSubjects 71209 ;
+        void:property rdf:first ;
+        void:triples 71209
+    ], [
+        void:distinctObjects 2397 ;
+        void:distinctSubjects 2397 ;
+        void:property <http://geovocab.org/geometry#exterior> ;
+        void:triples 2397
+    ], [
+        void:distinctObjects 29 ;
+        void:distinctSubjects 29 ;
+        void:property <http://geovocab.org/spatial#EC> ;
+        void:triples 94
+    ], [
+        void:distinctObjects 1855 ;
+        void:distinctSubjects 1927 ;
+        void:property <http://rdfdata.eionet.europa.eu/ramon/ontology/name> ;
+        void:triples 1927
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1927 ;
+        void:property <http://purl.org/dc/elements/1.1/rights> ;
+        void:triples 1927
+    ], [
+        void:distinctObjects 1927 ;
+        void:distinctSubjects 1927 ;
+        void:property <http://rdfdata.eionet.europa.eu/ramon/ontology/code> ;
+        void:triples 1927
+    ], [
+        void:distinctObjects 362 ;
+        void:distinctSubjects 362 ;
+        void:property <http://geovocab.org/spatial#PPi> ;
+        void:triples 1236
+    ], [
+        void:distinctObjects 68746 ;
+        void:distinctSubjects 71209 ;
+        void:property rdf:rest ;
+        void:triples 71209
+    ], [
+        void:distinctObjects 19594 ;
+        void:distinctSubjects 71209 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 71209
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 1927 ;
+        void:property <http://rdfdata.eionet.europa.eu/ramon/ontology/level> ;
+        void:triples 1927
+    ], [
+        void:distinctObjects 466 ;
+        void:distinctSubjects 1893 ;
+        void:property <http://geovocab.org/spatial#PP> ;
+        void:triples 1893
+    ], [
+        void:distinctObjects 1927 ;
+        void:distinctSubjects 1927 ;
+        void:property <http://geovocab.org/geometry#geometry> ;
+        void:triples 1927
+    ], [
+        void:distinctObjects 19588 ;
+        void:distinctSubjects 71209 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 71209
+    ], [
+        void:distinctObjects 1927 ;
+        void:distinctSubjects 1927 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 1927
+    ], [
+        void:distinctObjects 615 ;
+        void:distinctSubjects 145 ;
+        void:property <http://geovocab.org/geometry#polygonMember> ;
+        void:triples 615
+    ], [
+        void:distinctObjects 4138 ;
+        void:distinctSubjects 1927 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 4138
+    ], [
+        void:distinctObjects 68 ;
+        void:distinctSubjects 66 ;
+        void:property <http://geovocab.org/geometry#interior> ;
+        void:triples 68
+    ] ;
+    void:triples 316238 ;
+    void:vocabulary <http://geovocab.org/geometry>, <http://geovocab.org/spatial>, <http://purl.org/dc/elements/1.1/>, <http://rdfdata.eionet.europa.eu/ramon/ontology/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2003/01/geo/wgs84_pos> ;
+    a void:Dataset .
+

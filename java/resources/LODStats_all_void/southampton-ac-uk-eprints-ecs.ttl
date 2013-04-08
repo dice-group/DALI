@@ -1,0 +1,711 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://id.southampton.ac.uk/dataset/eprints-ecs/latest.ttl>
+    void:classPartition [
+        void:class <http://eprints.org/ontology/TechreportEPrint> ;
+        void:entities 618
+    ], [
+        void:class <http://purl.org/ontology/bibo/Thesis> ;
+        void:entities 287
+    ], [
+        void:class <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+        void:entities 2128
+    ], [
+        void:class <http://purl.org/NET/c4dm/event.owl#Event> ;
+        void:entities 4160
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:entities 1680
+    ], [
+        void:class <http://eprints.org/ontology/ThesisEPrint> ;
+        void:entities 287
+    ], [
+        void:class <http://purl.org/ontology/bibo/Collection> ;
+        void:entities 3839
+    ], [
+        void:class <http://purl.org/ontology/bibo/EditedBook> ;
+        void:entities 128
+    ], [
+        void:class <http://eprints.org/ontology/ArticleEPrint> ;
+        void:entities 5051
+    ], [
+        void:class <http://eprints.org/ontology/BookEPrint> ;
+        void:entities 309
+    ], [
+        void:class <http://purl.org/ontology/bibo/Book> ;
+        void:entities 181
+    ], [
+        void:class <http://eprints.org/ontology/EPrint> ;
+        void:entities 15672
+    ], [
+        void:class <http://purl.org/ontology/bibo/AcademicArticle> ;
+        void:entities 12784
+    ], [
+        void:class <http://purl.org/ontology/bibo/Article> ;
+        void:entities 15672
+    ], [
+        void:class <http://purl.org/ontology/bibo/Slideshow> ;
+        void:entities 298
+    ], [
+        void:class <http://purl.org/ontology/bibo/Image> ;
+        void:entities 20
+    ], [
+        void:class <http://purl.org/ontology/bibo/Document> ;
+        void:entities 9551
+    ], [
+        void:class <http://eprints.org/ontology/ConferenceItemEPrint> ;
+        void:entities 7733
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 29280
+    ], [
+        void:class <http://eprints.org/ontology/InbookEPrint> ;
+        void:entities 716
+    ], [
+        void:class <http://eprints.org/ontology/MiscEPrint> ;
+        void:entities 958
+    ], [
+        void:class <http://purl.org/ontology/bibo/Conference> ;
+        void:entities 6513
+    ], [
+        void:class <http://purl.org/ontology/bibo/AudioVisualDocument> ;
+        void:entities 19
+    ], [
+        void:class <http://eprints.org/ontology/Document> ;
+        void:entities 35938
+    ] ;
+    void:classes 24 ;
+    void:entities 166542 ;
+    void:properties 123 ;
+    void:propertyPartition [
+        void:distinctObjects 92 ;
+        void:distinctSubjects 95572 ;
+        void:property rdf:type ;
+        void:triples 75841
+    ], [
+        void:distinctObjects 23052 ;
+        void:distinctSubjects 8471 ;
+        void:property <http://eprints.org/relation/hasVolatileVersion> ;
+        void:triples 23067
+    ], [
+        void:distinctObjects 535 ;
+        void:distinctSubjects 517 ;
+        void:property <http://eprints.org/ontology/hasAccepted> ;
+        void:triples 535
+    ], [
+        void:distinctObjects 140 ;
+        void:distinctSubjects 157 ;
+        void:property <http://purl.org/ontology/bibo/isbn> ;
+        void:triples 157
+    ], [
+        void:distinctObjects 15537 ;
+        void:distinctSubjects 15537 ;
+        void:property <http://purl.org/ontology/bibo/authorList> ;
+        void:triples 15537
+    ], [
+        void:distinctObjects 338 ;
+        void:distinctSubjects 338 ;
+        void:property <http://eprints.org/relation/issmallThumbnailVersionOf> ;
+        void:triples 338
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_34 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1599 ;
+        void:distinctSubjects 4886 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 4889
+    ], [
+        void:distinctObjects 3478 ;
+        void:distinctSubjects 1702 ;
+        void:property <http://www.loc.gov/loc.terms/relators/EDT> ;
+        void:triples 3755
+    ], [
+        void:distinctObjects 682 ;
+        void:distinctSubjects 682 ;
+        void:property <http://purl.org/ontology/bibo/issn> ;
+        void:triples 662
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 23 ;
+        void:property <http://eprints.org/relation/hassmallThumbnailVersion> ;
+        void:triples 23
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 11348 ;
+        void:property <http://purl.org/ontology/bibo/status> ;
+        void:triples 20879
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_27 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_26 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property rdf:_25 ;
+        void:triples 6
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property rdf:_24 ;
+        void:triples 8
+    ], [
+        void:distinctObjects 26325 ;
+        void:distinctSubjects 15537 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 50704
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property rdf:_22 ;
+        void:triples 11
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property rdf:_21 ;
+        void:triples 15
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 17 ;
+        void:property rdf:_20 ;
+        void:triples 17
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_36 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 23053 ;
+        void:distinctSubjects 8472 ;
+        void:property <http://eprints.org/relation/hasVersion> ;
+        void:triples 23068
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 29 ;
+        void:property <http://eprints.org/ontology/hasOther> ;
+        void:triples 30
+    ], [
+        void:distinctObjects 145 ;
+        void:distinctSubjects 243 ;
+        void:property <http://purl.org/dc/terms/issuer> ;
+        void:triples 477
+    ], [
+        void:distinctObjects 39832 ;
+        void:distinctSubjects 33040 ;
+        void:property <http://eprints.org/ontology/hasFile> ;
+        void:triples 39837
+    ], [
+        void:distinctObjects 6782 ;
+        void:distinctSubjects 6769 ;
+        void:property <http://eprints.org/relation/hasIndexCodesVersion> ;
+        void:triples 6787
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <file:///tmp/ultimately_derived_from> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://eprints.org/ontology/hasCoverImage> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 7 ;
+        void:property <file:///tmp/mech_derived_from> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 72 ;
+        void:distinctSubjects 98 ;
+        void:property <http://xmlns.com/foaf/0.1/givenname> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 1702 ;
+        void:distinctSubjects 1702 ;
+        void:property <http://purl.org/ontology/bibo/editorList> ;
+        void:triples 1702
+    ], [
+        void:distinctObjects 2263 ;
+        void:distinctSubjects 4192 ;
+        void:property <http://purl.org/NET/c4dm/event.owl#place> ;
+        void:triples 4160
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_49 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_48 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3987 ;
+        void:distinctSubjects 15760 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 22111
+    ], [
+        void:distinctObjects 11073 ;
+        void:distinctSubjects 29481 ;
+        void:property <http://xmlns.com/foaf/0.1/familyName> ;
+        void:triples 29491
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_41 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 509 ;
+        void:distinctSubjects 3678 ;
+        void:property <http://purl.org/ontology/bibo/issue> ;
+        void:triples 3678
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 281 ;
+        void:property <http://creativecommons.org/ns#license> ;
+        void:triples 281
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_42 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 42896 ;
+        void:distinctSubjects 77861 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 77726
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_44 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_47 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_46 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8521 ;
+        void:distinctSubjects 8682 ;
+        void:property <http://purl.org/ontology/bibo/abstract> ;
+        void:triples 8682
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://eprints.org/ontology/hasMetadata> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 24328 ;
+        void:distinctSubjects 35153 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 37113
+    ], [
+        void:distinctObjects 3759 ;
+        void:distinctSubjects 5655 ;
+        void:property rdf:_4 ;
+        void:triples 5659
+    ], [
+        void:distinctObjects 2290 ;
+        void:distinctSubjects 3107 ;
+        void:property rdf:_5 ;
+        void:triples 3108
+    ], [
+        void:distinctObjects 1470 ;
+        void:distinctSubjects 1820 ;
+        void:property rdf:_6 ;
+        void:triples 1820
+    ], [
+        void:distinctObjects 892 ;
+        void:distinctSubjects 1025 ;
+        void:property rdf:_7 ;
+        void:triples 1025
+    ], [
+        void:distinctObjects 9339 ;
+        void:distinctSubjects 17239 ;
+        void:property rdf:_1 ;
+        void:triples 17259
+    ], [
+        void:distinctObjects 7471 ;
+        void:distinctSubjects 13962 ;
+        void:property rdf:_2 ;
+        void:triples 13972
+    ], [
+        void:distinctObjects 5629 ;
+        void:distinctSubjects 9661 ;
+        void:property rdf:_3 ;
+        void:triples 9668
+    ], [
+        void:distinctObjects 8995 ;
+        void:distinctSubjects 26050 ;
+        void:property <http://eprints.org/relation/isVolatileVersionOf> ;
+        void:triples 26050
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:_28 ;
+        void:triples 5
+    ], [
+        void:distinctObjects 541 ;
+        void:distinctSubjects 604 ;
+        void:property rdf:_8 ;
+        void:triples 604
+    ], [
+        void:distinctObjects 353 ;
+        void:distinctSubjects 381 ;
+        void:property rdf:_9 ;
+        void:triples 381
+    ], [
+        void:distinctObjects 83 ;
+        void:distinctSubjects 98 ;
+        void:property <http://xmlns.com/foaf/0.1/family_name> ;
+        void:triples 98
+    ], [
+        void:distinctObjects 4032 ;
+        void:distinctSubjects 9394 ;
+        void:property <http://purl.org/ontology/bibo/pageStart> ;
+        void:triples 9394
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property rdf:_23 ;
+        void:triples 9
+    ], [
+        void:distinctObjects 16763 ;
+        void:distinctSubjects 16746 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 16763
+    ], [
+        void:distinctObjects 35938 ;
+        void:distinctSubjects 8829 ;
+        void:property <http://eprints.org/ontology/hasDocument> ;
+        void:triples 35938
+    ], [
+        void:distinctObjects 242 ;
+        void:distinctSubjects 185 ;
+        void:property <http://eprints.org/ontology/hasPresentation> ;
+        void:triples 242
+    ], [
+        void:distinctObjects 338 ;
+        void:distinctSubjects 338 ;
+        void:property <http://eprints.org/relation/ismediumThumbnailVersionOf> ;
+        void:triples 338
+    ], [
+        void:distinctObjects 2219 ;
+        void:distinctSubjects 2113 ;
+        void:property <http://purl.org/dc/elements/1.1/hasVersion> ;
+        void:triples 2219
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://creativecommons.org/ns#attributionName> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8370 ;
+        void:distinctSubjects 29481 ;
+        void:property <http://xmlns.com/foaf/0.1/givenName> ;
+        void:triples 31303
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/rightsHolder> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 39920 ;
+        void:distinctSubjects 33093 ;
+        void:property <http://purl.org/dc/terms/hasPart> ;
+        void:triples 39922
+    ], [
+        void:distinctObjects 8305 ;
+        void:distinctSubjects 8320 ;
+        void:property <http://eprints.org/relation/isfullsizeThumbnailVersionOf> ;
+        void:triples 8320
+    ], [
+        void:distinctObjects 178 ;
+        void:distinctSubjects 171 ;
+        void:property <http://eprints.org/ontology/hasSubmitted> ;
+        void:triples 178
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 38 ;
+        void:property rdf:_16 ;
+        void:triples 38
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 27 ;
+        void:property rdf:_17 ;
+        void:triples 27
+    ], [
+        void:distinctObjects 60 ;
+        void:distinctSubjects 61 ;
+        void:property rdf:_14 ;
+        void:triples 61
+    ], [
+        void:distinctObjects 50 ;
+        void:distinctSubjects 51 ;
+        void:property rdf:_15 ;
+        void:triples 51
+    ], [
+        void:distinctObjects 123 ;
+        void:distinctSubjects 124 ;
+        void:property rdf:_12 ;
+        void:triples 124
+    ], [
+        void:distinctObjects 87 ;
+        void:distinctSubjects 88 ;
+        void:property rdf:_13 ;
+        void:triples 88
+    ], [
+        void:distinctObjects 244 ;
+        void:distinctSubjects 250 ;
+        void:property rdf:_10 ;
+        void:triples 250
+    ], [
+        void:distinctObjects 174 ;
+        void:distinctSubjects 180 ;
+        void:property rdf:_11 ;
+        void:triples 180
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 22 ;
+        void:property rdf:_18 ;
+        void:triples 22
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 17 ;
+        void:property rdf:_19 ;
+        void:triples 17
+    ], [
+        void:distinctObjects 7969 ;
+        void:distinctSubjects 8092 ;
+        void:property <http://eprints.org/relation/isIndexCodesVersionOf> ;
+        void:triples 8092
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://eprints.org/relation/hasPart> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://creativecommons.org/ns#attributionURL> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 23 ;
+        void:property <http://eprints.org/relation/hasmediumThumbnailVersion> ;
+        void:triples 23
+    ], [
+        void:distinctObjects 16746 ;
+        void:distinctSubjects 15671 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 16746
+    ], [
+        void:distinctObjects 312 ;
+        void:distinctSubjects 312 ;
+        void:property <http://eprints.org/relation/islightboxThumbnailVersionOf> ;
+        void:triples 312
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 83 ;
+        void:property <http://xmlns.com/foaf/0.1/type> ;
+        void:triples 83
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 16746 ;
+        void:property <http://purl.org/dc/elements/1.1/format> ;
+        void:triples 16746
+    ], [
+        void:distinctObjects 6545 ;
+        void:distinctSubjects 7831 ;
+        void:property <http://purl.org/ontology/bibo/presentedAt> ;
+        void:triples 7838
+    ], [
+        void:distinctObjects 1945 ;
+        void:distinctSubjects 15651 ;
+        void:property <http://purl.org/dc/terms/date> ;
+        void:triples 15651
+    ], [
+        void:distinctObjects 1158 ;
+        void:distinctSubjects 5562 ;
+        void:property <http://purl.org/ontology/bibo/volume> ;
+        void:triples 5562
+    ], [
+        void:distinctObjects 21299 ;
+        void:distinctSubjects 22211 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 22178
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property rdf:_29 ;
+        void:triples 4
+    ], [
+        void:distinctObjects 15671 ;
+        void:distinctSubjects 16746 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 16746
+    ], [
+        void:distinctObjects 8005 ;
+        void:distinctSubjects 8009 ;
+        void:property <http://eprints.org/relation/haspreviewThumbnailVersion> ;
+        void:triples 8009
+    ], [
+        void:distinctObjects 144 ;
+        void:distinctSubjects 15499 ;
+        void:property <http://id.southampton.ac.uk/ns/inPublicationsListOf> ;
+        void:triples 29526
+    ], [
+        void:distinctObjects 241 ;
+        void:distinctSubjects 243 ;
+        void:property <http://eprints.org/relation/hasvisualisedThumbnailVersion> ;
+        void:triples 243
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 17 ;
+        void:property <http://eprints.org/ontology/hasUpdated> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property rdf:_30 ;
+        void:triples 4
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property rdf:_31 ;
+        void:triples 4
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_32 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_33 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8371 ;
+        void:distinctSubjects 8386 ;
+        void:property <http://eprints.org/relation/ispreviewThumbnailVersionOf> ;
+        void:triples 8386
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_35 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3603 ;
+        void:distinctSubjects 9394 ;
+        void:property <http://purl.org/ontology/bibo/pageEnd> ;
+        void:triples 9394
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_37 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_38 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_39 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://eprints.org/relation/isPartOf> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 97 ;
+        void:distinctSubjects 45 ;
+        void:property <http://eprints.org/ontology/hasSupplemental> ;
+        void:triples 97
+    ], [
+        void:distinctObjects 7977 ;
+        void:distinctSubjects 7981 ;
+        void:property <http://eprints.org/relation/hasfullsizeThumbnailVersion> ;
+        void:triples 7981
+    ], [
+        void:distinctObjects 3258 ;
+        void:distinctSubjects 3277 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 3049
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/license> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 40 ;
+        void:property <http://eprints.org/ontology/hasDraft> ;
+        void:triples 48
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_40 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8995 ;
+        void:distinctSubjects 26052 ;
+        void:property <http://eprints.org/relation/isVersionOf> ;
+        void:triples 26052
+    ], [
+        void:distinctObjects 1438 ;
+        void:distinctSubjects 1412 ;
+        void:property <http://eprints.org/ontology/hasPublished> ;
+        void:triples 1438
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_43 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 255 ;
+        void:distinctSubjects 263 ;
+        void:property <http://eprints.org/relation/isvisualisedThumbnailVersionOf> ;
+        void:triples 263
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_45 ;
+        void:triples 1
+    ] ;
+    void:triples 1045156 ;
+    void:vocabulary <http://creativecommons.org/ns>, <http://eprints.org/ontology/>, <http://eprints.org/relation/>, <http://id.southampton.ac.uk/ns/>, <http://purl.org/NET/c4dm/event.owl>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://purl.org/ontology/bibo/>, <http://www.loc.gov/loc.terms/relators/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

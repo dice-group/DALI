@@ -1,0 +1,152 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://soa4all.isoco.net/luf/about/downloads/luf_statements.zip>
+    void:classPartition [
+        void:class <http://www.w3.org/2004/03/trix/rdfg-1/Graph> ;
+        void:entities 129
+    ], [
+        void:class <http://www.holygoat.co.uk/owl/redwood/0.1/tags/Tagging> ;
+        void:entities 44
+    ], [
+        void:class <http://purl.org/net/provenance/ns#NonHumanActor> ;
+        void:entities 4
+    ], [
+        void:class <http://purl.org/net/provenance/ns#DataItem> ;
+        void:entities 258
+    ], [
+        void:class <http://purl.org/stuff/rev#Review> ;
+        void:entities 29801
+    ], [
+        void:class <http://purl.org/net/provenance/ns#DataCreation> ;
+        void:entities 258
+    ] ;
+    void:classes 6 ;
+    void:entities 30940 ;
+    void:properties 22 ;
+    void:propertyPartition [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 53 ;
+        void:distinctSubjects 58 ;
+        void:property <http://purl.org/stuff/rev#text> ;
+        void:triples 58
+    ], [
+        void:distinctObjects 44 ;
+        void:distinctSubjects 44 ;
+        void:property <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedOn> ;
+        void:triples 44
+    ], [
+        void:distinctObjects 57 ;
+        void:distinctSubjects 44 ;
+        void:property <http://www.holygoat.co.uk/owl/redwood/0.1/tags/associatedTag> ;
+        void:triples 111
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 258 ;
+        void:property <http://purl.org/net/provenance/ns#performedBy> ;
+        void:triples 258
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 29743 ;
+        void:property <http://purl.org/stuff/rev#minRating> ;
+        void:triples 29743
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 30365 ;
+        void:property rdf:type ;
+        void:triples 30477
+    ], [
+        void:distinctObjects 29801 ;
+        void:distinctSubjects 571 ;
+        void:property <http://purl.org/stuff/rev#hasReview> ;
+        void:triples 29801
+    ], [
+        void:distinctObjects 44 ;
+        void:distinctSubjects 24 ;
+        void:property <http://www.holygoat.co.uk/owl/redwood/0.1/tags/tag> ;
+        void:triples 44
+    ], [
+        void:distinctObjects 129 ;
+        void:distinctSubjects 129 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 129
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 29743 ;
+        void:property <http://purl.org/stuff/rev#maxRating> ;
+        void:triples 29743
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 29743 ;
+        void:property <http://purl.org/stuff/rev#rating> ;
+        void:triples 29743
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/#term_name> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 129 ;
+        void:distinctSubjects 258 ;
+        void:property <http://purl.org/net/provenance/ns#performedAt> ;
+        void:triples 258
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.org/net/provenance/ns#operatedBy> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 29630 ;
+        void:distinctSubjects 29630 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 29630
+    ], [
+        void:distinctObjects 258 ;
+        void:distinctSubjects 258 ;
+        void:property <http://purl.org/net/provenance/ns#createdBy> ;
+        void:triples 258
+    ], [
+        void:distinctObjects 129 ;
+        void:distinctSubjects 129 ;
+        void:property <http://purl.org/net/provenance/ns#usedData> ;
+        void:triples 129
+    ], [
+        void:distinctObjects 22181 ;
+        void:distinctSubjects 29801 ;
+        void:property <http://purl.org/stuff/rev#createdOn> ;
+        void:triples 29801
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 44 ;
+        void:property <http://www.holygoat.co.uk/owl/redwood/0.1/tags/taggedBy> ;
+        void:triples 44
+    ], [
+        void:distinctObjects 558 ;
+        void:distinctSubjects 29801 ;
+        void:property <http://purl.org/stuff/rev#reviewer> ;
+        void:triples 29801
+    ] ;
+    void:triples 240102 ;
+    void:vocabulary <http://purl.org/net/provenance/ns>, <http://purl.org/stuff/rev>, <http://www.holygoat.co.uk/owl/redwood/0.1/tags>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://xmlns.com/foaf/0.1>, <http://xmlns.com/foaf/0.1/> ;
+    a void:dataset .
+

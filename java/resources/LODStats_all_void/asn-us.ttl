@@ -1,0 +1,200 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<https://commondatastorage.googleapis.com/ckannet-storage/2012-08-17T160730/asn_published_xml.tgz>
+    void:classPartition [
+        void:class <http://purl.org/ASN/schema/core/Statement> ;
+        void:entities 261722
+    ], [
+        void:class <http://purl.org/ASN/schema/core/StandardDocument> ;
+        void:entities 577
+    ] ;
+    void:classes 2 ;
+    void:entities 262876 ;
+    void:properties 34 ;
+    void:propertyPartition [
+        void:distinctObjects 151 ;
+        void:distinctSubjects 31871 ;
+        void:property <http://purl.org/ASN/schema/core/localSubject> ;
+        void:triples 31938
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 262299 ;
+        void:property rdf:type ;
+        void:triples 65870
+    ], [
+        void:distinctObjects 87019 ;
+        void:distinctSubjects 96112 ;
+        void:property <http://purl.org/ASN/schema/core/statementNotation> ;
+        void:triples 96112
+    ], [
+        void:distinctObjects 566 ;
+        void:distinctSubjects 577 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 83 ;
+        void:distinctSubjects 577 ;
+        void:property <http://purl.org/dc/terms/valid> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 547 ;
+        void:distinctSubjects 577 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 127 ;
+        void:distinctSubjects 262299 ;
+        void:property <http://purl.org/dc/terms/educationLevel> ;
+        void:triples 750182
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 577 ;
+        void:property <http://purl.org/ASN/schema/core/repositoryDate> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 577 ;
+        void:property <http://creativecommons.org/ns#attributionName> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 225380 ;
+        void:distinctSubjects 262299 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 262299
+    ], [
+        void:distinctObjects 577 ;
+        void:distinctSubjects 577 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 261722 ;
+        void:property <http://purl.org/ASN/schema/core/authorityStatus> ;
+        void:triples 261722
+    ], [
+        void:distinctObjects 66 ;
+        void:distinctSubjects 262170 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 262675
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 577 ;
+        void:property <http://purl.org/dc/terms/rightsHolder> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 261722 ;
+        void:property <http://purl.org/ASN/schema/core/indexingStatus> ;
+        void:triples 261722
+    ], [
+        void:distinctObjects 577 ;
+        void:distinctSubjects 577 ;
+        void:property <http://purl.org/dc/terms/tableOfContents> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 577 ;
+        void:property <http://creativecommons.org/ns#license> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 9 ;
+        void:property <http://purl.org/dc/terms/rights> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 577 ;
+        void:property <http://purl.org/ASN/schema/core/exportVersion> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 577 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 547 ;
+        void:distinctSubjects 577 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 163 ;
+        void:distinctSubjects 76 ;
+        void:property <http://purl.org/ASN/schema/core/conceptTerm> ;
+        void:triples 191
+    ], [
+        void:distinctObjects 261722 ;
+        void:distinctSubjects 48863 ;
+        void:property <http://purl.org/gem/qualifiers/hasChild> ;
+        void:triples 261722
+    ], [
+        void:distinctObjects 227 ;
+        void:distinctSubjects 577 ;
+        void:property <http://purl.org/ASN/schema/core/jurisdiction> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 577 ;
+        void:distinctSubjects 577 ;
+        void:property <http://creativecommons.org/ns#attributionURL> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 262299 ;
+        void:property <http://purl.org/dc/terms/language> ;
+        void:triples 262299
+    ], [
+        void:distinctObjects 246351 ;
+        void:distinctSubjects 246473 ;
+        void:property <http://purl.org/ASN/schema/core/identifier> ;
+        void:triples 246473
+    ], [
+        void:distinctObjects 577 ;
+        void:distinctSubjects 261722 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 261722
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 577 ;
+        void:property <http://purl.org/ASN/schema/core/publicationStatus> ;
+        void:triples 577
+    ], [
+        void:distinctObjects 61 ;
+        void:distinctSubjects 415 ;
+        void:property <http://purl.org/ASN/schema/core/conceptKeyword> ;
+        void:triples 466
+    ], [
+        void:distinctObjects 1062 ;
+        void:distinctSubjects 1317 ;
+        void:property <http://purl.org/ASN/schema/core/comment> ;
+        void:triples 1719
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 11394 ;
+        void:property <http://purl.org/ASN/schema/core/statementLabel> ;
+        void:triples 11394
+    ], [
+        void:distinctObjects 68 ;
+        void:distinctSubjects 72 ;
+        void:property <http://purl.org/dc/terms/source> ;
+        void:triples 72
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/publisher> ;
+        void:triples 1
+    ] ;
+    void:triples 3244249 ;
+    void:vocabulary <http://creativecommons.org/ns>, <http://purl.org/ASN/schema/core/>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://purl.org/gem/qualifiers/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

@@ -1,0 +1,171 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<https://commondatastorage.googleapis.com/ckannet-storage/2012-07-17T084118/hebis-00000001-05051126.rdf.gz>
+    void:classPartition [
+        void:class <http://purl.org/dc/terms/BibliographicResource> ;
+        void:entities 2434091
+    ], [
+        void:class <http://purl.org/vocab/frbr/core#Manifestation> ;
+        void:entities 2491960
+    ], [
+        void:class <http://purl.org/ontology/bibo/Book> ;
+        void:entities 1901907
+    ], [
+        void:class rdf:Seq ;
+        void:entities 162764
+    ] ;
+    void:classes 4 ;
+    void:entities 2654724 ;
+    void:properties 27 ;
+    void:propertyPartition [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property rdf:_4 ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_5 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 138 ;
+        void:distinctSubjects 2434064 ;
+        void:property <http://purl.org/dc/terms/format> ;
+        void:triples 2434064
+    ], [
+        void:distinctObjects 140 ;
+        void:distinctSubjects 2434091 ;
+        void:property <http://purl.org/dc/terms/medium> ;
+        void:triples 2434091
+    ], [
+        void:distinctObjects 883 ;
+        void:distinctSubjects 1082 ;
+        void:property rdf:_2 ;
+        void:triples 1082
+    ], [
+        void:distinctObjects 91 ;
+        void:distinctSubjects 105 ;
+        void:property rdf:_3 ;
+        void:triples 105
+    ], [
+        void:distinctObjects 1055247 ;
+        void:distinctSubjects 1156195 ;
+        void:property <http://iflastandards.info/ns/isbd/elements/P1006> ;
+        void:triples 1157199
+    ], [
+        void:distinctObjects 2317197 ;
+        void:distinctSubjects 2399631 ;
+        void:property <http://iflastandards.info/ns/isbd/elements/P1004> ;
+        void:triples 2401063
+    ], [
+        void:distinctObjects 192398 ;
+        void:distinctSubjects 642688 ;
+        void:property <http://iflastandards.info/ns/isbd/elements/P1008> ;
+        void:triples 642728
+    ], [
+        void:distinctObjects 23837 ;
+        void:distinctSubjects 2343224 ;
+        void:property <http://purl.org/dc/terms/issued> ;
+        void:triples 2343224
+    ], [
+        void:distinctObjects 131311 ;
+        void:distinctSubjects 162764 ;
+        void:property rdf:_1 ;
+        void:triples 162764
+    ], [
+        void:distinctObjects 558 ;
+        void:distinctSubjects 2654724 ;
+        void:property rdf:type ;
+        void:triples 490195
+    ], [
+        void:distinctObjects 192398 ;
+        void:distinctSubjects 642688 ;
+        void:property <http://purl.org/ontology/bibo/edition> ;
+        void:triples 642728
+    ], [
+        void:distinctObjects 2491960 ;
+        void:distinctSubjects 2491960 ;
+        void:property <http://www.w3.org/2007/05/powder-s#describedby> ;
+        void:triples 2491960
+    ], [
+        void:distinctObjects 606869 ;
+        void:distinctSubjects 480348 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 1078169
+    ], [
+        void:distinctObjects 723667 ;
+        void:distinctSubjects 2039033 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 2047226
+    ], [
+        void:distinctObjects 429963 ;
+        void:distinctSubjects 435049 ;
+        void:property <http://purl.org/dc/terms/contributor> ;
+        void:triples 546856
+    ], [
+        void:distinctObjects 277047 ;
+        void:distinctSubjects 2228333 ;
+        void:property <http://iflastandards.info/ns/isbd/elements/P1016> ;
+        void:triples 2247786
+    ], [
+        void:distinctObjects 723558 ;
+        void:distinctSubjects 2039033 ;
+        void:property <http://iflastandards.info/ns/isbd/elements/P1017> ;
+        void:triples 2047225
+    ], [
+        void:distinctObjects 23836 ;
+        void:distinctSubjects 2343224 ;
+        void:property <http://iflastandards.info/ns/isbd/elements/P1018> ;
+        void:triples 2343224
+    ], [
+        void:distinctObjects 1756026 ;
+        void:distinctSubjects 1730625 ;
+        void:property <http://purl.org/ontology/bibo/oclcnum> ;
+        void:triples 1761371
+    ], [
+        void:distinctObjects 936307 ;
+        void:distinctSubjects 1052908 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 1146974
+    ], [
+        void:distinctObjects 162764 ;
+        void:distinctSubjects 162764 ;
+        void:property <http://purl.org/ontology/bibo/authorlist> ;
+        void:triples 162764
+    ], [
+        void:distinctObjects 2307931 ;
+        void:distinctSubjects 2399631 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 2401064
+    ], [
+        void:distinctObjects 2491960 ;
+        void:distinctSubjects 2491960 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 2491960
+    ], [
+        void:distinctObjects 132061 ;
+        void:distinctSubjects 145972 ;
+        void:property <http://purl.org/dc/terms/alternative> ;
+        void:triples 145983
+    ], [
+        void:distinctObjects 1159804 ;
+        void:distinctSubjects 1159789 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 1159846
+    ] ;
+    void:triples 41285409 ;
+    void:vocabulary <http://iflastandards.info/ns/isbd/elements/>, <http://purl.org/dc/terms/>, <http://purl.org/ontology/bibo/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2007/05/powder-s> ;
+    a void:Dataset .
+

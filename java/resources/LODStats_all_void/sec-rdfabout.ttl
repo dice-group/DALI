@@ -1,0 +1,99 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.govtrack.us/data/misc/sec.n3.gz>
+    void:classPartition [
+        void:class <http://www.rdfabout.com/rdf/schema/ussec/DirectorRelation> ;
+        void:entities 92733
+    ], [
+        void:class <http://www.rdfabout.com/rdf/schema/ussec/OfficerRelation> ;
+        void:entities 88094
+    ], [
+        void:class <http://xmlns.com/foaf/corp#Company> ;
+        void:entities 12589
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 117410
+    ], [
+        void:class <http://www.rdfabout.com/rdf/schema/ussec/TenPercentOwnerRelation> ;
+        void:entities 23499
+    ] ;
+    void:classes 5 ;
+    void:entities 463226 ;
+    void:properties 12 ;
+    void:propertyPartition [
+        void:distinctObjects 35 ;
+        void:distinctSubjects 301691 ;
+        void:property rdf:type ;
+        void:triples 171722
+    ], [
+        void:distinctObjects 132294 ;
+        void:distinctSubjects 132294 ;
+        void:property <http://www.w3.org/2001/vcard-rdf/3.0#ADR> ;
+        void:triples 132294
+    ], [
+        void:distinctObjects 19074 ;
+        void:distinctSubjects 132294 ;
+        void:property <http://www.w3.org/2001/vcard-rdf/3.0#Locality> ;
+        void:triples 132294
+    ], [
+        void:distinctObjects 11268 ;
+        void:distinctSubjects 12589 ;
+        void:property <http://www.rdfabout.com/rdf/schema/ussec/tradingSymbol> ;
+        void:triples 12589
+    ], [
+        void:distinctObjects 29764 ;
+        void:distinctSubjects 132294 ;
+        void:property <http://www.w3.org/2001/vcard-rdf/3.0#Pcode> ;
+        void:triples 132294
+    ], [
+        void:distinctObjects 144732 ;
+        void:distinctSubjects 144732 ;
+        void:property <http://www.rdfabout.com/rdf/schema/ussec/cik> ;
+        void:triples 144688
+    ], [
+        void:distinctObjects 69884 ;
+        void:distinctSubjects 132294 ;
+        void:property <http://www.w3.org/2001/vcard-rdf/3.0#Street> ;
+        void:triples 132294
+    ], [
+        void:distinctObjects 37391 ;
+        void:distinctSubjects 184045 ;
+        void:property <http://www.rdfabout.com/rdf/schema/ussec/corporation> ;
+        void:triples 184045
+    ], [
+        void:distinctObjects 144596 ;
+        void:distinctSubjects 144732 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 144694
+    ], [
+        void:distinctObjects 4268 ;
+        void:distinctSubjects 184045 ;
+        void:property <http://purl.org/dc/elements/1.1/date> ;
+        void:triples 184045
+    ], [
+        void:distinctObjects 32435 ;
+        void:distinctSubjects 96624 ;
+        void:property <http://www.rdfabout.com/rdf/schema/ussec/officerTitle> ;
+        void:triples 96624
+    ], [
+        void:distinctObjects 184045 ;
+        void:distinctSubjects 153826 ;
+        void:property <http://www.rdfabout.com/rdf/schema/ussec/hasRelation> ;
+        void:triples 184045
+    ] ;
+    void:triples 1814615 ;
+    void:vocabulary <http://purl.org/dc>, <http://www.rdfabout.com/rdf>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2001/vcard-rdf/3.0>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

@@ -1,0 +1,128 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://dump.linkedopendata.it/scuole>
+    void:classPartition [
+        void:class <http://purl.org/net7/vocab/scuole/v1#Scuola> ;
+        void:entities 56144
+    ], [
+        void:class <http://www.geonames.org/ontology#Feature> ;
+        void:entities 6911
+    ], [
+        void:class <http://www.w3.org/2006/vcard/ns#Address> ;
+        void:entities 40204
+    ] ;
+    void:classes 3 ;
+    void:entities 103310 ;
+    void:properties 19 ;
+    void:propertyPartition [
+        void:distinctObjects 11077 ;
+        void:distinctSubjects 34426 ;
+        void:property <http://www.w3.org/2006/vcard/ns#url> ;
+        void:triples 34426
+    ], [
+        void:distinctObjects 43 ;
+        void:distinctSubjects 40204 ;
+        void:property <http://www.w3.org/2006/vcard/ns#region> ;
+        void:triples 40204
+    ], [
+        void:distinctObjects 7937 ;
+        void:distinctSubjects 40204 ;
+        void:property <http://www.w3.org/2006/vcard/ns#locality> ;
+        void:triples 40204
+    ], [
+        void:distinctObjects 1484 ;
+        void:distinctSubjects 4759 ;
+        void:property <http://purl.org/net7/vocab/scuole/v1#indirizziStudio> ;
+        void:triples 4759
+    ], [
+        void:distinctObjects 35057 ;
+        void:distinctSubjects 40231 ;
+        void:property <http://www.w3.org/2006/vcard/ns#street-address> ;
+        void:triples 40485
+    ], [
+        void:distinctObjects 95 ;
+        void:distinctSubjects 6340 ;
+        void:property <http://purl.org/net7/vocab/scuole/v1#tipoDiScuolaIIGrado> ;
+        void:triples 6340
+    ], [
+        void:distinctObjects 11216 ;
+        void:distinctSubjects 11216 ;
+        void:property rdf:value ;
+        void:triples 11216
+    ], [
+        void:distinctObjects 5882 ;
+        void:distinctSubjects 39824 ;
+        void:property <http://www.w3.org/2006/vcard/ns#postal-code> ;
+        void:triples 40209
+    ], [
+        void:distinctObjects 36022 ;
+        void:distinctSubjects 51536 ;
+        void:property <http://www.w3.org/2006/vcard/ns#tel> ;
+        void:triples 51536
+    ], [
+        void:distinctObjects 63335 ;
+        void:distinctSubjects 63043 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 63335
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property <http://www.w3.org/2004/02/skos/core#exactMatchexactMatch> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 12601 ;
+        void:distinctSubjects 56082 ;
+        void:property <http://purl.org/net7/vocab/scuole/v1#appartieneAIstituto> ;
+        void:triples 56082
+    ], [
+        void:distinctObjects 16342 ;
+        void:distinctSubjects 16342 ;
+        void:property <http://www.w3.org/2006/vcard/ns#email> ;
+        void:triples 16342
+    ], [
+        void:distinctObjects 174 ;
+        void:distinctSubjects 6891 ;
+        void:property <http://www.geonames.org/ontology#parentADM2> ;
+        void:triples 6895
+    ], [
+        void:distinctObjects 56082 ;
+        void:distinctSubjects 56082 ;
+        void:property <http://purl.org/net7/vocab/scuole/v1#codiceMeccanografico> ;
+        void:triples 56082
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 103259 ;
+        void:property rdf:type ;
+        void:triples 61633
+    ], [
+        void:distinctObjects 41152 ;
+        void:distinctSubjects 53767 ;
+        void:property <http://www.w3.org/2006/vcard/ns#adr> ;
+        void:triples 53767
+    ], [
+        void:distinctObjects 39 ;
+        void:distinctSubjects 56082 ;
+        void:property <http://purl.org/net7/vocab/scuole/v1#tipoDiScuola> ;
+        void:triples 68460
+    ], [
+        void:distinctObjects 18451 ;
+        void:distinctSubjects 32395 ;
+        void:property <http://www.w3.org/2006/vcard/ns#fax> ;
+        void:triples 32395
+    ] ;
+    void:triples 726015 ;
+    void:vocabulary <http://purl.org/net7/vocab/scuole/v1>, <http://www.geonames.org/ontology>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2004/02/skos/core>, <http://www.w3.org/2006/vcard/ns> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

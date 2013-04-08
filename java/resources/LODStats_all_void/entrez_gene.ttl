@@ -1,0 +1,87 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://purl.org/hcls/2007/kb-sources/gene-owl.tgz>
+    void:classPartition [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 6
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 24
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Thing> ;
+        void:entities 138826
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:entities 15
+    ] ;
+    void:classes 6 ;
+    void:entities 138841 ;
+    void:properties 9 ;
+    void:propertyPartition [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 138822 ;
+        void:property <http://purl.org/science/owl/sciencecommons/from_species_described_by> ;
+        void:triples 138822
+    ], [
+        void:distinctObjects 138822 ;
+        void:distinctSubjects 138822 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 138822
+    ], [
+        void:distinctObjects 344370 ;
+        void:distinctSubjects 138822 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 374196
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 122160 ;
+        void:property <http://purl.org/science/owl/sciencecommons/describes_gene_type> ;
+        void:triples 122160
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 20 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 138822 ;
+        void:distinctSubjects 138822 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 138822
+    ], [
+        void:distinctObjects 154 ;
+        void:distinctSubjects 136585 ;
+        void:property <http://purl.org/science/owl/sciencecommons/has_chromosome_descriptor> ;
+        void:triples 136585
+    ], [
+        void:distinctObjects 25 ;
+        void:distinctSubjects 138890 ;
+        void:property rdf:type ;
+        void:triples 72362
+    ], [
+        void:distinctObjects 138822 ;
+        void:distinctSubjects 138822 ;
+        void:property <http://purl.org/dc/elements/1.1/identifier> ;
+        void:triples 138822
+    ] ;
+    void:triples 1327212 ;
+    void:vocabulary <http://purl.org/dc>, <http://purl.org/science>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:dataset .
+

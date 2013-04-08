@@ -1,0 +1,60 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<https://commondatastorage.googleapis.com/ckannet-storage/2012-09-02T184411/gemet-annotated.rdf>
+    void:classPartition [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 5208
+    ], [
+        void:class <http://www.w3.org/2008/05/skos-xl#Label> ;
+        void:entities 61244
+    ] ;
+    void:classes 2 ;
+    void:entities 66452 ;
+    void:properties 6 ;
+    void:propertyPartition [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 66452 ;
+        void:property rdf:type ;
+        void:triples 65176
+    ], [
+        void:distinctObjects 41854 ;
+        void:distinctSubjects 4618 ;
+        void:property <http://www.eionet.europa.eu/gemet/gemet-skoscore.rdf#annotation> ;
+        void:triples 52428
+    ], [
+        void:distinctObjects 30309 ;
+        void:distinctSubjects 10103 ;
+        void:property <http://www.eionet.europa.eu/gemet/gemet-skoscore.rdf#literalTranslation> ;
+        void:triples 30309
+    ], [
+        void:distinctObjects 42974 ;
+        void:distinctSubjects 61244 ;
+        void:property <http://www.w3.org/2008/05/skos-xl#literalForm> ;
+        void:triples 61276
+    ], [
+        void:distinctObjects 15624 ;
+        void:distinctSubjects 5208 ;
+        void:property <http://www.w3.org/2008/05/skos-xl#altLabel> ;
+        void:triples 15624
+    ], [
+        void:distinctObjects 5208 ;
+        void:distinctSubjects 5208 ;
+        void:property <http://www.w3.org/2008/05/skos-xl#prefLabel> ;
+        void:triples 5208
+    ] ;
+    void:triples 231297 ;
+    void:vocabulary <http://www.eionet.europa.eu/gemet/gemet-skoscore.rdf>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2008/05/skos-xl> ;
+    a void:Dataset .
+

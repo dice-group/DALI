@@ -1,0 +1,492 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://lobid.org/download/dumps/other/nature_sparql_dump.ttl.bz2>
+    void:classPartition [
+        void:class <http://purl.org/ontology/bibo/Article> ;
+        void:entities 230476
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 3
+    ], [
+        void:class <http://ns.nature.com/terms/ProductFamily> ;
+        void:entities 2
+    ], [
+        void:class <http://ns.nature.com/terms/Record> ;
+        void:entities 69907
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 422
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 12
+    ], [
+        void:class <http://ns.nature.com/terms/Subject> ;
+        void:entities 382
+    ], [
+        void:class <http://ns.nature.com/terms/Article> ;
+        void:entities 235062
+    ], [
+        void:class <http://ns.nature.com/terms/Coverage> ;
+        void:entities 120
+    ], [
+        void:class <http://ns.nature.com/terms/SubjectGroup> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 2
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Thing> ;
+        void:entities 878
+    ], [
+        void:class <http://ns.nature.com/terms/ProductGroup> ;
+        void:entities 1
+    ], [
+        void:class <http://ns.nature.com/terms/Technique> ;
+        void:entities 60
+    ], [
+        void:class <http://ns.nature.com/terms/Product> ;
+        void:entities 126
+    ], [
+        void:class <http://ns.nature.com/terms/Publication> ;
+        void:entities 184
+    ], [
+        void:class void:Dataset ;
+        void:entities 3
+    ], [
+        void:class <http://ns.nature.com/terms/Graph> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/ns/sparql-service-description#Graph> ;
+        void:entities 3
+    ], [
+        void:class <http://ns.nature.com/terms/Contributor> ;
+        void:entities 399820
+    ] ;
+    void:classes 21 ;
+    void:entities 1154350 ;
+    void:properties 81 ;
+    void:propertyPartition [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 13 ;
+        void:property <http://ns.nature.com/terms/volumeEnd> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 151 ;
+        void:distinctSubjects 151 ;
+        void:property <http://ns.nature.com/terms/npgid> ;
+        void:triples 151
+    ], [
+        void:distinctObjects 54 ;
+        void:distinctSubjects 144 ;
+        void:property <http://ns.nature.com/terms/volumeStart> ;
+        void:triples 144
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/dc/terms/license> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 21 ;
+        void:property <http://ns.nature.com/terms/dateEnd> ;
+        void:triples 21
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://ns.nature.com/terms/type> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 711 ;
+        void:distinctSubjects 711 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 711
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 234522 ;
+        void:property <http://prismstandard.org/namespaces/basic/2.1/aggregationType> ;
+        void:triples 234522
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 8 ;
+        void:property <http://ns.nature.com/terms/belongsToProduct> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 167371 ;
+        void:distinctSubjects 166894 ;
+        void:property <http://purl.org/ontology/bibo/contributorList> ;
+        void:triples 167371
+    ], [
+        void:distinctObjects 307990 ;
+        void:distinctSubjects 351342 ;
+        void:property <http://ns.nature.com/terms/title> ;
+        void:triples 351409
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://ns.nature.com/terms/replaces> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 13 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 13 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/dc/terms/issued> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 232 ;
+        void:distinctSubjects 233 ;
+        void:property <http://www.w3.org/2004/02/skos/core#description> ;
+        void:triples 233
+    ], [
+        void:distinctObjects 6463 ;
+        void:distinctSubjects 340816 ;
+        void:property <http://purl.org/ontology/bibo/pageStart> ;
+        void:triples 340853
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 345022 ;
+        void:property <http://purl.org/dc/elements/1.1/publisher> ;
+        void:triples 345022
+    ], [
+        void:distinctObjects 869604 ;
+        void:distinctSubjects 810951 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 869604
+    ], [
+        void:distinctObjects 108 ;
+        void:distinctSubjects 235653 ;
+        void:property <http://ns.nature.com/terms/hasProduct> ;
+        void:triples 235660
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 172 ;
+        void:property <http://ns.nature.com/terms/content> ;
+        void:triples 172
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 145 ;
+        void:property <http://ns.nature.com/terms/issueStart> ;
+        void:triples 145
+    ], [
+        void:distinctObjects 1450 ;
+        void:distinctSubjects 340288 ;
+        void:property <http://purl.org/ontology/bibo/volume> ;
+        void:triples 340300
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 6 ;
+        void:property void:vocabulary ;
+        void:triples 13
+    ], [
+        void:distinctObjects 291990 ;
+        void:distinctSubjects 331827 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 331889
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://ns.nature.com/terms/urn> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 139 ;
+        void:distinctSubjects 140 ;
+        void:property <http://ns.nature.com/terms/hasMeshTerm> ;
+        void:triples 140
+    ], [
+        void:distinctObjects 1779 ;
+        void:distinctSubjects 736 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 1781
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/2002/07/owl#versionInfo> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 6467 ;
+        void:distinctSubjects 341312 ;
+        void:property <http://prismstandard.org/namespaces/basic/2.1/startingPage> ;
+        void:triples 341349
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.w3.org/2004/02/skos/core#narrower> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 6 ;
+        void:property <http://ns.nature.com/terms/hasSubProduct> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 3 ;
+        void:property void:classPartition ;
+        void:triples 4
+    ], [
+        void:distinctObjects 128058 ;
+        void:distinctSubjects 598054 ;
+        void:property <http://xmlns.com/foaf/0.1/givenName> ;
+        void:triples 598054
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 183 ;
+        void:property <http://ns.nature.com/terms/moving> ;
+        void:triples 183
+    ], [
+        void:distinctObjects 612310 ;
+        void:distinctSubjects 535393 ;
+        void:property <http://purl.org/dc/elements/1.1/identifier> ;
+        void:triples 612310
+    ], [
+        void:distinctObjects 671 ;
+        void:distinctSubjects 697 ;
+        void:property <http://ns.nature.com/terms/code> ;
+        void:triples 697
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 186 ;
+        void:distinctSubjects 186 ;
+        void:property <http://ns.nature.com/terms/pcode> ;
+        void:triples 186
+    ], [
+        void:distinctObjects 739 ;
+        void:distinctSubjects 111 ;
+        void:property <http://ns.nature.com/terms/hasSubject> ;
+        void:triples 1000
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 32 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 32
+    ], [
+        void:distinctObjects 69298 ;
+        void:distinctSubjects 69299 ;
+        void:property <http://ns.nature.com/terms/hasRecord> ;
+        void:triples 69299
+    ], [
+        void:distinctObjects 128 ;
+        void:distinctSubjects 128 ;
+        void:property <http://purl.org/ontology/bibo/issn> ;
+        void:triples 128
+    ], [
+        void:distinctObjects 1450 ;
+        void:distinctSubjects 341874 ;
+        void:property <http://prismstandard.org/namespaces/basic/2.1/volume> ;
+        void:triples 341886
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/dc/elements/1.1/relation> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 22328 ;
+        void:distinctSubjects 341129 ;
+        void:property <http://prismstandard.org/namespaces/basic/2.1/number> ;
+        void:triples 341205
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property void:triples ;
+        void:triples 6
+    ], [
+        void:distinctObjects 352070 ;
+        void:distinctSubjects 352070 ;
+        void:property <http://ns.nature.com/terms/doiHash> ;
+        void:triples 352070
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 707987 ;
+        void:property rdf:type ;
+        void:triples 87
+    ], [
+        void:distinctObjects 116 ;
+        void:distinctSubjects 116 ;
+        void:property <http://purl.org/ontology/bibo/eissn> ;
+        void:triples 116
+    ], [
+        void:distinctObjects 209864 ;
+        void:distinctSubjects 596924 ;
+        void:property <http://xmlns.com/foaf/0.1/familyName> ;
+        void:triples 596924
+    ], [
+        void:distinctObjects 162 ;
+        void:distinctSubjects 477 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 526
+    ], [
+        void:distinctObjects 22328 ;
+        void:distinctSubjects 340936 ;
+        void:property <http://purl.org/ontology/bibo/issue> ;
+        void:triples 341011
+    ], [
+        void:distinctObjects 29977 ;
+        void:distinctSubjects 352648 ;
+        void:property <http://prismstandard.org/namespaces/basic/2.1/publicationDate> ;
+        void:triples 352699
+    ], [
+        void:distinctObjects 792986 ;
+        void:distinctSubjects 988641 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 988703
+    ], [
+        void:distinctObjects 386 ;
+        void:distinctSubjects 198678 ;
+        void:property <http://ns.nature.com/terms/hasPublication> ;
+        void:triples 202000
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 142 ;
+        void:property <http://ns.nature.com/terms/targetDomain> ;
+        void:triples 142
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 26 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 26
+    ], [
+        void:distinctObjects 400145 ;
+        void:distinctSubjects 259654 ;
+        void:property <http://ns.nature.com/terms/hasContributor> ;
+        void:triples 400145
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 3 ;
+        void:property void:propertyPartition ;
+        void:triples 26
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 6448 ;
+        void:distinctSubjects 342965 ;
+        void:property <http://purl.org/ontology/bibo/pageEnd> ;
+        void:triples 343029
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 28 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 28
+    ], [
+        void:distinctObjects 328747 ;
+        void:distinctSubjects 328747 ;
+        void:property <http://prismstandard.org/namespaces/basic/2.1/doi> ;
+        void:triples 328747
+    ], [
+        void:distinctObjects 82 ;
+        void:distinctSubjects 263590 ;
+        void:property <http://prismstandard.org/namespaces/basic/2.1/copyright> ;
+        void:triples 263593
+    ], [
+        void:distinctObjects 324926 ;
+        void:distinctSubjects 324926 ;
+        void:property <http://prismstandard.org/namespaces/basic/2.1/url> ;
+        void:triples 324926
+    ], [
+        void:distinctObjects 124 ;
+        void:distinctSubjects 124 ;
+        void:property <http://ns.nature.com/terms/hasCoverage> ;
+        void:triples 124
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 178 ;
+        void:property <http://ns.nature.com/terms/collection> ;
+        void:triples 178
+    ], [
+        void:distinctObjects 6436 ;
+        void:distinctSubjects 339867 ;
+        void:property <http://prismstandard.org/namespaces/basic/2.1/endingPage> ;
+        void:triples 339931
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 23 ;
+        void:property <http://purl.org/dc/elements/1.1/language> ;
+        void:triples 23
+    ], [
+        void:distinctObjects 405037 ;
+        void:distinctSubjects 561382 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 561383
+    ], [
+        void:distinctObjects 119 ;
+        void:distinctSubjects 121 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 121
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://ns.nature.com/terms/replacedBy> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 13 ;
+        void:property <http://ns.nature.com/terms/issueEnd> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 130 ;
+        void:distinctSubjects 166 ;
+        void:property <http://ns.nature.com/terms/dateStart> ;
+        void:triples 166
+    ], [
+        void:distinctObjects 135858 ;
+        void:distinctSubjects 305200 ;
+        void:property <http://purl.org/dc/elements/1.1/subject> ;
+        void:triples 955236
+    ], [
+        void:distinctObjects 95 ;
+        void:distinctSubjects 314278 ;
+        void:property <http://prismstandard.org/namespaces/basic/2.1/genre> ;
+        void:triples 323742
+    ] ;
+    void:triples 13142698 ;
+    void:vocabulary <http://ns.nature.com/terms/>, <http://prismstandard.org/namespaces/basic/2.1/>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://purl.org/ontology/bibo/>, <http://rdfs.org/ns/void>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

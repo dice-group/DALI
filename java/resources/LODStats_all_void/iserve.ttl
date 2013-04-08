@@ -1,0 +1,382 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://iserve.kmi.open.ac.uk/downloads/all.zip>
+    void:classPartition [
+        void:class <foo:bar#PartialValuedRelation> ;
+        void:entities 5
+    ], [
+        void:class <foo:bar#TotalValuedRelation> ;
+        void:entities 45
+    ], [
+        void:class <http://cms-wg.sti2.org/ns/minimal-service-model#Service> ;
+        void:entities 2217
+    ], [
+        void:class <foo:bar#Class> ;
+        void:entities 1
+    ], [
+        void:class <foo:bar#InheritableRelation> ;
+        void:entities 24
+    ], [
+        void:class <foo:bar#IntentionalRelation> ;
+        void:entities 1
+    ], [
+        void:class <foo:bar#ProbabilityRelation> ;
+        void:entities 4
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 26
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 208
+    ], [
+        void:class <foo:bar#PropositionalAttitude> ;
+        void:entities 4
+    ], [
+        void:class <foo:bar#TemporalRelation> ;
+        void:entities 18
+    ], [
+        void:class <http://cms-wg.sti2.org/ns/minimal-service-model#MessagePart> ;
+        void:entities 16975
+    ], [
+        void:class <foo:bar#SpatialRelation> ;
+        void:entities 13
+    ], [
+        void:class <foo:bar#BinaryPredicate> ;
+        void:entities 101
+    ], [
+        void:class <foo:bar#SymmetricRelation> ;
+        void:entities 13
+    ], [
+        void:class <foo:bar#IrreflexiveRelation> ;
+        void:entities 34
+    ], [
+        void:class <http://cms-wg.sti2.org/ns/minimal-service-model#MessageContent> ;
+        void:entities 6068
+    ], [
+        void:class <foo:bar#RelationExtendedToQuantities> ;
+        void:entities 7
+    ], [
+        void:class <foo:bar#IntransitiveRelation> ;
+        void:entities 8
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 28
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+        void:entities 4
+    ], [
+        void:class <foo:bar#BinaryRelation> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 617
+    ], [
+        void:class <foo:bar#SystemeInternationalUnit> ;
+        void:entities 8
+    ], [
+        void:class <foo:bar#SingleValuedRelation> ;
+        void:entities 11
+    ], [
+        void:class <http://www.wsmo.org/ns/wsmo-lite#FunctionalClassificationRoot> ;
+        void:entities 5
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Datatype> ;
+        void:entities 3
+    ], [
+        void:class rdf:List ;
+        void:entities 1
+    ], [
+        void:class <foo:bar#ReflexiveRelation> ;
+        void:entities 3
+    ], [
+        void:class <foo:bar#PartialOrderingRelation> ;
+        void:entities 16
+    ], [
+        void:class <foo:bar#ObjectAttitude> ;
+        void:entities 2
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+        void:entities 4
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Thing> ;
+        void:entities 15
+    ], [
+        void:class <foo:bar#CaseRole> ;
+        void:entities 7
+    ], [
+        void:class <foo:bar#AsymmetricRelation> ;
+        void:entities 69
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Resource> ;
+        void:entities 133
+    ], [
+        void:class <http://www.wsmo.org/ns/wsmo-lite#Effect> ;
+        void:entities 1
+    ], [
+        void:class <foo:bar#EquivalenceRelation> ;
+        void:entities 8
+    ], [
+        void:class rdf:Property ;
+        void:entities 154
+    ], [
+        void:class <foo:bar#UnitOfMeasure> ;
+        void:entities 29
+    ], [
+        void:class <foo:bar#TransitiveRelation> ;
+        void:entities 25
+    ], [
+        void:class <foo:bar#UnaryFunction> ;
+        void:entities 53
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty> ;
+        void:entities 99
+    ], [
+        void:class <http://cms-wg.sti2.org/ns/minimal-service-model#Operation> ;
+        void:entities 2763
+    ], [
+        void:class <foo:bar#AntisymmetricRelation> ;
+        void:entities 2
+    ], [
+        void:class <http://www.wsmo.org/ns/wsmo-lite#Condition> ;
+        void:entities 2
+    ] ;
+    void:classes 46 ;
+    void:entities 29199 ;
+    void:properties 44 ;
+    void:propertyPartition [
+        void:distinctObjects 50 ;
+        void:distinctSubjects 69 ;
+        void:property <http://cms-wg.sti2.org/ns/minimal-service-model#hasIndirectPart> ;
+        void:triples 88
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.daml.org/services/owl-s/1.1/Process.owl#hasEffect> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 3006 ;
+        void:distinctSubjects 2726 ;
+        void:property <http://cms-wg.sti2.org/ns/minimal-service-model#hasOutput> ;
+        void:triples 3008
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.daml.org/services/owl-s/1.1/Process.owl#hasResultVar> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1470 ;
+        void:distinctSubjects 10172 ;
+        void:property <http://www.w3.org/ns/sawsdl#modelReference> ;
+        void:triples 10958
+    ], [
+        void:distinctObjects 61 ;
+        void:distinctSubjects 227 ;
+        void:property <http://www.w3.org/ns/sawsdl#loweringSchemaMapping> ;
+        void:triples 227
+    ], [
+        void:distinctObjects 2761 ;
+        void:distinctSubjects 2213 ;
+        void:property <http://cms-wg.sti2.org/ns/minimal-service-model#hasOperation> ;
+        void:triples 2761
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.daml.org/services/owl-s/1.1/generic/Expression.owl#expressionLanguage> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.org/iserve/ontology/owlstc/SUMO.owlinverse> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 70 ;
+        void:distinctSubjects 378 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 335
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://cms-wg.sti2.org/ns/minimal-service-model#hasOutputFault> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.daml.org/services/owl-s/1.1/Process.owl#inCondition> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 45 ;
+        void:distinctSubjects 86 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 90
+    ], [
+        void:distinctObjects 46 ;
+        void:distinctSubjects 29092 ;
+        void:property rdf:type ;
+        void:triples 28664
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.w3.org/2002/07/owl#oneOf> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 10271 ;
+        void:distinctSubjects 7286 ;
+        void:property <http://cms-wg.sti2.org/ns/minimal-service-model#hasPartTransitive> ;
+        void:triples 12322
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 20 ;
+        void:property rdf:first ;
+        void:triples 20
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 30 ;
+        void:property <http://purl.org/iserve/ontology/owlstc/SUMO.owlrelatedInternalConcept> ;
+        void:triples 38
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/source> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 20 ;
+        void:property rdf:rest ;
+        void:triples 20
+    ], [
+        void:distinctObjects 276 ;
+        void:distinctSubjects 714 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 791
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.org/msm/1.1#hasAddress> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.org/msm/1.1#isGroundedIn> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 84 ;
+        void:distinctSubjects 376 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 334
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.daml.org/services/owl-s/1.1/generic/Expression.owl#expressionBody> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.wsmo.org/ns/hrests#isGroundedIn> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 131 ;
+        void:distinctSubjects 273 ;
+        void:property <http://www.wsmo.org/ns/hrests#hasAddress> ;
+        void:triples 283
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.daml.org/services/owl-s/1.1/Process.owl#parameterType> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://proton.semanticweb.org/2005/04/protons#transitiveOver> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1440 ;
+        void:distinctSubjects 1620 ;
+        void:property <http://www.w3.org/ns/sawsdl#liftingSchemaMapping> ;
+        void:triples 1621
+    ], [
+        void:distinctObjects 2290 ;
+        void:distinctSubjects 2219 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 2337
+    ], [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 36 ;
+        void:property <http://purl.org/iserve/ontology/owlstc/SUMO.owldisjoint> ;
+        void:triples 36
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/iserve/ontology/owlstc/SUMO.owlrangeSubclass> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/iserve/ontology/owlstc/SUMO.owldisjointRelation> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 19 ;
+        void:property <http://cms-wg.sti2.org/ns/minimal-service-model#hasOptionalPart> ;
+        void:triples 46
+    ], [
+        void:distinctObjects 1749 ;
+        void:distinctSubjects 2226 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 2230
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 6 ;
+        void:property <http://cms-wg.sti2.org/ns/minimal-service-model#hasMandatoryPart> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 2217 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 2230
+    ], [
+        void:distinctObjects 1856 ;
+        void:distinctSubjects 1964 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 1969
+    ], [
+        void:distinctObjects 3049 ;
+        void:distinctSubjects 2740 ;
+        void:property <http://cms-wg.sti2.org/ns/minimal-service-model#hasInput> ;
+        void:triples 3074
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.org/iserve/ontology/owlstc/SUMO.owltrichotomizingOn> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/msm/1.1#hasMethod> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 15214 ;
+        void:distinctSubjects 10612 ;
+        void:property <http://cms-wg.sti2.org/ns/minimal-service-model#hasPart> ;
+        void:triples 20042
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 170 ;
+        void:property <http://www.wsmo.org/ns/hrests#hasMethod> ;
+        void:triples 170
+    ] ;
+    void:triples 95241 ;
+    void:vocabulary <http://cms-wg.sti2.org/ns/minimal-service-model>, <http://proton.semanticweb.org/2005/04/protons>, <http://purl.org/dc/elements/1.1>, <http://purl.org/iserve/ontology/owlstc>, <http://purl.org/msm/1.1>, <http://www.daml.org/services/owl-s/1.1/Process.owl>, <http://www.daml.org/services/owl-s/1.1/generic/Expression.owl>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/ns/sawsdl>, <http://www.wsmo.org/ns/hrests> ;
+    a void:dataset .
+

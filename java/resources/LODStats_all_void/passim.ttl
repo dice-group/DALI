@@ -1,0 +1,135 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://data.lirmm.fr/passim/passim.rdf>
+    void:classPartition [
+        void:class <http://rdf.insee.fr/geo/Departement> ;
+        void:entities 165
+    ], [
+        void:class <http://data.lirmm.fr/ontologies/passim#Mode> ;
+        void:entities 25
+    ], [
+        void:class <http://rdf.insee.fr/geo/Region> ;
+        void:entities 32
+    ], [
+        void:class <http://data.lirmm.fr/ontologies/passim#TransportServiceInformation> ;
+        void:entities 788
+    ], [
+        void:class <http://rdf.insee.fr/geo/Commune> ;
+        void:entities 2756
+    ], [
+        void:class <http://data.lirmm.fr/ontologies/passim#Service> ;
+        void:entities 15
+    ], [
+        void:class <http://data.lirmm.fr/ontologies/passim#Coverage> ;
+        void:entities 4
+    ] ;
+    void:classes 7 ;
+    void:entities 3776 ;
+    void:properties 18 ;
+    void:propertyPartition [
+        void:distinctObjects 82 ;
+        void:distinctSubjects 83 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#landInformation> ;
+        void:triples 83
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 647 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#typeOfService> ;
+        void:triples 2152
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 756 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#region> ;
+        void:triples 766
+    ], [
+        void:distinctObjects 723 ;
+        void:distinctSubjects 726 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#infoPoint> ;
+        void:triples 728
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 788 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson> ;
+        void:triples 788
+    ], [
+        void:distinctObjects 606 ;
+        void:distinctSubjects 750 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#centerTown> ;
+        void:triples 898
+    ], [
+        void:distinctObjects 253 ;
+        void:distinctSubjects 277 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#remark> ;
+        void:triples 277
+    ], [
+        void:distinctObjects 765 ;
+        void:distinctSubjects 788 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#serviceName> ;
+        void:triples 789
+    ], [
+        void:distinctObjects 25 ;
+        void:distinctSubjects 788 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#modeOfTransport> ;
+        void:triples 929
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 32 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#mobileApplication> ;
+        void:triples 32
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 787 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#isWebSiteAccessibilityForDisabledPerson> ;
+        void:triples 787
+    ], [
+        void:distinctObjects 639 ;
+        void:distinctSubjects 787 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#webSite> ;
+        void:triples 790
+    ], [
+        void:distinctObjects 165 ;
+        void:distinctSubjects 788 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#department> ;
+        void:triples 869
+    ], [
+        void:distinctObjects 396 ;
+        void:distinctSubjects 403 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#comment> ;
+        void:triples 403
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 788 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#serviceCoverage> ;
+        void:triples 789
+    ], [
+        void:distinctObjects 2248 ;
+        void:distinctSubjects 158 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#cityThrough> ;
+        void:triples 2554
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 12 ;
+        void:property <http://data.lirmm.fr/ontologies/passim#SMSInformation> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 3776 ;
+        void:property rdf:type ;
+        void:triples 2044
+    ] ;
+    void:triples 17431 ;
+    void:vocabulary <http://data.lirmm.fr/ontologies/passim>, <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

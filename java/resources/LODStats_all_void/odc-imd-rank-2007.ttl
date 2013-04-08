@@ -1,0 +1,57 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://opendatacommunities-downloads.s3.amazonaws.com/imd-2007-imd-rank.ttl.zip>
+    void:classPartition [
+        void:class qb:Observation ;
+        void:entities 32482
+    ] ;
+    void:classes 1 ;
+    void:entities 32482 ;
+    void:properties 6 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 32482 ;
+        void:property rdf:type ;
+        void:triples 32222
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 32482 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> ;
+        void:triples 32482
+    ], [
+        void:distinctObjects 32459 ;
+        void:distinctSubjects 32482 ;
+        void:property <http://opendatacommunities.org/def/IMD#IMD-rank> ;
+        void:triples 32482
+    ], [
+        void:distinctObjects 32482 ;
+        void:distinctSubjects 32482 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ;
+        void:triples 32482
+    ], [
+        void:distinctObjects 32482 ;
+        void:distinctSubjects 32482 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 32482
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 32482 ;
+        void:property qb:dataSet ;
+        void:triples 32482
+    ] ;
+    void:triples 194892 ;
+    void:vocabulary <http://opendatacommunities.org/def/IMD>, <http://purl.org/linked-data/cube>, <http://purl.org/linked-data/sdmx/2009/dimension>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:dataset .
+

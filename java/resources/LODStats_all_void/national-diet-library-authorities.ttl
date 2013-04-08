@@ -1,0 +1,157 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://iss.ndl.go.jp/ndla/wp-content/uploads/2011/04/ndlsh-rdf.zip>
+    void:classPartition [
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:entities 3
+    ] ;
+    void:classes 1 ;
+    void:entities 71644 ;
+    void:properties 26 ;
+    void:propertyPartition [
+        void:distinctObjects 19032 ;
+        void:distinctSubjects 19390 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 19390
+    ], [
+        void:distinctObjects 54 ;
+        void:distinctSubjects 39 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 80
+    ], [
+        void:distinctObjects 11870 ;
+        void:distinctSubjects 10643 ;
+        void:property <http://www.w3.org/2004/02/skos/core#related> ;
+        void:triples 21052
+    ], [
+        void:distinctObjects 1524 ;
+        void:distinctSubjects 1546 ;
+        void:property <http://www.w3.org/2004/02/skos/core#historyNote> ;
+        void:triples 1546
+    ], [
+        void:distinctObjects 17496 ;
+        void:distinctSubjects 18319 ;
+        void:property <http://purl.org/dc/terms/source> ;
+        void:triples 30131
+    ], [
+        void:distinctObjects 32861 ;
+        void:distinctSubjects 16043 ;
+        void:property <http://www.w3.org/2008/05/skos-xl#altLabel> ;
+        void:triples 32861
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property rdf:type ;
+        void:triples 3
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://RDVocab.info/ElementsGr2/corporateHistory> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 5875 ;
+        void:distinctSubjects 5337 ;
+        void:property <http://www.w3.org/2004/02/skos/core#closeMatch> ;
+        void:triples 5992
+    ], [
+        void:distinctObjects 64164 ;
+        void:distinctSubjects 34978 ;
+        void:property <http://ndl.go.jp/dcndl/terms/transcription> ;
+        void:triples 69956
+    ], [
+        void:distinctObjects 1576 ;
+        void:distinctSubjects 19390 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 19390
+    ], [
+        void:distinctObjects 19390 ;
+        void:distinctSubjects 19390 ;
+        void:property <http://www.w3.org/2008/05/skos-xl#prefLabel> ;
+        void:triples 19390
+    ], [
+        void:distinctObjects 13131 ;
+        void:distinctSubjects 4618 ;
+        void:property <http://www.w3.org/2004/02/skos/core#narrower> ;
+        void:triples 14900
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 19390 ;
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme> ;
+        void:triples 19390
+    ], [
+        void:distinctObjects 150 ;
+        void:distinctSubjects 9675 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 9675
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://RDVocab.info/ElementsGr2/dateOfEstablishment> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 15147 ;
+        void:distinctSubjects 19020 ;
+        void:property <http://www.w3.org/2004/02/skos/core#relatedMatch> ;
+        void:triples 52600
+    ], [
+        void:distinctObjects 51363 ;
+        void:distinctSubjects 52251 ;
+        void:property <http://www.w3.org/2008/05/skos-xl#literalForm> ;
+        void:triples 52251
+    ], [
+        void:distinctObjects 19385 ;
+        void:distinctSubjects 19390 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 19390
+    ], [
+        void:distinctObjects 3004 ;
+        void:distinctSubjects 6134 ;
+        void:property <http://www.w3.org/2004/02/skos/core#note> ;
+        void:triples 8153
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://RDVocab.info/ElementsGr2/dateOfTermination> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5983 ;
+        void:distinctSubjects 6113 ;
+        void:property <http://www.w3.org/2004/02/skos/core#exactMatch> ;
+        void:triples 6298
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 5676 ;
+        void:distinctSubjects 12852 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 14891
+    ], [
+        void:distinctObjects 18337 ;
+        void:distinctSubjects 18338 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 18338
+    ] ;
+    void:triples 435689 ;
+    void:vocabulary <http://RDVocab.info/ElementsGr2>, <http://ndl.go.jp/dcndl/terms>, <http://purl.org/dc/terms>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core>, <http://www.w3.org/2008/05/skos-xl>, <http://xmlns.com/foaf/0.1> ;
+    a void:dataset .
+

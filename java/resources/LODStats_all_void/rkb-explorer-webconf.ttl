@@ -1,0 +1,1036 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://webconf.rkbexplorer.com/models/dump.tgz>
+    void:classPartition [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SemanticWebTechnologiesCoordinator> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#DemoChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#WorkshopEvent> ;
+        void:entities 129
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PhDSymposium> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#MeetingRoomPlace> ;
+        void:entities 29
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#ExhibitionChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#DemoandPostersChair> ;
+        void:entities 1
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 7286
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SponsorshipManagers> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#ConferenceDinner> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Reception> ;
+        void:entities 1
+    ], [
+        void:class <http://swrc.ontoware.org/ontology#ConferenceEvent> ;
+        void:entities 2
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SWChallengeChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#WorkshopsChair> ;
+        void:entities 3
+    ], [
+        void:class rdf:Seq ;
+        void:entities 1432
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SystemDemonstration> ;
+        void:entities 17
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Group> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Proceedings> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#RefereedPaperTrackChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#TutorialPresenter> ;
+        void:entities 24
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Delegate> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#MetadataChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PosterandDemoChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#ProgrammeChair> ;
+        void:entities 7
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#IndustryChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SystemDescription> ;
+        void:entities 10
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#ConferencePCO> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/12/cal/ical#DemoSession> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#ConferenceChair> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/rss/1.0/channel> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SemanticWebChallengeChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Administrator> ;
+        void:entities 2
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#TalkEvent> ;
+        void:entities 578
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Chair> ;
+        void:entities 203
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Programme> ;
+        void:entities 1
+    ], [
+        void:class <http://ruleml.org/ontology#ShortPaper> ;
+        void:entities 8
+    ], [
+        void:class <http://ruleml.org/ontology#DoctoralConsortiumPaper> ;
+        void:entities 4
+    ], [
+        void:class <http://rdfs.org/sioc/ns#Site> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+        void:entities 352
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#BreakEvent> ;
+        void:entities 33
+    ], [
+        void:class <http://ruleml.org/ontology#FullPaper> ;
+        void:entities 18
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#TutorialsChair> ;
+        void:entities 3
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#ConferenceVenuePlace> ;
+        void:entities 2
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PublicityChair> ;
+        void:entities 4
+    ], [
+        void:class <http://sw.deri.org/2005/08/conf/cfp.owl#CallForPapers> ;
+        void:entities 1
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:entities 1908
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PhDSymposiumChair> ;
+        void:entities 3
+    ], [
+        void:class <http://swrc.ontoware.org/ontology#ResearchTopic> ;
+        void:entities 59
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#DoctoralConsortiumChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#TutorialEvent> ;
+        void:entities 72
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SessionEvent> ;
+        void:entities 198
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#LocalOrganisingCommittee> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PaperSession> ;
+        void:entities 18
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#ConferenceOpeningEvent> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SessionChair> ;
+        void:entities 49
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Poster> ;
+        void:entities 79
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Thing> ;
+        void:entities 390
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PCMember> ;
+        void:entities 19
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SponsorshipChair> ;
+        void:entities 3
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#MealEvent> ;
+        void:entities 12
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Webmaster> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#DevelopersTrackChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#WorkshopChair> ;
+        void:entities 6
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Image> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#GeneralViceChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#TutorialChair> ;
+        void:entities 3
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SemanticWebTechnologiesCo-ordinator> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PosterChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#DogfoodTsar> ;
+        void:entities 2
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Place> ;
+        void:entities 14
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#FellowshipChair> ;
+        void:entities 1
+    ], [
+        void:class <http://swrc.ontoware.org/ontology#InProceedings> ;
+        void:entities 3169
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#LocalOrganiser> ;
+        void:entities 3
+    ], [
+        void:class <http://ruleml.org/ontology#TrackPaper> ;
+        void:entities 3
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#WebmasterandConferenceAdministrator> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PostersChair> ;
+        void:entities 2
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#GeneralChair> ;
+        void:entities 4
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SocialEvent> ;
+        void:entities 9
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#AcademicEvent> ;
+        void:entities 6
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Role> ;
+        void:entities 6
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 34
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Treasurer> ;
+        void:entities 2
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SemanticWebinUseChairs> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PaperPresentation> ;
+        void:entities 422
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Paper> ;
+        void:entities 50
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SponsorChair> ;
+        void:entities 2
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PrintedProceedingsChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#KeynoteTalk> ;
+        void:entities 34
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#ProgrammeCommitteeMember> ;
+        void:entities 184
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PanelsChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PanelEvent> ;
+        void:entities 20
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PosterSession> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Presenter> ;
+        void:entities 144
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 12
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#TrackEvent> ;
+        void:entities 46
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#DemosChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#IW3C2Liaison> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#WorkshopOrganiser> ;
+        void:entities 34
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#LocalChair> ;
+        void:entities 1
+    ], [
+        void:class <http://swrc.ontoware.org/ontology#Proceedings> ;
+        void:entities 52
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#ProceedingsChair> ;
+        void:entities 3
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#OrganisingCommitteeMember> ;
+        void:entities 13
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#Sponsorship> ;
+        void:entities 10
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#PanelChair> ;
+        void:entities 2
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#SemanticWebIn-UseChair> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#VolunteersChair> ;
+        void:entities 1
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Document> ;
+        void:entities 11
+    ], [
+        void:class <http://ruleml.org/ontology#PosterPaper> ;
+        void:entities 1
+    ], [
+        void:class <http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent> ;
+        void:entities 28
+    ] ;
+    void:classes 109 ;
+    void:entities 19741 ;
+    void:properties 137 ;
+    void:propertyPartition [
+        void:distinctObjects 993 ;
+        void:distinctSubjects 1194 ;
+        void:property rdf:_4 ;
+        void:triples 1194
+    ], [
+        void:distinctObjects 525 ;
+        void:distinctSubjects 604 ;
+        void:property rdf:_5 ;
+        void:triples 604
+    ], [
+        void:distinctObjects 248 ;
+        void:distinctSubjects 269 ;
+        void:property rdf:_6 ;
+        void:triples 269
+    ], [
+        void:distinctObjects 135 ;
+        void:distinctSubjects 139 ;
+        void:property rdf:_7 ;
+        void:triples 139
+    ], [
+        void:distinctObjects 2528 ;
+        void:distinctSubjects 3277 ;
+        void:property rdf:_1 ;
+        void:triples 3280
+    ], [
+        void:distinctObjects 2268 ;
+        void:distinctSubjects 2905 ;
+        void:property rdf:_2 ;
+        void:triples 2912
+    ], [
+        void:distinctObjects 1667 ;
+        void:distinctSubjects 2129 ;
+        void:property rdf:_3 ;
+        void:triples 2129
+    ], [
+        void:distinctObjects 73 ;
+        void:distinctSubjects 75 ;
+        void:property rdf:_8 ;
+        void:triples 75
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 43 ;
+        void:property rdf:_9 ;
+        void:triples 43
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://sw.deri.org/2005/08/conf/cfp.owl#takesplace> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 13 ;
+        void:property <http://www.w3.org/2002/12/cal/icaltzd#summary> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 39 ;
+        void:property <http://www.w3.org/2002/12/cal/icaltzid#url> ;
+        void:triples 39
+    ], [
+        void:distinctObjects 27 ;
+        void:distinctSubjects 27 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#hasLogo> ;
+        void:triples 27
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#hasProgramme> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#isLocationFor> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 144 ;
+        void:distinctSubjects 415 ;
+        void:property <http://www.w3.org/2002/12/cal/ical#date> ;
+        void:triples 415
+    ], [
+        void:distinctObjects 1966 ;
+        void:distinctSubjects 2424 ;
+        void:property <http://xmlns.com/foaf/0.1/family_name> ;
+        void:triples 2486
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 1 ;
+        void:property <http://rdfs.org/sioc/ns#topic> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 30 ;
+        void:property <http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#editorList> ;
+        void:triples 32
+    ], [
+        void:distinctObjects 2736 ;
+        void:distinctSubjects 2752 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 2752
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 9 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#panelist> ;
+        void:triples 42
+    ], [
+        void:distinctObjects 171 ;
+        void:distinctSubjects 191 ;
+        void:property <http://www.w3.org/2002/12/cal/ical#dateTime> ;
+        void:triples 191
+    ], [
+        void:distinctObjects 123 ;
+        void:distinctSubjects 37 ;
+        void:property <http://swrc.ontoware.org/ontology#editor> ;
+        void:triples 164
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 2787 ;
+        void:property <http://swrc.ontoware.org/ontology#year> ;
+        void:triples 2787
+    ], [
+        void:distinctObjects 1427 ;
+        void:distinctSubjects 441 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#heldBy> ;
+        void:triples 3162
+    ], [
+        void:distinctObjects 299 ;
+        void:distinctSubjects 354 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 365
+    ], [
+        void:distinctObjects 178 ;
+        void:distinctSubjects 206 ;
+        void:property <http://xmlns.com/foaf/0.1/givenName> ;
+        void:triples 210
+    ], [
+        void:distinctObjects 210 ;
+        void:distinctSubjects 206 ;
+        void:property <http://xmlns.com/foaf/0.1/lastName> ;
+        void:triples 214
+    ], [
+        void:distinctObjects 6035 ;
+        void:distinctSubjects 2943 ;
+        void:property <http://xmlns.com/foaf/0.1/maker> ;
+        void:triples 9520
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://sw.deri.org/2005/08/conf/cfp.owl#for> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_16 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 282 ;
+        void:property <http://www.w3.org/2002/12/cal/ical#duration> ;
+        void:triples 283
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_14 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:_15 ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 10 ;
+        void:property rdf:_12 ;
+        void:triples 10
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property rdf:_13 ;
+        void:triples 2
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 29 ;
+        void:property rdf:_10 ;
+        void:triples 29
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property rdf:_11 ;
+        void:triples 18
+    ], [
+        void:distinctObjects 6448 ;
+        void:distinctSubjects 1914 ;
+        void:property <http://xmlns.com/foaf/0.1/member> ;
+        void:triples 7279
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 51 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#partOf> ;
+        void:triples 51
+    ], [
+        void:distinctObjects 4361 ;
+        void:distinctSubjects 3795 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox_sha1sum> ;
+        void:triples 4401
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/1999/xhtml/vocab#meta> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 702 ;
+        void:distinctSubjects 656 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 702
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/format> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#hasRelatedArtefact> ;
+        void:triples 31
+    ], [
+        void:distinctObjects 54 ;
+        void:distinctSubjects 54 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#completeGraph> ;
+        void:triples 54
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/1999/xhtml/vocab#stylesheet> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2002/12/cal/icaltzd#url> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 5526 ;
+        void:distinctSubjects 2558 ;
+        void:property <http://swrc.ontoware.org/ontology#author> ;
+        void:triples 8372
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 1 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#hasSponsorship> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 2787 ;
+        void:property <http://swrc.ontoware.org/ontology#month> ;
+        void:triples 2787
+    ], [
+        void:distinctObjects 3201 ;
+        void:distinctSubjects 6528 ;
+        void:property <http://xmlns.com/foaf/0.1/made> ;
+        void:triples 10488
+    ], [
+        void:distinctObjects 387 ;
+        void:distinctSubjects 387 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 387
+    ], [
+        void:distinctObjects 44 ;
+        void:distinctSubjects 212 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#hasLocation> ;
+        void:triples 212
+    ], [
+        void:distinctObjects 215 ;
+        void:distinctSubjects 735 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#isRoleAt> ;
+        void:triples 746
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 299 ;
+        void:distinctSubjects 354 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 365
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 18 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#speaker> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 1 ;
+        void:property <http://sw.deri.org/2005/08/conf/cfp.owl#involved> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 10 ;
+        void:property <http://www.w3.org/2002/12/cal/icaltzd#dtstart> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 336 ;
+        void:distinctSubjects 512 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#affiliation> ;
+        void:triples 557
+    ], [
+        void:distinctObjects 212 ;
+        void:distinctSubjects 212 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#uuid> ;
+        void:triples 212
+    ], [
+        void:distinctObjects 57 ;
+        void:distinctSubjects 227 ;
+        void:property <http://www.w3.org/2002/12/cal/icaltzid#dtstart> ;
+        void:triples 227
+    ], [
+        void:distinctObjects 124 ;
+        void:distinctSubjects 1121 ;
+        void:property <http://xmlns.com/foaf/0.1/topic> ;
+        void:triples 1630
+    ], [
+        void:distinctObjects 192 ;
+        void:distinctSubjects 193 ;
+        void:property <http://swrc.ontoware.org/ontology#title> ;
+        void:triples 193
+    ], [
+        void:distinctObjects 61 ;
+        void:distinctSubjects 227 ;
+        void:property <http://www.w3.org/2002/12/cal/icaltzid#dtend> ;
+        void:triples 227
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 19 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#givesKeynoteTalk> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 1468 ;
+        void:distinctSubjects 255 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#isSuperEventOf> ;
+        void:triples 1527
+    ], [
+        void:distinctObjects 690 ;
+        void:distinctSubjects 656 ;
+        void:property <http://xmlns.com/foaf/0.1/page> ;
+        void:triples 690
+    ], [
+        void:distinctObjects 5499 ;
+        void:distinctSubjects 2528 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 8180
+    ], [
+        void:distinctObjects 1866 ;
+        void:distinctSubjects 2519 ;
+        void:property <http://xmlns.com/foaf/0.1/firstName> ;
+        void:triples 2597
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#moderator> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 24 ;
+        void:property <http://www.w3.org/2002/12/cal/icaltzid#description> ;
+        void:triples 24
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 218 ;
+        void:property <http://www.w3.org/2002/12/cal/icaltzid#location> ;
+        void:triples 218
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 6 ;
+        void:property <http://swrc.ontoware.org/ontology#series> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 551 ;
+        void:distinctSubjects 819 ;
+        void:property <http://www.w3.org/2002/12/cal/ical#dtstart> ;
+        void:triples 834
+    ], [
+        void:distinctObjects 305 ;
+        void:distinctSubjects 524 ;
+        void:property <http://www.w3.org/2002/12/cal/ical#dtend> ;
+        void:triples 538
+    ], [
+        void:distinctObjects 1660 ;
+        void:distinctSubjects 1395 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 1660
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 10 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#isProvidedBy> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 368 ;
+        void:distinctSubjects 369 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 369
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://sw.deri.org/2005/08/conf/cfp.owl#deadline> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 109 ;
+        void:distinctSubjects 17234 ;
+        void:property rdf:type ;
+        void:triples 16994
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 4 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#editorList> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#homepage> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 3523 ;
+        void:distinctSubjects 2241 ;
+        void:property <http://swrc.ontoware.org/ontology#url> ;
+        void:triples 3537
+    ], [
+        void:distinctObjects 1797 ;
+        void:distinctSubjects 1797 ;
+        void:property <http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05#authorList> ;
+        void:triples 1797
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/depiction> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 583 ;
+        void:distinctSubjects 248 ;
+        void:property <http://swrc.ontoware.org/ontology#keywords> ;
+        void:triples 859
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#moderates> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 956 ;
+        void:distinctSubjects 940 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#hasRelatedDocument> ;
+        void:triples 1011
+    ], [
+        void:distinctObjects 601 ;
+        void:distinctSubjects 231 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 747
+    ], [
+        void:distinctObjects 651 ;
+        void:distinctSubjects 669 ;
+        void:property <http://www.w3.org/2002/12/cal/ical#summary> ;
+        void:triples 671
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.w3.org/2002/12/cal/icaltzd#description> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 462 ;
+        void:distinctSubjects 2523 ;
+        void:property <http://xmlns.com/foaf/0.1/based_near> ;
+        void:triples 2737
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 3 ;
+        void:property <http://swrc.ontoware.org/ontology#publisher> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 193 ;
+        void:distinctSubjects 193 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#hasRelatedEvent> ;
+        void:triples 193
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 606 ;
+        void:property <http://www.w3.org/2002/12/cal/ical#tzid> ;
+        void:triples 606
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 38 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 38
+    ], [
+        void:distinctObjects 1805 ;
+        void:distinctSubjects 1506 ;
+        void:property <http://purl.org/dc/elements/1.1/subject> ;
+        void:triples 4517
+    ], [
+        void:distinctObjects 201 ;
+        void:distinctSubjects 204 ;
+        void:property <http://www.w3.org/2002/12/cal/ical#url> ;
+        void:triples 207
+    ], [
+        void:distinctObjects 1402 ;
+        void:distinctSubjects 1402 ;
+        void:property <http://purl.org/ontology/bibo/authorList> ;
+        void:triples 1402
+    ], [
+        void:distinctObjects 37 ;
+        void:distinctSubjects 38 ;
+        void:property <http://www.w3.org/2002/12/cal/ical#description> ;
+        void:triples 38
+    ], [
+        void:distinctObjects 2844 ;
+        void:distinctSubjects 2852 ;
+        void:property <http://swrc.ontoware.org/ontology#abstract> ;
+        void:triples 2884
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/1999/xhtml/vocab#alternate> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 157 ;
+        void:distinctSubjects 158 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#hasAcronym> ;
+        void:triples 158
+    ], [
+        void:distinctObjects 57 ;
+        void:distinctSubjects 2857 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#isPartOf> ;
+        void:triples 2857
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 6 ;
+        void:property <http://swrc.ontoware.org/ontology#address> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 188 ;
+        void:distinctSubjects 227 ;
+        void:property <http://www.w3.org/2002/12/cal/icaltzid#summary> ;
+        void:triples 227
+    ], [
+        void:distinctObjects 1913 ;
+        void:distinctSubjects 6447 ;
+        void:property <http://swrc.ontoware.org/ontology#affiliation> ;
+        void:triples 7265
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 41 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#paperList> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 525 ;
+        void:distinctSubjects 552 ;
+        void:property <http://swrc.ontoware.org/ontology#pages> ;
+        void:triples 552
+    ], [
+        void:distinctObjects 249 ;
+        void:distinctSubjects 1350 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#isSubEventOf> ;
+        void:triples 1401
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/1999/xhtml/vocab#icon> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 613 ;
+        void:property <http://xmlns.com/foaf/0.1/status> ;
+        void:triples 613
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 40 ;
+        void:property <http://swrc.ontoware.org/ontology#booktitle> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://purl.org/ontology/bibo/editorList> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 544 ;
+        void:distinctSubjects 160 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 691
+    ], [
+        void:distinctObjects 589 ;
+        void:distinctSubjects 758 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#relatedToEvent> ;
+        void:triples 1057
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 31 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#url> ;
+        void:triples 31
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://swrc.ontoware.org/ontology#isbn> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 210 ;
+        void:distinctSubjects 206 ;
+        void:property <http://xmlns.com/foaf/0.1/familyName> ;
+        void:triples 214
+    ], [
+        void:distinctObjects 1521 ;
+        void:distinctSubjects 1323 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 1577
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 40 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#isPanelistAt> ;
+        void:triples 42
+    ], [
+        void:distinctObjects 2895 ;
+        void:distinctSubjects 58 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#hasPart> ;
+        void:triples 2895
+    ], [
+        void:distinctObjects 13992 ;
+        void:distinctSubjects 13833 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 14914
+    ], [
+        void:distinctObjects 132 ;
+        void:distinctSubjects 155 ;
+        void:property <http://xmlns.com/foaf/0.1/workplaceHomepage> ;
+        void:triples 155
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 10 ;
+        void:property <http://www.w3.org/2002/12/cal/icaltzd#dtend> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 180 ;
+        void:distinctSubjects 185 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 187
+    ], [
+        void:distinctObjects 549 ;
+        void:distinctSubjects 306 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#hasRole> ;
+        void:triples 632
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://swrc.ontoware.org/ontology#volume> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 604 ;
+        void:distinctSubjects 1470 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#holdsRole> ;
+        void:triples 3319
+    ], [
+        void:distinctObjects 10305 ;
+        void:distinctSubjects 9193 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 10342
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 10 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 80 ;
+        void:distinctSubjects 527 ;
+        void:property <http://data.semanticweb.org/ns/swc/ontology#hasTopic> ;
+        void:triples 1121
+    ] ;
+    void:triples 204740 ;
+    void:vocabulary <http://data.semanticweb.org/ns/swc/ontology>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://purl.org/ontology/bibo/>, <http://rdfs.org/sioc/ns>, <http://sw.deri.org/2005/08/conf/cfp.owl>, <http://swrc.ontoware.org/ontology>, <http://www.cs.vu.nl/~mcaklein/onto/swrc_ext/2005/05>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/1999/xhtml/vocab>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2002/12/cal/ical>, <http://www.w3.org/2002/12/cal/icaltzd>, <http://www.w3.org/2002/12/cal/icaltzid>, <http://www.w3.org/2003/01/geo/wgs84_pos>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

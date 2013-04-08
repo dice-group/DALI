@@ -1,0 +1,83 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://semanticweb.cs.vu.nl/lod/beeldengeluid/GTAA-25aug2010.ttl.gz>
+    void:classPartition [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 171990
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+        void:entities 9
+    ] ;
+    void:classes 3 ;
+    void:entities 172000 ;
+    void:properties 10 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2004/02/skos/core#narrower> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1612 ;
+        void:distinctSubjects 8375 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 18803
+    ], [
+        void:distinctObjects 34050 ;
+        void:distinctSubjects 75141 ;
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote> ;
+        void:triples 75141
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 171990 ;
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme> ;
+        void:triples 343980
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 172000 ;
+        void:property rdf:type ;
+        void:triples 82857
+    ], [
+        void:distinctObjects 9056 ;
+        void:distinctSubjects 9053 ;
+        void:property <http://www.w3.org/2004/02/skos/core#related> ;
+        void:triples 32088
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 9 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 164618 ;
+        void:distinctSubjects 171990 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 171990
+    ], [
+        void:distinctObjects 171990 ;
+        void:distinctSubjects 171990 ;
+        void:property <http://www.w3.org/2004/02/skos/core#notation> ;
+        void:triples 171990
+    ], [
+        void:distinctObjects 5249 ;
+        void:distinctSubjects 5450 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 6786
+    ] ;
+    void:triples 992797 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:dataset .
+

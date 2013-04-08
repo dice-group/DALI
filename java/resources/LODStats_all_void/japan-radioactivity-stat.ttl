@@ -1,0 +1,58 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.kanzaki.com/works/2012/pub/radiostat-20110316-20120315.zip>
+    void:classes 0 ;
+    void:entities 413826 ;
+    void:properties 7 ;
+    void:propertyPartition [
+        void:distinctObjects 234 ;
+        void:distinctSubjects 405086 ;
+        void:property <http://purl.org/NET/c4dm/event.owl#place> ;
+        void:triples 405086
+    ], [
+        void:distinctObjects 8740 ;
+        void:distinctSubjects 8740 ;
+        void:property <http://purl.org/NET/c4dm/timeline.owl#at> ;
+        void:triples 8740
+    ], [
+        void:distinctObjects 8660 ;
+        void:distinctSubjects 405086 ;
+        void:property <http://purl.org/NET/c4dm/event.owl#time> ;
+        void:triples 405086
+    ], [
+        void:distinctObjects 1075 ;
+        void:distinctSubjects 405086 ;
+        void:property rdf:value ;
+        void:triples 405384
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 405086 ;
+        void:property <http://purl.org/NET/scovo#dataset> ;
+        void:triples 405086
+    ], [
+        void:distinctObjects 8740 ;
+        void:distinctSubjects 8740 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 8740
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 8740 ;
+        void:property <http://purl.org/NET/c4dm/timeline.owl#duration> ;
+        void:triples 8740
+    ] ;
+    void:triples 1648890 ;
+    void:vocabulary <http://purl.org/NET/c4dm/event.owl>, <http://purl.org/NET/c4dm/timeline.owl>, <http://purl.org/NET/scovo>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:dataset .
+

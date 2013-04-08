@@ -1,0 +1,93 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://lexinfo.net/corpora/alpino/cdb/123.rdf>
+    void:classes 0 ;
+    void:entities 8 ;
+    void:properties 14 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <#sentence> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://lexinfo.net/corpora/alpino/categories#cat> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 3 ;
+        void:property <#node> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:value ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <#top> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 5 ;
+        void:property <#end> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 5 ;
+        void:property <http://lexinfo.net/corpora/alpino/categories#rel> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 5 ;
+        void:property <#hd> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property rdf:_1 ;
+        void:triples 3
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <#word> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property rdf:_2 ;
+        void:triples 3
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://lexinfo.net/corpora/alpino/categories#pos> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <#root> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 5 ;
+        void:property <#begin> ;
+        void:triples 5
+    ] ;
+    void:triples 47 ;
+    void:vocabulary <http://lexinfo.net/corpora/alpino/categories>, <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:Dataset .
+

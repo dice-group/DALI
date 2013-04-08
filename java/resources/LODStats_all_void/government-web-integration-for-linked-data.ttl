@@ -1,0 +1,80 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://govwild.hpi-web.de/0.6/GWOntology.rdf>
+    void:classPartition [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Datatype> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 22
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 11
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 60
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:entities 1
+    ] ;
+    void:classes 7 ;
+    void:entities 96 ;
+    void:properties 7 ;
+    void:propertyPartition [
+        void:distinctObjects 53 ;
+        void:distinctSubjects 53 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 53
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#inverseOf> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 79 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 81
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 79 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 108
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/2002/07/owl#disjointWith> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#versionIRI> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 96 ;
+        void:property rdf:type ;
+        void:triples 51
+    ] ;
+    void:triples 346 ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl> ;
+    a void:dataset .
+

@@ -1,0 +1,70 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.linkedopenservices.org/data/METARStations.rdf.xml>
+    void:classPartition [
+        void:class <http://www.linkedopenservices.org/services/geo/SpatialResources/point/ICAO> ;
+        void:entities 8341
+    ], [
+        void:class <http://www.linkedopenservices.org/services/geo/SpatialResources/point/IATA> ;
+        void:entities 3585
+    ] ;
+    void:classes 2 ;
+    void:entities 11928 ;
+    void:properties 8 ;
+    void:propertyPartition [
+        void:distinctObjects 4313 ;
+        void:distinctSubjects 4249 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 4644
+    ], [
+        void:distinctObjects 1566 ;
+        void:distinctSubjects 11926 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#alt> ;
+        void:triples 11937
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 11926 ;
+        void:property rdf:type ;
+        void:triples 11449
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 11926 ;
+        void:distinctSubjects 11926 ;
+        void:property <http://www.w3.org/2004/02/skos/core#notation> ;
+        void:triples 11926
+    ], [
+        void:distinctObjects 5389 ;
+        void:distinctSubjects 11926 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 11937
+    ], [
+        void:distinctObjects 3551 ;
+        void:distinctSubjects 11926 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 11937
+    ], [
+        void:distinctObjects 7854 ;
+        void:distinctSubjects 11928 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 11939
+    ] ;
+    void:triples 76248 ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2003/01/geo/wgs84_pos>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:dataset .
+

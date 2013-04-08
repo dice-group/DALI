@@ -1,0 +1,28 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://ckan.net/storage/f/file/text-turtle-1700782342176-1331427716453>
+    void:classes 0 ;
+    void:entities 57 ;
+    void:properties 1 ;
+    void:propertyPartition [
+        void:distinctObjects 57 ;
+        void:distinctSubjects 57 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 57
+    ] ;
+    void:triples 57 ;
+    void:vocabulary <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

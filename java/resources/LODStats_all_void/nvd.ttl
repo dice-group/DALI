@@ -1,0 +1,52 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.ntnu.no/ub/data/nvd/>
+    void:classPartition [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 403
+    ] ;
+    void:classes 1 ;
+    void:entities 403 ;
+    void:properties 5 ;
+    void:propertyPartition [
+        void:distinctObjects 181 ;
+        void:distinctSubjects 90 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 189
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 403 ;
+        void:property rdf:type ;
+        void:triples 394
+    ], [
+        void:distinctObjects 403 ;
+        void:distinctSubjects 403 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 403
+    ], [
+        void:distinctObjects 799 ;
+        void:distinctSubjects 403 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 806
+    ], [
+        void:distinctObjects 308 ;
+        void:distinctSubjects 313 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 313
+    ] ;
+    void:triples 2114 ;
+    void:vocabulary <http://purl.org/dc/terms>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:dataset .
+

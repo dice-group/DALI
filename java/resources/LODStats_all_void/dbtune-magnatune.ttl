@@ -1,0 +1,165 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://moustaki.org/resources/magnatune_main.rdf>
+    void:classPartition [
+        void:class <http://purl.org/NET/c4dm/timeline.owl#RelativeTimeLine> ;
+        void:entities 6584
+    ], [
+        void:class <http://purl.org/ontology/mo/Track> ;
+        void:entities 6584
+    ], [
+        void:class <http://purl.org/ontology/mo/Record> ;
+        void:entities 490
+    ], [
+        void:class <http://purl.org/ontology/mo/Performance> ;
+        void:entities 6584
+    ], [
+        void:class <http://www.w3.org/TR/owl-time/Interval> ;
+        void:entities 6584
+    ], [
+        void:class <http://purl.org/ontology/mo/Signal> ;
+        void:entities 6584
+    ], [
+        void:class <http://purl.org/ontology/mo/MusicArtist> ;
+        void:entities 233
+    ] ;
+    void:classes 7 ;
+    void:entities 33643 ;
+    void:properties 24 ;
+    void:propertyPartition [
+        void:distinctObjects 6584 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://purl.org/NET/c4dm/timeline.owl#onTimeLine> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 131 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://purl.org/dc/elements/1.1/created> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://purl.org/NET/c4dm/event.owl#place> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 488 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://purl.org/ontology/mo/paid_download> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 6584 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://purl.org/ontology/mo/time> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 33643 ;
+        void:property rdf:type ;
+        void:triples 32930
+    ], [
+        void:distinctObjects 6584 ;
+        void:distinctSubjects 490 ;
+        void:property <http://purl.org/ontology/mo/track> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 6597 ;
+        void:distinctSubjects 7074 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 7074
+    ], [
+        void:distinctObjects 232 ;
+        void:distinctSubjects 233 ;
+        void:property <http://xmlns.com/foaf/0.1/img> ;
+        void:triples 233
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 490 ;
+        void:property <http://purl.org/ontology/mo/publishing_location> ;
+        void:triples 490
+    ], [
+        void:distinctObjects 233 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://purl.org/ontology/mo/performer> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 6581 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://purl.org/ontology/mo/available_as> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 33183 ;
+        void:distinctSubjects 33643 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 33688
+    ], [
+        void:distinctObjects 703 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://purl.org/NET/c4dm/timeline.owl#duration> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 233 ;
+        void:distinctSubjects 7074 ;
+        void:property <http://xmlns.com/foaf/0.1/maker> ;
+        void:triples 7074
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 58 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://purl.org/ontology/mo/track_number> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 233 ;
+        void:property <http://xmlns.com/foaf/0.1/based_near> ;
+        void:triples 233
+    ], [
+        void:distinctObjects 6584 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://purl.org/ontology/mo/recorded_as> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 266 ;
+        void:distinctSubjects 233 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 278
+    ], [
+        void:distinctObjects 233 ;
+        void:distinctSubjects 233 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 233
+    ], [
+        void:distinctObjects 6584 ;
+        void:distinctSubjects 6584 ;
+        void:property <http://purl.org/ontology/mo/published_as> ;
+        void:triples 6584
+    ], [
+        void:distinctObjects 233 ;
+        void:distinctSubjects 233 ;
+        void:property <http://purl.org/vocab/bio/0.1/olb> ;
+        void:triples 233
+    ], [
+        void:distinctObjects 232 ;
+        void:distinctSubjects 233 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 233
+    ] ;
+    void:triples 250192 ;
+    void:vocabulary <http://purl.org/NET/c4dm/event.owl>, <http://purl.org/NET/c4dm/timeline.owl>, <http://purl.org/dc/elements/1.1>, <http://purl.org/ontology/mo>, <http://purl.org/vocab/bio/0.1>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://xmlns.com/foaf/0.1> ;
+    a void:dataset .
+

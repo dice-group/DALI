@@ -1,0 +1,342 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<https://commondatastorage.googleapis.com/ckannet-storage/2012-05-09T135942/iris2-linkedData-v0.2.rdf>
+    void:classPartition [
+        void:class <http://purl.org/net/unis/iris#Misc> ;
+        void:entities 36
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 29
+    ], [
+        void:class <http://purl.org/net/unis/iris#Article> ;
+        void:entities 1530
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 63
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 38
+    ], [
+        void:class <http://purl.org/net/unis/iris#Keyword> ;
+        void:entities 77
+    ], [
+        void:class rdf:Statement ;
+        void:entities 2451
+    ], [
+        void:class <http://purl.org/net/unis/iris#CSResearcher> ;
+        void:entities 7962
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/net/unis/iris#Journal> ;
+        void:entities 216
+    ], [
+        void:class <http://purl.org/net/unis/iris#InProceedings> ;
+        void:entities 2358
+    ], [
+        void:class <http://purl.org/net/unis/iris#PhDThesis> ;
+        void:entities 38
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Thing> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+        void:entities 13
+    ], [
+        void:class <http://purl.org/net/unis/iris#Publisher> ;
+        void:entities 112
+    ], [
+        void:class <http://purl.org/net/unis/iris#TechnicalReport> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/net/unis/iris#Conference> ;
+        void:entities 718
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:entities 9
+    ], [
+        void:class <http://purl.org/net/unis/iris#Book> ;
+        void:entities 53
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Restriction> ;
+        void:entities 1
+    ] ;
+    void:classes 21 ;
+    void:entities 15757 ;
+    void:properties 51 ;
+    void:propertyPartition [
+        void:distinctObjects 50 ;
+        void:distinctSubjects 46 ;
+        void:property <http://www.w3.org/2004/02/skos/core#related> ;
+        void:triples 129
+    ], [
+        void:distinctObjects 7949 ;
+        void:distinctSubjects 3917 ;
+        void:property <http://purl.org/net/unis/iris#isWrittenBy> ;
+        void:triples 11849
+    ], [
+        void:distinctObjects 6858 ;
+        void:distinctSubjects 6858 ;
+        void:property <http://purl.org/net/unis/iris#unifiedID> ;
+        void:triples 6858
+    ], [
+        void:distinctObjects 211 ;
+        void:distinctSubjects 1492 ;
+        void:property <http://purl.org/net/unis/iris#ISSN> ;
+        void:triples 1492
+    ], [
+        void:distinctObjects 77 ;
+        void:distinctSubjects 77 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 77
+    ], [
+        void:distinctObjects 76 ;
+        void:distinctSubjects 112 ;
+        void:property <http://purl.org/net/unis/iris#address> ;
+        void:triples 156
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 2557 ;
+        void:property <http://purl.org/net/unis/iris#hasGeneralTerm> ;
+        void:triples 6245
+    ], [
+        void:distinctObjects 1417 ;
+        void:distinctSubjects 77 ;
+        void:property <http://purl.org/net/unis/iris#isTopicOf> ;
+        void:triples 2610
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#onProperty> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 261 ;
+        void:distinctSubjects 715 ;
+        void:property <http://purl.org/net/unis/iris#location> ;
+        void:triples 1216
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 53 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 53
+    ], [
+        void:distinctObjects 77 ;
+        void:distinctSubjects 1417 ;
+        void:property <http://purl.org/net/unis/iris#hasTopic> ;
+        void:triples 2610
+    ], [
+        void:distinctObjects 5953 ;
+        void:distinctSubjects 2219 ;
+        void:property <http://purl.org/net/unis/iris#hasKeyword> ;
+        void:triples 10351
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 207 ;
+        void:distinctSubjects 2460 ;
+        void:property <http://purl.org/net/unis/iris#hasClassification> ;
+        void:triples 14035
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 15686 ;
+        void:property rdf:type ;
+        void:triples 8323
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 14 ;
+        void:property rdf:first ;
+        void:triples 14
+    ], [
+        void:distinctObjects 2664 ;
+        void:distinctSubjects 2739 ;
+        void:property <http://purl.org/dc/elements/1.1/identifier> ;
+        void:triples 2741
+    ], [
+        void:distinctObjects 2649 ;
+        void:distinctSubjects 2662 ;
+        void:property <http://ebiquity.umbc.edu/ontology/publication.owl#abstract> ;
+        void:triples 2666
+    ], [
+        void:distinctObjects 4017 ;
+        void:distinctSubjects 4074 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 4076
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 14 ;
+        void:property rdf:rest ;
+        void:triples 14
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 49 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#versionInfo> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.w3.org/2002/07/owl#inverseOf> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 112 ;
+        void:distinctSubjects 4074 ;
+        void:property <http://purl.org/net/unis/iris#publishedBy> ;
+        void:triples 4074
+    ], [
+        void:distinctObjects 3055 ;
+        void:distinctSubjects 3887 ;
+        void:property <http://ebiquity.umbc.edu/ontology/publication.owl#pages> ;
+        void:triples 3891
+    ], [
+        void:distinctObjects 67 ;
+        void:distinctSubjects 32 ;
+        void:property <http://www.w3.org/2004/02/skos/core#narrower> ;
+        void:triples 67
+    ], [
+        void:distinctObjects 2610 ;
+        void:distinctSubjects 2451 ;
+        void:property <http://purl.org/net/unis/iris#weight> ;
+        void:triples 2610
+    ], [
+        void:distinctObjects 750 ;
+        void:distinctSubjects 1757 ;
+        void:property <http://purl.org/net/unis/iris#cite> ;
+        void:triples 4268
+    ], [
+        void:distinctObjects 771 ;
+        void:distinctSubjects 2423 ;
+        void:property <http://purl.org/net/unis/iris#ISBN> ;
+        void:triples 2424
+    ], [
+        void:distinctObjects 934 ;
+        void:distinctSubjects 3862 ;
+        void:property <http://purl.org/net/unis/iris#publishedIn> ;
+        void:triples 3863
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#allValuesFrom> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3254 ;
+        void:distinctSubjects 3254 ;
+        void:property <http://purl.org/net/unis/iris#doi> ;
+        void:triples 3254
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 4073 ;
+        void:property <http://purl.org/net/unis/iris#publishedYear> ;
+        void:triples 4076
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 53 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 53
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 9137 ;
+        void:distinctSubjects 9115 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 9142
+    ], [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 67 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 67
+    ], [
+        void:distinctObjects 45 ;
+        void:distinctSubjects 46 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 46
+    ], [
+        void:distinctObjects 1417 ;
+        void:distinctSubjects 2451 ;
+        void:property rdf:object ;
+        void:triples 2610
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.w3.org/2002/07/owl#unionOf> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 77 ;
+        void:distinctSubjects 2451 ;
+        void:property rdf:subject ;
+        void:triples 2610
+    ], [
+        void:distinctObjects 3862 ;
+        void:distinctSubjects 934 ;
+        void:property <http://purl.org/net/unis/iris#publish> ;
+        void:triples 3863
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2451 ;
+        void:property rdf:predicate ;
+        void:triples 2451
+    ], [
+        void:distinctObjects 718 ;
+        void:distinctSubjects 2358 ;
+        void:property <http://purl.org/net/unis/iris#bookTitle> ;
+        void:triples 2359
+    ], [
+        void:distinctObjects 103 ;
+        void:distinctSubjects 1497 ;
+        void:property <http://ebiquity.umbc.edu/ontology/publication.owl#volume> ;
+        void:triples 1498
+    ], [
+        void:distinctObjects 3917 ;
+        void:distinctSubjects 7949 ;
+        void:property <http://purl.org/net/unis/iris#write> ;
+        void:triples 11849
+    ], [
+        void:distinctObjects 4367 ;
+        void:distinctSubjects 7168 ;
+        void:property <http://purl.org/net/unis/iris#affiliation> ;
+        void:triples 9541
+    ], [
+        void:distinctObjects 51 ;
+        void:distinctSubjects 1500 ;
+        void:property <http://ebiquity.umbc.edu/ontology/publication.owl#number> ;
+        void:triples 1503
+    ] ;
+    void:triples 159119 ;
+    void:vocabulary <http://ebiquity.umbc.edu/ontology/publication.owl>, <http://purl.org/dc>, <http://purl.org/net/unis/iris>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:dataset .
+

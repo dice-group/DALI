@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://linkedscotland-downloads.s3.amazonaws.com/pupils.ttl.gz>
+    void:classPartition [
+        void:class qb:MeasureProperty ;
+        void:entities 9
+    ], [
+        void:class qb:Observation ;
+        void:entities 11115
+    ], [
+        void:class qb:DataSet ;
+        void:entities 9
+    ] ;
+    void:classes 3 ;
+    void:entities 11133 ;
+    void:properties 17 ;
+    void:propertyPartition [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 18 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://linkedscotland.org/def/sns#identifier> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 1235 ;
+        void:distinctSubjects 11115 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ;
+        void:triples 11115
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 1235 ;
+        void:property <http://linkedscotland.org/def/sns#number_of_male_pupils_in_the_s4_cohort_that_attained_5_or_more_awards_at_scqf_level_5_or_above> ;
+        void:triples 1235
+    ], [
+        void:distinctObjects 52 ;
+        void:distinctSubjects 1235 ;
+        void:property <http://linkedscotland.org/def/sns#number_of_male_pupils_in_the_s4_cohort_that_attained_scqf_level_3_or_better_in_both_english_and_maths> ;
+        void:triples 1235
+    ], [
+        void:distinctObjects 55 ;
+        void:distinctSubjects 1235 ;
+        void:property <http://linkedscotland.org/def/sns#number_of_male_pupils_on_the_s4_roll> ;
+        void:triples 1235
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://linkedscotland.org/def/sns#shortTitle> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 280 ;
+        void:distinctSubjects 1235 ;
+        void:property <http://linkedscotland.org/def/sns#percentage_of_male_pupils_in_the_s4_cohort_that_attained_5_or_more_awards_at_scqf_level_4_or_above> ;
+        void:triples 1235
+    ], [
+        void:distinctObjects 300 ;
+        void:distinctSubjects 1235 ;
+        void:property <http://linkedscotland.org/def/sns#percentage_of_male_pupils_in_the_s4_cohort_that_attained_5_or_more_awards_at_scqf_level_5_or_above> ;
+        void:triples 1235
+    ], [
+        void:distinctObjects 156 ;
+        void:distinctSubjects 1235 ;
+        void:property <http://linkedscotland.org/def/sns#percentage_of_s4_male_cohort_that_attained_scqf_level_3_or_better_in_both_english_and_maths> ;
+        void:triples 1235
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 11115 ;
+        void:property qb:dataSet ;
+        void:triples 11115
+    ], [
+        void:distinctObjects 52 ;
+        void:distinctSubjects 1235 ;
+        void:property <http://linkedscotland.org/def/sns#number_of_male_pupils_in_the_s4_cohort_that_attained_5_or_more_awards_at_scqf_level_3_or_above> ;
+        void:triples 1235
+    ], [
+        void:distinctObjects 171 ;
+        void:distinctSubjects 1235 ;
+        void:property <http://linkedscotland.org/def/sns#percentage_of_male_pupils_in_the_s4_cohort_that_attained_5_or_more_awards_at_scqf_level_3_or_above> ;
+        void:triples 1235
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 11133 ;
+        void:property rdf:type ;
+        void:triples 5741
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 11115 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> ;
+        void:triples 11115
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 49 ;
+        void:distinctSubjects 1235 ;
+        void:property <http://linkedscotland.org/def/sns#number_of_male_pupils_in_the_s4_cohort_that_attained_5_or_more_awards_at_scqf_level_4_or_above> ;
+        void:triples 1235
+    ] ;
+    void:triples 55638 ;
+    void:vocabulary <http://linkedscotland.org/def/sns>, <http://purl.org/linked-data/cube>, <http://purl.org/linked-data/sdmx/2009/dimension>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:dataset .
+

@@ -1,0 +1,50 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://prefix.cc/popular/all.file.vann>
+    void:classPartition [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 4226
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Document> ;
+        void:entities 1
+    ] ;
+    void:classes 2 ;
+    void:entities 4227 ;
+    void:properties 4 ;
+    void:propertyPartition [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 4227 ;
+        void:property rdf:type ;
+        void:triples 3814
+    ], [
+        void:distinctObjects 4226 ;
+        void:distinctSubjects 4226 ;
+        void:property <http://purl.org/vocab/vann/preferredNamespacePrefix> ;
+        void:triples 4226
+    ], [
+        void:distinctObjects 878 ;
+        void:distinctSubjects 958 ;
+        void:property <http://purl.org/vocab/vann/preferredNamespaceUri> ;
+        void:triples 958
+    ], [
+        void:distinctObjects 4226 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/topic> ;
+        void:triples 4226
+    ] ;
+    void:triples 13637 ;
+    void:vocabulary <http://purl.org/vocab/vann/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

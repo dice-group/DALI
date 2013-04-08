@@ -1,0 +1,62 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://core-project.kmi.open.ac.uk/files/download_20120123.rdf>
+    void:classPartition [
+        void:class <http://purl.org/ontology/bibo/Document> ;
+        void:entities 77312
+    ] ;
+    void:classes 1 ;
+    void:entities 843738 ;
+    void:properties 7 ;
+    void:propertyPartition [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 77312 ;
+        void:property rdf:type ;
+        void:triples 14770
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 9143 ;
+        void:property <http://www.w3.org/TR/rdf-schema/#ch_type> ;
+        void:triples 9143
+    ], [
+        void:distinctObjects 75875 ;
+        void:distinctSubjects 77284 ;
+        void:property <http://core.kmi.open.ac.uk/data/hasOAIIdentifier> ;
+        void:triples 77298
+    ], [
+        void:distinctObjects 77039 ;
+        void:distinctSubjects 77284 ;
+        void:property <http://core.kmi.open.ac.uk/data/hasOAIRepositoryIdentifier> ;
+        void:triples 77298
+    ], [
+        void:distinctObjects 681626 ;
+        void:distinctSubjects 766417 ;
+        void:property <http://purl.org/ontology/similarity/weight> ;
+        void:triples 766417
+    ], [
+        void:distinctObjects 1105399 ;
+        void:distinctSubjects 11052 ;
+        void:property <http://purl.org/ontology/similarity/element> ;
+        void:triples 1532834
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 766417 ;
+        void:property <http://purl.org/ontology/similarity/method> ;
+        void:triples 766417
+    ] ;
+    void:triples 3306719 ;
+    void:vocabulary <http://core.kmi.open.ac.uk/data>, <http://purl.org/ontology>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/TR/rdf-schema/> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

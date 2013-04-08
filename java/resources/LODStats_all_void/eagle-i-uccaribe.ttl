@@ -1,0 +1,440 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://uccaribe.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+>
+    void:classPartition [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000394> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0001396> ;
+        void:entities 3
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000536> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000455> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000020> ;
+        void:entities 5
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000805> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000868> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000333> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000393> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001076> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000395> ;
+        void:entities 24
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000882> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000394> ;
+        void:entities 18
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001100> ;
+        void:entities 1
+    ], [
+        void:class <http://vivoweb.org/ontology/core#Institute> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001127> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001081> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001121> ;
+        void:entities 4
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000344> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000525> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000276> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000794> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0400104> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0400044> ;
+        void:entities 1
+    ], [
+        void:class <http://www.ebi.ac.uk/efo/swo/SWO_0000580> ;
+        void:entities 5
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000334> ;
+        void:entities 3
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0001262> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0001263> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001048> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0001261> ;
+        void:entities 10
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000798> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/NCBITaxon_11632> ;
+        void:entities 4
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0400116> ;
+        void:entities 4
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0400106> ;
+        void:entities 7
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0400115> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001573> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000895> ;
+        void:entities 1
+    ], [
+        void:class <http://vivoweb.org/ontology/core#CoreLaboratory> ;
+        void:entities 10
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000485> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001079> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000959> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000071> ;
+        void:entities 16
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000819> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000853> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0400079> ;
+        void:entities 2
+    ], [
+        void:class <http://vivoweb.org/ontology/core#Center> ;
+        void:entities 1
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 13
+    ], [
+        void:class <http://vivoweb.org/ontology/core#PrivateCompany> ;
+        void:entities 46
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000562> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001110> ;
+        void:entities 4
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001112> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000989> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000249> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000248> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0001077> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0400143> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001072> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000245> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001070> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000365> ;
+        void:entities 5
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000419> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000009> ;
+        void:entities 5
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001053> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000059> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0001118> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0001255> ;
+        void:entities 4
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000396> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000136> ;
+        void:entities 1
+    ], [
+        void:class <http://www.ebi.ac.uk/efo/swo/SWO_0000117> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/ERO_0000323> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0400155> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0001094> ;
+        void:entities 1
+    ] ;
+    void:classes 72 ;
+    void:entities 425 ;
+    void:properties 40 ;
+    void:propertyPartition [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0001528> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 10 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000076> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000077> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 12 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000078> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 49 ;
+        void:distinctSubjects 89 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000543> ;
+        void:triples 93
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 239 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 239
+    ], [
+        void:distinctObjects 69 ;
+        void:distinctSubjects 71 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000050> ;
+        void:triples 71
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 10 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000052> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 62 ;
+        void:distinctSubjects 65 ;
+        void:property <http://eagle-i.org/ont/app/1.0/resource_description> ;
+        void:triples 65
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0001157> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 16 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000073> ;
+        void:triples 21
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://eagle-i.org/ont/app/1.0/has_related_disease> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000022> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 239 ;
+        void:distinctSubjects 239 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 239
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000596> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 16 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0001824> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 31 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000029> ;
+        void:triples 35
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000049> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 12 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0001516> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 13 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0001517> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000045> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 68 ;
+        void:distinctSubjects 66 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000044> ;
+        void:triples 68
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 178 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000021> ;
+        void:triples 180
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 89 ;
+        void:property <http://www.obofoundry.org/ro/ro.owl#located_in> ;
+        void:triples 89
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 13 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000024> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 96 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000034> ;
+        void:triples 96
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 63 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000390> ;
+        void:triples 63
+    ], [
+        void:distinctObjects 72 ;
+        void:distinctSubjects 250 ;
+        void:property rdf:type ;
+        void:triples 247
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 59 ;
+        void:property <http://eagle-i.org/ont/app/1.0/feeforservice> ;
+        void:triples 59
+    ], [
+        void:distinctObjects 408 ;
+        void:distinctSubjects 425 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 425
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0001047> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 239 ;
+        void:distinctSubjects 239 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 239
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 20 ;
+        void:property <http://eagle-i.org/ont/repo/1.0/hasWorkflowOwner> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 239 ;
+        void:property <http://eagle-i.org/ont/repo/1.0/hasWorkflowState> ;
+        void:triples 239
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000042> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 16 ;
+        void:property <http://eagle-i.org/ont/app/1.0/synonym> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 97 ;
+        void:distinctSubjects 161 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000480> ;
+        void:triples 161
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 16 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000070> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 14 ;
+        void:property <http://purl.obolibrary.org/obo/ERO_0000072> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 239 ;
+        void:property <http://purl.org/dc/terms/contributor> ;
+        void:triples 239
+    ] ;
+    void:triples 5477 ;
+    void:vocabulary <http://eagle-i.org/ont/app/1.0/>, <http://eagle-i.org/ont/repo/1.0/>, <http://purl.obolibrary.org/obo/>, <http://purl.org/dc/terms/>, <http://www.obofoundry.org/ro/ro.owl>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+

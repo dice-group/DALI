@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://data-gov.ie/data/cso-dataset.tar.gz>
+    void:classPartition [
+        void:class qb:Observation ;
+        void:entities 1620605
+    ], [
+        void:class qb:DataSet ;
+        void:entities 7
+    ] ;
+    void:classes 2 ;
+    void:entities 1619640 ;
+    void:properties 16 ;
+    void:propertyPartition [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 39952 ;
+        void:property <http://stats.data-gov.ie/property/ethnicGroup> ;
+        void:triples 39952
+    ], [
+        void:distinctObjects 33387 ;
+        void:distinctSubjects 1620593 ;
+        void:property <http://stats.data-gov.ie/property/population> ;
+        void:triples 1620952
+    ], [
+        void:distinctObjects 67 ;
+        void:distinctSubjects 1455786 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#sex> ;
+        void:triples 1455798
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 24975 ;
+        void:property <http://stats.data-gov.ie/property/religion> ;
+        void:triples 24975
+    ], [
+        void:distinctObjects 43223 ;
+        void:distinctSubjects 1620593 ;
+        void:property <http://stats.data-gov.ie/property/geoArea> ;
+        void:triples 1620605
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 24970 ;
+        void:property <http://stats.data-gov.ie/property/usualResidence> ;
+        void:triples 24970
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 39952 ;
+        void:property <http://stats.data-gov.ie/property/nationality> ;
+        void:triples 39952
+    ], [
+        void:distinctObjects 223 ;
+        void:distinctSubjects 1140672 ;
+        void:property <http://stats.data-gov.ie/property/age2> ;
+        void:triples 1140672
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 1620593 ;
+        void:property qb:dataSet ;
+        void:triples 1620605
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 34958 ;
+        void:property <http://stats.data-gov.ie/property/birthplace> ;
+        void:triples 34958
+    ], [
+        void:distinctObjects 37 ;
+        void:distinctSubjects 1620600 ;
+        void:property rdf:type ;
+        void:triples 141805
+    ], [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 1620593 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> ;
+        void:triples 1620605
+    ], [
+        void:distinctObjects 71 ;
+        void:distinctSubjects 315114 ;
+        void:property <http://stats.data-gov.ie/property/age1> ;
+        void:triples 315126
+    ], [
+        void:distinctObjects 144 ;
+        void:distinctSubjects 1140672 ;
+        void:property <http://stats.data-gov.ie/property/maritalStatus> ;
+        void:triples 1140672
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/metadata#title> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property qb:structure ;
+        void:triples 7
+    ] ;
+    void:triples 12562228 ;
+    void:vocabulary <http://purl.org/linked-data/cube>, <http://purl.org/linked-data/sdmx/2009/dimension>, <http://purl.org/linked-data/sdmx/2009/metadata>, <http://stats.data-gov.ie/property>, <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

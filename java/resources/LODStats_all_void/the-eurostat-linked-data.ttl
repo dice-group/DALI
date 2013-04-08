@@ -1,0 +1,105 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://eurostat.linked-statistics.org/data/bs_bs14_04.rdf>
+    void:classPartition [
+        void:class qb:Observation ;
+        void:entities 13
+    ], [
+        void:class qb:DataSet ;
+        void:entities 1
+    ] ;
+    void:classes 2 ;
+    void:entities 15 ;
+    void:properties 15 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property qb:structure ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/date> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmls.com/foaf/0.1/maker> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/source> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property <http://eurostat.linked-statistics.org/property#geo> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 13 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#freq> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 13 ;
+        void:property qb:dataSet ;
+        void:triples 13
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 13 ;
+        void:property <http://eurostat.linked-statistics.org/property#nace_r1> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 14 ;
+        void:property rdf:type ;
+        void:triples 13
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 13 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 13 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 13 ;
+        void:property <http://eurostat.linked-statistics.org/property#indic_sb> ;
+        void:triples 13
+    ] ;
+    void:triples 113 ;
+    void:vocabulary <http://eurostat.linked-statistics.org/property>, <http://purl.org/dc/terms/>, <http://purl.org/linked-data/cube>, <http://purl.org/linked-data/sdmx/2009/dimension>, <http://purl.org/linked-data/sdmx/2009/measure>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://xmls.com/foaf/0.1/> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

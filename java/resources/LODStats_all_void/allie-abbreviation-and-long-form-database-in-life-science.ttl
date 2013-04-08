@@ -1,0 +1,221 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://purl.org/allie/cgi-bin/getfile.cgi?file=allieRDF>
+    void:classPartition [
+        void:class <http://purl.org/allie/ontology/201108#EachPair> ;
+        void:entities 2297517
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/allie/ontology/201108#CooccurringShortFormList> ;
+        void:entities 3023253
+    ], [
+        void:class <http://purl.org/allie/ontology/201108#PairList> ;
+        void:entities 1471174
+    ], [
+        void:class <http://purl.org/allie/ontology/201108#ShortForm> ;
+        void:entities 565132
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Restriction> ;
+        void:entities 18
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 11
+    ], [
+        void:class <http://purl.org/allie/ontology/201108#LongForm> ;
+        void:entities 1946845
+    ], [
+        void:class <http://purl.org/allie/ontology/201108#PubMedID> ;
+        void:entities 5931816
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 14
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/allie/ontology/201108#PubMedIDList> ;
+        void:entities 3768691
+    ], [
+        void:class <http://purl.org/allie/ontology/201108#ResearchArea> ;
+        void:entities 125
+    ], [
+        void:class <http://purl.org/allie/ontology/201108#PairCluster> ;
+        void:entities 1471174
+    ] ;
+    void:classes 14 ;
+    void:entities 36924978 ;
+    void:properties 31 ;
+    void:propertyPartition [
+        void:distinctObjects 3768691 ;
+        void:distinctSubjects 3768691 ;
+        void:property <http://purl.org/allie/ontology/201108#appearsIn> ;
+        void:triples 3768691
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/license> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1248 ;
+        void:distinctSubjects 3725446 ;
+        void:property <http://purl.org/allie/ontology/201108#inResearchAreaOf> ;
+        void:triples 3725446
+    ], [
+        void:distinctObjects 2038384 ;
+        void:distinctSubjects 2297517 ;
+        void:property <http://purl.org/allie/ontology/201108#hasLongFormOf> ;
+        void:triples 2297517
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 11 ;
+        void:property <http://www.w3.org/2002/07/owl#qualifiedCardinality> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 18 ;
+        void:property <http://www.w3.org/2002/07/owl#onProperty> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/publisher> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3023253 ;
+        void:distinctSubjects 3023253 ;
+        void:property <http://purl.org/allie/ontology/201108#cooccursWith> ;
+        void:triples 3023253
+    ], [
+        void:distinctObjects 330 ;
+        void:distinctSubjects 20475772 ;
+        void:property rdf:type ;
+        void:triples 3015861
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/2002/07/owl#inverseOf> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#versionInfo> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 694990 ;
+        void:distinctSubjects 2297517 ;
+        void:property <http://purl.org/allie/ontology/201108#hasShortFormOf> ;
+        void:triples 2297517
+    ], [
+        void:distinctObjects 28641887 ;
+        void:distinctSubjects 8263118 ;
+        void:property <http://purl.org/allie/ontology/201108#hasMemberOf> ;
+        void:triples 52174825
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2002/07/owl#allValuesFrom> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.w3.org/2002/07/owl#someValuesFrom> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 10 ;
+        void:property <http://www.w3.org/2002/07/owl#onClass> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 594 ;
+        void:distinctSubjects 5931816 ;
+        void:property <http://purl.org/allie/ontology/201108#publishedIn> ;
+        void:triples 5931816
+    ], [
+        void:distinctObjects 1432907 ;
+        void:distinctSubjects 1471174 ;
+        void:property <http://purl.org/allie/ontology/201108#hasLongFormRepresentationOf> ;
+        void:triples 1471174
+    ], [
+        void:distinctObjects 2575702 ;
+        void:distinctSubjects 2512126 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 2601124
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#onDataRange> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1471174 ;
+        void:distinctSubjects 1471174 ;
+        void:property <http://purl.org/allie/ontology/201108#contains> ;
+        void:triples 1471174
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 34344 ;
+        void:distinctSubjects 6280668 ;
+        void:property <http://purl.org/allie/ontology/201108#frequency> ;
+        void:triples 6280668
+    ], [
+        void:distinctObjects 533911 ;
+        void:distinctSubjects 1471174 ;
+        void:property <http://purl.org/allie/ontology/201108#hasShortFormRepresentationOf> ;
+        void:triples 1471174
+    ] ;
+    void:triples 106990259 ;
+    void:vocabulary <http://purl.org/allie/ontology/201108>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl> ;
+    a void:Dataset .
+

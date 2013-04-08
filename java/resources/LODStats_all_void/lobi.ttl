@@ -1,0 +1,302 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://dl.dropbox.com/u/9752413/PROV-Examples/E-MTAB-327.rdf.ttl>
+    void:classPartition [
+        void:class <http://bio2rdf.org/arrayexpress:/characteristicTypes/characteristics_DiseaseState_> ;
+        void:entities 21
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 1
+    ], [
+        void:class <http://bio2rdf.org/arrayexpress:/characteristicTypes/characteristics_BioSourceProvider_> ;
+        void:entities 1
+    ], [
+        void:class <http://bio2rdf.org/arrayexpress:/characteristicTypes/characteristics_OrganismPart_> ;
+        void:entities 6
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000272> ;
+        void:entities 10
+    ], [
+        void:class <http://www.ebi.ac.uk/efo/EFO_0000001> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000066> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000253> ;
+        void:entities 72
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0100051> ;
+        void:entities 60
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 11
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0500000> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 21
+    ], [
+        void:class <http://bio2rdf.org/arrayexpress:/characteristicTypes/characteristics_CellLine_> ;
+        void:entities 60
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:entities 5
+    ], [
+        void:class <http://bio2rdf.org/arrayexpress:/characteristicTypes/characteristics_Organism_> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/IAO_0000311> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 4
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000245> ;
+        void:entities 1
+    ], [
+        void:class <http://mged.sourceforge.net/ontologies/MGEDOntology.owl#FactorValue> ;
+        void:entities 72
+    ], [
+        void:class <http://bio2rdf.org/arrayexpress:/characteristicTypes/characteristics_BioSourceType_> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.obolibrary.org/obo/IAO_0000100> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.obolibrary.org/obo/OBI_0000011> ;
+        void:entities 600
+    ], [
+        void:class <http://purl.obolibrary.org/obo/IAO_0000027> ;
+        void:entities 72
+    ], [
+        void:class <http://www.ebi.ac.uk/efo/EFO_0001774> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 24
+    ], [
+        void:class <http://purl.org/obo/owl/CHEBI#CHEBI_23367> ;
+        void:entities 132
+    ] ;
+    void:classes 26 ;
+    void:entities 1278 ;
+    void:properties 40 ;
+    void:propertyPartition [
+        void:distinctObjects 542 ;
+        void:distinctSubjects 600 ;
+        void:property <http://www.w3.org/ns/prov-o/generated> ;
+        void:triples 684
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.ebi.ac.uk/efo/EFO_0001771> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/date> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://bio2rdf.org/arrayexpress:/comments/Submitted_Name> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 600 ;
+        void:distinctSubjects 542 ;
+        void:property <http://www.w3.org/ns/prov-o/wasGeneratedBy> ;
+        void:triples 684
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2006/vcard/ns#label> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://bio2rdf.org/arrayexpress:/comments/ArrayExpressAccession> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 73 ;
+        void:property <http://mged.sourceforge.net/ontologies/MGEDOntology.owl#has_experiment_factors> ;
+        void:triples 73
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.obolibrary.org/obo/OBI_0000846> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 542 ;
+        void:distinctSubjects 600 ;
+        void:property <http://www.w3.org/ns/prov-o/hasDerivation> ;
+        void:triples 684
+    ], [
+        void:distinctObjects 132 ;
+        void:distinctSubjects 144 ;
+        void:property <http://mged.sourceforge.net/ontologies/MGEDOntology.owl#has_factor_value> ;
+        void:triples 144
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2006/vcard/ns#workTel> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 72 ;
+        void:property <http://bio2rdf.org/arrayexpress:/comments/ArrayExpress_FTP_file> ;
+        void:triples 72
+    ], [
+        void:distinctObjects 600 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.obofoundry.org/ro/ro.owl#contains> ;
+        void:triples 600
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 1181 ;
+        void:property rdf:type ;
+        void:triples 1136
+    ], [
+        void:distinctObjects 600 ;
+        void:distinctSubjects 600 ;
+        void:property <http://www.w3.org/ns/prov-o/wasUsedBy> ;
+        void:triples 600
+    ], [
+        void:distinctObjects 758 ;
+        void:distinctSubjects 950 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 950
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.obolibrary.org/obo/OBI_0000316> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 175 ;
+        void:distinctSubjects 60 ;
+        void:property <http://purl.obolibrary.org/obo/OBI_0000298> ;
+        void:triples 420
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.obolibrary.org/obo/has_affiliation> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.obofoundry.org/ro/ro.owl#has_integral_part> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 601 ;
+        void:property <http://www.w3.org/ns/prov-o/hadPlan> ;
+        void:triples 601
+    ], [
+        void:distinctObjects 758 ;
+        void:distinctSubjects 950 ;
+        void:property <http://purl.org/dc/elements/1.1/identifier> ;
+        void:triples 950
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2006/vcard/ns#given-name> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2006/vcard/ns#additional-name> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 600 ;
+        void:distinctSubjects 542 ;
+        void:property <http://www.w3.org/ns/prov-o/wasDerivedFrom> ;
+        void:triples 684
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 897 ;
+        void:distinctSubjects 1158 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 1244
+    ], [
+        void:distinctObjects 600 ;
+        void:distinctSubjects 600 ;
+        void:property <http://www.w3.org/ns/prov-o/used> ;
+        void:triples 600
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://bio2rdf.org/arrayexpress:/comments/Derived_ArrayExpress_FTP_file> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 338 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.obofoundry.org/ro/ro.owl#has_part> ;
+        void:triples 338
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 11 ;
+        void:property <http://purl.obolibrary.org/obo/OBI_0000308> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2006/vcard/ns#family-name> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.obolibrary.org/obo/IAO_0000142> ;
+        void:triples 1
+    ] ;
+    void:triples 10569 ;
+    void:vocabulary <http://bio2rdf.org/arrayexpress>, <http://mged.sourceforge.net/ontologies/MGEDOntology.owl>, <http://purl.obolibrary.org/obo/>, <http://purl.org/dc/elements/1.1/>, <http://www.ebi.ac.uk/efo/>, <http://www.obofoundry.org/ro/ro.owl>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2004/02/skos/core>, <http://www.w3.org/2006/vcard/ns>, <http://www.w3.org/ns/prov-o/>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

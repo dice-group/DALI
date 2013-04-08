@@ -1,0 +1,700 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://logd.tw.rpi.edu/source/data-gov/file/4383/version/2011-Nov-29/conversion/data-gov-4383-2011-Nov-29.ttl>
+    void:classPartition [
+        void:class <http://purl.org/twc/vocab/conversion/DatasetSample> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/EnhancementConversionProcess> ;
+        void:entities 1
+    ], [
+        void:class void:Dataset ;
+        void:entities 7
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 2
+    ], [
+        void:class <http://inference-web.org/2.1exper/pml-provenance.owl#AntecedentRole> ;
+        void:entities 2
+    ], [
+        void:class <http://usefulinc.com/ns/doap#Version> ;
+        void:entities 1
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/OnlineAccount> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/Xls2csv_Engine> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/Curl> ;
+        void:entities 2
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 2
+    ], [
+        void:class <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+        void:entities 15
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/HTTPHeader> ;
+        void:entities 4
+    ], [
+        void:class <http://usefulinc.com/ns/doap#GitRepository> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/MetaDataset> ;
+        void:entities 1
+    ], [
+        void:class <http://inference-web.org/2.0/pml-justification.owl#InferenceStep> ;
+        void:entities 8
+    ], [
+        void:class <http://logd.tw.rpi.edu/source/data-gov/dataset/4383/vocab/FarmersMarket> ;
+        void:entities 7223
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/DirectSameAsEnhancement> ;
+        void:entities 1
+    ], [
+        void:class <http://logd.tw.rpi.edu/source/data-gov/vocab/Dataset> ;
+        void:entities 6
+    ], [
+        void:class <http://inference-web.org/2.0/pml-provenance.owl#Source> ;
+        void:entities 4
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Agent> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/HeaderRow> ;
+        void:entities 1
+    ], [
+        void:class <http://logd.tw.rpi.edu/source/data-gov/dataset/4383/vocab/State> ;
+        void:entities 57
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/AbstractDataset> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/ImplicitBundle> ;
+        void:entities 1
+    ], [
+        void:class <http://inference-web.org/2.0/pml-provenance.owl#SourceUsage> ;
+        void:entities 6
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/Omitted> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/LayerDataset> ;
+        void:entities 2
+    ], [
+        void:class <http://www.w3.org/2000/10/swap/pim/contact#Address> ;
+        void:entities 7223
+    ], [
+        void:class <http://usefulinc.com/ns/doap#Project> ;
+        void:entities 1
+    ], [
+        void:class <http://openprovenance.org/ontology#WasControlledBy> ;
+        void:entities 7
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/VersionedDataset> ;
+        void:entities 1
+    ], [
+        void:class <http://inference-web.org/2.0/pml-provenance.owl#Information> ;
+        void:entities 8
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/Dataset> ;
+        void:entities 6
+    ], [
+        void:class <http://inference-web.org/2.0/pml-provenance.owl#InferenceEngine> ;
+        void:entities 4
+    ], [
+        void:class <http://www.semanticdesktop.org/ontologies/nfo/#FileHash> ;
+        void:entities 4
+    ], [
+        void:class rdf:Property ;
+        void:entities 255
+    ], [
+        void:class <http://purl.org/twc/vocab/conversion/SameAsDataset> ;
+        void:entities 1
+    ] ;
+    void:classes 37 ;
+    void:entities 22397 ;
+    void:properties 113 ;
+    void:propertyPartition [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://openprovenance.org/ontology#effect> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://inference-web.org/2.0/pml-provenance.owl#hasFormat> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 7223 ;
+        void:property void:inDataset ;
+        void:triples 7223
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 255 ;
+        void:property <http://purl.org/twc/vocab/conversion/comment> ;
+        void:triples 255
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property void:dataDump ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:value ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/delimits_cell> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 255 ;
+        void:distinctSubjects 511 ;
+        void:property <http://open.vocab.org/terms/csvCol> ;
+        void:triples 758
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 255 ;
+        void:property <http://purl.org/twc/vocab/conversion/enhancement_layer> ;
+        void:triples 255
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.org/twc/vocab/conversion/version_identifier> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 2 ;
+        void:property void:vocabulary ;
+        void:triples 7
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 255 ;
+        void:distinctSubjects 255 ;
+        void:property <http://purl.org/twc/vocab/conversion/enhances> ;
+        void:triples 255
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 7478 ;
+        void:property <http://purl.org/dc/terms/isReferencedBy> ;
+        void:triples 7478
+    ], [
+        void:distinctObjects 5884 ;
+        void:distinctSubjects 7223 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 7223
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/num_invocation_logs> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3691 ;
+        void:distinctSubjects 7223 ;
+        void:property <http://www.w3.org/2000/10/swap/pim/contact#city> ;
+        void:triples 7223
+    ], [
+        void:distinctObjects 7224 ;
+        void:distinctSubjects 7479 ;
+        void:property <http://open.vocab.org/terms/csvRow> ;
+        void:triples 7479
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#documenter> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 255 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/uses_predicate> ;
+        void:triples 255
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#audience> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 12 ;
+        void:property <http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 42 ;
+        void:distinctSubjects 42 ;
+        void:property <http://purl.org/vocab/vann/preferredNamespacePrefix> ;
+        void:triples 42
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#developer> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 43 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 43
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 5 ;
+        void:property <http://purl.org/dc/terms/format> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#helper> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 6 ;
+        void:property <http://inference-web.org/2.0/pml-provenance.owl#hasSource> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#implements> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://inference-web.org/2.0/pml-justification.owl#hasSourceUsage> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 255 ;
+        void:property <http://purl.org/twc/vocab/conversion/range> ;
+        void:triples 255
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 7 ;
+        void:property <http://purl.org/twc/vocab/conversion/base_uri> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.org/dc/terms/date> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 7 ;
+        void:property <http://purl.org/twc/vocab/conversion/source_identifier> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property void:statItem ;
+        void:triples 1
+    ], [
+        void:distinctObjects 4835 ;
+        void:distinctSubjects 7223 ;
+        void:property <http://www.w3.org/2000/10/swap/pim/contact#zip> ;
+        void:triples 7223
+    ], [
+        void:distinctObjects 262 ;
+        void:distinctSubjects 510 ;
+        void:property <http://open.vocab.org/terms/csvHeader> ;
+        void:triples 510
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/holdsAccount> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5958 ;
+        void:distinctSubjects 7223 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 7223
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#homepage> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 255 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 255
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#description> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 7 ;
+        void:property <http://obofoundry.org/ro/ro.owl#has_agent> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 211 ;
+        void:distinctSubjects 7223 ;
+        void:property <http://www.w3.org/2000/10/swap/pim/contact#stateOrProvince> ;
+        void:triples 28815
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/type_name> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#maintainer> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/twc/vocab/conversion/conversion_identifier> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 8 ;
+        void:property <http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/version> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 154 ;
+        void:distinctSubjects 52 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 154
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.semanticdesktop.org/ontologies/nfo/#hasHash> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/links_via> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/range_name> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 257 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/enhance> ;
+        void:triples 257
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://usefulinc.com/ns/doap#revision> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/twc/vocab/conversion/dataset_version> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://open.vocab.org/terms/csvTopMatter> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.semanticdesktop.org/ontologies/nfo/#hashValue> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.semanticdesktop.org/ontologies/nfo/#hashAlgorithm> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 37 ;
+        void:distinctSubjects 14835 ;
+        void:property rdf:type ;
+        void:triples 14850
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://inference-web.org/2.0/pml-provenance.owl#hasRawString> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://xmlns.com/foaf/0.1/accountName> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#shortdesc> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 7 ;
+        void:property <http://inference-web.org/2.0/pml-justification.owl#hasIndex> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 22 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 22
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property void:exampleResource ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#platform> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/author> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 7 ;
+        void:property <http://inference-web.org/2.0/pml-justification.owl#hasInferenceRule> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/uses_class> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 7 ;
+        void:property <http://purl.org/net/provenance/ns#involvedActor> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 7228 ;
+        void:distinctSubjects 7232 ;
+        void:property <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> ;
+        void:triples 7232
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://rdfs.org/sioc/ns#account_of> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/source> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 7223 ;
+        void:distinctSubjects 7223 ;
+        void:property <http://www.w3.org/2000/10/swap/pim/contact#address> ;
+        void:triples 7223
+    ], [
+        void:distinctObjects 65 ;
+        void:distinctSubjects 65 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 65
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/conversion_process> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 4 ;
+        void:property <http://purl.org/twc/vocab/conversion/bundled_by> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 7 ;
+        void:property <http://purl.org/twc/vocab/conversion/dataset_identifier> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://inference-web.org/2.0/pml-provenance.owl#hasModificationDateTime> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 6 ;
+        void:property <http://inference-web.org/2.0/pml-provenance.owl#hasUsageDateTime> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 6537 ;
+        void:distinctSubjects 7223 ;
+        void:property <http://www.w3.org/2000/10/swap/pim/contact#street> ;
+        void:triples 7223
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 7 ;
+        void:property <http://openprovenance.org/ontology#endTime> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/NET/scovo#dimension> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/subject_of> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 42 ;
+        void:property <http://purl.org/vocab/vann/preferredNamespaceUri> ;
+        void:triples 42
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://purl.org/twc/vocab/conversion/equivalent_property> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.ontologydesignpatterns.org/ont/web/irw.owl#redirectsTo> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property rdf:first ;
+        void:triples 3
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 3 ;
+        void:property void:subset ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/enhancement_identifier> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 3 ;
+        void:property rdf:rest ;
+        void:triples 3
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 7 ;
+        void:property <http://openprovenance.org/ontology#cause> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#browse> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property <http://purl.org/dc/terms/contributor> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://inference-web.org/2.0/pml-provenance.owl#hasReferenceSourceUsage> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/num_triples> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 15 ;
+        void:property <http://inference-web.org/2.0/pml-justification.owl#hasConclusion> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 314 ;
+        void:distinctSubjects 314 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 314
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 8 ;
+        void:property <http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/domain_name> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 6400 ;
+        void:distinctSubjects 7223 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 7223
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/twc/vocab/conversion/property_name> ;
+        void:triples 1
+    ] ;
+    void:triples 130005 ;
+    void:vocabulary <http://inference-web.org/2.0/pml-justification.owl>, <http://inference-web.org/2.0/pml-provenance.owl>, <http://inference-web.org/2.1exper/pml-provenance.owl>, <http://obofoundry.org/ro/ro.owl>, <http://open.vocab.org/terms>, <http://openprovenance.org/ontology>, <http://purl.org/NET/scovo>, <http://purl.org/dc/terms>, <http://purl.org/net/provenance/ns>, <http://purl.org/twc/vocab/conversion>, <http://purl.org/vocab/vann>, <http://rdfs.org/ns/void>, <http://rdfs.org/sioc/ns>, <http://usefulinc.com/ns/doap>, <http://www.ontologydesignpatterns.org/ont/web/irw.owl>, <http://www.semanticdesktop.org/ontologies/nfo/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2000/10/swap/pim/contact>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2003/01/geo/wgs84_pos>, <http://xmlns.com/foaf/0.1> ;
+    a void:dataset .
+

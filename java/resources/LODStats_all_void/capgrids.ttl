@@ -1,0 +1,62 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<https://commondatastorage.googleapis.com/ckannet-storage/2011-11-17T173408/capgrids.rdf>
+    void:classPartition [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/geometry/AbstractGeometry> ;
+        void:entities 3766
+    ] ;
+    void:classes 1 ;
+    void:entities 7532 ;
+    void:properties 7 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3766 ;
+        void:property rdf:type ;
+        void:triples 3431
+    ], [
+        void:distinctObjects 2850 ;
+        void:distinctSubjects 3766 ;
+        void:property <http://data.ordnancesurvey.co.uk/ontology/geometry/asGeoJSON> ;
+        void:triples 3766
+    ], [
+        void:distinctObjects 102 ;
+        void:distinctSubjects 102 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopicOf> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 3766 ;
+        void:distinctSubjects 3766 ;
+        void:property <http://data.ordnancesurvey.co.uk/ontology/geometry/extent> ;
+        void:triples 3766
+    ], [
+        void:distinctObjects 3664 ;
+        void:distinctSubjects 102 ;
+        void:property <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> ;
+        void:triples 3664
+    ], [
+        void:distinctObjects 2850 ;
+        void:distinctSubjects 3766 ;
+        void:property <http://data.ordnancesurvey.co.uk/ontology/geometry/asWKT> ;
+        void:triples 3766
+    ], [
+        void:distinctObjects 248 ;
+        void:distinctSubjects 3766 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 3766
+    ] ;
+    void:triples 22596 ;
+    void:vocabulary <http://data.ordnancesurvey.co.uk/ontology/geometry>, <http://data.ordnancesurvey.co.uk/ontology/spatialrelations>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://xmlns.com/foaf/0.1> ;
+    a void:dataset .
+

@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://thesauri.cs.vu.nl/eswc06/mesh/rdf/meshdata.rdf>
+    void:classPartition [
+        void:class <http://www.nlm.nih.gov/mesh/2006#CompoundConcept> ;
+        void:entities 743
+    ] ;
+    void:classes 1 ;
+    void:entities 24628 ;
+    void:properties 22 ;
+    void:propertyPartition [
+        void:distinctObjects 95 ;
+        void:distinctSubjects 21752 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#recordMaintainer> ;
+        void:triples 21752
+    ], [
+        void:distinctObjects 54 ;
+        void:distinctSubjects 18651 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#dateEstablished> ;
+        void:triples 18651
+    ], [
+        void:distinctObjects 64 ;
+        void:distinctSubjects 23885 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#activeMeSHYear> ;
+        void:triples 122379
+    ], [
+        void:distinctObjects 47243 ;
+        void:distinctSubjects 14915 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 47243
+    ], [
+        void:distinctObjects 16924 ;
+        void:distinctSubjects 12401 ;
+        void:property <http://www.w3.org/2004/02/skos/core#historyNote> ;
+        void:triples 22111
+    ], [
+        void:distinctObjects 8528 ;
+        void:distinctSubjects 19350 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#publicMeSHNote> ;
+        void:triples 19350
+    ], [
+        void:distinctObjects 616 ;
+        void:distinctSubjects 23885 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#dateCreated> ;
+        void:triples 23885
+    ], [
+        void:distinctObjects 108 ;
+        void:distinctSubjects 108 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#runningHead> ;
+        void:triples 108
+    ], [
+        void:distinctObjects 79493 ;
+        void:distinctSubjects 16904 ;
+        void:property <http://www.w3.org/2004/02/skos/core#hiddenLabel> ;
+        void:triples 79493
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 21752 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#recordAuthorizer> ;
+        void:triples 21752
+    ], [
+        void:distinctObjects 4570 ;
+        void:distinctSubjects 3951 ;
+        void:property <http://www.w3.org/2004/02/skos/core#related> ;
+        void:triples 6289
+    ], [
+        void:distinctObjects 7687 ;
+        void:distinctSubjects 19697 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#historyNote> ;
+        void:triples 19697
+    ], [
+        void:distinctObjects 532 ;
+        void:distinctSubjects 743 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 743
+    ], [
+        void:distinctObjects 64 ;
+        void:distinctSubjects 66 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#considerAlso> ;
+        void:triples 66
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 21752 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#recordOriginator> ;
+        void:triples 21752
+    ], [
+        void:distinctObjects 11782 ;
+        void:distinctSubjects 15514 ;
+        void:property <http://www.w3.org/2004/02/skos/core#annotation> ;
+        void:triples 15514
+    ], [
+        void:distinctObjects 23885 ;
+        void:distinctSubjects 23885 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 23885
+    ], [
+        void:distinctObjects 455 ;
+        void:distinctSubjects 20780 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#dateRevised> ;
+        void:triples 20780
+    ], [
+        void:distinctObjects 22466 ;
+        void:distinctSubjects 22523 ;
+        void:property <http://www.w3.org/2004/02/skos/core#scopeNote> ;
+        void:triples 22523
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 743 ;
+        void:property rdf:type ;
+        void:triples 655
+    ], [
+        void:distinctObjects 596 ;
+        void:distinctSubjects 696 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#preferredCombination> ;
+        void:triples 696
+    ], [
+        void:distinctObjects 3325 ;
+        void:distinctSubjects 3409 ;
+        void:property <http://www.nlm.nih.gov/mesh/2006#onlineNote> ;
+        void:triples 3409
+    ] ;
+    void:triples 512821 ;
+    void:vocabulary <http://www.nlm.nih.gov/mesh/2006>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:dataset .
+

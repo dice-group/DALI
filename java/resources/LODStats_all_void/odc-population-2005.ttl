@@ -1,0 +1,62 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://opendatacommunities-downloads.s3.amazonaws.com/population-2005.ttl.zip>
+    void:classPartition [
+        void:class qb:Observation ;
+        void:entities 34378
+    ] ;
+    void:classes 1 ;
+    void:entities 34378 ;
+    void:properties 7 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 34378 ;
+        void:property rdf:type ;
+        void:triples 34063
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 34378 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> ;
+        void:triples 34378
+    ], [
+        void:distinctObjects 34378 ;
+        void:distinctSubjects 34378 ;
+        void:property <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ;
+        void:triples 34378
+    ], [
+        void:distinctObjects 1654 ;
+        void:distinctSubjects 34378 ;
+        void:property <http://publishmydata.com/def/statistics#population> ;
+        void:triples 34378
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 34378 ;
+        void:property <http://publishmydata.com/def/statistics#ageRange> ;
+        void:triples 34378
+    ], [
+        void:distinctObjects 34378 ;
+        void:distinctSubjects 34378 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 34378
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 34378 ;
+        void:property qb:dataSet ;
+        void:triples 34378
+    ] ;
+    void:triples 240646 ;
+    void:vocabulary <http://publishmydata.com/def/statistics>, <http://purl.org/linked-data/cube>, <http://purl.org/linked-data/sdmx/2009/dimension>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:dataset .
+

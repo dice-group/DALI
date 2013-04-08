@@ -1,0 +1,53 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://data.nature.com/sparql?query=construct{?s?p?o.}where{graph<http://ns.nature.com/graphs/coverages\u003E{?s?p?o.}}limit25>
+    void:classes 0 ;
+    void:entities 20 ;
+    void:properties 6 ;
+    void:propertyPartition [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://ns.nature.com/terms/dateEnd> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 8 ;
+        void:property <http://ns.nature.com/terms/moving> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ns.nature.com/terms/issueStart> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://ns.nature.com/terms/volumeStart> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://ns.nature.com/terms/issueEnd> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 7 ;
+        void:property <http://ns.nature.com/terms/dateStart> ;
+        void:triples 7
+    ] ;
+    void:triples 25 ;
+    void:vocabulary <http://ns.nature.com/terms/> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

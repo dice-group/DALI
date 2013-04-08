@@ -1,0 +1,108 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<https://commondatastorage.googleapis.com/ckannet-storage/2012-07-17T125726/test.ttl>
+    void:classPartition [
+        void:class qb:DataSet ;
+        void:entities 1
+    ], [
+        void:class qb:Observation ;
+        void:entities 1
+    ], [
+        void:class qb:DataStructureDefinition ;
+        void:entities 1
+    ] ;
+    void:classes 3 ;
+    void:entities 10 ;
+    void:properties 15 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:comment ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property rdf:type ;
+        void:triples 3
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 220 ;
+        void:distinctSubjects 1 ;
+        void:property <http://thedatahub.org/en/dataset/uk-gdp-since-1948#nonInflation> ;
+        void:triples 220
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property qb:dimension ;
+        void:triples 1
+    ], [
+        void:distinctObjects 221 ;
+        void:distinctSubjects 1 ;
+        void:property <http://thedatahub.org/en/dataset/uk-gdp-since-1948#chainedVolumeMeasuresAdjusted2> ;
+        void:triples 221
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property qb:structure ;
+        void:triples 1
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property qb:measure ;
+        void:triples 6
+    ], [
+        void:distinctObjects 229 ;
+        void:distinctSubjects 1 ;
+        void:property <http://thedatahub.org/en/dataset/uk-gdp-since-1948#refPeriod> ;
+        void:triples 229
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 1 ;
+        void:property <http://thedatahub.org/en/dataset/uk-gdp-since-1948#gdpQuarterGrowth> ;
+        void:triples 48
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property rdf:label ;
+        void:triples 1
+    ], [
+        void:distinctObjects 229 ;
+        void:distinctSubjects 1 ;
+        void:property <http://thedatahub.org/en/dataset/uk-gdp-since-1948#gdpNotAdjusted> ;
+        void:triples 229
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 1 ;
+        void:property qb:component ;
+        void:triples 7
+    ], [
+        void:distinctObjects 229 ;
+        void:distinctSubjects 1 ;
+        void:property <http://thedatahub.org/en/dataset/uk-gdp-since-1948#chainedVolumeMeasuresAdjusted> ;
+        void:triples 229
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property qb:dataSet ;
+        void:triples 1
+    ] ;
+    void:triples 1854 ;
+    void:vocabulary <http://purl.org/dc/terms/>, <http://purl.org/linked-data/cube>, <http://thedatahub.org/en/dataset/uk-gdp-since-1948>, <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:Dataset .
+

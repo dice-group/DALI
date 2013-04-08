@@ -1,0 +1,176 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://moustaki.org/resources/peel.tar.gz>
+    void:classPartition [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 8337
+    ], [
+        void:class <http://purl.org/ontology/mo/Sound> ;
+        void:entities 3976
+    ], [
+        void:class <http://purl.org/ontology/mo/MusicalWork> ;
+        void:entities 16767
+    ], [
+        void:class <http://purl.org/ontology/mo/Recording> ;
+        void:entities 3976
+    ], [
+        void:class <http://purl.org/ontology/mo/Performance> ;
+        void:entities 28631
+    ], [
+        void:class <http://purl.org/ontology/mo/Track> ;
+        void:entities 2447
+    ], [
+        void:class <http://purl.org/ontology/mo/Transmission> ;
+        void:entities 3976
+    ], [
+        void:class <http://purl.org/ontology/mo/Signal> ;
+        void:entities 5662
+    ], [
+        void:class <http://purl.org/ontology/mo/MusicArtist> ;
+        void:entities 2274
+    ] ;
+    void:classes 9 ;
+    void:entities 76229 ;
+    void:properties 25 ;
+    void:propertyPartition [
+        void:distinctObjects 3441 ;
+        void:distinctSubjects 275 ;
+        void:property <http://purl.org/ontology/mo/engineered> ;
+        void:triples 3801
+    ], [
+        void:distinctObjects 3976 ;
+        void:distinctSubjects 3976 ;
+        void:property <http://purl.org/ontology/mo/produced_signal> ;
+        void:triples 3976
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 1321 ;
+        void:property <http://purl.org/dc/elements/1.1/created> ;
+        void:triples 1522
+    ], [
+        void:distinctObjects 3976 ;
+        void:distinctSubjects 3976 ;
+        void:property <http://purl.org/ontology/mo/produced_sound> ;
+        void:triples 3976
+    ], [
+        void:distinctObjects 1310 ;
+        void:distinctSubjects 7888 ;
+        void:property <http://purl.org/ontology/mo/instrument> ;
+        void:triples 8926
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 76046 ;
+        void:property rdf:type ;
+        void:triples 75010
+    ], [
+        void:distinctObjects 11864 ;
+        void:distinctSubjects 9991 ;
+        void:property <http://purl.org/ontology/mo/performed> ;
+        void:triples 11864
+    ], [
+        void:distinctObjects 16161 ;
+        void:distinctSubjects 19214 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 19214
+    ], [
+        void:distinctObjects 24655 ;
+        void:distinctSubjects 3979 ;
+        void:property <http://purl.org/NET/c4dm/event.owl#sub_event> ;
+        void:triples 30062
+    ], [
+        void:distinctObjects 9991 ;
+        void:distinctSubjects 11864 ;
+        void:property <http://purl.org/ontology/mo/performer> ;
+        void:triples 11864
+    ], [
+        void:distinctObjects 1126 ;
+        void:distinctSubjects 1126 ;
+        void:property <http://purl.org/ontology/mo/recorded_as> ;
+        void:triples 1126
+    ], [
+        void:distinctObjects 129 ;
+        void:distinctSubjects 7952 ;
+        void:property <http://purl.org/NET/c4dm/event.owl#place> ;
+        void:triples 7952
+    ], [
+        void:distinctObjects 684 ;
+        void:distinctSubjects 685 ;
+        void:property <http://purl.org/ontology/mo/isrc> ;
+        void:triples 689
+    ], [
+        void:distinctObjects 70 ;
+        void:distinctSubjects 1321 ;
+        void:property <http://purl.org/ontology/mo/chart_position> ;
+        void:triples 1502
+    ], [
+        void:distinctObjects 36332 ;
+        void:distinctSubjects 39527 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 39652
+    ], [
+        void:distinctObjects 174 ;
+        void:distinctSubjects 3640 ;
+        void:property <http://purl.org/ontology/mo/producer> ;
+        void:triples 3640
+    ], [
+        void:distinctObjects 3976 ;
+        void:distinctSubjects 3976 ;
+        void:property <http://purl.org/ontology/mo/recording_of> ;
+        void:triples 3976
+    ], [
+        void:distinctObjects 3640 ;
+        void:distinctSubjects 174 ;
+        void:property <http://purl.org/ontology/mo/produced> ;
+        void:triples 3640
+    ], [
+        void:distinctObjects 275 ;
+        void:distinctSubjects 3441 ;
+        void:property <http://purl.org/ontology/mo/engineer> ;
+        void:triples 3801
+    ], [
+        void:distinctObjects 114 ;
+        void:distinctSubjects 115 ;
+        void:property <http://purl.org/ontology/mo/biography> ;
+        void:triples 115
+    ], [
+        void:distinctObjects 860 ;
+        void:distinctSubjects 710 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 860
+    ], [
+        void:distinctObjects 10303 ;
+        void:distinctSubjects 10611 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 10611
+    ], [
+        void:distinctObjects 2988 ;
+        void:distinctSubjects 3976 ;
+        void:property <http://purl.org/NET/c4dm/event.owl#time> ;
+        void:triples 3976
+    ], [
+        void:distinctObjects 16767 ;
+        void:distinctSubjects 16767 ;
+        void:property <http://purl.org/ontology/mo/performance_of> ;
+        void:triples 16767
+    ], [
+        void:distinctObjects 1811 ;
+        void:distinctSubjects 1811 ;
+        void:property <http://purl.org/ontology/mo/published_as> ;
+        void:triples 1811
+    ] ;
+    void:triples 271369 ;
+    void:vocabulary <http://purl.org/NET/c4dm/event.owl>, <http://purl.org/dc/elements/1.1>, <http://purl.org/ontology/mo>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://xmlns.com/foaf/0.1> ;
+    a void:dataset .
+

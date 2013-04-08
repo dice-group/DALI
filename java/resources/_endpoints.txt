@@ -1,0 +1,466 @@
+http://diwis.imis.athena-innovation.gr:8181/sparql	xxxxx
+http://wiktionary.dbpedia.org/sparql	wiktionary.dbpedia.org
+http://wiktionary.dbpedia.org/sparql	wiktionary.dbpedia.org
+http://webconf.rkbexplorer.com/sparql	webconf
+http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:SPARQLEndpoint	vulnerapedia
+http://services.data.gov.uk/transport/sparql	transport.data.gov.uk
+http://services.data.gov.uk/statistics/sparql	statistics.data.gov.uk
+http://roni.rkbexplorer.com/sparql	roni
+http://foreign.rkbexplorer.com/sparql	rkb-explorer-foreign
+http://services.data.gov.uk/research/sparql	research.data.gov.uk
+http://services.data.gov.uk/reference/sparql	reference.data.gov.uk
+http://photos.rkbexplorer.com/sparql	photos
+http://services.data.gov.uk/patents/sparql	patents.data.gov.uk
+http://notube.rkbexplorer.com/sparql	notube
+http://rdf.myexperiment.org/sparql/	myExperiment
+http://www.morelab.deusto.es/joseki/articles	morelab
+http://meducator.open.ac.uk/resourcesrestapi/rest/meducator/sparql	mEducator: Linked Educational Resources
+http://lobid.org/sparql/	lobid. Index of libraries and related organisations
+http://lobid.org/sparql/	lobid. Bibliographic Resources
+http://kdata.kr/sparql/endpoint.jsp	kdata
+http://greek-lod.math.auth.gr/intervalue/sparql	intervalue
+http://iserve.kmi.open.ac.uk/iserve/sparql	iServe: Linked Services Registry
+http://gdlc.rkbexplorer.com/sparql	gdlc
+http://fun.rkbexplorer.com/sparql	fun
+http://www.open-biomed.org.uk/sparql/endpoint/flyatlas	flyatlas
+http://epsrc.rkbexplorer.com/sparql	epsrc
+http://services.data.gov.uk/environment/sparql	environment.data.gov.uk
+http://enaktingpsi.rkbexplorer.com/sparql	enaktingpsi
+http://services.data.gov.uk/education/sparql	education.data.gov.uk
+http://upr.eagle-i.net/sparqler/sparql	eagle-i@ University of Puerto Rico - Medical Sciences Campus
+http://upenn.eagle-i.net/sparqler/sparql	eagle-i-upenn
+http://xula.eagle-i.net/sparqler/sparql	eagle-i @ Xavier University of Louisiana
+https://eagle-i.ea.vanderbilt.edu/sparqler/sparql	eagle-i @ Vanderbilt University
+http://utsa.eagle-i.net/sparqler/sparql	eagle-i @ University of Texas at San Antonio
+http://utep.eagle-i.net/sparqler/sparql	eagle-i @ University of Texas at El Paso
+http://hawaii.eagle-i.net/sparqler/sparql	eagle-i @ University of Hawai’i at M?noa
+http://alaska.eagle-i.net/sparqler/sparql	eagle-i @ University of Alaska Fairbanks
+http://uccaribe.eagle-i.net/sparqler/sparql	eagle-i @ Universidad Central del Caribe
+http://tuskegee.eagle-i.net/sparqler/sparql	eagle-i @ Tuskegee University
+http://ccny-cuny.eagle-i.net/sparqler/sparql	eagle-i @ The City College of New York
+http://tsu.eagle-i.net/sparqler/sparql	eagle-i @ Texas Southern University
+http://psm.eagle-i.net/sparqler/sparql	eagle-i @ Ponce School of Medicine
+http://ohsu.eagle-i.net/sparqler/sparql	eagle-i @ Oregon Health and Science University
+http://msm.eagle-i.net/sparqler/sparql	eagle-i @ Morehouse School of Medicine
+http://montana.eagle-i.net/sparqler/sparql	eagle-i @ Montana State University
+http://meharry.eagle-i.net/sparqler/sparql	eagle-i @ Meharry Medical College
+http://jsu.eagle-i.net/sparqler/sparql	eagle-i @ Jackson State University
+http://hunter-cuny.eagle-i.net/sparqler/sparql	eagle-i @ Hunter College
+http://howard.eagle-i.net/sparqler/sparql	eagle-i @ Howard University
+http://harvard.eagle-i.net/sparqler/sparql	eagle-i @ Harvard University
+http://famu.eagle-i.net/sparqler/sparql	eagle-i @ Florida Agricultural and Mechanical University
+http://dartmouth.eagle-i.net/sparqler/sparql	eagle-i @ Dartmouth College
+http://cau.eagle-i.net/sparqler/sparql	eagle-i @ Clark Atlanta University
+http://cdrewu.eagle-i.net/sparqler/sparql	eagle-i @ Charles R. Drew University
+http://eprints.rkbexplorer.com/sparql/	ePrints3 Institutional Archive Collection (RKBExplorer)
+http://dotac.rkbexplorer.com/sparql/	dotAC (RKBExplorer)
+http://dimitros.net/query.sparql	dimitros.net
+http://digitaleconomy.rkbexplorer.com/sparql	digitaleconomy
+http://kaiko.getalp.org/sparql	dbnary
+http://datos.bne.es/sparql	datos.bne.es
+http://data.open.ac.uk/query	data.open.ac.uk, Linked Data from the Open University
+http://140.109.28.64:2020/sparql	crowdsourcing-fb
+http://crm.rkbexplorer.com/sparql	crm
+http://river.styx.org/sparql	cablegate
+http://services.data.gov.uk/business/sparql	business.data.gov.uk
+http://aksw.org/sparql	aksw.org Research Group dataset
+http://zhishi.me/sparql	Zhishi.me
+http://sparql.yovisto.com/	Yovisto - academic video search
+http://neuroweb.med.yale.edu:8890/sparql	Yale Senselab
+http://api.kasabi.com/dataset/yahoo-geoplanet/apis/sparql	Yahoo Geoplanet RDF
+http://mlode.nlp2rdf.org/sparql	World Loanword Database
+http://www4.wiwiss.fu-berlin.de/factbook/sparql	World Factbook (FU Berlin)
+http://worldbank.270a.info/sparql	World Bank Linked Data
+http://mlode.nlp2rdf.org/sparql	World Atlas of Language Structuctures (WALS) Online
+http://api.talis.com/stores/wordnet/services/sparql	WordNet 3.0 (VU Amsterdam)
+http://wordnet.rkbexplorer.com/sparql/	WordNet (RKBExplorer)
+http://sparql.wikipathways.org/	WikiPathways
+http://webscience.rkbexplorer.com/sparql	Web Science Conference (RKBExplorer)
+http://id.ndl.go.jp/auth/ndla/	Web NDL Authorities - National Diet Library of Japan
+http://kaunas.rkbexplorer.com/sparql	Vytautas Magnus University, Kaunas (RKBExplorer)
+http://data.ox.ac.uk/sparql/	Vacancies (University of Oxford)
+http://irit.rkbexplorer.com/sparql/	Université Paul Sabatier - Toulouse 3 (RKB Explorer)
+http://ulm.rkbexplorer.com/sparql/	Universität Ulm (RKBExplorer)
+http://pisa.rkbexplorer.com/sparql/	Università di Pisa (RKBExplorer)
+http://roma.rkbexplorer.com/sparql/	Università degli studi di Roma La Sapienza (RKBExplorer)
+http://newcastle.rkbexplorer.com/sparql/	University of Newcastle upon Tyne (RKBExplorer)
+http://unists.bio2rdf.org/sparql	UniSTS
+http://beta.sparql.uniprot.org	UniProtKB Taxonomy
+http://beta.sparql.uniprot.org	UniProtKB
+http://beta.sparql.uniprot.org	UniProt UniRef
+http://beta.sparql.uniprot.org/	UniProt UniPathway
+http://beta.sparql.uniprot.org	UniProt UniParc
+http://platform.uberblic.org/api/v1/sparql	Uberblic.org
+http://linkeddata.uriburner.com/sparql	URIBurner
+http://unodc.publicdata.eu/sparql	UNODC - Statistics on criminal justice
+http://skos.um.es/sparql	UNESCO Nomenclature for fields of science and technology
+http://unlocode.rkbexplorer.com/sparql/	UN/LOCODE (RKBExplorer)
+http://api.kasabi.com/dataset/un-hazardous-material-numbers/apis/sparql	UN Hazardous Materials Numbers
+http://umbel.structureddynamics.com/sparql.php	UMBEL (Upper Mapping and Binding Exchange Layer)
+http://jisc.rkbexplorer.com/sparql/	UK JISC (RKBExplorer)
+http://rdfabout.com/sparql	U.S. Securities and Exchange Commission Corporate Ownership RDF Data (rdfabout)
+http://twarql.org:8890/sparql	Twarql
+http://www.zaragoza.es/turruta/sparql	Turismo de Zaragoza
+http://transparency.270a.info/sparql	Transparency International Linked Data
+http://purl.org/twc/arrayexpress/virtuoso/sparql	Transcription profiling of rat bladder after inoculation with bladder cancer cells
+http://purl.org/twc/arrayexpress/virtuoso/sparql	Transcription profiling of mouse cell types and tissues (GNF/Novartis)
+http://purl.org/twc/arrayexpress/virtuoso/sparql	Transcription profiling of human, chimp and mouse brain
+http://api.talis.com/stores/trafficscotland/services/sparql	Traffic Scotland
+http://tkm.kiom.re.kr/ontology/sparql	Traditional Korean Medicine Ontology
+http://data.ox.ac.uk/sparql/	Time-series metadata (University of Oxford)
+http://www.archivesdefrance.culture.gouv.fr/thesaurus/sparql	Thesaurus W for Local Archives
+http://lod.gesis.org/thesoz/sparql	TheSoz Thesaurus for the Social Sciences (GESIS)
+http://api.talis.com/stores/theviewfrom/services/sparql	The View From
+http://api.talis.com/stores/datagovuk/services/sparql	The London Gazette - Gazettes Data
+http://eurostat.linked-statistics.org/sparql	The Eurostat Linked Data
+http://dbmi-icode-01.dbmi.pitt.edu:2020/sparql	The Drug Interaction Knowledge Base
+http://hcls.deri.org:8080/openrdf-sesame/repositories/tcga	The Cancer Genome Atlas
+http://telegraphis.net/data/countries/sparql	Telegraphis Linked Data
+http://darmstadt.rkbexplorer.com/sparql/	Technische Universität Darmstadt (RKBExplorer)
+http://lsd.taxonconcept.org/sparql	TaxonConcept Knowledge Base
+http://pomelo.iis.sinica.edu.tw:2020/sparql	Taiwan geographic names
+http://www.open-biomed.org.uk/sparql/endpoint/tcm. 	TCMGeneDIT Dataset
+http://agalpha.mathbiol.org/repositories/tcga	TCGA Roadmap
+http://sparql.sindice.com/sparql	Sudoc bibliographic data
+http://crime.rkbexplorer.com/sparql/	Street level crime reports for England and Wales
+http://api.talis.com/stores/eurobarometer/services/sparql	Standard Eurobarometer
+http://aseg.cs.concordia.ca/secold/sparqlendpoint	Source Code Ecosystem Linked Data
+http://vocabulary.semantic-web.at/PoolParty/sparql/semweb	Social Semantic Web Thesaurus
+http://socialarchive.iath.virginia.edu/sparql/eac	Social Networks and Archival Context Fall 2011
+http://smartlink.open.ac.uk/smartlink/sparql	SmartLink: Linked Services Non-Functional Properties
+http://mlode.nlp2rdf.org/sparql	SentimentWortschatz
+http://data.semanticweb.org/sparql	Semantic Web Dog Food Corpus
+http://data.semanticuniverse.com/sparql	Semantic Universe Data
+http://el-devtc01.tugraz.at/~ldv/interlinking/endpoint_handler.php	Semantic Profiling Network
+http://cb.semsol.org/sparql	Semantic CrunchBase
+http://api.talis.com/stores/smcjournals/services/sparql	Scottish Mountaineering Council Journals Issues 1-36
+http://linkedscotland.org/sparql	Scotland statistical geography
+http://linkedscotland.org/sparql	Scotland pupil numbers and exam results 2008
+http://southampton.rkbexplorer.com/sparql/	School of Electronics and Computer Science, University of Southampton (RKBExplorer)
+http://ecs.rkbexplorer.com/sparql	School of Electronics and Computer Science, University of Southampton
+http://api.talis.com/stores/schemapedia/services/sparql	Schemapedia: RDF schema compendium
+http://212.81.220.68:2020/elviajero	Santillana Guide Dataset
+http://api.kasabi.com/dataset/sanskrit-english-lexicon/apis/sparql	Sanskrit English Lexicon
+http://sgd.bio2rdf.org/sparql	Saccharomyces Genome Database
+http://zbw.eu/beta/sparql/stw	STW Thesaurus for Economics
+http://www4.wiwiss.fu-berlin.de/stitch/sparql	STITCH: Chemical-Protein Interactions
+http://labs.mondeca.com/endpoint/ends	SPARQL Endpoint Status
+http://156.35.82.103/sparql	SITC-V4
+http://www4.wiwiss.fu-berlin.de/sider/sparql	SIDER: Side Effect Resource
+http://biordf.net/sparql	SADI Semantic Web Services framework registry
+http://data.bibsys.no/data/query_authority.html	Rådata nå!
+http://link.informatics.stonybrook.edu/sparql/	RxNorm
+http://revyu.com/sparql	Revyu.com - Review Anything
+http://courseware.rkbexplorer.com/sparql/	Resilient Computing Courseware (RKBExplorer)
+http://rae2001.rkbexplorer.com/sparql/	Research Assessment Exercise 2001 (RKBExplorer)
+http://api.kasabi.com/dataset/renewable-energy-generators/apis/sparql	Renewable Energy Generators
+http://eculture2.cs.vu.nl:5020/sparql/	Rechtspraak.nl
+http://reactome.bio2rdf.org/sparql	Reactome
+http://resex.rkbexplorer.com/sparql/	ReSIST Resilience Mechanisms (RKBExplorer.com)
+http://wiki.rkbexplorer.com/sparql/	ReSIST Project Wiki (RKBExplorer)
+http://curriculum.rkbexplorer.com/sparql/	ReSIST MSc in Resilient Computing Curriculum (RKBExplorer)
+http://linkedopencommerce.com/sparql	Ravensburg Local Shopping Graph
+http://rdf.ng-london.org.uk/raphael	Raphael Research Resource
+http://risks.rkbexplorer.com/sparql/	RISKS Digest (RKBExplorer)
+http://publicspending.medialab.ntua.gr/sparql	Public Spending in Greece
+http://www.sparql.org/sparql.html	Public Record Office Victoria Semantic Wiki
+http://libver.math.auth.gr/sparql	Public Library of Veroia
+http://pubmed.bio2rdf.org/sparql	PubMed
+http://pubchem.bio2rdf.org/sparql	PubChem
+http://www4.wiwiss.fu-berlin.de/gutendata/sparql	Project Gutenberg in RDF (FU Berlin)
+http://api.talis.com/stores/productdb/services/sparql	ProductDB
+http://156.35.82.103/sparql	Product Scheme Classifications Catalogue
+http://prodom.bio2rdf.org/sparql	ProDom
+http://api.kasabi.com/dataset/prelinger-archives/apis/sparql	Prelinger Archives
+http://prelex.publicdata.eu/sparql	PreLex
+http://sparql.linkedopendata.it/cap	Postal codes Italy (LinkedOpenData.it)
+http://api.talis.com/stores/pokedex/services/sparql	Pokedex data in RDF
+http://pfam.bio2rdf.org/sparql	Pfam
+http://api.kasabi.com/dataset/pali-english-lexicon/apis/sparql	Pali English Lexicon
+http://prosite.bio2rdf.org/sparql	PROSITE
+http://pdb.bio2rdf.org/sparql	PDB
+http://oxpoints.oucs.ox.ac.uk/sparql	OxPoints (University of Oxford)
+http://miuras.inf.um.es/sparql	Orthology and Diseases Information - OGO
+http://data.organic-edunet.eu/sparql	Organic Edunet Linked Open Data
+http://api.talis.com/stores/ordnance-survey/services/sparql	Ordnance Survey OpenData
+http://api.talis.com/stores/ordnance-survey/services/sparql	Ordnance Survey Linked Data
+http://os.rkbexplorer.com/sparql/	Ordnance Survey (RKBExplorer)
+http://api.kasabi.com/dataset/openflights-routes/apis/sparql	Openflights Routes
+http://gov.tso.co.uk/transport/sparql	OpenUpLabs Transport
+http://gov.tso.co.uk/legislation/sparql	OpenUpLabs Legislation
+http://os.services.tso.co.uk/geo/sparql	OpenUpLabs Geographic
+http://openuplabs.tso.co.uk/sparql/gov-education	OpenUpLabs Education
+http://gov.tso.co.uk/dclg/sparql	OpenUpLabs DCLG
+http://gov.tso.co.uk/coins/sparql	OpenUpLabs COINS
+http://apps.ideaconsult.net:8080/ontology	OpenTox
+http://sparql.openmobilenetwork.org	OpenMobileNetwork
+http://data.ox.ac.uk/sparql/	OpenMeters (University of Oxford)
+http://lod.openlinksw.com/sparql	OpenLink Software LOD Cache
+http://en.openei.org/sparql	OpenEI - Open Energy Info
+http://opencyc.rkbexplorer.com/sparql	OpenCyc (RKBExplorer)
+http://api.talis.com/stores/openlibrary/services/sparql	Open Library data mirror in the Talis Platform
+http://openknowledgegraph.org/sparql	Open Knowledge Graph
+http://data.cnr.it/sparql-proxy/	Open Data from the Italian National Research Council
+http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData	Open Data Thesaurus
+http://opendatacommunities.org/sparql	Open Data Communities - Lower layer Super Output Areas
+http://oai.rkbexplorer.com/sparql/	Open Archive Initiative Harvest over OAI-PMH (RKBExplorer)
+http://data.oceandrilling.org/sparql	Ocean Drilling - dbSEABED
+http://data.oceandrilling.org/sparql	Ocean Drilling - LDEO log files as data (TEST leg 218 only)
+http://data.oceandrilling.org/sparql	Ocean Drilling - Janus LOD
+http://data.oceandrilling.org/sparql	Ocean Drilling - Janus Age Models
+http://data.oceandrilling.org/sparql	Ocean Drilling - Forams
+http://data.oceandrilling.org/sparql	Ocean Drilling - Codices
+http://omim.bio2rdf.org/sparql	OMIM
+http://obo.bio2rdf.org/sparql	OBO
+http://data.noticias.universia.net/d2r-server/snorql/	Noticias Universia
+http://data.lenka.no/sparql	Norwegian geo-divisions
+http://api.talis.com/stores/mesh-norwegian/services/sparql	Norwegian Medical Subject Headings (MeSH)
+http://api.talis.com/stores/nvd/services/sparql	Norsk inndeling av vitenskapsdisipliner
+http://156.35.82.103/sparql	Nomenclator Asturias 2010
+http://sparql.neurocommons.org:8890/nsparql/	Neurocommons text mining pilot
+http://api.kasabi.com/api/sparql-endpoint-near	Near
+http://data.nature.com/sparql	Nature Publishing Group - ALL
+http://nsf.rkbexplorer.com/sparql/	National Science Foundation (RKBExplorer)
+http://www.kanzaki.com/works/2011/stat/	National Radioactivity Stat as Linked Data
+http://lod.sztaki.hu/sparql	National Digital Data Archive of Hungary (partial)
+http://id.ndl.go.jp/auth/ndlsh/	National Diet Library of Japan subject headings
+http://api.talis.com/stores/gunnbib-digitalmanuskripter/sparql	NTNU special collections
+http://vocab.nerc.ac.uk/sparql/	NERC Vocabulary Server 2.0
+http://api.talis.com/stores/space/services/sparql	NASA Space Flight & Astronaut data in RDF
+http://156.35.82.103/sparql	NAICS 2012
+http://156.35.82.103/sparql	NAICS 2007
+http://n-lex.publicdata.eu/sparql	N-Lex as Linked Data
+http://futurewavehosting.com:3030/my-family-lineage/sparql	My Family Lineage
+http://api.kasabi.com/dataset/musicnet/apis/sparql	MusicNet Codex
+http://rdf.muninn-project.org/sparql	Muninn World War I
+http://mgi.bio2rdf.org/sparql	Mouse Genome Database (MGD) from Mouse Genome Informatics (MGI)
+http://api.talis.com/stores/moseley/services/sparql	Moseley Folk Festival Data
+http://api.talis.com/stores/metoffice/services/sparql	Metoffice Weather Forecasts
+http://doc.metalex.eu:8000/sparql/	MetaLex Document Server
+http://www4.wiwiss.fu-berlin.de/medicare/sparql	MediCare
+http://sparql.msc2010.org	Mathematics Subject Classification
+http://api.talis.com/stores/petej-dev1/services/sparql	Mass Observation Archive catalogue
+http://mlode.nlp2rdf.org/sparql	MLSA - A Multi-layered Reference Corpus for German Sentiment Analysis
+http://opendatacommunities.org/sparql	Lower Layer Super Output Areas
+http://www.lotico.com:3030/lotico	Lotico
+http://id.sgcb.mcu.es/sparql	Lista de Encabezamientos de Materia as Linked Open Data
+http://sw.unime.it:8890/sparql	Linking Italian University Statistics Project
+http://api.talis.com/stores/rsinger-dev4/services/sparql	LinkedLCCN
+http://linkedgeodata.org/sparql/	LinkedGeoData
+http://data.linkedct.org/sparql	LinkedCT
+http://soa4all.isoco.net/luf/sparql	Linked User Feedback
+http://dbmi-icode-01.dbmi.pitt.edu/linkedSPLs/sparql	Linked Structured Product Labels
+http://sonicbanana.cs.wright.edu:8890/sparql	Linked Sensor Data (Kno.e.sis)
+http://linkedscotland.org/sparql	Linked Scotland
+http://lov.okfn.org/endpoint/lov	Linked Open Vocabularies (LOV)
+http://sparql.linkedopendata.it/los	Linked Open Senate (linkedopendata.it)
+http://ecowlim.tfri.gov.tw/sparql/query	Linked Open Data of Ecology
+http://dati.camera.it/sparql	Linked Open Data Camera dei deputati
+http://linkedopencommerce.com/sparql	Linked Open Commerce
+http://sparql.linkedopendata.it/loc 	Linked Open Camera (LinkedOpenData.it)
+http://data.linkedmdb.org/sparql	Linked Movie DataBase
+http://linkedlifedata.com/sparql	Linked Life Data
+http://data.bib.uni-mannheim.de/sparql	Linked Data Service der Universitätsbibliothek Mannheim
+http://sparql.reegle.info/	Linked Clean Energy Data (reegle.info)
+http://spending.lichfielddc.gov.uk/sparql	Lichfield District Council - Spending
+http://corpora.nlp2rdf.org/sparql	Leipzig Corpora Collection (LCC)
+http://lod.ac/bdls/sparql	LODAC BDLS
+http://lab3.libris.kb.se/sparql	LIBRIS
+http://kwijibo.talis.com/latc-linksets/sparql	LATC Linksets
+http://laas.rkbexplorer.com/sparql/	LAAS-CNRS (RKBExplorer)
+http://lod.kaist.ac.kr/sparql	Korean Traditional Recipes
+http://kisti.rkbexplorer.com/sparql/	Korean Institute of Science Technology and Information (RKBExplorer)
+http://greek-lod.math.auth.gr/kalikratis/sparql	Kallikratis municipalities
+http://rn.bio2rdf.org/sparql	KEGG Reaction
+http://kegg.bio2rdf.org/sparql	KEGG Pathway
+http://gl.bio2rdf.org/sparql	KEGG Glycan
+http://ec.bio2rdf.org/sparql	KEGG Enzyme
+http://dr.bio2rdf.org/sparql	KEGG Drug
+http://cpd.bio2rdf.org/sparql	KEGG Compound
+http://api.talis.com/stores/jgoodwin-genealogy/services/sparql	John Goodwin's Family Tree
+http://mlode.nlp2rdf.org/sparql	JRC-Names
+http://202.73.13.50:55824/catalogs/performance/repositories/jita 	JITA Classification System of Library and Information Science
+http://bnb.data.bl.uk/sparql	JISC Open Bibliography British National Bibliography dataset
+http://api.kasabi.com/dataset/jisc-cetis-project-directory/apis/sparql	JISC CETIS PROject Directory
+http://sparql.linkedopendata.it/scuole	Italian public schools (LinkedOpenData.it)
+http://sparql.linkedopendata.it/musei	Italian Museums
+http://www.rechercheisidore.fr/sparql	Isidore
+http://mlode.nlp2rdf.org/sparql	Intercontinental Dictionary Series
+http://data.ngii.go.kr/SPARQL/sparql	Integrated Human Geography Service for LOD by National Geographic Information Institute, Korea
+http://eurecom.rkbexplorer.com/sparql/	Institut Eurécom (RKBExplorer)
+http://opendatacommunities.org/sparql	Index of Multiple Deprivation Ranking, 2007
+http://sparql.linkedopendata.it/istat	ISTAT Immigration (LinkedOpenData.it)
+http://156.35.82.103/sparql	ISIC V4
+http://services.insemtives.eu/forest/sparql	INSEMTIVES
+http://ieee.rkbexplorer.com/sparql/	IEEE Papers (RKBExplorer)
+http://ibm.rkbexplorer.com/sparql/	IBM Research GmbH (RKBExplorer)
+http://setaria.oszk.hu/sparql	Hungarian National Library (NSZL) catalog
+http://greek-lod.auth.gr/police/sparql	Hellenic Police
+http://greek-lod.auth.gr/fire-brigade/sparql	Hellenic Fire Brigade
+http://helheim.deusto.es/hedatuz/sparql	Hedatuz
+http://{http://healthdata.tw.rpi.edu/sparql : http://purl.org/twc/vocab/conversion/ServiceEndpoint}	HealthData.gov Platform (HDP) on the Semantic Web
+http://lod.hebis.de/sparql	HeBIS - Bibliographic Resources of the Library Union Catalogues of Hessen and parts of the Rhineland Palatinate
+http://hcls.deri.org/sparql	HCLS Knowledge Base
+http://wordnet.okfn.gr:8890/sparql/	Greek Wordnet
+http://linkedmanchester.org/sparql	Greater Manchester bus timetable linked data
+http://govwild.org/sparql	GovWILD - Government Web Integration for Linked Data
+http://www.rdfabout.com/sparql	GovTrack.us U.S Congress Legislative Data
+http://kasabi.com/dataset/global-hunger-index/apis/sparql	Global Hunger Index (2011)
+http://data.lod2.eu/sparql	Germany - Bundesministerium der Finanzen - Budget
+http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit	Geological Survey of Austria (GBA) - Thesaurus
+http://lsd.taxonconcept.org/sparql	GeoSpecies Knowledge Base
+http://geo.linkeddata.es/sparql	GeoLinkedData
+http://geneid.bio2rdf.org/sparql	GeneID
+http://go.bio2rdf.org/sparql	Gene Ontology
+http://cr3.eionet.europa.eu/sparql	GEneral Multilingual Environmental Thesaurus
+http://lisbon.rkbexplorer.com/sparql	Fundação da Faculdade de Ciencas da Universidade de Lisboa (RKBExplorer)
+http://ft.rkbexplorer.com/sparql/	France Telecom Recherche et Développement (RKBExplorer)
+http://api.kasabi.com/dataset/foodista/apis/sparql	Foodista
+http://www.open-biomed.org.uk/sparql/endpoint/flyted	Flyted
+http://www.open-biomed.org.uk/sparql/endpoint/flybase	Flybase
+http://data.fishesoftexas.org/sparql	Fishes of Texas
+http://api.kasabi.com/dataset/federal-reserve-economic-data/apis/sparql	Federal Reserve Economic Data RDF
+http://logd.tw.rpi.edu/sparql	Farmers Markets Geographic Data (United States)
+http://api.talis.com/stores/fanhubz/services/sparql	FanHubz
+http://factforge.net/sparql	Fact Forge
+http://eculture2.cs.vu.nl:8890/sparql	Eventseer
+http://data.ox.ac.uk/sparql/	Events calendar for the University (University of Oxford)
+http://eventmedia.eurecom.fr/sparql	EventMedia
+http://www4.wiwiss.fu-berlin.de/eurostat/sparql	Eurostat in RDF (FU Berlin)
+http://eurostat.linked-statistics.org/sparql	Eurostat Linked Data
+http://europeana-triplestore.isti.cnr.it/sparql	Europeana Linked Open Data
+http://epo.publicdata.eu/sparql	European Patent Office (EPO)
+http://semantic.eea.europa.eu/sparql	European Nature Information System
+http://semantic.eea.europa.eu/sparql	European Environment Agency Published Products
+http://www4.wiwiss.fu-berlin.de/eures/sparql	European Employment Services (EURES)
+http://api.talis.com/stores/elections/services/sparql	European Election Results
+http://www4.wiwiss.fu-berlin.de/eccompetition/sparql	European Commission Competition data set (FU Berlin)
+http://ecb.publicdata.eu/sparql	European Central Bank Statistics (PublicData.eu)
+http://opendatacommunities.org/sparql	Estimated mid-year population 2005
+http://environment.data.gov.uk/sparql/bwq/query	Environment Agency Bathing Water Quality
+http://enipedia.tudelft.nl/sparql	Enipedia - Energy Industry Data
+http://api.talis.com/stores/pbac/services/sparql	English Language Books listed in Printed Book Auction Catalogues from 17th Century Holland
+http://opendatacommunities.org/sparql	English Indices of Multiple Deprivation
+http://opendatacommunities.org/sparql	English Index of Multiple Deprivation Score 2010
+http://opendatacommunities.org/sparql	English Index of Multiple Deprivation Ranking 2010
+http://api.kasabi.com/dataset/english-heritage/apis/sparql	English Heritage Places
+http://webenemasuno.linkeddata.es/sparql	El Viajero's tourism dataset
+http://kent.zpr.fer.hr:8080/educationalProgram/sparql	Educational programs - SISVU
+http://api.talis.com/stores/eutc-productions/services/sparql	Edinburgh University Theatre Company Productions
+http://idi.fundacionctic.org/classifications_endpoint/eurovoc	EUROVOC in SKOS
+http://www4.wiwiss.fu-berlin.de/euraxess/sparql	EURAXESS - Researchers in Motion
+http://eur-lex.publicdata.eu/sparql	EUR-Lex as Linked Data
+http://api.talis.com/stores/eumida/services/sparql	EUMIDA as Linked Data
+http://fintrans.publicdata.eu/sparql	EU: fintrans.publicdata.eu
+http://api.talis.com/stores/whoiswho/services/sparql	EU Who Is Who
+http://api.talis.com/stores/eupmedia/services/sparql	EU Parliament Media Library
+http://agencies.publicdata.eu/sparql	EU Agencies and decentralized bodies (Agencies)
+http://era.rkbexplorer.com/sparql/	ERA - Australian Research Council publication ratings (RKBExplorer)
+http://cr.eionet.europa.eu/sparql	EEA Vocabularies
+http://cr.eionet.europa.eu/sparql	EEA Reporting Obligations Database
+http://api.kasabi.com/dataset/ecco-tcp-eighteenth-century-collections-online-texts/apis/sparql	ECCO-TCP Eighteenth Century Texts Linked Data
+http://linkeddata.ge.imati.cnr.it:2020/sparql	EARTh
+http://www4.wiwiss.fu-berlin.de/drugbank/sparql	DrugBank
+http://italy.rkbexplorer.com/sparql	Diverse Italian ReSIST Partner Institutions (RKBExplorer)
+http://www4.wiwiss.fu-berlin.de/diseasome/sparql	Diseasome
+http://api.talis.com/stores/discogs/services/sparql	Discogs in RDF
+http://diavgeia.math.auth.gr/sparql	Diavgeia
+http://dewey.info/sparql.php	Dewey Decimal Classification (DDC)
+http://ndb.publink.lod2.eu/sparql	Deutsche Biographie
+http://deepblue.rkbexplorer.com/sparql/	Deep Blue (RKBExplorer)
+http://datos.bcn.cl/sparql	Datos.bcn.cl
+http://www.zaragoza.es/datosabiertos/sparql	Datos Abiertos de Zaragoza
+http://data.ox.ac.uk/sparql/	Dataset catalogue (University of Oxford)
+http://data.ox.ac.uk/sparql/	Dataset catalogue (University of Oxford)
+http://data-gov.ie/sparql	DataGovIE - Irish Government Data
+http://services.data.gov/sparql	Data.gov
+http://api.talis.com/stores/musicbrainz/services/sparql	Data Incubator: MusicBrainz
+http://www4.wiwiss.fu-berlin.de/dailymed/sparql	DailyMed
+http://deploy.rkbexplorer.com/sparql/	DEPLOY (RKBExplorer)
+http://live.dbpedia.org/sparql	DBpedia-Live
+http://pt.dbpedia.org/sparql	DBpedia in Portuguese
+http://ja.dbpedia.org/sparql	DBpedia in Japanese
+http://el.dbpedia.org/sparql	DBpedia in Greek
+http://de.dbpedia.org/sparql	DBpedia in German
+http://fr.dbpedia.org/sparql	DBpedia in French
+http://dbpedia.org/sparql	DBpedia
+http://dbtune.org/classical/sparql/	DBTune.org/classical
+http://dbtune.org/myspace/sparql/	DBTune.org MySpace RDF Service
+http://dbtune.org/musicbrainz/sparql	DBTune.org Musicbrainz D2R Server
+http://dbtune.org/magnatune/sparql/	DBTune.org Magnatune RDF server
+http://dbtune.org/bbc/peel/sparql/	DBTune.org John Peel sessions RDF server
+http://dbtune.org/jamendo/sparql/	DBTune.org Jamendo RDF Server
+http://dblp.l3s.de/d2r/sparql	DBLP in RDF (L3S)
+http://dblp.rkbexplorer.com/sparql/	DBLP Computer Science Bibliography (RKBExplorer)
+http://www4.wiwiss.fu-berlin.de/dblp/sparql	DBLP Bibliography Database in RDF (FU Berlin)
+http://cultura.linkeddata.es/sparql	CulturaLinkedData
+http://crystaleye.ch.cam.ac.uk/sparql/	Crystal Eye: Aggregated Crystallographic Data
+http://data.copac.ac.uk/sparql	Copac: union catalogue of major University, Specialist, and National Libraries in the UK and Ireland
+http://semantic.ckan.net/sparql/	Comprehensive Knowledge Archive Network
+http://www4.wiwiss.fu-berlin.de/cordis/sparql	Community Research and Development Information Service (CORDIS)
+http://cordis.rkbexplorer.com/sparql/	Community R&D Information Service (CORDIS) (RKBExplorer)
+http://api.talis.com/stores/climb/services/sparql	Climb Dataincubator
+http://citeseer.rkbexplorer.com/sparql/	CiteSeer (Research Index) (RKBExplorer)
+http://chebi.bio2rdf.org/sparql	Chemical Entities of Biological Interest (ChEBI)
+http://api.kasabi.com/dataset/chempedia-rdf/apis/sparql	ChemPedia RDF
+http://rdf.farmbio.uu.se/chembl/sparql	ChEMBL-RDF (@ Uppsala University)
+http://catalogus-professorum.org/sparql	Catalogus Professorum Lipsiensis
+http://data.fundacionctic.org/sparql	CTIC Public Dataset Catalogs
+http://156.35.82.103/sparql	CPV 2008
+http://156.35.31.156/sparql	CPV 2003
+http://156.35.82.103/sparql	CPC 2008
+http://156.35.82.103/sparql	CPA 2008
+http://eris.okfn.org/sparql	CORS Check - HTTP Header Logs for Linked Open Data
+http://core.kmi.open.ac.uk/squery	CORE - Semantic Similarity of Open Access publications
+http://data.colinda.org/endpoint.php	COLINDA - Conference Linked Data
+http://156.35.82.103/sparql	CN 2012
+http://cas.bio2rdf.org/sparql	CAS
+http://budapest.rkbexplorer.com/sparql/	Budapest University of Technology and Economics (RKBExplorer)
+http://bnb.data.bl.uk/sparql	British National Bibliography (BNB) - Linked Open Data
+http://collection.britishmuseum.org/Sparql	British Museum Collection
+http://api.kasabi.com/dataset/bricklink/apis/sparql	Bricklink
+http://pt.dbpedia.org/sparql	Brazilian Politicians
+http://logd.tw.rpi.edu/sparql	Biographical Directory of the United States Congress
+http://geneid.bio2rdf.org/sparql	Bio2RDF - NCBI Gene
+http://interpro.bio2rdf.org/sparql	Bio2RDF - InterPro
+http://iproclass.bio2rdf.org/sparql	Bio2RDF - IProClass
+http://ipi.bio2rdf.org/sparql	Bio2RDF - IPI
+http://inoh.bio2rdf.org/sparql	Bio2RDF - INOH
+http://homologene.bio2rdf.org/sparql	Bio2RDF - HomoloGene
+http://hgnc.bio2rdf.org/sparql	Bio2RDF - HGNC
+http://genbank.bio2rdf.org/sparql	Bio2RDF - GenBank
+http://go.bio2rdf.org/sparql	Bio2RDF - GOA
+http://drugbank.bio2rdf.org/sparql	Bio2RDF - Drugbank
+http://dbpedia.bio2rdf.org/sparql	Bio2RDF - DBPedia
+http://chembl.bio2rdf.org/sparql	Bio2RDF - ChEMBL
+http://chebi.bio2rdf.org/sparql	Bio2RDF - ChEBI
+http://ctd.bio2rdf.org/sparql	Bio2RDF - CTD
+http://biocarta.bio2rdf.org/sparql	Bio2RDF - BioCarta
+http://biocyc.bio2rdf.org/sparql	Bio2RDF - BioCYC
+http://affymetrix.bio2rdf.org/sparql	Bio2RDF - Affymetrix
+http://bibleontology.com/sparql/index.jsp	Bible Ontology
+http://data.bibbase.org:2020/sparql	BibBase
+http://www.open-biomed.org.uk/sparql/endpoint/bdgp_20081030	Bdgp
+http://hhpid.bio2rdf.org/sparql	BIO2RDF - HHPID
+http://api.talis.com/stores/bbc-wildlife/services/sparql	BBC Wildlife Finder
+http://api.talis.com/stores/bbc-backstage/services/sparql	BBC Programmes
+http://api.talis.com/stores/bbc-backstage/services/sparql	BBC Music
+http://lod.b3kat.de/sparql	B3Kat - Library Union Catalogues of Bavaria, Berlin and Brandenburg
+http://54.251.58.90:8080/openrdf-sesame/repositories/acorn-sat-beta	Australian Climate Observations Reference Network - Surface Air Temperature Dataset
+http://acm.rkbexplorer.com/sparql/	Association for Computing Machinery (ACM) (RKBExplorer)
+http://data.archiveshub.ac.uk/sparql	Archives Hub Linked Data
+http://sparql.data.southampton.ac.uk/	Apps using our data (University of Southampton)
+http://semanticweb.cs.vu.nl/europeana/sparql	Amsterdam Museum as Linked Open Data in the Europeana Data Model
+http://vocabulary.semantic-web.at/PoolParty/sparql/AustrianSkiTeam	Alpine Ski Racers of Austria
+http://data.allie.dbcls.jp/sparql	Allie Abbreviation And Long Form Database in Life Science
+http://api.talis.com/stores/airports/services/sparql	Airport data from Our Airports published as RDF
+http://sparql.linkedopendata.it/grrt	Accommodations in Tuscany (LinkedOpenData.it)
+http://sparql.linkedopendata.it/grrp	Accommodations in Piedmont (LinkedOpenData.it)
+http://purl.org/openbibliosets/iucrsparql	Academic Bibliography data available from Acta Cryst E
+http://sparql.jesandco.org:8890/sparql	ASN:US
+http://lexinfo.net/corpora/alpino/query.php	ALPINO RDF Treebank
+http://202.73.13.50:55824/catalogs/performance/repositories/agrovoc	AGROVOC
+http://202.45.142.113:10035/repositories/agris	AGRIS
+http://aemet.linkeddata.es/sparql	AEMET metereological dataset
+http://biolit.rkbexplorer.com/sparql	A Short Biographical Dictionary of English Literature (RKBExplorer)
+http://www.rdfabout.com/sparql	2000 U.S. Census in RDF (rdfabout.com)

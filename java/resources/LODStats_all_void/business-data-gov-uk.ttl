@@ -1,0 +1,150 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://source.data.gov.uk/data/business/bis-research-explorer/2010-03-04/business.data.gov.uk.nt>
+    void:classPartition [
+        void:class <http://xmlns.com/foaf/0.1/Organization> ;
+        void:entities 373
+    ], [
+        void:class <http://research.data.gov.uk/def/project/Location> ;
+        void:entities 224
+    ] ;
+    void:classes 2 ;
+    void:entities 597 ;
+    void:properties 24 ;
+    void:propertyPartition [
+        void:distinctObjects 117 ;
+        void:distinctSubjects 92 ;
+        void:property <http://research.data.gov.uk/def/project/addressLine3> ;
+        void:triples 124
+    ], [
+        void:distinctObjects 346 ;
+        void:distinctSubjects 372 ;
+        void:property <http://research.data.gov.uk/def/project/organisationName> ;
+        void:triples 388
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 263 ;
+        void:property <http://research.data.gov.uk/def/project/participantType> ;
+        void:triples 305
+    ], [
+        void:distinctObjects 171 ;
+        void:distinctSubjects 373 ;
+        void:property <http://www.w3.org/2004/02/skos/core#notation> ;
+        void:triples 740
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 597 ;
+        void:property rdf:type ;
+        void:triples 342
+    ], [
+        void:distinctObjects 457 ;
+        void:distinctSubjects 373 ;
+        void:property <http://research.data.gov.uk/def/project/participantName> ;
+        void:triples 479
+    ], [
+        void:distinctObjects 186 ;
+        void:distinctSubjects 219 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 228
+    ], [
+        void:distinctObjects 109 ;
+        void:distinctSubjects 207 ;
+        void:property <http://research.data.gov.uk/def/project/county> ;
+        void:triples 265
+    ], [
+        void:distinctObjects 186 ;
+        void:distinctSubjects 219 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 228
+    ], [
+        void:distinctObjects 186 ;
+        void:distinctSubjects 232 ;
+        void:property <http://research.data.gov.uk/def/project/town> ;
+        void:triples 275
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 242 ;
+        void:property <http://research.data.gov.uk/def/project/country> ;
+        void:triples 254
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 12 ;
+        void:property <http://research.data.gov.uk/def/project/auditFrequency> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 185 ;
+        void:distinctSubjects 186 ;
+        void:property <http://research.data.gov.uk/def/project/companyRegNo> ;
+        void:triples 186
+    ], [
+        void:distinctObjects 457 ;
+        void:distinctSubjects 373 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 479
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 236 ;
+        void:property <http://research.data.gov.uk/def/project/organisationType> ;
+        void:triples 261
+    ], [
+        void:distinctObjects 457 ;
+        void:distinctSubjects 373 ;
+        void:property <http://research.data.gov.uk/def/project/originalName> ;
+        void:triples 479
+    ], [
+        void:distinctObjects 268 ;
+        void:distinctSubjects 230 ;
+        void:property <http://research.data.gov.uk/def/project/location> ;
+        void:triples 268
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 373 ;
+        void:property <http://research.data.gov.uk/def/project/costCategoryType> ;
+        void:triples 373
+    ], [
+        void:distinctObjects 247 ;
+        void:distinctSubjects 454 ;
+        void:property <http://research.data.gov.uk/def/project/postcode> ;
+        void:triples 492
+    ], [
+        void:distinctObjects 396 ;
+        void:distinctSubjects 373 ;
+        void:property <http://research.data.gov.uk/def/project/project> ;
+        void:triples 763
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 373 ;
+        void:property <http://research.data.gov.uk/def/project/region> ;
+        void:triples 428
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 338 ;
+        void:property <http://research.data.gov.uk/def/project/organisationSize> ;
+        void:triples 368
+    ], [
+        void:distinctObjects 329 ;
+        void:distinctSubjects 235 ;
+        void:property <http://research.data.gov.uk/def/project/addressLine1> ;
+        void:triples 347
+    ], [
+        void:distinctObjects 250 ;
+        void:distinctSubjects 196 ;
+        void:property <http://research.data.gov.uk/def/project/addressLine2> ;
+        void:triples 267
+    ] ;
+    void:triples 8606 ;
+    void:vocabulary <http://research.data.gov.uk/def/project/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2003/01/geo/wgs84_pos>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:Dataset .
+

@@ -1,0 +1,186 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://opendata.euskadi.net/contenidos/ds_localizaciones/farmacias_de_euskadi/opendata/r01DataSet.rdf>
+    void:classPartition [
+        void:class <http://purl.org/dc/terms/Agent> ;
+        void:entities 2
+    ], [
+        void:class void:TechnicalFeature ;
+        void:entities 8
+    ], [
+        void:class <http://purl.org/dc/terms/Frequency> ;
+        void:entities 1
+    ], [
+        void:class void:Linkset ;
+        void:entities 1
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Document> ;
+        void:entities 6
+    ], [
+        void:class <http://purl.org/dc/terms/IMT> ;
+        void:entities 16
+    ], [
+        void:class <http://purl.org/dc/terms/FileFormat> ;
+        void:entities 8
+    ], [
+        void:class <http://purl.org/dc/terms/SizeOrDuration> ;
+        void:entities 16
+    ], [
+        void:class <http://purl.org/dc/dcmitype/Dataset> ;
+        void:entities 2
+    ] ;
+    void:classes 9 ;
+    void:entities 52 ;
+    void:properties 27 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property void:subjectsTarget ;
+        void:triples 1
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 8 ;
+        void:property <http://purl.org/dc/terms/format> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 1 ;
+        void:property void:feature ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/accrualPeriodicity> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 32 ;
+        void:property rdf:value ;
+        void:triples 32
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/issued> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 52 ;
+        void:property rdf:type ;
+        void:triples 57
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property void:subset ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 44 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 48
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 18 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/hasFormat> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property void:linkPredicate ;
+        void:triples 1
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/spatial> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/references> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/rights> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/language> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/net/provenance/ns#createdBy> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property void:objectsTarget ;
+        void:triples 1
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 8 ;
+        void:property <http://purl.org/dc/terms/extent> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 1
+    ] ;
+    void:triples 272 ;
+    void:vocabulary <http://purl.org/dc/terms/>, <http://purl.org/net/provenance/ns>, <http://rdfs.org/ns/void>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

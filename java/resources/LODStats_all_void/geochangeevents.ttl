@@ -1,0 +1,116 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://seas.metadata.net/events/geocevts.rdf>
+    void:classPartition [
+        void:class <aktivesa:Earthquake> ;
+        void:entities 1444
+    ], [
+        void:class <aktivesa:Tsunami> ;
+        void:entities 787
+    ], [
+        void:class <sem:Event> ;
+        void:entities 2789
+    ], [
+        void:class <aktivesa:Volcano> ;
+        void:entities 558
+    ] ;
+    void:classes 4 ;
+    void:entities 5578 ;
+    void:properties 16 ;
+    void:propertyPartition [
+        void:distinctObjects 83 ;
+        void:distinctSubjects 2789 ;
+        void:property <http://purl.org/dc/terms#created> ;
+        void:triples 2789
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 2789 ;
+        void:property rdf:type ;
+        void:triples 5104
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2789 ;
+        void:property <http://seas.metadata.net/events/GeochangeEvent.owl#type> ;
+        void:triples 2789
+    ], [
+        void:distinctObjects 1032 ;
+        void:distinctSubjects 2779 ;
+        void:property <http://www.w3.org/2005/Incubator/geo/XGR-geo-20071023/W3C_XGR_Geo_files/geo_2007.owl#lat> ;
+        void:triples 2779
+    ], [
+        void:distinctObjects 128 ;
+        void:distinctSubjects 1345 ;
+        void:property rdf:value ;
+        void:triples 1345
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 422 ;
+        void:property <http://www.zaltys.net/ontology/AKTiveSAOntology.owl#hasIntensity> ;
+        void:triples 422
+    ], [
+        void:distinctObjects 1388 ;
+        void:distinctSubjects 2789 ;
+        void:property <http://seas.metadata.net/events/GeochangeEvent.owl#title> ;
+        void:triples 2789
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 1444 ;
+        void:property <http://www.zaltys.net/ontology/AKTiveSAOntology.owl#hasMagnitude> ;
+        void:triples 1444
+    ], [
+        void:distinctObjects 1279 ;
+        void:distinctSubjects 2783 ;
+        void:property <http://www.w3.org/2005/Incubator/geo/XGR-geo-20071023/W3C_XGR_Geo_files/geo_2007.owl#long> ;
+        void:triples 2783
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 2789 ;
+        void:property <http://seas.metadata.net/events/GeochangeEvent.owl#isContainedIn> ;
+        void:triples 2789
+    ], [
+        void:distinctObjects 2130 ;
+        void:distinctSubjects 2789 ;
+        void:property <http://semanticweb.cs.vu.nl/2009/11/sem#hasTime> ;
+        void:triples 2789
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 2789 ;
+        void:property <http://seas.metadata.net/events/GeochangeEvent.owl#geoEventType> ;
+        void:triples 2789
+    ], [
+        void:distinctObjects 2789 ;
+        void:distinctSubjects 2789 ;
+        void:property <http://semanticweb.cs.vu.nl/2009/11/sem#hasPlace> ;
+        void:triples 2789
+    ], [
+        void:distinctObjects 2789 ;
+        void:distinctSubjects 2789 ;
+        void:property <http://seas.metadata.net/events/GeochangeEvent.owl#eventSource> ;
+        void:triples 2789
+    ], [
+        void:distinctObjects 1567 ;
+        void:distinctSubjects 1569 ;
+        void:property <http://purl.org/dc/elements/1.1#relation> ;
+        void:triples 1569
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 492 ;
+        void:property <http://www.zaltys.net/ontology/AKTiveSAOntology.owl#VolcanicEruption> ;
+        void:triples 492
+    ] ;
+    void:triples 38724 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1>, <http://purl.org/dc/terms>, <http://seas.metadata.net/events/GeochangeEvent.owl>, <http://semanticweb.cs.vu.nl/2009/11/sem>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2005/Incubator/geo/XGR-geo-20071023/W3C_XGR_Geo_files/geo_2007.owl>, <http://www.zaltys.net/ontology/AKTiveSAOntology.owl> ;
+    a void:Dataset .
+

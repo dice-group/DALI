@@ -1,0 +1,62 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://dump.linkedopendata.it/cap>
+    void:classPartition [
+        void:class <http://www.w3.org/2006/vcard/ns#Address> ;
+        void:entities 84950
+    ] ;
+    void:classes 1 ;
+    void:entities 93188 ;
+    void:properties 7 ;
+    void:propertyPartition [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 84950 ;
+        void:property rdf:type ;
+        void:triples 77469
+    ], [
+        void:distinctObjects 1000 ;
+        void:distinctSubjects 994 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 1004
+    ], [
+        void:distinctObjects 117 ;
+        void:distinctSubjects 84950 ;
+        void:property <http://www.w3.org/2006/vcard/ns#region> ;
+        void:triples 84960
+    ], [
+        void:distinctObjects 16310 ;
+        void:distinctSubjects 84950 ;
+        void:property <http://www.w3.org/2006/vcard/ns#locality> ;
+        void:triples 95597
+    ], [
+        void:distinctObjects 54445 ;
+        void:distinctSubjects 68820 ;
+        void:property <http://www.w3.org/2006/vcard/ns#street-address> ;
+        void:triples 68820
+    ], [
+        void:distinctObjects 4508 ;
+        void:distinctSubjects 84950 ;
+        void:property <http://www.w3.org/2006/vcard/ns#postal-code> ;
+        void:triples 84960
+    ], [
+        void:distinctObjects 15190 ;
+        void:distinctSubjects 16310 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 16310
+    ] ;
+    void:triples 436601 ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2006/vcard/ns> ;
+    a void:dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

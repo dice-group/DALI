@@ -1,0 +1,242 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://nsf.rkbexplorer.com/models/dump.tgz>
+    void:classPartition [
+        void:class <http://www.aktors.org/ontology/portal#Amount-Of-Money> ;
+        void:entities 318425
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Funding> ;
+        void:entities 318199
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 93
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Organization> ;
+        void:entities 14345
+    ], [
+        void:class <http://www.aktors.org/ontology/support#Calendar-Date> ;
+        void:entities 28772
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Person> ;
+        void:entities 386837
+    ], [
+        void:class <http://www.aktors.org/ontology/support#Time-Interval> ;
+        void:entities 318419
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Project> ;
+        void:entities 278148
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#City> ;
+        void:entities 4589
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Generic-Area-Of-Interest> ;
+        void:entities 552
+    ], [
+        void:class <http://www.aktors.org/ontology/portal#Postal-Address> ;
+        void:entities 11704
+    ] ;
+    void:classes 11 ;
+    void:entities 1650211 ;
+    void:properties 37 ;
+    void:propertyPartition [
+        void:distinctObjects 12296 ;
+        void:distinctSubjects 14891 ;
+        void:property <http://www.aktors.org/ontology/portal#has-postal-address> ;
+        void:triples 14442
+    ], [
+        void:distinctObjects 318425 ;
+        void:distinctSubjects 318196 ;
+        void:property <http://www.aktors.org/ontology/portal#has-grant-value> ;
+        void:triples 318425
+    ], [
+        void:distinctObjects 10805 ;
+        void:distinctSubjects 10701 ;
+        void:property <http://www.aktors.org/ontology/portal#address-street> ;
+        void:triples 10436
+    ], [
+        void:distinctObjects 208859 ;
+        void:distinctSubjects 318425 ;
+        void:property <http://www.aktors.org/ontology/portal#has-amount> ;
+        void:triples 318425
+    ], [
+        void:distinctObjects 42 ;
+        void:distinctSubjects 93 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 186
+    ], [
+        void:distinctObjects 318199 ;
+        void:distinctSubjects 318199 ;
+        void:property <http://www.aktors.org/ontology/portal#has-grant-reference> ;
+        void:triples 318199
+    ], [
+        void:distinctObjects 95587 ;
+        void:distinctSubjects 219870 ;
+        void:property <http://www.aktors.org/ontology/portal#has-email-address> ;
+        void:triples 219421
+    ], [
+        void:distinctObjects 286 ;
+        void:distinctSubjects 1688961 ;
+        void:property rdf:type ;
+        void:triples 876501
+    ], [
+        void:distinctObjects 93 ;
+        void:distinctSubjects 93 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 93
+    ], [
+        void:distinctObjects 12893 ;
+        void:distinctSubjects 12296 ;
+        void:property <http://www.aktors.org/ontology/portal#address-pretty-name> ;
+        void:triples 12441
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 318425 ;
+        void:property <http://www.aktors.org/ontology/support#has-unit-of-measure> ;
+        void:triples 318425
+    ], [
+        void:distinctObjects 284360 ;
+        void:distinctSubjects 278272 ;
+        void:property <http://www.aktors.org/ontology/portal#has-project-leader> ;
+        void:triples 295792
+    ], [
+        void:distinctObjects 133956 ;
+        void:distinctSubjects 387706 ;
+        void:property <http://www.aktors.org/ontology/portal#family-name> ;
+        void:triples 386861
+    ], [
+        void:distinctObjects 5127 ;
+        void:distinctSubjects 12296 ;
+        void:property <http://www.aktors.org/ontology/portal#address-city-or-village> ;
+        void:triples 23738
+    ], [
+        void:distinctObjects 318199 ;
+        void:distinctSubjects 279241 ;
+        void:property <http://www.aktors.org/ontology/portal#has-web-address> ;
+        void:triples 318199
+    ], [
+        void:distinctObjects 14318 ;
+        void:distinctSubjects 318419 ;
+        void:property <http://www.aktors.org/ontology/support#ends-at-time-point> ;
+        void:triples 318419
+    ], [
+        void:distinctObjects 109178 ;
+        void:distinctSubjects 74494 ;
+        void:property <http://www.aktors.org/ontology/portal#has-project-member> ;
+        void:triples 122897
+    ], [
+        void:distinctObjects 5666 ;
+        void:distinctSubjects 143361 ;
+        void:property <http://www.aktors.org/ontology/portal#addresses-generic-area-of-interest> ;
+        void:triples 164162
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 93 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 93
+    ], [
+        void:distinctObjects 318199 ;
+        void:distinctSubjects 279241 ;
+        void:property <http://www.aktors.org/ontology/portal#has-funding> ;
+        void:triples 318199
+    ], [
+        void:distinctObjects 1142 ;
+        void:distinctSubjects 34123 ;
+        void:property <http://www.aktors.org/ontology/support#year-of> ;
+        void:triples 28772
+    ], [
+        void:distinctObjects 336661 ;
+        void:distinctSubjects 336064 ;
+        void:property <http://www.aktors.org/ontology/support#has-pretty-name> ;
+        void:triples 335781
+    ], [
+        void:distinctObjects 7084 ;
+        void:distinctSubjects 12234 ;
+        void:property <http://www.aktors.org/ontology/portal#address-postcode> ;
+        void:triples 11644
+    ], [
+        void:distinctObjects 9833 ;
+        void:distinctSubjects 9889 ;
+        void:property <http://www.aktors.org/ontology/portal#has-telephone-number> ;
+        void:triples 9445
+    ], [
+        void:distinctObjects 183763 ;
+        void:distinctSubjects 386578 ;
+        void:property <http://www.aktors.org/ontology/portal#full-name> ;
+        void:triples 385769
+    ], [
+        void:distinctObjects 318419 ;
+        void:distinctSubjects 279232 ;
+        void:property <http://www.aktors.org/ontology/support#has-time-interval> ;
+        void:triples 318419
+    ], [
+        void:distinctObjects 814 ;
+        void:distinctSubjects 34123 ;
+        void:property <http://www.aktors.org/ontology/support#day-of> ;
+        void:triples 28772
+    ], [
+        void:distinctObjects 93 ;
+        void:distinctSubjects 93 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 93
+    ], [
+        void:distinctObjects 22558 ;
+        void:distinctSubjects 318419 ;
+        void:property <http://www.aktors.org/ontology/support#begins-at-time-point> ;
+        void:triples 318419
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 12296 ;
+        void:property <http://www.aktors.org/ontology/portal#address-country> ;
+        void:triples 11704
+    ], [
+        void:distinctObjects 297617 ;
+        void:distinctSubjects 294102 ;
+        void:property <http://www.aktors.org/ontology/portal#has-title> ;
+        void:triples 296898
+    ], [
+        void:distinctObjects 84 ;
+        void:distinctSubjects 93 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 372
+    ], [
+        void:distinctObjects 348 ;
+        void:distinctSubjects 34123 ;
+        void:property <http://www.aktors.org/ontology/support#month-of> ;
+        void:triples 28772
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 318199 ;
+        void:property <http://www.aktors.org/ontology/portal#funding-source> ;
+        void:triples 318199
+    ], [
+        void:distinctObjects 14891 ;
+        void:distinctSubjects 279240 ;
+        void:property <http://www.aktors.org/ontology/portal#has-leading-organization> ;
+        void:triples 291201
+    ], [
+        void:distinctObjects 56644 ;
+        void:distinctSubjects 386578 ;
+        void:property <http://www.aktors.org/ontology/portal#given-name> ;
+        void:triples 385761
+    ], [
+        void:distinctObjects 14855 ;
+        void:distinctSubjects 284360 ;
+        void:property <http://www.aktors.org/ontology/portal#has-affiliation> ;
+        void:triples 286522
+    ] ;
+    void:triples 15336321 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1/>, <http://www.aktors.org/ontology/portal>, <http://www.aktors.org/ontology/support>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl> ;
+    a void:Dataset .
+

@@ -1,0 +1,96 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://linkedscotland-downloads.s3.amazonaws.com/sns-geography.ttl.gz>
+    void:classPartition [
+        void:class <http://linkedscotland.org/def/geography#HealthBoard> ;
+        void:entities 14
+    ], [
+        void:class <http://linkedscotland.org/def/geography#DataZone> ;
+        void:entities 6505
+    ], [
+        void:class <http://linkedscotland.org/def/geography#CensusOutputArea> ;
+        void:entities 42604
+    ], [
+        void:class <http://linkedscotland.org/def/geography#IntermediateGeography> ;
+        void:entities 1235
+    ] ;
+    void:classes 4 ;
+    void:entities 50358 ;
+    void:properties 12 ;
+    void:propertyPartition [
+        void:distinctObjects 5904 ;
+        void:distinctSubjects 7740 ;
+        void:property <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/easting> ;
+        void:triples 7740
+    ], [
+        void:distinctObjects 6505 ;
+        void:distinctSubjects 42604 ;
+        void:property <http://linkedscotland.org/def/geography#dataZone> ;
+        void:triples 42604
+    ], [
+        void:distinctObjects 5677 ;
+        void:distinctSubjects 7740 ;
+        void:property <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/northing> ;
+        void:triples 7740
+    ], [
+        void:distinctObjects 6423 ;
+        void:distinctSubjects 7740 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 7740
+    ], [
+        void:distinctObjects 6283 ;
+        void:distinctSubjects 7740 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 7740
+    ], [
+        void:distinctObjects 50306 ;
+        void:distinctSubjects 50358 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 50358
+    ], [
+        void:distinctObjects 50358 ;
+        void:distinctSubjects 50358 ;
+        void:property <http://linkedscotland.org/def/geography#sns-code> ;
+        void:triples 50358
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 50358 ;
+        void:property rdf:type ;
+        void:triples 25877
+    ], [
+        void:distinctObjects 44 ;
+        void:distinctSubjects 50344 ;
+        void:property <http://linkedscotland.org/def/geography#district> ;
+        void:triples 50344
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 7740 ;
+        void:property <http://linkedscotland.org/def/geography#communityHealthPartnership> ;
+        void:triples 7740
+    ], [
+        void:distinctObjects 1244 ;
+        void:distinctSubjects 49109 ;
+        void:property <http://linkedscotland.org/def/geography#intermediateGeography> ;
+        void:triples 49109
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 7740 ;
+        void:property <http://linkedscotland.org/def/geography#healthBoard> ;
+        void:triples 7740
+    ] ;
+    void:triples 339571 ;
+    void:vocabulary <http://data.ordnancesurvey.co.uk/ontology>, <http://linkedscotland.org/def/geography>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2003/01/geo/wgs84_pos> ;
+    a void:dataset .
+

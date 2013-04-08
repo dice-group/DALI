@@ -1,0 +1,61 @@
+http://biolit.rkbexplorer.com/sparql	A Short Biographical Dictionary of English Literature (RKBExplorer)
+http://aemet.linkeddata.es/sparql	AEMET metereological dataset
+http://sparql.jesandco.org:8890/sparql	ASN:US
+http://sparql.linkedopendata.it/grrp	Accommodations in Piedmont (LinkedOpenData.it)
+http://sparql.linkedopendata.it/grrt	Accommodations in Tuscany (LinkedOpenData.it)
+http://affymetrix.bio2rdf.org/sparql	Bio2RDF - Affymetrix
+http://data.allie.dbcls.jp/sparql	Allie Abbreviation And Long Form Database in Life Science
+http://vocabulary.semantic-web.at/PoolParty/sparql/AustrianSkiTeam	Alpine Ski Racers of Austria
+http://sparql.data.southampton.ac.uk/	Apps using our data (University of Southampton)
+http://data.archiveshub.ac.uk/sparql	Archives Hub Linked Data
+http://acm.rkbexplorer.com/sparql/	Association for Computing Machinery (ACM) (RKBExplorer)
+http://lod.b3kat.de/sparql	B3Kat - Library Union Catalogues of Bavaria, Berlin and Brandenburg
+http://biocyc.bio2rdf.org/sparql	Bio2RDF - BioCYC
+http://logd.tw.rpi.edu/sparql	Biographical Directory of the United States Congress
+http://logd.tw.rpi.edu/sparql	Farmers Markets Geographic Data (United States)
+http://collection.britishmuseum.org/Sparql	British Museum Collection
+http://bnb.data.bl.uk/sparql	British National Bibliography (BNB) - Linked Open Data
+http://bnb.data.bl.uk/sparql	JISC Open Bibliography British National Bibliography dataset
+http://budapest.rkbexplorer.com/sparql/	Budapest University of Technology and Economics (RKBExplorer)
+http://data.fundacionctic.org/sparql	CTIC Public Dataset Catalogs
+http://rdf.farmbio.uu.se/chembl/sparql	ChEMBL-RDF (@ Uppsala University)
+http://citeseer.rkbexplorer.com/sparql/	CiteSeer (Research Index) (RKBExplorer)
+http://cordis.rkbexplorer.com/sparql/	Community R&D Information Service (CORDIS) (RKBExplorer)
+http://semantic.ckan.net/sparql/	Comprehensive Knowledge Archive Network
+http://cultura.linkeddata.es/sparql	CulturaLinkedData
+http://dblp.rkbexplorer.com/sparql/	DBLP Computer Science Bibliography (RKBExplorer)
+http://dblp.l3s.de/d2r/sparql	DBLP in RDF (L3S)
+http://dbpedia.org/sparql	DBpedia
+http://de.dbpedia.org/sparql	DBpedia in German
+http://el.dbpedia.org/sparql	DBpedia in Greek
+http://deploy.rkbexplorer.com/sparql/	DEPLOY (RKBExplorer)
+http://services.data.gov/sparql	Data.gov
+http://www.zaragoza.es/datosabiertos/sparql	Datos Abiertos de Zaragoza
+http://datos.bcn.cl/sparql	Datos.bcn.cl
+http://deepblue.rkbexplorer.com/sparql/	Deep Blue (RKBExplorer)
+http://ndb.publink.lod2.eu/sparql	Deutsche Biographie
+http://dewey.info/sparql.php	Dewey Decimal Classification (DDC)
+http://diavgeia.math.auth.gr/sparql	Diavgeia
+http://italy.rkbexplorer.com/sparql	Diverse Italian ReSIST Partner Institutions (RKBExplorer)
+http://linkeddata.ge.imati.cnr.it:2020/sparql	EARTh
+http://cr.eionet.europa.eu/sparql	EEA Reporting Obligations Database
+http://cr.eionet.europa.eu/sparql	EEA Vocabularies
+http://era.rkbexplorer.com/sparql/	ERA - Australian Research Council publication ratings (RKBExplorer)
+http://agencies.publicdata.eu/sparql	EU Agencies and decentralized bodies (Agencies)
+http://api.talis.com/stores/eupmedia/services/sparql	EU Parliament Media Library
+http://api.talis.com/stores/whoiswho/services/sparql	EU Who Is Who
+http://fintrans.publicdata.eu/sparql	EU: fintrans.publicdata.eu
+http://api.talis.com/stores/eumida/services/sparql	EUMIDA as Linked Data
+http://eur-lex.publicdata.eu/sparql	EUR-Lex as Linked Data
+http://kent.zpr.fer.hr:8080/educationalProgram/sparql	Educational programs - SISVU
+http://webenemasuno.linkeddata.es/sparql	El Viajero's tourism dataset
+http://opendatacommunities.org/sparql	English Index of Multiple Deprivation Ranking 2010
+http://opendatacommunities.org/sparql	English Index of Multiple Deprivation Score 2010
+http://opendatacommunities.org/sparql	English Indices of Multiple Deprivation
+http://opendatacommunities.org/sparql	Index of Multiple Deprivation Ranking, 2007
+http://opendatacommunities.org/sparql	Open Data Communities - Lower layer Super Output Areas
+http://opendatacommunities.org/sparql	Estimated mid-year population 2005
+http://opendatacommunities.org/sparql	Lower Layer Super Output Areas
+http://environment.data.gov.uk/sparql/bwq/query	Environment Agency Bathing Water Quality
+http://api.talis.com/stores/elections/services/sparql	European Election Results
+

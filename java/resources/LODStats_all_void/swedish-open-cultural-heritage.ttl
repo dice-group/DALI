@@ -1,0 +1,459 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://kulturarvsdata.se/ksamsok/api?stylesheet=&x-api=test&method=search&hitsPerPage=50&query=item%3D%22Docka%22+and+create_toTime%3E%3D1700+and+create_fromTime%3C%3D1799>
+    void:classPartition [
+        void:class <http://kulturarvsdata.se/ksamsok#ItemSpecification> ;
+        void:entities 3
+    ], [
+        void:class <http://kulturarvsdata.se/ksamsok#ItemMeasurement> ;
+        void:entities 17
+    ], [
+        void:class <http://kulturarvsdata.se/ksamsok#ItemDescription> ;
+        void:entities 14
+    ], [
+        void:class <info:srw/extension/2/relevancy-1.0score> ;
+        void:entities 50
+    ], [
+        void:class <http://kulturarvsdata.se/ksamsok#Context> ;
+        void:entities 17
+    ], [
+        void:class <http://kulturarvsdata.se/ksamsok#ItemMaterial> ;
+        void:entities 11
+    ], [
+        void:class <http://kulturarvsdata.se/ksamsok#Image> ;
+        void:entities 16
+    ], [
+        void:class <http://kulturarvsdata.se/ksamsok#Entity> ;
+        void:entities 50
+    ], [
+        void:class <http://kulturarvsdata.se/ksamsok#ItemNumber> ;
+        void:entities 2
+    ], [
+        void:class <http://kulturarvsdata.se/ksamsok#ItemName> ;
+        void:entities 5
+    ] ;
+    void:classes 10 ;
+    void:entities 148 ;
+    void:properties 81 ;
+    void:propertyPartition [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://kulturarvsdata.se/ksamsok#spec> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#buildDate> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 50 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#url> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://kulturarvsdata.se/ksamsok#timeText> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 43 ;
+        void:distinctSubjects 11 ;
+        void:property <http://kulturarvsdata.se/ksamsok#placeName> ;
+        void:triples 49
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#province> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#ksamsokVersion> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 5 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemLicense> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#dataQuality> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://kulturarvsdata.se/ksamsok#mediaLicenseUrl> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 16 ;
+        void:property <http://kulturarvsdata.se/ksamsok#qualifier> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 8 ;
+        void:property <http://kulturarvsdata.se/ksamsok#copyright> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemType> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://kulturarvsdata.se/ksamsok#nameAuth> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 30 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemMaterial> ;
+        void:triples 52
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 42 ;
+        void:property <http://kulturarvsdata.se/ksamsok#lastChangedDate> ;
+        void:triples 42
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://kulturarvsdata.se/ksamsok#sameAs> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 17 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemKeyWord> ;
+        void:triples 23
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 7 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemTechnique> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemMotiveWord> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://xmlns.com/foaf/0.1/#fullName> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemNumber> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 50 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#presentation> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 148 ;
+        void:property rdf:type ;
+        void:triples 86
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 17 ;
+        void:property <http://kulturarvsdata.se/ksamsok#isPartOf> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 23 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemSpecification> ;
+        void:triples 23
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 17 ;
+        void:property <http://kulturarvsdata.se/ksamsok#contextType> ;
+        void:triples 27
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 2 ;
+        void:property <http://kulturarvsdata.se/ksamsok#number> ;
+        void:triples 48
+    ], [
+        void:distinctObjects 85 ;
+        void:distinctSubjects 14 ;
+        void:property <http://kulturarvsdata.se/ksamsok#desc> ;
+        void:triples 85
+    ], [
+        void:distinctObjects 29 ;
+        void:distinctSubjects 40 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemClassName> ;
+        void:triples 57
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemDescription> ;
+        void:triples 86
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 8 ;
+        void:property <http://kulturarvsdata.se/ksamsok#provinceName> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 9 ;
+        void:property <http://xmlns.com/foaf/0.1/#name> ;
+        void:triples 32
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#municipality> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 54 ;
+        void:property <http://kulturarvsdata.se/ksamsok#mediaType> ;
+        void:triples 72
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/#gender> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 43 ;
+        void:distinctSubjects 38 ;
+        void:property <http://kulturarvsdata.se/ksamsok#type> ;
+        void:triples 80
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#county> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 6 ;
+        void:property <http://kulturarvsdata.se/ksamsok#municipalityName> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 34 ;
+        void:distinctSubjects 16 ;
+        void:property <http://kulturarvsdata.se/ksamsok#lowresSource> ;
+        void:triples 34
+    ], [
+        void:distinctObjects 65 ;
+        void:distinctSubjects 14 ;
+        void:property <http://kulturarvsdata.se/ksamsok#toTime> ;
+        void:triples 73
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 25 ;
+        void:property <http://kulturarvsdata.se/ksamsok#createdDate> ;
+        void:triples 25
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#parish> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 10 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemMeasurement> ;
+        void:triples 31
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#serviceOrganization> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 20 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemTitle> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemName> ;
+        void:triples 59
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#serviceName> ;
+        void:triples 50
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://kulturarvsdata.se/ksamsok#nameId> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 17 ;
+        void:property <http://kulturarvsdata.se/ksamsok#collection> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 50 ;
+        void:property <http://kulturarvsdata.se/ksamsok#context> ;
+        void:triples 118
+    ], [
+        void:distinctObjects 34 ;
+        void:distinctSubjects 11 ;
+        void:property <http://kulturarvsdata.se/ksamsok#material> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 8 ;
+        void:property <http://kulturarvsdata.se/ksamsok#countryName> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 46 ;
+        void:property <http://kulturarvsdata.se/ksamsok#subject> ;
+        void:triples 46
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemLicenseUrl> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 9 ;
+        void:property <http://kulturarvsdata.se/ksamsok#mediaMotiveWord> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 18 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemClass> ;
+        void:triples 22
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 3 ;
+        void:property <http://kulturarvsdata.se/ksamsok#coordinates> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 60 ;
+        void:distinctSubjects 14 ;
+        void:property <http://kulturarvsdata.se/ksamsok#fromTime> ;
+        void:triples 72
+    ], [
+        void:distinctObjects 34 ;
+        void:distinctSubjects 16 ;
+        void:property <http://kulturarvsdata.se/ksamsok#thumbnailSource> ;
+        void:triples 34
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 14 ;
+        void:property <http://kulturarvsdata.se/ksamsok#contextLabel> ;
+        void:triples 26
+    ], [
+        void:distinctObjects 25 ;
+        void:distinctSubjects 17 ;
+        void:property <http://kulturarvsdata.se/ksamsok#value> ;
+        void:triples 27
+    ], [
+        void:distinctObjects 29 ;
+        void:distinctSubjects 29 ;
+        void:property <http://kulturarvsdata.se/ksamsok#thumbnail> ;
+        void:triples 29
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 17 ;
+        void:property <http://kulturarvsdata.se/ksamsok#unit> ;
+        void:triples 18
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 7 ;
+        void:property <http://kulturarvsdata.se/ksamsok#byline> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://kulturarvsdata.se/ksamsok#hasPart> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 9 ;
+        void:property <http://xmlns.com/foaf/0.1/#title> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 5 ;
+        void:property <http://xmlns.com/foaf/0.1/#firstName> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemColor> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 6 ;
+        void:property <http://xmlns.com/foaf/0.1/#surname> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 1 ;
+        void:property <http://kulturarvsdata.se/ksamsok#highresSource> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 5 ;
+        void:property <http://kulturarvsdata.se/ksamsok#name> ;
+        void:triples 44
+    ], [
+        void:distinctObjects 29 ;
+        void:distinctSubjects 4 ;
+        void:property <http://kulturarvsdata.se/ksamsok#isRelatedTo> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 25 ;
+        void:distinctSubjects 30 ;
+        void:property <http://kulturarvsdata.se/ksamsok#itemLabel> ;
+        void:triples 30
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 26 ;
+        void:property <http://kulturarvsdata.se/ksamsok#image> ;
+        void:triples 34
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 5 ;
+        void:property <http://kulturarvsdata.se/ksamsok#cadastralUnit> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://kulturarvsdata.se/ksamsok#mediaLicense> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://kulturarvsdata.se/ksamsok#country> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 4 ;
+        void:property <http://kulturarvsdata.se/ksamsok#parishName> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://kulturarvsdata.se/ksamsok#isVisualizedBy> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 5 ;
+        void:property <http://kulturarvsdata.se/ksamsok#countyName> ;
+        void:triples 12
+    ] ;
+    void:triples 3389 ;
+    void:vocabulary <http://kulturarvsdata.se/ksamsok>, <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://xmlns.com/foaf/0.1/> ;
+    a void:dataset .
+

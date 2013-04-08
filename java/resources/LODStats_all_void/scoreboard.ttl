@@ -1,0 +1,118 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://scoreboard.lod2.eu/data/scoreboardDataCube.rdf>
+    void:classPartition [
+        void:class qb:AttributeProperty ;
+        void:entities 3
+    ], [
+        void:class qb:DimensionProperty ;
+        void:entities 3
+    ], [
+        void:class <http://ns.aksw.org/spatialHierarchy/Country> ;
+        void:entities 31
+    ], [
+        void:class qb:MeasureProperty ;
+        void:entities 1
+    ], [
+        void:class qb:Observation ;
+        void:entities 18013
+    ], [
+        void:class <http://ns.aksw.org/spatialHierarchy/SpatialArea> ;
+        void:entities 1
+    ], [
+        void:class <http://data.lod2.eu/scoreboard/classes/Indicator> ;
+        void:entities 107
+    ], [
+        void:class <http://data.lod2.eu/scoreboard/classes/Year> ;
+        void:entities 12
+    ] ;
+    void:classes 8 ;
+    void:entities 18171 ;
+    void:properties 14 ;
+    void:propertyPartition [
+        void:distinctObjects 32 ;
+        void:distinctSubjects 18013 ;
+        void:property <http://data.lod2.eu/scoreboard/properties/country> ;
+        void:triples 18013
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 107 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 107
+    ], [
+        void:distinctObjects 87 ;
+        void:distinctSubjects 107 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 107
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 107 ;
+        void:property <http://data.lod2.eu/scoreboard/properties/brkdown> ;
+        void:triples 107
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 31 ;
+        void:property <http://ns.aksw.org/spatialHierarchy/isLocatedIn> ;
+        void:triples 31
+    ], [
+        void:distinctObjects 108 ;
+        void:distinctSubjects 18013 ;
+        void:property <http://data.lod2.eu/scoreboard/properties/indicator> ;
+        void:triples 18013
+    ], [
+        void:distinctObjects 15453 ;
+        void:distinctSubjects 18013 ;
+        void:property <http://data.lod2.eu/scoreboard/properties/value> ;
+        void:triples 18013
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 18013 ;
+        void:property <http://data.lod2.eu/scoreboard/properties/year> ;
+        void:triples 18013
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 18120 ;
+        void:property <http://data.lod2.eu/scoreboard/properties/unit> ;
+        void:triples 18120
+    ], [
+        void:distinctObjects 75 ;
+        void:distinctSubjects 107 ;
+        void:property <http://data.lod2.eu/scoreboard/properties/variable> ;
+        void:triples 107
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 107 ;
+        void:property <http://purl.org/dc/terms/source> ;
+        void:triples 107
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 17390 ;
+        void:distinctSubjects 18171 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 18171
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 18171 ;
+        void:property rdf:type ;
+        void:triples 11022
+    ] ;
+    void:triples 127081 ;
+    void:vocabulary <http://data.lod2.eu/scoreboard>, <http://ns.aksw.org/spatialHierarchy>, <http://purl.org/dc>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:dataset .
+

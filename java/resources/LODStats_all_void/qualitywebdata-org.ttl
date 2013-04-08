@@ -1,0 +1,68 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.w3.org/2007/08/pyRdfa/extract?uri=http://qualitywebdata.org>
+    void:classes 0 ;
+    void:entities 16 ;
+    void:properties 9 ;
+    void:propertyPartition [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 14 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 15 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 26
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 14 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/conformsTo> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/contributor> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/1999/xhtml/vocab#stylesheet> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/date> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 15
+    ] ;
+    void:triples 75 ;
+    void:vocabulary <http://purl.org/dc/terms/>, <http://www.w3.org/1999/xhtml/vocab>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+

@@ -1,0 +1,126 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.productontology.org/dump.rdf>
+    void:classPartition [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Document> ;
+        void:entities 3002
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:entities 11
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 1002
+    ] ;
+    void:classes 4 ;
+    void:entities 4016 ;
+    void:properties 18 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/rights> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#imports> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1000 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 1000
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/contributor> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1000 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 2000
+    ], [
+        void:distinctObjects 2000 ;
+        void:distinctSubjects 1000 ;
+        void:property <http://www.w3.org/2007/05/powder-s#describedby> ;
+        void:triples 2000
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#versionInfo> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1000 ;
+        void:distinctSubjects 1000 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 1000
+    ], [
+        void:distinctObjects 1001 ;
+        void:distinctSubjects 1001 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 1001
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/subject> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2001 ;
+        void:distinctSubjects 1001 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 2001
+    ], [
+        void:distinctObjects 1000 ;
+        void:distinctSubjects 1000 ;
+        void:property <http://xmlns.com/foaf/0.1/page> ;
+        void:triples 1000
+    ], [
+        void:distinctObjects 1001 ;
+        void:distinctSubjects 3002 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 3002
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4016 ;
+        void:property rdf:type ;
+        void:triples 3830
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/license> ;
+        void:triples 1
+    ] ;
+    void:triples 17029 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2007/05/powder-s>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

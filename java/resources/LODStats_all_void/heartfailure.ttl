@@ -1,0 +1,157 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://meriterm.org/heartfailure/heartfailure.rdf>
+    void:classPartition [
+        void:class <http://meriterm.org/heartfailure/datacategories.owl#Definition> ;
+        void:entities 124
+    ], [
+        void:class <http://meriterm.org/heartfailure/datacategories.owl#OriginatingDatabaseName> ;
+        void:entities 14
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 413
+    ], [
+        void:class <http://meriterm.org/heartfailure/tmf.owl#TS> ;
+        void:entities 509
+    ], [
+        void:class <http://meriterm.org/heartfailure/tmf.owl#LS> ;
+        void:entities 346
+    ], [
+        void:class <http://meriterm.org/heartfailure/datacategories.owl#ClassificationCode> ;
+        void:entities 635
+    ] ;
+    void:classes 6 ;
+    void:entities 2298 ;
+    void:properties 23 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 635 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasLinkQuality> ;
+        void:triples 635
+    ], [
+        void:distinctObjects 252 ;
+        void:distinctSubjects 167 ;
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass> ;
+        void:triples 306
+    ], [
+        void:distinctObjects 613 ;
+        void:distinctSubjects 759 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasValue> ;
+        void:triples 759
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 1264 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasOriginatingDatabaseName> ;
+        void:triples 1264
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 2041 ;
+        void:property rdf:type ;
+        void:triples 1802
+    ], [
+        void:distinctObjects 232 ;
+        void:distinctSubjects 257 ;
+        void:property rdf:first ;
+        void:triples 257
+    ], [
+        void:distinctObjects 346 ;
+        void:distinctSubjects 173 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasLS> ;
+        void:triples 346
+    ], [
+        void:distinctObjects 614 ;
+        void:distinctSubjects 662 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasIdentifier> ;
+        void:triples 662
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 509 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasNormativeAuthorization> ;
+        void:triples 509
+    ], [
+        void:distinctObjects 250 ;
+        void:distinctSubjects 257 ;
+        void:property rdf:rest ;
+        void:triples 257
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 173 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 173
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 171 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasConceptType> ;
+        void:triples 171
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 855 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasDomainExpert> ;
+        void:triples 855
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 14 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasName> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 1098 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasOriginatingInstitution> ;
+        void:triples 1098
+    ], [
+        void:distinctObjects 154 ;
+        void:distinctSubjects 166 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 166
+    ], [
+        void:distinctObjects 509 ;
+        void:distinctSubjects 345 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasTS> ;
+        void:triples 509
+    ], [
+        void:distinctObjects 402 ;
+        void:distinctSubjects 509 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#isTerm> ;
+        void:triples 509
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.w3.org/2002/07/owl#unionOf> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 635 ;
+        void:distinctSubjects 338 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasClassificationCode> ;
+        void:triples 801
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 346 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasLanguageIdentifier> ;
+        void:triples 346
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1787 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasElementWorkingStatus> ;
+        void:triples 1787
+    ], [
+        void:distinctObjects 124 ;
+        void:distinctSubjects 124 ;
+        void:property <http://meriterm.org/heartfailure/vocabulary.owl#hasDefinition> ;
+        void:triples 124
+    ] ;
+    void:triples 13704 ;
+    void:vocabulary <http://meriterm.org/heartfailure/vocabulary.owl>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl> ;
+    a void:Dataset .
+

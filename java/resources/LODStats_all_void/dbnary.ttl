@@ -1,0 +1,136 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://kaiko.getalp.org/dbnary/static/lemon/latest/de_dbnary_lemon.ttl>
+    void:classPartition [
+        void:class <http://kaiko.getalp.org/dbnary#vocable> ;
+        void:entities 168001
+    ], [
+        void:class <http://www.monnetproject.eu/lemon#LexicalSense> ;
+        void:entities 89492
+    ], [
+        void:class <http://www.monnetproject.eu/lemon#LexicalEntry> ;
+        void:entities 103174
+    ], [
+        void:class <http://kaiko.getalp.org/dbnary#Equivalent> ;
+        void:entities 440143
+    ] ;
+    void:classes 4 ;
+    void:entities 993487 ;
+    void:properties 20 ;
+    void:propertyPartition [
+        void:distinctObjects 57431 ;
+        void:distinctSubjects 8919 ;
+        void:property <http://kaiko.getalp.org/dbnary#hyponym> ;
+        void:triples 58929
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 800810 ;
+        void:property rdf:type ;
+        void:triples 192538
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.monnetproject.eu/lemon#lexicalVariant> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 103174 ;
+        void:property <http://www.monnetproject.eu/lemon#language> ;
+        void:triples 103174
+    ], [
+        void:distinctObjects 328728 ;
+        void:distinctSubjects 440143 ;
+        void:property <http://kaiko.getalp.org/dbnary#writtenForm> ;
+        void:triples 440143
+    ], [
+        void:distinctObjects 89493 ;
+        void:distinctSubjects 89492 ;
+        void:property <http://www.monnetproject.eu/lemon#definition> ;
+        void:triples 89493
+    ], [
+        void:distinctObjects 30796 ;
+        void:distinctSubjects 13622 ;
+        void:property <http://kaiko.getalp.org/dbnary#antonym> ;
+        void:triples 36063
+    ], [
+        void:distinctObjects 27395 ;
+        void:distinctSubjects 27368 ;
+        void:property <http://kaiko.getalp.org/dbnary#hypernym> ;
+        void:triples 52590
+    ], [
+        void:distinctObjects 101658 ;
+        void:distinctSubjects 103184 ;
+        void:property <http://www.monnetproject.eu/lemon#writtenRep> ;
+        void:triples 103184
+    ], [
+        void:distinctObjects 340 ;
+        void:distinctSubjects 89492 ;
+        void:property <http://kaiko.getalp.org/dbnary#senseNumber> ;
+        void:triples 89492
+    ], [
+        void:distinctObjects 89492 ;
+        void:distinctSubjects 61126 ;
+        void:property <http://www.monnetproject.eu/lemon#sense> ;
+        void:triples 89492
+    ], [
+        void:distinctObjects 60 ;
+        void:distinctSubjects 54814 ;
+        void:property <http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech> ;
+        void:triples 54814
+    ], [
+        void:distinctObjects 103174 ;
+        void:distinctSubjects 100347 ;
+        void:property <http://kaiko.getalp.org/dbnary#refersTo> ;
+        void:triples 103174
+    ], [
+        void:distinctObjects 72410 ;
+        void:distinctSubjects 25638 ;
+        void:property <http://kaiko.getalp.org/dbnary#synonym> ;
+        void:triples 81621
+    ], [
+        void:distinctObjects 103174 ;
+        void:distinctSubjects 103174 ;
+        void:property <http://www.monnetproject.eu/lemon#canonicalForm> ;
+        void:triples 103174
+    ], [
+        void:distinctObjects 2539 ;
+        void:distinctSubjects 440143 ;
+        void:property <http://kaiko.getalp.org/dbnary#targetLanguage> ;
+        void:triples 440143
+    ], [
+        void:distinctObjects 40664 ;
+        void:distinctSubjects 41882 ;
+        void:property <http://kaiko.getalp.org/dbnary#usage> ;
+        void:triples 41882
+    ], [
+        void:distinctObjects 237692 ;
+        void:distinctSubjects 440143 ;
+        void:property <http://kaiko.getalp.org/dbnary#isTranslationOf> ;
+        void:triples 440143
+    ], [
+        void:distinctObjects 85865 ;
+        void:distinctSubjects 89493 ;
+        void:property <http://www.monnetproject.eu/lemon#value> ;
+        void:triples 89493
+    ], [
+        void:distinctObjects 447 ;
+        void:distinctSubjects 103174 ;
+        void:property <http://kaiko.getalp.org/dbnary#partOfSpeech> ;
+        void:triples 103174
+    ] ;
+    void:triples 3320998 ;
+    void:vocabulary <http://kaiko.getalp.org/dbnary>, <http://www.lexinfo.net/ontology/2.0/lexinfo>, <http://www.monnetproject.eu/lemon>, <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:Dataset .
+

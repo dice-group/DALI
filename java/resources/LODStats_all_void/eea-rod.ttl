@@ -1,0 +1,147 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://rod.eionet.europa.eu/instruments.rdf>
+    void:classPartition [
+        void:class <http://rod.eionet.europa.eu/schema.rdf#Instrument> ;
+        void:entities 170
+    ] ;
+    void:classes 1 ;
+    void:entities 170 ;
+    void:properties 24 ;
+    void:propertyPartition [
+        void:distinctObjects 147 ;
+        void:distinctSubjects 155 ;
+        void:property <http://purl.org/dc/terms/valid> ;
+        void:triples 155
+    ], [
+        void:distinctObjects 21 ;
+        void:distinctSubjects 36 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#parentInstrument> ;
+        void:triples 36
+    ], [
+        void:distinctObjects 123 ;
+        void:distinctSubjects 151 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#comment> ;
+        void:triples 151
+    ], [
+        void:distinctObjects 120 ;
+        void:distinctSubjects 158 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#celexref> ;
+        void:triples 158
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 102 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#validatedBy> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 61 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#issuedBy> ;
+        void:triples 61
+    ], [
+        void:distinctObjects 70 ;
+        void:distinctSubjects 145 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#nextUpdate> ;
+        void:triples 145
+    ], [
+        void:distinctObjects 151 ;
+        void:distinctSubjects 166 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 166
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 26 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#lastModified> ;
+        void:triples 26
+    ], [
+        void:distinctObjects 68 ;
+        void:distinctSubjects 143 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#verified> ;
+        void:triples 143
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 170 ;
+        void:property <http://purl.org/dc/terms/creator> ;
+        void:triples 170
+    ], [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 141 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#geographicScope> ;
+        void:triples 141
+    ], [
+        void:distinctObjects 158 ;
+        void:distinctSubjects 164 ;
+        void:property <http://purl.org/dc/terms/abstract> ;
+        void:triples 164
+    ], [
+        void:distinctObjects 162 ;
+        void:distinctSubjects 170 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 170
+    ], [
+        void:distinctObjects 34 ;
+        void:distinctSubjects 159 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#verifiedBy> ;
+        void:triples 159
+    ], [
+        void:distinctObjects 151 ;
+        void:distinctSubjects 166 ;
+        void:property <http://purl.org/dc/terms/alternative> ;
+        void:triples 166
+    ], [
+        void:distinctObjects 112 ;
+        void:distinctSubjects 170 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 170
+    ], [
+        void:distinctObjects 142 ;
+        void:distinctSubjects 170 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#lastUpdate> ;
+        void:triples 170
+    ], [
+        void:distinctObjects 526 ;
+        void:distinctSubjects 144 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#hasObligation> ;
+        void:triples 526
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 170 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#isDraft> ;
+        void:triples 170
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 36 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#ecEntryIntoForce> ;
+        void:triples 36
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 170 ;
+        void:property rdf:type ;
+        void:triples 170
+    ], [
+        void:distinctObjects 161 ;
+        void:distinctSubjects 167 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#instrumentURL> ;
+        void:triples 167
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property <http://rod.eionet.europa.eu/schema.rdf#ecAccession> ;
+        void:triples 13
+    ] ;
+    void:triples 3535 ;
+    void:vocabulary <http://purl.org/dc/terms/>, <http://rod.eionet.europa.eu/schema.rdf>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+

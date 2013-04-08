@@ -1,0 +1,341 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.dbis.informatik.uni-goettingen.de/Mondial/Mondial-RDF/mondial.rdf>
+    void:classPartition [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Membership> ;
+        void:entities 8012
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#EthnicProportion> ;
+        void:entities 551
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#SpokenBy> ;
+        void:entities 160
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Island> ;
+        void:entities 281
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Province> ;
+        void:entities 1531
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Mountain> ;
+        void:entities 242
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Sea> ;
+        void:entities 40
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#City> ;
+        void:entities 3261
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Estuary> ;
+        void:entities 220
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Border> ;
+        void:entities 325
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#BelievedBy> ;
+        void:entities 503
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Encompassed> ;
+        void:entities 245
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Country> ;
+        void:entities 241
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Desert> ;
+        void:entities 62
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Organization> ;
+        void:entities 152
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Lake> ;
+        void:entities 132
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Source> ;
+        void:entities 216
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#River> ;
+        void:entities 221
+    ], [
+        void:class <http://www.semwebtech.org/mondial/10/meta#Continent> ;
+        void:entities 5
+    ] ;
+    void:classes 19 ;
+    void:entities 16400 ;
+    void:properties 52 ;
+    void:propertyPartition [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 41 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#dependentOf> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 241 ;
+        void:distinctSubjects 245 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#encompassedArea> ;
+        void:triples 245
+    ], [
+        void:distinctObjects 216 ;
+        void:distinctSubjects 216 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#hasSource> ;
+        void:triples 216
+    ], [
+        void:distinctObjects 33 ;
+        void:distinctSubjects 175 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#wasDependentOf> ;
+        void:triples 175
+    ], [
+        void:distinctObjects 108 ;
+        void:distinctSubjects 160 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#gdpInd> ;
+        void:triples 160
+    ], [
+        void:distinctObjects 1461 ;
+        void:distinctSubjects 1414 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#locatedIn> ;
+        void:triples 5004
+    ], [
+        void:distinctObjects 64 ;
+        void:distinctSubjects 211 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#belongsToIslands> ;
+        void:triples 211
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 40 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#mergesWith> ;
+        void:triples 126
+    ], [
+        void:distinctObjects 140 ;
+        void:distinctSubjects 146 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#established> ;
+        void:triples 146
+    ], [
+        void:distinctObjects 234 ;
+        void:distinctSubjects 1214 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#ofCountry> ;
+        void:triples 1214
+    ], [
+        void:distinctObjects 61 ;
+        void:distinctSubjects 123 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#hasHeadq> ;
+        void:triples 123
+    ], [
+        void:distinctObjects 183 ;
+        void:distinctSubjects 230 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#populationGrowth> ;
+        void:triples 230
+    ], [
+        void:distinctObjects 5522 ;
+        void:distinctSubjects 6168 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#name> ;
+        void:triples 6168
+    ], [
+        void:distinctObjects 126 ;
+        void:distinctSubjects 149 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#depth> ;
+        void:triples 149
+    ], [
+        void:distinctObjects 120 ;
+        void:distinctSubjects 209 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#inflation> ;
+        void:triples 209
+    ], [
+        void:distinctObjects 276 ;
+        void:distinctSubjects 551 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#onEthnicGroup> ;
+        void:triples 551
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 16400 ;
+        void:property rdf:type ;
+        void:triples 15722
+    ], [
+        void:distinctObjects 37 ;
+        void:distinctSubjects 8291 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#type> ;
+        void:triples 8291
+    ], [
+        void:distinctObjects 152 ;
+        void:distinctSubjects 8012 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#inOrganization> ;
+        void:triples 8012
+    ], [
+        void:distinctObjects 43 ;
+        void:distinctSubjects 503 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#onReligion> ;
+        void:triples 503
+    ], [
+        void:distinctObjects 204 ;
+        void:distinctSubjects 228 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#gdpTotal> ;
+        void:triples 228
+    ], [
+        void:distinctObjects 152 ;
+        void:distinctSubjects 152 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#abbrev> ;
+        void:triples 152
+    ], [
+        void:distinctObjects 1531 ;
+        void:distinctSubjects 79 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#hasProvince> ;
+        void:triples 1531
+    ], [
+        void:distinctObjects 227 ;
+        void:distinctSubjects 8012 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#ofMember> ;
+        void:triples 8012
+    ], [
+        void:distinctObjects 4156 ;
+        void:distinctSubjects 4462 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#population> ;
+        void:triples 4462
+    ], [
+        void:distinctObjects 176 ;
+        void:distinctSubjects 187 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#independenceDate> ;
+        void:triples 187
+    ], [
+        void:distinctObjects 220 ;
+        void:distinctSubjects 220 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#hasEstuary> ;
+        void:triples 220
+    ], [
+        void:distinctObjects 570 ;
+        void:distinctSubjects 730 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#elevation> ;
+        void:triples 730
+    ], [
+        void:distinctObjects 1164 ;
+        void:distinctSubjects 1962 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#latitude> ;
+        void:triples 1962
+    ], [
+        void:distinctObjects 101 ;
+        void:distinctSubjects 165 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#gdpAgri> ;
+        void:triples 165
+    ], [
+        void:distinctObjects 92 ;
+        void:distinctSubjects 264 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#inMountains> ;
+        void:triples 264
+    ], [
+        void:distinctObjects 73 ;
+        void:distinctSubjects 239 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#government> ;
+        void:triples 239
+    ], [
+        void:distinctObjects 39 ;
+        void:distinctSubjects 32 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#flowsThrough> ;
+        void:triples 39
+    ], [
+        void:distinctObjects 167 ;
+        void:distinctSubjects 325 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#bordering> ;
+        void:triples 650
+    ], [
+        void:distinctObjects 112 ;
+        void:distinctSubjects 160 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#gdpServ> ;
+        void:triples 160
+    ], [
+        void:distinctObjects 201 ;
+        void:distinctSubjects 228 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#infantMortality> ;
+        void:triples 228
+    ], [
+        void:distinctObjects 39 ;
+        void:distinctSubjects 281 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#locatedInWater> ;
+        void:triples 367
+    ], [
+        void:distinctObjects 1668 ;
+        void:distinctSubjects 1763 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#capital> ;
+        void:triples 1763
+    ], [
+        void:distinctObjects 3261 ;
+        void:distinctSubjects 1754 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#hasCity> ;
+        void:triples 6218
+    ], [
+        void:distinctObjects 2185 ;
+        void:distinctSubjects 2355 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#area> ;
+        void:triples 2355
+    ], [
+        void:distinctObjects 151 ;
+        void:distinctSubjects 296 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#flowsInto> ;
+        void:triples 296
+    ], [
+        void:distinctObjects 166 ;
+        void:distinctSubjects 166 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#neighbor> ;
+        void:triples 649
+    ], [
+        void:distinctObjects 241 ;
+        void:distinctSubjects 241 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#carCode> ;
+        void:triples 241
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 245 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#encompassedBy> ;
+        void:triples 245
+    ], [
+        void:distinctObjects 1399 ;
+        void:distinctSubjects 1962 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#longitude> ;
+        void:triples 1962
+    ], [
+        void:distinctObjects 298 ;
+        void:distinctSubjects 1459 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#percent> ;
+        void:triples 1459
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 241 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#encompassed> ;
+        void:triples 245
+    ], [
+        void:distinctObjects 215 ;
+        void:distinctSubjects 1132 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#locatedAt> ;
+        void:triples 1194
+    ], [
+        void:distinctObjects 148 ;
+        void:distinctSubjects 535 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#locatedOnIsland> ;
+        void:triples 535
+    ], [
+        void:distinctObjects 83 ;
+        void:distinctSubjects 160 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#onLanguage> ;
+        void:triples 160
+    ], [
+        void:distinctObjects 152 ;
+        void:distinctSubjects 227 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#isMember> ;
+        void:triples 8012
+    ], [
+        void:distinctObjects 445 ;
+        void:distinctSubjects 540 ;
+        void:property <http://www.semwebtech.org/mondial/10/meta#length> ;
+        void:triples 540
+    ] ;
+    void:triples 93644 ;
+    void:vocabulary <http://www.semwebtech.org/mondial/10/meta>, <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:Dataset .
+

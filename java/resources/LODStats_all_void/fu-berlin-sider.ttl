@@ -1,0 +1,91 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www4.wiwiss.fu-berlin.de/sider/sider_dump.nt.bz2>
+    void:classPartition [
+        void:class <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/side_effects> ;
+        void:entities 1737
+    ], [
+        void:class rdf:Property ;
+        void:entities 10
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 2
+    ], [
+        void:class <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugs> ;
+        void:entities 924
+    ] ;
+    void:classes 4 ;
+    void:entities 2674 ;
+    void:properties 11 ;
+    void:propertyPartition [
+        void:distinctObjects 925 ;
+        void:distinctSubjects 925 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/stitchId> ;
+        void:triples 925
+    ], [
+        void:distinctObjects 2398 ;
+        void:distinctSubjects 1737 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName> ;
+        void:triples 2400
+    ], [
+        void:distinctObjects 1737 ;
+        void:distinctSubjects 1737 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectId> ;
+        void:triples 1737
+    ], [
+        void:distinctObjects 2956 ;
+        void:distinctSubjects 924 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName> ;
+        void:triples 2956
+    ], [
+        void:distinctObjects 2669 ;
+        void:distinctSubjects 2668 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 2670
+    ], [
+        void:distinctObjects 5230 ;
+        void:distinctSubjects 1788 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 5269
+    ], [
+        void:distinctObjects 3586 ;
+        void:distinctSubjects 2662 ;
+        void:property <http://xmlns.com/foaf/0.1/page> ;
+        void:triples 3586
+    ], [
+        void:distinctObjects 9936 ;
+        void:distinctSubjects 785 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 9979
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 2673 ;
+        void:property rdf:type ;
+        void:triples 1492
+    ], [
+        void:distinctObjects 1705 ;
+        void:distinctSubjects 893 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffect> ;
+        void:triples 68423
+    ], [
+        void:distinctObjects 924 ;
+        void:distinctSubjects 924 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/siderDrugId> ;
+        void:triples 924
+    ] ;
+    void:triples 193249 ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www4.wiwiss.fu-berlin.de/sider>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

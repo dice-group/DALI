@@ -1,0 +1,438 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://source.data.gov.uk/data/statistics/administrative-geography/2009-11-20/admin-geo.tar.gz>
+    void:classPartition [
+        void:class <http://statistics.data.gov.uk/def/geography/LocalEducationAuthorityArea> ;
+        void:entities 172
+    ], [
+        void:class <http://statistics.data.gov.uk/def/administrative-geography/MetropolitanCounty> ;
+        void:entities 7
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/MetropolitanDistrict> ;
+        void:entities 36
+    ], [
+        void:class <http://statistics.data.gov.uk/def/administrative-geography/Country> ;
+        void:entities 4
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/MetropolitanDistrictWard> ;
+        void:entities 815
+    ], [
+        void:class <http://www.w3.org/2006/http#GetRequest> ;
+        void:entities 19
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/Borough> ;
+        void:entities 74
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/EuropeanRegion> ;
+        void:entities 12
+    ], [
+        void:class <http://statistics.data.gov.uk/def/geography/EducationAndLearningWalesRegionalOffice> ;
+        void:entities 51
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/LondonBorough> ;
+        void:entities 33
+    ], [
+        void:class <http://statistics.data.gov.uk/def/administrative-geography/County> ;
+        void:entities 27
+    ], [
+        void:class void:Dataset ;
+        void:entities 14
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/DistrictWard> ;
+        void:entities 4585
+    ], [
+        void:class <http://statistics.data.gov.uk/def/administrative-geography/LocalAuthority> ;
+        void:entities 478
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/WestminsterConstituency> ;
+        void:entities 646
+    ], [
+        void:class <http://statistics.data.gov.uk/def/geography/EducationAndLibraryBoardArea> ;
+        void:entities 5
+    ], [
+        void:class <http://purl.org/net/provenance/types#HTTPBasedDataAccess> ;
+        void:entities 19
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Datatype> ;
+        void:entities 1
+    ], [
+        void:class <http://statistics.data.gov.uk/def/geography/EducationAndLearningWalesRegion> ;
+        void:entities 51
+    ], [
+        void:class <http://statistics.data.gov.uk/def/geography/LocalEducationAuthority> ;
+        void:entities 172
+    ], [
+        void:class <http://statistics.data.gov.uk/def/geography/LocalLearningAndSkillsCouncil> ;
+        void:entities 51
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/UnitaryAuthority> ;
+        void:entities 110
+    ], [
+        void:class <http://statistics.data.gov.uk/def/administrative-geography/LocalAuthorityDistrict> ;
+        void:entities 444
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/GovernmentOfficeRegion> ;
+        void:entities 9
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/UnitaryAuthorityWard> ;
+        void:entities 1464
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/UnitaryAuthorityElectoralDivision> ;
+        void:entities 1282
+    ], [
+        void:class <http://statistics.data.gov.uk/def/geography/LocalLearningAndSkillsCouncilArea> ;
+        void:entities 51
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/County> ;
+        void:entities 27
+    ], [
+        void:class <http://statistics.data.gov.uk/def/geography/EducationAndLibraryBoard> ;
+        void:entities 5
+    ], [
+        void:class <http://purl.org/net/provenance/ns#DataCreation> ;
+        void:entities 84
+    ], [
+        void:class rdf:Property ;
+        void:entities 19
+    ], [
+        void:class <http://statistics.data.gov.uk/def/administrative-geography/NonMetropolitanCounty> ;
+        void:entities 34
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/District> ;
+        void:entities 201
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/Ward> ;
+        void:entities 9759
+    ], [
+        void:class void:Linkset ;
+        void:entities 89
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Property> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 14
+    ], [
+        void:class <http://data.ordnancesurvey.co.uk/ontology/admingeo/LondonBoroughWard> ;
+        void:entities 649
+    ] ;
+    void:classes 38 ;
+    void:entities 34959 ;
+    void:properties 60 ;
+    void:propertyPartition [
+        void:distinctObjects 9423 ;
+        void:distinctSubjects 8654 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 9423
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 84 ;
+        void:property void:subjectsTarget ;
+        void:triples 84
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/format> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 478 ;
+        void:distinctSubjects 478 ;
+        void:property <http://statistics.data.gov.uk/def/administrative-geography/localAuthority> ;
+        void:triples 478
+    ], [
+        void:distinctObjects 1641 ;
+        void:distinctSubjects 1880 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 1881
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 84 ;
+        void:property <http://purl.org/net/provenance/ns#performedBy> ;
+        void:triples 84
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 14 ;
+        void:property void:uriRegexPattern ;
+        void:triples 30
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 24 ;
+        void:property void:dataDump ;
+        void:triples 24
+    ], [
+        void:distinctObjects 47 ;
+        void:distinctSubjects 8297 ;
+        void:property <http://statistics.data.gov.uk/def/geography/localLearningAndSkillsCouncilArea> ;
+        void:triples 8297
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://statistics.data.gov.uk/def/geography/educationAndLibraryBoard> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 646 ;
+        void:distinctSubjects 12 ;
+        void:property <http://statistics.data.gov.uk/def/electoral-geography/constituency> ;
+        void:triples 646
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 172 ;
+        void:distinctSubjects 376 ;
+        void:property <http://statistics.data.gov.uk/def/geography/localEducationAuthorityArea> ;
+        void:triples 376
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 12717 ;
+        void:property rdf:type ;
+        void:triples 12474
+    ], [
+        void:distinctObjects 434 ;
+        void:distinctSubjects 9813 ;
+        void:property <http://statistics.data.gov.uk/def/administrative-geography/district> ;
+        void:triples 10855
+    ], [
+        void:distinctObjects 113 ;
+        void:distinctSubjects 32 ;
+        void:property void:subset ;
+        void:triples 113
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 14 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 14 ;
+        void:property void:vocabulary ;
+        void:triples 78
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property <http://purl.org/net/provenance/types#exchangedHTTPMessage> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 279 ;
+        void:distinctSubjects 279 ;
+        void:property <http://statistics.data.gov.uk/def/geography/coverage> ;
+        void:triples 279
+    ], [
+        void:distinctObjects 19 ;
+        void:distinctSubjects 19 ;
+        void:property <http://purl.org/net/provenance/ns#retrievedBy> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 11536 ;
+        void:distinctSubjects 12450 ;
+        void:property <http://www.w3.org/2004/02/skos/core#notation> ;
+        void:triples 12450
+    ], [
+        void:distinctObjects 8908 ;
+        void:distinctSubjects 9884 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 9902
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 8339 ;
+        void:property <http://statistics.data.gov.uk/def/administrative-geography/region> ;
+        void:triples 8347
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 26 ;
+        void:property <http://statistics.data.gov.uk/def/geography/educationAndLibraryBoardArea> ;
+        void:triples 26
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 13 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 10889 ;
+        void:distinctSubjects 1236 ;
+        void:property <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> ;
+        void:triples 55385
+    ], [
+        void:distinctObjects 1236 ;
+        void:distinctSubjects 10889 ;
+        void:property <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/containedBy> ;
+        void:triples 55385
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 881 ;
+        void:property <http://statistics.data.gov.uk/def/geography/educationAndLearningWalesRegion> ;
+        void:triples 881
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 10243 ;
+        void:property <http://statistics.data.gov.uk/def/administrative-geography/country> ;
+        void:triples 10243
+    ], [
+        void:distinctObjects 172 ;
+        void:distinctSubjects 172 ;
+        void:property <http://statistics.data.gov.uk/def/geography/localEducationAuthority> ;
+        void:triples 172
+    ], [
+        void:distinctObjects 209 ;
+        void:distinctSubjects 611 ;
+        void:property <http://statistics.data.gov.uk/def/geography/localEducationBody> ;
+        void:triples 611
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/hasPart> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 34 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 34
+    ], [
+        void:distinctObjects 22 ;
+        void:distinctSubjects 89 ;
+        void:property void:linkPredicate ;
+        void:triples 89
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 103 ;
+        void:property <http://purl.org/net/provenance/ns#performedAt> ;
+        void:triples 103
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 6 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 14 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 51 ;
+        void:distinctSubjects 51 ;
+        void:property <http://statistics.data.gov.uk/def/geography/educationAndLearningWalesRegionalOffice> ;
+        void:triples 51
+    ], [
+        void:distinctObjects 10784 ;
+        void:distinctSubjects 12109 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 12838
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.w3.org/2004/02/skos/core#note> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 7207 ;
+        void:property <http://statistics.data.gov.uk/def/administrative-geography/county> ;
+        void:triples 7279
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 646 ;
+        void:property <http://statistics.data.gov.uk/def/electoral-geography/region> ;
+        void:triples 646
+    ], [
+        void:distinctObjects 9759 ;
+        void:distinctSubjects 1184 ;
+        void:property <http://statistics.data.gov.uk/def/electoral-geography/ward> ;
+        void:triples 52933
+    ], [
+        void:distinctObjects 42 ;
+        void:distinctSubjects 42 ;
+        void:property <http://purl.org/net/provenance/ns#usedGuideline> ;
+        void:triples 42
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 19 ;
+        void:property <http://www.w3.org/2006/http#requestURI> ;
+        void:triples 19
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 12 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 84 ;
+        void:distinctSubjects 84 ;
+        void:property <http://purl.org/net/provenance/ns#createdBy> ;
+        void:triples 84
+    ], [
+        void:distinctObjects 646 ;
+        void:distinctSubjects 9771 ;
+        void:property <http://statistics.data.gov.uk/def/electoral-geography/parliamentaryConstituency> ;
+        void:triples 10405
+    ], [
+        void:distinctObjects 45 ;
+        void:distinctSubjects 42 ;
+        void:property <http://purl.org/net/provenance/ns#usedData> ;
+        void:triples 45
+    ], [
+        void:distinctObjects 402 ;
+        void:distinctSubjects 224 ;
+        void:property <http://statistics.data.gov.uk/def/administrative-geography/localAuthorityDistrict> ;
+        void:triples 756
+    ], [
+        void:distinctObjects 51 ;
+        void:distinctSubjects 51 ;
+        void:property <http://statistics.data.gov.uk/def/geography/localLearningAndSkillsCouncil> ;
+        void:triples 51
+    ], [
+        void:distinctObjects 21683 ;
+        void:distinctSubjects 31417 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 32284
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 84 ;
+        void:property void:objectsTarget ;
+        void:triples 84
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 14 ;
+        void:property void:exampleResource ;
+        void:triples 16
+    ], [
+        void:distinctObjects 478 ;
+        void:distinctSubjects 478 ;
+        void:property <http://statistics.data.gov.uk/def/administrative-geography/coverage> ;
+        void:triples 478
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 5 ;
+        void:property void:target ;
+        void:triples 10
+    ], [
+        void:distinctObjects 49 ;
+        void:distinctSubjects 70 ;
+        void:property <http://purl.org/net/provenance/ns#containedBy> ;
+        void:triples 106
+    ] ;
+    void:triples 343733 ;
+    void:vocabulary <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/>, <http://purl.org/dc/terms/>, <http://purl.org/net/provenance/ns>, <http://purl.org/net/provenance/types>, <http://rdfs.org/ns/void>, <http://statistics.data.gov.uk/def/administrative-geography/>, <http://statistics.data.gov.uk/def/electoral-geography/>, <http://statistics.data.gov.uk/def/geography/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core>, <http://www.w3.org/2006/http>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

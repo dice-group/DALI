@@ -1,0 +1,808 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.languagelibrary.eu/owl/simple/inds/simpleallindividuals.owl>
+    void:classPartition [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Unit_of_measurement> ;
+        void:entities 4
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Modal_Event> ;
+        void:entities 14
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Telic> ;
+        void:entities 28
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Acquire_Knowledge> ;
+        void:entities 9
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Natural_substance> ;
+        void:entities 133
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cause_Change_of_State> ;
+        void:entities 22
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Non_Relational_Act> ;
+        void:entities 10
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Artifactual_area> ;
+        void:entities 21
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Profession> ;
+        void:entities 170
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Material> ;
+        void:entities 2
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Judgement> ;
+        void:entities 2
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Entity> ;
+        void:entities 13
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Psych_property> ;
+        void:entities 58
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Change> ;
+        void:entities 2
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Social_status> ;
+        void:entities 64
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cause_Motion> ;
+        void:entities 2
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Directive_Speech_Act> ;
+        void:entities 6
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cause_Experience_Event> ;
+        void:entities 2
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Vehicle> ;
+        void:entities 42
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Artifact_Food> ;
+        void:entities 44
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Color> ;
+        void:entities 63
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        void:entities 5343
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Organic_entity> ;
+        void:entities 4
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Perception> ;
+        void:entities 15
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Flavouring> ;
+        void:entities 24
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Concrete_Entity> ;
+        void:entities 33
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Part> ;
+        void:entities 165
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cognitive_Fact> ;
+        void:entities 7
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Drink> ;
+        void:entities 1
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Artwork> ;
+        void:entities 34
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Give_Knowledge> ;
+        void:entities 8
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Body_Part> ;
+        void:entities 126
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Animal> ;
+        void:entities 13
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Copy_Creation> ;
+        void:entities 4
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cause_Constitutive_Change> ;
+        void:entities 7
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Opening> ;
+        void:entities 28
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Role> ;
+        void:entities 8
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Expressive_Speech_Act> ;
+        void:entities 14
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Human_Group> ;
+        void:entities 162
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Sign> ;
+        void:entities 9
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Container> ;
+        void:entities 94
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Convention> ;
+        void:entities 52
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Purpose_Act> ;
+        void:entities 60
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Stimulus> ;
+        void:entities 14
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Fruit> ;
+        void:entities 55
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Reporting_Event> ;
+        void:entities 5
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cause_Relational_Change> ;
+        void:entities 2
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Relational_Act> ;
+        void:entities 22
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Transaction> ;
+        void:entities 3
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Plant> ;
+        void:entities 224
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Representation> ;
+        void:entities 60
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Patient_of_Event> ;
+        void:entities 11
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Language> ;
+        void:entities 110
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Location> ;
+        void:entities 34
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Building> ;
+        void:entities 170
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Disease> ;
+        void:entities 61
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Number> ;
+        void:entities 10
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Substance_food> ;
+        void:entities 106
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Act> ;
+        void:entities 31
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Earth_animal> ;
+        void:entities 123
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Physical_power> ;
+        void:entities 6
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Change_of_Possession> ;
+        void:entities 2
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cooperative_Speech_Act> ;
+        void:entities 13
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Move> ;
+        void:entities 6
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Micro-Organism> ;
+        void:entities 12
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Symbolic_Creation> ;
+        void:entities 30
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Flower> ;
+        void:entities 45
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Social_Property> ;
+        void:entities 4
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Artifact> ;
+        void:entities 39
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cooperative_Activity> ;
+        void:entities 4
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Relational_Change> ;
+        void:entities 1
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Area> ;
+        void:entities 25
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Agent_of_temporary_activity> ;
+        void:entities 43
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Agent_of_persistent_activity> ;
+        void:entities 69
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Experience_Event> ;
+        void:entities 19
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Aspectual> ;
+        void:entities 3
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#State> ;
+        void:entities 25
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Institution> ;
+        void:entities 77
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Information> ;
+        void:entities 204
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Group> ;
+        void:entities 58
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Furniture> ;
+        void:entities 31
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Vegetable> ;
+        void:entities 53
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Phenomenon> ;
+        void:entities 94
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Semiotic_artifact> ;
+        void:entities 231
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Instrument> ;
+        void:entities 218
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Metalanguage> ;
+        void:entities 9
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Movement_of_thought> ;
+        void:entities 102
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Food> ;
+        void:entities 17
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Physical_property> ;
+        void:entities 13
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Artifactual_drink> ;
+        void:entities 30
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Exist> ;
+        void:entities 3
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Shape> ;
+        void:entities 17
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Kinship> ;
+        void:entities 19
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cognitive_Event> ;
+        void:entities 13
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cause_Act> ;
+        void:entities 3
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Constitutive_Change> ;
+        void:entities 1
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Human> ;
+        void:entities 69
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Geopolitical_location> ;
+        void:entities 32
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Water_animal> ;
+        void:entities 64
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Stative_Location> ;
+        void:entities 2
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Change_of_Location> ;
+        void:entities 1
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Natural_Transition> ;
+        void:entities 1
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Moral_standard> ;
+        void:entities 9
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cause_Change_Location> ;
+        void:entities 3
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cause_Natural_Transition> ;
+        void:entities 3
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cause_Change> ;
+        void:entities 5
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Time> ;
+        void:entities 41
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Abstract_Entity> ;
+        void:entities 37
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#VegetalEntity> ;
+        void:entities 15
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Mental_Creation> ;
+        void:entities 11
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Identificational_State> ;
+        void:entities 3
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Living_Entity> ;
+        void:entities 11
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Physical_Creation> ;
+        void:entities 3
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Domain> ;
+        void:entities 78
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Relational_State> ;
+        void:entities 7
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Clothing> ;
+        void:entities 49
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Creation> ;
+        void:entities 5
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Change_of_State> ;
+        void:entities 10
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Speech_Act> ;
+        void:entities 16
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Event> ;
+        void:entities 48
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Air_animal> ;
+        void:entities 34
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Money> ;
+        void:entities 19
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Physical_entity> ;
+        void:entities 18
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Psychological_Event> ;
+        void:entities 10
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#D_3_Location> ;
+        void:entities 29
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cause_Change_of_Value> ;
+        void:entities 6
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Property> ;
+        void:entities 16
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Change_of_Value> ;
+        void:entities 2
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Constitutive> ;
+        void:entities 76
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Cause_Aspectual> ;
+        void:entities 4
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Substance> ;
+        void:entities 98
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Ideo> ;
+        void:entities 17
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Artifactual_material> ;
+        void:entities 88
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#People> ;
+        void:entities 118
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Quality> ;
+        void:entities 19
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Agentive> ;
+        void:entities 15
+    ], [
+        void:class <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#Amount> ;
+        void:entities 92
+    ] ;
+    void:classes 138 ;
+    void:entities 5344 ;
+    void:properties 74 ;
+    void:propertyPartition [
+        void:distinctObjects 102 ;
+        void:distinctSubjects 102 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyHumanGroup-Building> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 34 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasUsedfor> ;
+        void:triples 37
+    ], [
+        void:distinctObjects 86 ;
+        void:distinctSubjects 182 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasMadeof> ;
+        void:triples 269
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 179 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasIsamemberof> ;
+        void:triples 191
+    ], [
+        void:distinctObjects 81 ;
+        void:distinctSubjects 173 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasHasasmember> ;
+        void:triples 194
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasConstitutiveactivity> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 40 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyVegetalEntity-Colour> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 177 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasUsedas> ;
+        void:triples 180
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasSuccessorof> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 16 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasUsedagainst> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 28 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasUses> ;
+        void:triples 28
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 58 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasQuantifies> ;
+        void:triples 59
+    ], [
+        void:distinctObjects 181 ;
+        void:distinctSubjects 354 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasHasaspart> ;
+        void:triples 540
+    ], [
+        void:distinctObjects 208 ;
+        void:distinctSubjects 208 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyPeople-Language> ;
+        void:triples 208
+    ], [
+        void:distinctObjects 197 ;
+        void:distinctSubjects 415 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasIsapartof> ;
+        void:triples 493
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 65 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyPlant-Substance> ;
+        void:triples 65
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 81 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasCreatedby> ;
+        void:triples 81
+    ], [
+        void:distinctObjects 63 ;
+        void:distinctSubjects 63 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyAgentofpersistentactivity-Profession> ;
+        void:triples 63
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPurpose> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasTelic> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasMeasuredby> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 121 ;
+        void:distinctSubjects 187 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasConcerns> ;
+        void:triples 211
+    ], [
+        void:distinctObjects 138 ;
+        void:distinctSubjects 5344 ;
+        void:property rdf:type ;
+        void:triples 9800
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasMeasures> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasRelates> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 71 ;
+        void:distinctSubjects 71 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyHumanGroup-Institution> ;
+        void:triples 71
+    ], [
+        void:distinctObjects 26 ;
+        void:distinctSubjects 30 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasDerivedfrom> ;
+        void:triples 31
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 13 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasKinship> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPropertyof> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 40 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyPlant-Flavouring> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 147 ;
+        void:distinctSubjects 147 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyContainer-Amount> ;
+        void:triples 147
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 14 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyArtifactualMaterial-Artwork> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 90 ;
+        void:distinctSubjects 90 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyPlant-Flower> ;
+        void:triples 90
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 15 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasHasasproperty> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 48 ;
+        void:distinctSubjects 48 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyPlant-Fruit> ;
+        void:triples 48
+    ], [
+        void:distinctObjects 717 ;
+        void:distinctSubjects 720 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasSynonym> ;
+        void:triples 951
+    ], [
+        void:distinctObjects 68 ;
+        void:distinctSubjects 68 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyAnimal-Material> ;
+        void:triples 68
+    ], [
+        void:distinctObjects 657 ;
+        void:distinctSubjects 5182 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasIsa> ;
+        void:triples 5182
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasCauses> ;
+        void:triples 12
+    ], [
+        void:distinctObjects 24 ;
+        void:distinctSubjects 54 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasAffects> ;
+        void:triples 57
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 10 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyNaturalSubstance-Artwork> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasTypicalLocation> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 14 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyOpening-Artifact> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPrecedes> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 31 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasIsin> ;
+        void:triples 32
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 10 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasTypicalof> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 16 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasIsafollowerof> ;
+        void:triples 16
+    ], [
+        void:distinctObjects 97 ;
+        void:distinctSubjects 97 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyPlant-Vegetable> ;
+        void:triples 97
+    ], [
+        void:distinctObjects 178 ;
+        void:distinctSubjects 188 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasProducedby> ;
+        void:triples 189
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasAffectedby> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasMetaphor> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 9 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasResultingstate> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 156 ;
+        void:distinctSubjects 184 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasProduces> ;
+        void:triples 195
+    ], [
+        void:distinctObjects 36 ;
+        void:distinctSubjects 47 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasNounNoun> ;
+        void:triples 47
+    ], [
+        void:distinctObjects 12 ;
+        void:distinctSubjects 17 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasInstrument> ;
+        void:triples 17
+    ], [
+        void:distinctObjects 5266 ;
+        void:distinctSubjects 5343 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 5343
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 14 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasAgentive> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 21 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasUsedby> ;
+        void:triples 22
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 245 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasContains> ;
+        void:triples 314
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 29 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasCausedby> ;
+        void:triples 30
+    ], [
+        void:distinctObjects 102 ;
+        void:distinctSubjects 102 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyBuilding-Institution> ;
+        void:triples 102
+    ], [
+        void:distinctObjects 61 ;
+        void:distinctSubjects 63 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyConvention-Semioticartifact> ;
+        void:triples 63
+    ], [
+        void:distinctObjects 5343 ;
+        void:distinctSubjects 5343 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 5343
+    ], [
+        void:distinctObjects 200 ;
+        void:distinctSubjects 200 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyAnimal-Food> ;
+        void:triples 200
+    ], [
+        void:distinctObjects 54 ;
+        void:distinctSubjects 54 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyHumanGroup-GeopoliticalLocation> ;
+        void:triples 54
+    ], [
+        void:distinctObjects 386 ;
+        void:distinctSubjects 386 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemySemioticartifact-Information> ;
+        void:triples 387
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyChangeofvalue-Causechangeofvalue> ;
+        void:triples 4
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 57 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasHasascolour> ;
+        void:triples 61
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 40 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemyPlant-ArtifactualDrink> ;
+        void:triples 40
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 79 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasConstitutive> ;
+        void:triples 91
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 11 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasLivesin> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 7 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasHasaseffect> ;
+        void:triples 13
+    ], [
+        void:distinctObjects 65 ;
+        void:distinctSubjects 65 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasPolysemySubstance-Colour> ;
+        void:triples 65
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl#hasResultingfrom> ;
+        void:triples 5
+    ] ;
+    void:triples 33042 ;
+    void:vocabulary <http://www.languagelibrary.eu/owl/simple/simple_ontology.owl>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+

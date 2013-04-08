@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://purl.org/hcls/2007/kb-sources/mesh-qualified-headings.ttl.gz>
+    void:classes 0 ;
+    void:entities 546922 ;
+    void:properties 3 ;
+    void:propertyPartition [
+        void:distinctObjects 498 ;
+        void:distinctSubjects 546922 ;
+        void:property <http://purl.org/science/owl/sciencecommons/is_qualified_by> ;
+        void:triples 546922
+    ], [
+        void:distinctObjects 23380 ;
+        void:distinctSubjects 546922 ;
+        void:property <http://www.w3.org/2004/02/skos/core#broader> ;
+        void:triples 546922
+    ], [
+        void:distinctObjects 546922 ;
+        void:distinctSubjects 546922 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 546922
+    ] ;
+    void:triples 1640766 ;
+    void:vocabulary <http://purl.org/science>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:dataset .
+

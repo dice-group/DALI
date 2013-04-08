@@ -1,0 +1,227 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://rdf.geospecies.org/ont/geospecies.owl>
+    void:classPartition [
+        void:class <http://rdf.geospecies.org/ont/geospecies#Omernik_Level_IV_Ecoregion_Classification> ;
+        void:entities 17
+    ], [
+        void:class <http://rdf.geospecies.org/methods/observationMethod#ArthropodCollectionMethods> ;
+        void:entities 19
+    ], [
+        void:class <http://rdf.geospecies.org/methods/observationMethod#Human_Observation> ;
+        void:entities 1
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#BBC_Terrestrial_Habitat> ;
+        void:entities 15
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 44
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#Project> ;
+        void:entities 2
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:entities 11
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#TypeStatus> ;
+        void:entities 8
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#NomenclaturalCode> ;
+        void:entities 7
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#BasisOfRecord> ;
+        void:entities 9
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Thing> ;
+        void:entities 204
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#Wisconsin_Herbarium_Habitat_Classification> ;
+        void:entities 17
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#Nativeness> ;
+        void:entities 5
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#OccurrenceStatus> ;
+        void:entities 6
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#Sex> ;
+        void:entities 5
+    ], [
+        void:class <http://rdf.geospecies.org/methods/observationMethod#Photographed> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 86
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#Omernik_Level_III_Ecoregion_Classification> ;
+        void:entities 5
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#TaxonRank> ;
+        void:entities 31
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#Omernik_Ecoregion_Classification> ;
+        void:entities 22
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#USDA_Growth_Habit> ;
+        void:entities 10
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#GeodeticDatum> ;
+        void:entities 3
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#BBC_Ecozone> ;
+        void:entities 8
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 72
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#USDA_Native_Status> ;
+        void:entities 11
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#TaxonomicStatus> ;
+        void:entities 9
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#BBC_Freshwater_Habitat> ;
+        void:entities 7
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        void:entities 204
+    ], [
+        void:class <http://rdf.geospecies.org/ont/geospecies#BBC_Marine_Habitat> ;
+        void:entities 7
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AllDifferent> ;
+        void:entities 8
+    ] ;
+    void:classes 31 ;
+    void:entities 500 ;
+    void:properties 22 ;
+    void:propertyPartition [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 66 ;
+        void:distinctSubjects 66 ;
+        void:property <http://purl.org/dc/elements/1.1/description> ;
+        void:triples 66
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#equivalentProperty> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 77 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 93
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 14 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 425 ;
+        void:property rdf:type ;
+        void:triples 785
+    ], [
+        void:distinctObjects 75 ;
+        void:distinctSubjects 75 ;
+        void:property rdf:first ;
+        void:triples 75
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 68 ;
+        void:distinctSubjects 75 ;
+        void:property rdf:rest ;
+        void:triples 75
+    ], [
+        void:distinctObjects 16 ;
+        void:distinctSubjects 72 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 72
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://usefulinc.com/ns/doap#homepage> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#versionInfo> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 44 ;
+        void:distinctSubjects 58 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 58
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/date> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 31 ;
+        void:property <http://purl.org/dc/elements/1.1/identifier> ;
+        void:triples 31
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 387 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> ;
+        void:triples 389
+    ], [
+        void:distinctObjects 386 ;
+        void:distinctSubjects 388 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 389
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/elements/1.1/creator> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 15 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 8 ;
+        void:property <http://www.w3.org/2002/07/owl#distinctMembers> ;
+        void:triples 8
+    ] ;
+    void:triples 2167 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1/>, <http://usefulinc.com/ns/doap>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:Dataset .
+

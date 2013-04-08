@@ -1,0 +1,63 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www4.wiwiss.fu-berlin.de/medicare/medicare_dump.nt.bz2>
+    void:classPartition [
+        void:class <http://www4.wiwiss.fu-berlin.de/medicare/resource/medicare/drugs> ;
+        void:entities 6819
+    ], [
+        void:class rdf:Property ;
+        void:entities 5
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 1
+    ] ;
+    void:classes 3 ;
+    void:entities 6825 ;
+    void:properties 6 ;
+    void:propertyPartition [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 6819 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/medicare/resource/medicare/drugType> ;
+        void:triples 6819
+    ], [
+        void:distinctObjects 6819 ;
+        void:distinctSubjects 6819 ;
+        void:property <http://www4.wiwiss.fu-berlin.de/medicare/resource/medicare/medicareId> ;
+        void:triples 6819
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 6825 ;
+        void:property rdf:type ;
+        void:triples 4057
+    ], [
+        void:distinctObjects 13510 ;
+        void:distinctSubjects 6819 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 13638
+    ], [
+        void:distinctObjects 6821 ;
+        void:distinctSubjects 6821 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 6821
+    ], [
+        void:distinctObjects 2971 ;
+        void:distinctSubjects 1484 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 3578
+    ] ;
+    void:triples 44500 ;
+    void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www4.wiwiss.fu-berlin.de/medicare>, <http://xmlns.com/foaf> ;
+    a void:dataset .
+

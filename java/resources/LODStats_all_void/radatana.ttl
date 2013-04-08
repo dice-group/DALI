@@ -1,0 +1,87 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://www.bibsys.no/linked_data/authority>
+    void:classPartition [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 1441049
+    ] ;
+    void:classes 1 ;
+    void:entities 1440628 ;
+    void:properties 12 ;
+    void:propertyPartition [
+        void:distinctObjects 1436945 ;
+        void:distinctSubjects 1441058 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 1441016
+    ], [
+        void:distinctObjects 1436946 ;
+        void:distinctSubjects 1441058 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 1441016
+    ], [
+        void:distinctObjects 3491 ;
+        void:distinctSubjects 3818 ;
+        void:property <http://www.w3.org/2004/02/skos/core#note> ;
+        void:triples 3807
+    ], [
+        void:distinctObjects 1441091 ;
+        void:distinctSubjects 1441091 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 1441049
+    ], [
+        void:distinctObjects 61049 ;
+        void:distinctSubjects 1441091 ;
+        void:property <http://purl.org/dc/terms/modified> ;
+        void:triples 1441049
+    ], [
+        void:distinctObjects 5479 ;
+        void:distinctSubjects 9756 ;
+        void:property <http://www.kanzaki.com/ns/whois#until> ;
+        void:triples 9756
+    ], [
+        void:distinctObjects 42 ;
+        void:distinctSubjects 1441091 ;
+        void:property rdf:type ;
+        void:triples 105143
+    ], [
+        void:distinctObjects 8305 ;
+        void:distinctSubjects 57209 ;
+        void:property <http://www.kanzaki.com/ns/whois#since> ;
+        void:triples 57206
+    ], [
+        void:distinctObjects 1437067 ;
+        void:distinctSubjects 1441058 ;
+        void:property <http://def.bibsys.no/xmlns/radatana/1.0#catalogueName> ;
+        void:triples 1441016
+    ], [
+        void:distinctObjects 5732 ;
+        void:distinctSubjects 13316 ;
+        void:property <http://purl.org/ontology/bibo/suffixName> ;
+        void:triples 13314
+    ], [
+        void:distinctObjects 95304 ;
+        void:distinctSubjects 74822 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 95448
+    ], [
+        void:distinctObjects 538590 ;
+        void:distinctSubjects 213931 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 551711
+    ] ;
+    void:triples 9378346 ;
+    void:vocabulary <http://def.bibsys.no/xmlns/radatana/1.0>, <http://purl.org/dc/terms/>, <http://purl.org/ontology/bibo/>, <http://www.kanzaki.com/ns/whois>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

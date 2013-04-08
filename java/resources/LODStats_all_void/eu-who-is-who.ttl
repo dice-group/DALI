@@ -1,0 +1,188 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://whoiswho.publicdata.eu/dump/whoiswho.nt>
+    void:classPartition [
+        void:class <http://www.w3.org/ns/org#FormalOrganization> ;
+        void:entities 3442
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/Directorate> ;
+        void:entities 368
+    ], [
+        void:class <http://purl.org/dc/dcmitype/Collection> ;
+        void:entities 24
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/PoliticalParty> ;
+        void:entities 17
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/Service> ;
+        void:entities 81
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/Delegation> ;
+        void:entities 39
+    ], [
+        void:class <http://institutions.publicdata.eu/#Specialised_Body> ;
+        void:entities 3
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/Council> ;
+        void:entities 67
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/Conference> ;
+        void:entities 9
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/Office> ;
+        void:entities 100
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/Bureau> ;
+        void:entities 8
+    ], [
+        void:class <http://institutions.publicdata.eu/#Consultative_Body> ;
+        void:entities 1
+    ], [
+        void:class <http://institutions.publicdata.eu/#EU_Agency> ;
+        void:entities 5
+    ], [
+        void:class <http://www.w3.org/ns/org#OrganizationalUnit> ;
+        void:entities 389
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/Court> ;
+        void:entities 9
+    ], [
+        void:class <http://www.w3.org/ns/org#Membership> ;
+        void:entities 15706
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/Parliament> ;
+        void:entities 3
+    ], [
+        void:class <http://www.w3.org/ns/org#Role> ;
+        void:entities 2258
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 10484
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/Bank> ;
+        void:entities 8
+    ], [
+        void:class <http://institutions.publicdata.eu/#EU_Institution> ;
+        void:entities 3
+    ], [
+        void:class <http://whoiswho.publicdata.eu/data/Committee> ;
+        void:entities 112
+    ], [
+        void:class <http://institutions.publicdata.eu/#Financial_Body> ;
+        void:entities 1
+    ] ;
+    void:classes 23 ;
+    void:entities 33139 ;
+    void:properties 19 ;
+    void:propertyPartition [
+        void:distinctObjects 4689 ;
+        void:distinctSubjects 4689 ;
+        void:property <http://xmlns.com/foaf/0.1/page> ;
+        void:triples 4689
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 4675 ;
+        void:property <http://www.w3.org/ns/org#transitiveSubOrganisationOf> ;
+        void:triples 4675
+    ], [
+        void:distinctObjects 10485 ;
+        void:distinctSubjects 15707 ;
+        void:property <http://www.w3.org/ns/org#member> ;
+        void:triples 15707
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 33137 ;
+        void:property rdf:type ;
+        void:triples 32419
+    ], [
+        void:distinctObjects 396 ;
+        void:distinctSubjects 808 ;
+        void:property <http://open.vocab.org/terms/postalAddress> ;
+        void:triples 808
+    ], [
+        void:distinctObjects 4495 ;
+        void:distinctSubjects 827 ;
+        void:property <http://www.w3.org/ns/org#hasSubOrganization> ;
+        void:triples 4495
+    ], [
+        void:distinctObjects 813 ;
+        void:distinctSubjects 4373 ;
+        void:property <http://www.w3.org/ns/org#subOrganisationOf> ;
+        void:triples 4373
+    ], [
+        void:distinctObjects 4520 ;
+        void:distinctSubjects 10484 ;
+        void:property <http://www.w3.org/ns/org#memberOf> ;
+        void:triples 15499
+    ], [
+        void:distinctObjects 6393 ;
+        void:distinctSubjects 7034 ;
+        void:property <http://open.vocab.org/terms/phoneNumber> ;
+        void:triples 7459
+    ], [
+        void:distinctObjects 10484 ;
+        void:distinctSubjects 10484 ;
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ;
+        void:triples 10484
+    ], [
+        void:distinctObjects 9187 ;
+        void:distinctSubjects 10419 ;
+        void:property <http://xmlns.com/foaf/0.1/familyName> ;
+        void:triples 10419
+    ], [
+        void:distinctObjects 2746 ;
+        void:distinctSubjects 3246 ;
+        void:property <http://xmlns.com/foaf/0.1/mbox> ;
+        void:triples 3248
+    ], [
+        void:distinctObjects 10115 ;
+        void:distinctSubjects 10484 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 10484
+    ], [
+        void:distinctObjects 660 ;
+        void:distinctSubjects 1002 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 1338
+    ], [
+        void:distinctObjects 2297 ;
+        void:distinctSubjects 15707 ;
+        void:property <http://www.w3.org/ns/org#role> ;
+        void:triples 15707
+    ], [
+        void:distinctObjects 33981 ;
+        void:distinctSubjects 33139 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 35324
+    ], [
+        void:distinctObjects 1274 ;
+        void:distinctSubjects 1894 ;
+        void:property <http://open.vocab.org/terms/faxNumber> ;
+        void:triples 1896
+    ], [
+        void:distinctObjects 2755 ;
+        void:distinctSubjects 3254 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 3260
+    ], [
+        void:distinctObjects 4520 ;
+        void:distinctSubjects 15707 ;
+        void:property <http://www.w3.org/ns/org#organization> ;
+        void:triples 15707
+    ] ;
+    void:triples 198786 ;
+    void:vocabulary <http://open.vocab.org/terms/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/ns/org>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

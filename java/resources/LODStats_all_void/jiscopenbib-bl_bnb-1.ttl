@@ -1,0 +1,226 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://openbiblio.commondatastorage.googleapis.com/BL-BNB-dataset.zip>
+    void:classPartition [
+        void:class <http://www.w3.org/2004/02/skos/core#Concept> ;
+        void:entities 8535386
+    ], [
+        void:class <http://www.w3.org/2006/time#Interval> ;
+        void:entities 96552
+    ], [
+        void:class <http://www.w3.org/2006/time#Instant> ;
+        void:entities 193104
+    ], [
+        void:class rdf:description ;
+        void:entities 4310411
+    ] ;
+    void:classes 4 ;
+    void:entities 38390700 ;
+    void:properties 38 ;
+    void:propertyPartition [
+        void:distinctObjects 422421 ;
+        void:distinctSubjects 364488 ;
+        void:property <http://purl.org/dc/terms/coverage> ;
+        void:triples 422421
+    ], [
+        void:distinctObjects 57192 ;
+        void:distinctSubjects 322262 ;
+        void:property <http://iflastandards.info/ns/isbd/elements/hasEditionStatement> ;
+        void:triples 322264
+    ], [
+        void:distinctObjects 3775598 ;
+        void:distinctSubjects 5410725 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 5410725
+    ], [
+        void:distinctObjects 20283 ;
+        void:distinctSubjects 18634 ;
+        void:property <http://purl.org/dc/terms/replaces> ;
+        void:triples 20283
+    ], [
+        void:distinctObjects 3170844 ;
+        void:distinctSubjects 2552333 ;
+        void:property <http://iflastandards.info/ns/isbd/elements/hasPlaceOfPublicationProductionDistribution> ;
+        void:triples 3170844
+    ], [
+        void:distinctObjects 7208 ;
+        void:distinctSubjects 3001590 ;
+        void:property rdf:value ;
+        void:triples 3001590
+    ], [
+        void:distinctObjects 5999384 ;
+        void:distinctSubjects 2985695 ;
+        void:property <http://purl.org/dc/terms/type> ;
+        void:triples 5999384
+    ], [
+        void:distinctObjects 80522 ;
+        void:distinctSubjects 2974351 ;
+        void:property <http://purl.org/dc/terms/issued> ;
+        void:triples 3010050
+    ], [
+        void:distinctObjects 35579 ;
+        void:distinctSubjects 35540 ;
+        void:property <http://purl.org/dc/terms/accessRights> ;
+        void:triples 35579
+    ], [
+        void:distinctObjects 1405 ;
+        void:distinctSubjects 13135453 ;
+        void:property rdf:type ;
+        void:triples 7031909
+    ], [
+        void:distinctObjects 5467 ;
+        void:distinctSubjects 193104 ;
+        void:property <http://www.w3.org/2006/time#inXSDDateTime> ;
+        void:triples 193104
+    ], [
+        void:distinctObjects 2862078 ;
+        void:distinctSubjects 2985694 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 2985696
+    ], [
+        void:distinctObjects 14136 ;
+        void:distinctSubjects 12026 ;
+        void:property <http://purl.org/dc/terms/isReplacedBy> ;
+        void:triples 14136
+    ], [
+        void:distinctObjects 1513280 ;
+        void:distinctSubjects 3124661 ;
+        void:property <http://www.w3.org/2004/02/skos/core#notation> ;
+        void:triples 3124661
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 166 ;
+        void:distinctSubjects 161 ;
+        void:property <http://purl.org/dc/terms/isReferencedBy> ;
+        void:triples 166
+    ], [
+        void:distinctObjects 96552 ;
+        void:distinctSubjects 96552 ;
+        void:property <http://purl.org/dc/elements/1.1/date> ;
+        void:triples 96552
+    ], [
+        void:distinctObjects 2224 ;
+        void:distinctSubjects 8231859 ;
+        void:property <http://www.w3.org/2004/02/skos/core#inScheme> ;
+        void:triples 8231859
+    ], [
+        void:distinctObjects 965051 ;
+        void:distinctSubjects 1829471 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 2606174
+    ], [
+        void:distinctObjects 96552 ;
+        void:distinctSubjects 96552 ;
+        void:property <http://www.w3.org/2006/time#hasEnd> ;
+        void:triples 96552
+    ], [
+        void:distinctObjects 11187804 ;
+        void:distinctSubjects 2974016 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 11187804
+    ], [
+        void:distinctObjects 3207240 ;
+        void:distinctSubjects 2982403 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 3207240
+    ], [
+        void:distinctObjects 96552 ;
+        void:distinctSubjects 96552 ;
+        void:property <http://www.w3.org/2006/time#hasBeginning> ;
+        void:triples 96552
+    ], [
+        void:distinctObjects 7118 ;
+        void:distinctSubjects 6898 ;
+        void:property <http://purl.org/dc/terms/hasFormat> ;
+        void:triples 7118
+    ], [
+        void:distinctObjects 4091159 ;
+        void:distinctSubjects 2854140 ;
+        void:property <http://purl.org/dc/terms/contributor> ;
+        void:triples 4091159
+    ], [
+        void:distinctObjects 625 ;
+        void:distinctSubjects 1278 ;
+        void:property <http://purl.org/dc/terms/dateCopyrighted> ;
+        void:triples 1278
+    ], [
+        void:distinctObjects 78945 ;
+        void:distinctSubjects 78480 ;
+        void:property <http://purl.org/dc/terms/tableOfContents> ;
+        void:triples 80370
+    ], [
+        void:distinctObjects 6402559 ;
+        void:distinctSubjects 23578373 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 23578373
+    ], [
+        void:distinctObjects 1983 ;
+        void:distinctSubjects 1928 ;
+        void:property <http://purl.org/dc/terms/audience> ;
+        void:triples 1983
+    ], [
+        void:distinctObjects 47043 ;
+        void:distinctSubjects 27559 ;
+        void:property <http://purl.org/dc/terms/requires> ;
+        void:triples 47043
+    ], [
+        void:distinctObjects 2969195 ;
+        void:distinctSubjects 2968177 ;
+        void:property <http://purl.org/dc/terms/extent> ;
+        void:triples 2969195
+    ], [
+        void:distinctObjects 8229 ;
+        void:distinctSubjects 8304 ;
+        void:property <http://purl.org/dc/terms/abstract> ;
+        void:triples 8385
+    ], [
+        void:distinctObjects 104581 ;
+        void:distinctSubjects 80470 ;
+        void:property <http://purl.org/dc/terms/relation> ;
+        void:triples 104581
+    ], [
+        void:distinctObjects 44642 ;
+        void:distinctSubjects 78965 ;
+        void:property <http://iflastandards.info/ns/isbd/elements/hasNoteOnLanguage> ;
+        void:triples 79320
+    ], [
+        void:distinctObjects 67396 ;
+        void:distinctSubjects 73204 ;
+        void:property <http://purl.org/dc/terms/alternative> ;
+        void:triples 73205
+    ], [
+        void:distinctObjects 3001590 ;
+        void:distinctSubjects 2985686 ;
+        void:property <http://purl.org/dc/terms/language> ;
+        void:triples 3001590
+    ], [
+        void:distinctObjects 9301113 ;
+        void:distinctSubjects 2985695 ;
+        void:property <http://purl.org/dc/terms/identifier> ;
+        void:triples 9325731
+    ], [
+        void:distinctObjects 834823 ;
+        void:distinctSubjects 796554 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 834823
+    ] ;
+    void:triples 110576927 ;
+    void:vocabulary <http://iflastandards.info/ns/isbd/elements/>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2004/02/skos/core>, <http://www.w3.org/2006/time> ;
+    a void:Dataset .
+

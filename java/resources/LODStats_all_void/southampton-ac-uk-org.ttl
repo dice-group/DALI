@@ -1,0 +1,112 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://id.southampton.ac.uk/dataset/org/latest.ttl>
+    void:classPartition [
+        void:class <http://www.w3.org/ns/org#FormalOrganization> ;
+        void:entities 1
+    ], [
+        void:class <http://purl.org/openorg/NonAuthoritativeDataset> ;
+        void:entities 2
+    ], [
+        void:class <http://purl.org/vocab/aiiso/schema#Institution> ;
+        void:entities 1
+    ], [
+        void:class <http://vocab.deri.ie/rooms#Building> ;
+        void:entities 51
+    ], [
+        void:class <http://purl.org/vocab/aiiso/schema#Faculty> ;
+        void:entities 8
+    ], [
+        void:class <http://www.w3.org/ns/org#Organization> ;
+        void:entities 521
+    ] ;
+    void:classes 6 ;
+    void:entities 575 ;
+    void:properties 14 ;
+    void:propertyPartition [
+        void:distinctObjects 470 ;
+        void:distinctSubjects 105 ;
+        void:property <http://www.w3.org/ns/org#hasSubOrganization> ;
+        void:triples 470
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/conformsTo> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 6 ;
+        void:property <http://id.southampton.ac.uk/ns/googleMapsZoom> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 550 ;
+        void:distinctSubjects 470 ;
+        void:property <http://www.w3.org/2004/02/skos/core#notation> ;
+        void:triples 550
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property void:sparqlEndpoint ;
+        void:triples 2
+    ], [
+        void:distinctObjects 72 ;
+        void:distinctSubjects 72 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 72
+    ], [
+        void:distinctObjects 444 ;
+        void:distinctSubjects 486 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 486
+    ], [
+        void:distinctObjects 47 ;
+        void:distinctSubjects 51 ;
+        void:property <http://vocab.deri.ie/rooms#occupant> ;
+        void:triples 91
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 574 ;
+        void:property rdf:type ;
+        void:triples 581
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/license> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://purl.org/dc/terms/publisher> ;
+        void:triples 2
+    ] ;
+    void:triples 2272 ;
+    void:vocabulary <http://id.southampton.ac.uk/ns/>, <http://purl.org/dc/terms/>, <http://rdfs.org/ns/void>, <http://vocab.deri.ie/rooms>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2004/02/skos/core>, <http://www.w3.org/ns/org>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

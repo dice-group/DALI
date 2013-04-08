@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://data.nature.com/sparql?query=construct{?s?p?o.}where{graph<http://ns.nature.com/graphs/publications\u003E{?s?p?o.}}limit25>
+    void:classes 0 ;
+    void:entities 23 ;
+    void:properties 4 ;
+    void:propertyPartition [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 9 ;
+        void:property <http://purl.org/ontology/bibo/issn> ;
+        void:triples 9
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 10 ;
+        void:distinctSubjects 10 ;
+        void:property <http://purl.org/dc/elements/1.1/identifier> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://purl.org/ontology/bibo/eissn> ;
+        void:triples 5
+    ] ;
+    void:triples 25 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1/>, <http://purl.org/ontology/bibo/>, <http://www.w3.org/2000/01/rdf-schema> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

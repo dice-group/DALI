@@ -1,0 +1,75 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://labs.systemone.at/wikipedia3/enwiki/20060326/enwiki-20060326.rdf.gz>
+    void:classPartition [
+        void:class <http://www.systemone.at/2006/03/wikipedia#Category> ;
+        void:entities 112766
+    ], [
+        void:class <http://www.systemone.at/2006/03/wikipedia#Article> ;
+        void:entities 2049423
+    ] ;
+    void:classes 2 ;
+    void:entities 2162189 ;
+    void:properties 9 ;
+    void:propertyPartition [
+        void:distinctObjects 185333 ;
+        void:distinctSubjects 111297 ;
+        void:property <http://www.w3.org/2004/02/skos/core#narrower> ;
+        void:triples 226890
+    ], [
+        void:distinctObjects 828776 ;
+        void:distinctSubjects 860817 ;
+        void:property <http://www.systemone.at/2006/03/wikipedia#redirectsTo> ;
+        void:triples 860817
+    ], [
+        void:distinctObjects 2156322 ;
+        void:distinctSubjects 2162189 ;
+        void:property <http://purl.org/dc/elements/1.1/modified> ;
+        void:triples 2162190
+    ], [
+        void:distinctObjects 185 ;
+        void:distinctSubjects 2162189 ;
+        void:property rdf:type ;
+        void:triples 38769
+    ], [
+        void:distinctObjects 2161580 ;
+        void:distinctSubjects 2162189 ;
+        void:property <http://purl.org/dc/elements/1.1/title> ;
+        void:triples 2162190
+    ], [
+        void:distinctObjects 16794687 ;
+        void:distinctSubjects 1219769 ;
+        void:property <http://www.systemone.at/2006/03/wikipedia#internalLink> ;
+        void:triples 34449952
+    ], [
+        void:distinctObjects 686875 ;
+        void:distinctSubjects 2162189 ;
+        void:property <http://purl.org/dc/elements/1.1/contributor> ;
+        void:triples 2162189
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.systemone.at/2006/03/wikipedia#interwikiLink> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1301355 ;
+        void:distinctSubjects 1080032 ;
+        void:property <http://www.w3.org/2004/02/skos/core#subject> ;
+        void:triples 2867989
+    ] ;
+    void:triples 47054407 ;
+    void:vocabulary <http://purl.org/dc/elements/1.1>, <http://www.systemone.at/2006/03/wikipedia>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2004/02/skos/core> ;
+    a void:dataset .
+

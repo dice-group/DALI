@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<https://commondatastorage.googleapis.com/ckannet-storage/2012-09-23T174331/sample.xml>
+    void:classes 0 ;
+    void:entities 861 ;
+    void:properties 2 ;
+    void:propertyPartition [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 860 ;
+        void:property <http://corpora.nlp2rdf.org/wortschatz/ontology/coOccursInSentenceWith> ;
+        void:triples 1000
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 6 ;
+        void:property <http://corpora.nlp2rdf.org/wortschatz/ontology/hasLanguage> ;
+        void:triples 6
+    ] ;
+    void:triples 1006 ;
+    void:vocabulary <http://corpora.nlp2rdf.org/wortschatz/ontology/> ;
+    a void:Dataset .
+

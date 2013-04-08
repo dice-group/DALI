@@ -1,0 +1,190 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+<http://eupmedia.publicdata.eu/dump/eup_media_assets.ttl>
+    void:classPartition [
+        void:class <http://www.w3.org/ns/org#FormalOrganization> ;
+        void:entities 130
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Person> ;
+        void:entities 1327
+    ], [
+        void:class <http://www.semanticdesktop.org/ontologies/nfo#Audio> ;
+        void:entities 715
+    ], [
+        void:class <http://www.semanticdesktop.org/ontologies/nfo#Image> ;
+        void:entities 28789
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Thing> ;
+        void:entities 985
+    ], [
+        void:class <http://purl.org/ontology/places#Country> ;
+        void:entities 28
+    ], [
+        void:class <http://www.semanticdesktop.org/ontologies/nfo#Video> ;
+        void:entities 1822
+    ] ;
+    void:classes 7 ;
+    void:entities 34571 ;
+    void:properties 29 ;
+    void:propertyPartition [
+        void:distinctObjects 111 ;
+        void:distinctSubjects 30611 ;
+        void:property <http://purl.org/dc/elements/1.1/rights> ;
+        void:triples 30611
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 28 ;
+        void:property <http://www.geonames.org/ontology#countryCode> ;
+        void:triples 28
+    ], [
+        void:distinctObjects 7 ;
+        void:distinctSubjects 7 ;
+        void:property <http://xmlns.com/foaf/0.1/title> ;
+        void:triples 7
+    ], [
+        void:distinctObjects 28789 ;
+        void:distinctSubjects 28789 ;
+        void:property <http://xmlns.com/foaf/0.1/thumbnail> ;
+        void:triples 28789
+    ], [
+        void:distinctObjects 23 ;
+        void:distinctSubjects 715 ;
+        void:property <http://www.semanticdesktop.org/ontologies/nfo#averageBitrate> ;
+        void:triples 715
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 33796 ;
+        void:property rdf:type ;
+        void:triples 25270
+    ], [
+        void:distinctObjects 5575 ;
+        void:distinctSubjects 31326 ;
+        void:property <http://purl.org/dc/terms/title> ;
+        void:triples 31326
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 28789 ;
+        void:property <http://www.semanticdesktop.org/ontologies/nfo#verticalResolution> ;
+        void:triples 28789
+    ], [
+        void:distinctObjects 4746 ;
+        void:distinctSubjects 30611 ;
+        void:property <http://www.w3.org/2004/02/skos/core#notation> ;
+        void:triples 30611
+    ], [
+        void:distinctObjects 735 ;
+        void:distinctSubjects 31227 ;
+        void:property <http://purl.org/dc/terms/created> ;
+        void:triples 31227
+    ], [
+        void:distinctObjects 28 ;
+        void:distinctSubjects 128 ;
+        void:property <http://www.w3.org/ns/org#site> ;
+        void:triples 128
+    ], [
+        void:distinctObjects 3265 ;
+        void:distinctSubjects 28789 ;
+        void:property <http://www.semanticdesktop.org/ontologies/nfo#width> ;
+        void:triples 28789
+    ], [
+        void:distinctObjects 4615 ;
+        void:distinctSubjects 31326 ;
+        void:property <http://purl.org/dc/terms/description> ;
+        void:triples 31326
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 3 ;
+        void:property <http://xmlns.com/foaf/0.1/nick> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 986 ;
+        void:distinctSubjects 1312 ;
+        void:property <http://xmlns.com/foaf/0.1/givenName> ;
+        void:triples 1313
+    ], [
+        void:distinctObjects 3717 ;
+        void:distinctSubjects 31075 ;
+        void:property <http://purl.org/dc/terms/subject> ;
+        void:triples 91347
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 1822 ;
+        void:property <http://www.semanticdesktop.org/ontologies/nfo#aspectRatio> ;
+        void:triples 1822
+    ], [
+        void:distinctObjects 3193 ;
+        void:distinctSubjects 28789 ;
+        void:property <http://www.semanticdesktop.org/ontologies/nfo#height> ;
+        void:triples 28789
+    ], [
+        void:distinctObjects 1283 ;
+        void:distinctSubjects 1312 ;
+        void:property <http://xmlns.com/foaf/0.1/familyName> ;
+        void:triples 1314
+    ], [
+        void:distinctObjects 2328 ;
+        void:distinctSubjects 2312 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 2328
+    ], [
+        void:distinctObjects 130 ;
+        void:distinctSubjects 775 ;
+        void:property <http://www.w3.org/ns/org#organization> ;
+        void:triples 775
+    ], [
+        void:distinctObjects 33632 ;
+        void:distinctSubjects 33600 ;
+        void:property <http://xmlns.com/foaf/0.1/page> ;
+        void:triples 33632
+    ], [
+        void:distinctObjects 7347 ;
+        void:distinctSubjects 28789 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 28789
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1822 ;
+        void:property <http://eupmedia.publicdata.eu/data/schema/production_format> ;
+        void:triples 1822
+    ], [
+        void:distinctObjects 1336 ;
+        void:distinctSubjects 1455 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 1457
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 28789 ;
+        void:property <http://www.semanticdesktop.org/ontologies/nfo#horizontalResolution> ;
+        void:triples 28789
+    ], [
+        void:distinctObjects 31142 ;
+        void:distinctSubjects 31326 ;
+        void:property <http://www.semanticdesktop.org/ontologies/nfo#filename> ;
+        void:triples 31326
+    ], [
+        void:distinctObjects 1000 ;
+        void:distinctSubjects 2534 ;
+        void:property <http://www.semanticdesktop.org/ontologies/nfo#duration> ;
+        void:triples 2534
+    ], [
+        void:distinctObjects 775 ;
+        void:distinctSubjects 775 ;
+        void:property <http://www.w3.org/ns/org#hasMembership> ;
+        void:triples 775
+    ] ;
+    void:triples 532957 ;
+    void:vocabulary <http://eupmedia.publicdata.eu/data/schema/>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://www.geonames.org/ontology>, <http://www.semanticdesktop.org/ontologies/nfo>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2004/02/skos/core>, <http://www.w3.org/ns/org>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+

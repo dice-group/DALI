@@ -1,0 +1,119 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://lemon-model.net/lexica/de-gaap/de/Lizenzen+an+Rechten+und+Werten>
+    void:classPartition [
+        void:class <http://www.monnet-project.eu/lemon#LexicalSense> ;
+        void:entities 2
+    ], [
+        void:class <http://www.monnet-project.eu/lemon#Component> ;
+        void:entities 5
+    ], [
+        void:class <http://www.monnet-project.eu/lemon#Node> ;
+        void:entities 9
+    ], [
+        void:class <http://www.monnet-project.eu/lemon#Form> ;
+        void:entities 6
+    ], [
+        void:class <http://www.monnet-project.eu/lemon#LexicalEntry> ;
+        void:entities 6
+    ] ;
+    void:classes 5 ;
+    void:entities 33 ;
+    void:properties 16 ;
+    void:propertyPartition [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2 ;
+        void:property <http://www.monnet-project.eu/lemon#reference> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:rest ;
+        void:triples 5
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.monnet-project.eu/lemon#writtenRep> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 28 ;
+        void:property rdf:type ;
+        void:triples 25
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property rdf:first ;
+        void:triples 5
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.monnet-project.eu/lemon#constituent> ;
+        void:triples 3
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.monnet-project.eu/lemon#sense> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 6 ;
+        void:property <http://www.monnet-project.eu/lemon#otherForm> ;
+        void:triples 6
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.lexinfo.net/ontology/2.0/lexinfo#translation> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 4 ;
+        void:property <http://www.monnet-project.eu/lemon#edge> ;
+        void:triples 8
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.monnet-project.eu/lemon#leaf> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.monnet-project.eu/lemon#phraseRoot> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.monnet-project.eu/lemon#element> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.monnet-project.eu/lemon#decomposition> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 3 ;
+        void:property <http://www.lexinfo.net/ontology/2.0/lexinfo#number> ;
+        void:triples 3
+    ] ;
+    void:triples 85 ;
+    void:vocabulary <http://www.lexinfo.net/ontology/2.0/lexinfo>, <http://www.monnet-project.eu/lemon>, <http://www.w3.org/1999/02/22-rdf-syntax-ns> ;
+    a void:Dataset .
+

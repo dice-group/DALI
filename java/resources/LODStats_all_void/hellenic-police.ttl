@@ -1,0 +1,252 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://greek-lod.auth.gr/Police/police.nt.gz>
+    void:classPartition [
+        void:class <http://greek-lod.math.auth.gr/police/resource/regions> ;
+        void:entities 15
+    ], [
+        void:class <http://greek-lod.math.auth.gr/police/resource/crimes> ;
+        void:entities 11070
+    ], [
+        void:class <http://greek-lod.math.auth.gr/police/resource/crimetype> ;
+        void:entities 41
+    ], [
+        void:class <http://greek-lod.math.auth.gr/police/resource/gad> ;
+        void:entities 15
+    ], [
+        void:class rdf:Property ;
+        void:entities 41
+    ], [
+        void:class <http://www.w3.org/2000/01/rdf-schema#Class> ;
+        void:entities 4
+    ] ;
+    void:classes 6 ;
+    void:entities 11183 ;
+    void:properties 42 ;
+    void:propertyPartition [
+        void:distinctObjects 71 ;
+        void:distinctSubjects 71 ;
+        void:property <http://www.w3.org/2004/02/skos/core#prefLabel> ;
+        void:triples 71
+    ], [
+        void:distinctObjects 458 ;
+        void:distinctSubjects 5576 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/crimes_TOTAL> ;
+        void:triples 5576
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 41 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/crimetype_CRIMETYPE_CODE> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 9 ;
+        void:distinctSubjects 11141 ;
+        void:property <http://www.w3.org/2002/07/owl#equivalentClass> ;
+        void:triples 33326
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/gad_ADDRESS> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/regions_REG_NAME_GR> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 11070 ;
+        void:property <http://purl.org/dc/terms/date> ;
+        void:triples 11070
+    ], [
+        void:distinctObjects 188 ;
+        void:distinctSubjects 71 ;
+        void:property <http://www.w3.org/2002/07/owl#sameAs> ;
+        void:triples 270
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 20 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/crimetype_CRIMETYPE_SUBCODE> ;
+        void:triples 20
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 11183 ;
+        void:property rdf:type ;
+        void:triples 11151
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/gad_LABEL> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/regions_REG_CODE> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 11070 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/crimetype> ;
+        void:triples 11070
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 15 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 75
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 71 ;
+        void:distinctSubjects 71 ;
+        void:property <http://www.w3.org/2004/02/skos/core#altLabel> ;
+        void:triples 71
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 15 ;
+        void:property <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ;
+        void:triples 30
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 14 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/regions_3166_CODES> ;
+        void:triples 14
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 11070 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/crimes_CRIME_DATE> ;
+        void:triples 11070
+    ], [
+        void:distinctObjects 458 ;
+        void:distinctSubjects 5576 ;
+        void:property <http://crime.psi.enakting.org/id/Total> ;
+        void:triples 5576
+    ], [
+        void:distinctObjects 14 ;
+        void:distinctSubjects 28 ;
+        void:property <http://xmlns.com/foaf/0.1/depiction> ;
+        void:triples 28
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 41 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/crimetype_CRIMETYPE_NAME> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 181 ;
+        void:distinctSubjects 110 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 197
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 11070 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/crimes_STATUS> ;
+        void:triples 11070
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/gad_LABEL_GR> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/regions> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 41 ;
+        void:property <http://purl.org/dc/elements/1.1/subject> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/gad_NAME> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 11070 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/crimes> ;
+        void:triples 11070
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 15 ;
+        void:property <http://www.w3.org/2004/02/skos/core#hasTopConcept> ;
+        void:triples 45
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://purl.org/dc/elements/1.1/coverage> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 11070 ;
+        void:distinctSubjects 11070 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/crimes_CRIME_CODE> ;
+        void:triples 11070
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/gad_NAME_GR> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 3 ;
+        void:distinctSubjects 11070 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/crimes_STATUS_GR> ;
+        void:triples 11070
+    ], [
+        void:distinctObjects 31 ;
+        void:distinctSubjects 30 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 45
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/gad_CODE_GAD> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/regions_REG_NAME> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 41 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/crimetype_CRIMETYPE_NAME_GR> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://greek-lod.math.auth.gr/police/resource/regions_NUTS_CODES> ;
+        void:triples 15
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 15 ;
+        void:property <http://www.aktors.org/ontology/portal#address-street> ;
+        void:triples 15
+    ] ;
+    void:triples 135369 ;
+    void:vocabulary <http://crime.psi.enakting.org/id/>, <http://greek-lod.math.auth.gr/police/resource/>, <http://purl.org/dc/elements/1.1/>, <http://purl.org/dc/terms/>, <http://www.aktors.org/ontology/portal>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl>, <http://www.w3.org/2003/01/geo/wgs84_pos>, <http://www.w3.org/2004/02/skos/core>, <http://xmlns.com/foaf/0.1/> ;
+    a void:Dataset .
+

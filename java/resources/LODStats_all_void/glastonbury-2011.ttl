@@ -1,0 +1,163 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://programme.ecs.soton.ac.uk/glastonbury/2011/glastonbury2011.rdf>
+    void:classPartition [
+        void:class <http://purl.org/prog/Programme> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+        void:entities 60
+    ], [
+        void:class <http://purl.org/NET/c4dm/event.owl#Event> ;
+        void:entities 2004
+    ], [
+        void:class <http://xmlns.com/foaf/0.1/Agent> ;
+        void:entities 1484
+    ], [
+        void:class <http://purl.org/prog/b> ;
+        void:entities 10353
+    ], [
+        void:class <http://purl.org/NET/c4dm/timeline.owl#Interval> ;
+        void:entities 2148
+    ], [
+        void:class <http://purl.org/prog/TimeSlot> ;
+        void:entities 144
+    ], [
+        void:class <http://purl.org/prog/br> ;
+        void:entities 6902
+    ] ;
+    void:classes 8 ;
+    void:entities 23097 ;
+    void:properties 23 ;
+    void:propertyPartition [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#seeAlso> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/dc/terms/license> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1484 ;
+        void:distinctSubjects 1974 ;
+        void:property <http://purl.org/NET/c4dm/event.owl#agent> ;
+        void:triples 1974
+    ], [
+        void:distinctObjects 8 ;
+        void:distinctSubjects 23096 ;
+        void:property rdf:type ;
+        void:triples 22809
+    ], [
+        void:distinctObjects 641 ;
+        void:distinctSubjects 2148 ;
+        void:property <http://purl.org/NET/c4dm/timeline.owl#end> ;
+        void:triples 2148
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://creativecommons.org/ns#attributionName> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/primaryTopic> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 60 ;
+        void:distinctSubjects 2063 ;
+        void:property <http://purl.org/NET/c4dm/event.owl#place> ;
+        void:triples 2063
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://creativecommons.org/ns#attributionURL> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 144 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/prog/has_timeslot> ;
+        void:triples 144
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 2003 ;
+        void:property <http://purl.org/dc/terms/isPartOf> ;
+        void:triples 2003
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://creativecommons.org/ns#license> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1581 ;
+        void:distinctSubjects 2208 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#label> ;
+        void:triples 2208
+    ], [
+        void:distinctObjects 266 ;
+        void:distinctSubjects 281 ;
+        void:property <http://xmlns.com/foaf/0.1/page> ;
+        void:triples 281
+    ], [
+        void:distinctObjects 588 ;
+        void:distinctSubjects 2148 ;
+        void:property <http://purl.org/NET/c4dm/timeline.owl#start> ;
+        void:triples 2148
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://xmlns.com/foaf/0.1/based_near> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 2003 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/prog/has_streamed_event> ;
+        void:triples 2003
+    ], [
+        void:distinctObjects 59 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/prog/streamed_by_location> ;
+        void:triples 59
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://purl.org/prog/describes> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 1483 ;
+        void:distinctSubjects 1484 ;
+        void:property <http://xmlns.com/foaf/0.1/name> ;
+        void:triples 1484
+    ], [
+        void:distinctObjects 258 ;
+        void:distinctSubjects 266 ;
+        void:property <http://xmlns.com/foaf/0.1/homepage> ;
+        void:triples 266
+    ], [
+        void:distinctObjects 2148 ;
+        void:distinctSubjects 2148 ;
+        void:property <http://purl.org/NET/c4dm/event.owl#time> ;
+        void:triples 2148
+    ] ;
+    void:triples 42038 ;
+    void:vocabulary <http://creativecommons.org/ns>, <http://purl.org/NET/c4dm/event.owl>, <http://purl.org/NET/c4dm/timeline.owl>, <http://purl.org/dc/terms>, <http://purl.org/prog>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://xmlns.com/foaf/0.1> ;
+    a void:dataset .
+

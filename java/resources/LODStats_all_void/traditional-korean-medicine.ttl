@@ -1,0 +1,369 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix xstats: <http://example.org/XStats#> .
+
+xstats:schema
+    a qb:AttributeProperty .
+
+xstats:subjectsOfType
+    a qb:DimensonProperty .
+
+xstats:value
+    a qb:MeasureProperty .
+
+<http://ontology.kiom.re.kr/ontology/lod.rdf>
+    void:classPartition [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Auricular_Point> ;
+        void:entities 128
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Class> ;
+        void:entities 149
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Medicinal_Flavor> ;
+        void:entities 16
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Other_Material> ;
+        void:entities 308
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Time_of_Stems_and_Branches> ;
+        void:entities 1
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Cold_and_Heat> ;
+        void:entities 2
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Medicinal_Toxicity> ;
+        void:entities 9
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Cause_Of_Disease> ;
+        void:entities 270
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Patient> ;
+        void:entities 25
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Viscus> ;
+        void:entities 6
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#ObjectProperty> ;
+        void:entities 188
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Medicinal_Category> ;
+        void:entities 53
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        void:entities 17
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#NCBITaxon> ;
+        void:entities 943
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#Ontology> ;
+        void:entities 1
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Bowel> ;
+        void:entities 6
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Midnight_Midday_Ebb_Flow_Acupuncture> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        void:entities 51
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Meridian_Entry> ;
+        void:entities 14
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Treatment_Target> ;
+        void:entities 3049
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Twelve_Branches> ;
+        void:entities 12
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Medicinal_Nature> ;
+        void:entities 19
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Four_Constitution_Types> ;
+        void:entities 4
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Symptom> ;
+        void:entities 1263
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Medicinal_Material> ;
+        void:entities 880
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#SymmetricProperty> ;
+        void:entities 1
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Action_of_Effect> ;
+        void:entities 20
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Ear> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+        void:entities 23
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Day_of_Stems_and_Branches> ;
+        void:entities 10
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#AllDifferent> ;
+        void:entities 5
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Body_Part> ;
+        void:entities 42
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> ;
+        void:entities 2
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#FunctionalProperty> ;
+        void:entities 1
+    ], [
+        void:class <http://www.w3.org/2002/07/owl#TransitiveProperty> ;
+        void:entities 2
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Family_of_Plant> ;
+        void:entities 265
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Point_Combination> ;
+        void:entities 4
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Original_Material> ;
+        void:entities 2283
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Acupuncture_Method> ;
+        void:entities 9
+    ], [
+        void:class <http://tkm.kiom.re.kr/tkmedicine#Effect> ;
+        void:entities 980
+    ] ;
+    void:classes 40 ;
+    void:entities 11157 ;
+    void:properties 45 ;
+    void:propertyPartition [
+        void:distinctObjects 25 ;
+        void:distinctSubjects 136 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#isContraindicatedToWhom> ;
+        void:triples 288
+    ], [
+        void:distinctObjects 267 ;
+        void:distinctSubjects 110 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#hasToxicMechanismOf> ;
+        void:triples 303
+    ], [
+        void:distinctObjects 133 ;
+        void:distinctSubjects 135 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#NCBI_TaxonomybyAuthority> ;
+        void:triples 135
+    ], [
+        void:distinctObjects 6 ;
+        void:distinctSubjects 170 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#hasMedicinalToxicityOf> ;
+        void:triples 170
+    ], [
+        void:distinctObjects 17 ;
+        void:distinctSubjects 20 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#isaActionOfEffect> ;
+        void:triples 30
+    ], [
+        void:distinctObjects 128 ;
+        void:distinctSubjects 556 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#useMedicinalPartOf> ;
+        void:triples 590
+    ], [
+        void:distinctObjects 6181 ;
+        void:distinctSubjects 6522 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#ChineseName> ;
+        void:triples 6747
+    ], [
+        void:distinctObjects 2277 ;
+        void:distinctSubjects 2571 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#EnglishName> ;
+        void:triples 2575
+    ], [
+        void:distinctObjects 13 ;
+        void:distinctSubjects 551 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#hasEffectToMeridianEntry> ;
+        void:triples 1327
+    ], [
+        void:distinctObjects 71 ;
+        void:distinctSubjects 229 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#domain> ;
+        void:triples 229
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 11 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#NCBI_TaxonomybyScientificName> ;
+        void:triples 11
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 10 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> ;
+        void:triples 10
+    ], [
+        void:distinctObjects 263 ;
+        void:distinctSubjects 269 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#NCBI_TaxonomybySynonym> ;
+        void:triples 270
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 11040 ;
+        void:property rdf:type ;
+        void:triples 5852
+    ], [
+        void:distinctObjects 2242 ;
+        void:distinctSubjects 757 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#isFrom> ;
+        void:triples 2583
+    ], [
+        void:distinctObjects 38 ;
+        void:distinctSubjects 117 ;
+        void:property rdf:first ;
+        void:triples 117
+    ], [
+        void:distinctObjects 15 ;
+        void:distinctSubjects 564 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#hasMedicinalFlavorOf> ;
+        void:triples 864
+    ], [
+        void:distinctObjects 4 ;
+        void:distinctSubjects 128 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#isPoisonedBy> ;
+        void:triples 217
+    ], [
+        void:distinctObjects 72 ;
+        void:distinctSubjects 117 ;
+        void:property rdf:rest ;
+        void:triples 117
+    ], [
+        void:distinctObjects 29 ;
+        void:distinctSubjects 107 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#subClassOf> ;
+        void:triples 107
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 30 ;
+        void:property <http://www.w3.org/2002/07/owl#inverseOf> ;
+        void:triples 30
+    ], [
+        void:distinctObjects 1 ;
+        void:distinctSubjects 1 ;
+        void:property <http://www.w3.org/2002/07/owl#versionInfo> ;
+        void:triples 1
+    ], [
+        void:distinctObjects 71 ;
+        void:distinctSubjects 151 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#range> ;
+        void:triples 151
+    ], [
+        void:distinctObjects 39 ;
+        void:distinctSubjects 24 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#isIncompatibleWith> ;
+        void:triples 53
+    ], [
+        void:distinctObjects 1690 ;
+        void:distinctSubjects 574 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#hasEffectTo> ;
+        void:triples 3609
+    ], [
+        void:distinctObjects 2406 ;
+        void:distinctSubjects 1414 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#ScientificName> ;
+        void:triples 2407
+    ], [
+        void:distinctObjects 383 ;
+        void:distinctSubjects 37 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#hasToxicSymptomOf> ;
+        void:triples 653
+    ], [
+        void:distinctObjects 5 ;
+        void:distinctSubjects 5 ;
+        void:property <http://www.w3.org/2002/07/owl#distinctMembers> ;
+        void:triples 5
+    ], [
+        void:distinctObjects 555 ;
+        void:distinctSubjects 403 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#isContraindicatedTo> ;
+        void:triples 858
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 51 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#isa> ;
+        void:triples 51
+    ], [
+        void:distinctObjects 2 ;
+        void:distinctSubjects 1 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#isRelatedWith> ;
+        void:triples 2
+    ], [
+        void:distinctObjects 1025 ;
+        void:distinctSubjects 1091 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#EnglishAnnotation> ;
+        void:triples 1099
+    ], [
+        void:distinctObjects 225 ;
+        void:distinctSubjects 681 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#isaMemberOfFamily> ;
+        void:triples 682
+    ], [
+        void:distinctObjects 11 ;
+        void:distinctSubjects 564 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#hasMedicinalNatureOf> ;
+        void:triples 571
+    ], [
+        void:distinctObjects 41 ;
+        void:distinctSubjects 41 ;
+        void:property <http://www.w3.org/2002/07/owl#unionOf> ;
+        void:triples 41
+    ], [
+        void:distinctObjects 4546 ;
+        void:distinctSubjects 4863 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#KoreanName> ;
+        void:triples 4897
+    ], [
+        void:distinctObjects 30 ;
+        void:distinctSubjects 30 ;
+        void:property <http://www.w3.org/2000/01/rdf-schema#comment> ;
+        void:triples 30
+    ], [
+        void:distinctObjects 870 ;
+        void:distinctSubjects 571 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#hasEffectOf> ;
+        void:triples 1592
+    ], [
+        void:distinctObjects 729 ;
+        void:distinctSubjects 760 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#NCBI_TaxonomybyGenericSpecificName> ;
+        void:triples 760
+    ], [
+        void:distinctObjects 4953 ;
+        void:distinctSubjects 977 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#AlternateName> ;
+        void:triples 5073
+    ], [
+        void:distinctObjects 40 ;
+        void:distinctSubjects 123 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#intoxicateTo> ;
+        void:triples 408
+    ], [
+        void:distinctObjects 42 ;
+        void:distinctSubjects 345 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#isMedicinalCategoryOf> ;
+        void:triples 345
+    ], [
+        void:distinctObjects 351 ;
+        void:distinctSubjects 63 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#isToxicWith> ;
+        void:triples 789
+    ], [
+        void:distinctObjects 20 ;
+        void:distinctSubjects 17 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#hasaActionOfEffect> ;
+        void:triples 30
+    ], [
+        void:distinctObjects 42 ;
+        void:distinctSubjects 41 ;
+        void:property <http://tkm.kiom.re.kr/tkmedicine#ID> ;
+        void:triples 42
+    ] ;
+    void:triples 51932 ;
+    void:vocabulary <http://tkm.kiom.re.kr/tkmedicine>, <http://www.w3.org/1999/02/22-rdf-syntax-ns>, <http://www.w3.org/2000/01/rdf-schema>, <http://www.w3.org/2002/07/owl> ;
+    a void:Dataset .
+
