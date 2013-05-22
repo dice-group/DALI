@@ -1,0 +1,12 @@
+#IDEA project files
+*.iml
+*.ipr
+*.iws
+
+#Logfiles
+*.log*
+
+#build files
+similarity/target/
+optimization/target/
+browser/target/
