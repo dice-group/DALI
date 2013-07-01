@@ -8,7 +8,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Iterator;
 
 import org.openrdf.query.Binding;
@@ -41,7 +40,7 @@ public class SilverStandard {
             // get endpoints from _endpoints.txt
             System.out.println(endpoint);
             // ask for all owl:sameAs and save them
-            saveSameAs(getSameAs("http://dbpedia.org/sparql/"), endpoint, end);
+            getSameAs("http://dbpedia.org/sparql/", end);
             // TODO group them by the endpoint
             end++;
         }
@@ -55,9 +54,9 @@ public class SilverStandard {
      * @param end
      * @throws IOException
      */
-    private static void saveSameAs(ArrayList<ArrayList<String>> sameAs, String endpoint, int end) throws IOException {
+    private static void saveContinously(ArrayList<ArrayList<String>> sameAs, String endpoint, int end) throws IOException {
         System.out.println("\t" + sameAs.size());
-        BufferedWriter bw = new BufferedWriter(new FileWriter(new File("resources/endpoint/" + end)));
+        BufferedWriter bw = new BufferedWriter(new FileWriter(new File("resources/endpoint/" + end), true));
         bw.write(endpoint);
         bw.newLine();
         for (ArrayList<String> row : sameAs) {
@@ -86,35 +85,37 @@ public class SilverStandard {
         return list;
     }
 
-    private static ArrayList<ArrayList<String>> getSameAs(String endpoint) throws RepositoryException {
+    private static void getSameAs(String endpoint, int end) throws RepositoryException, IOException {
         SPARQLRepository rep = new SPARQLRepository(endpoint);
         rep.initialize();
         RepositoryConnection con = rep.getConnection();
         // TODO build in offset
-        ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
         int oldCount = 0;
         int newCount = 0;
         do {
             oldCount = newCount;
+            // TODO cursor
             String query = "PREFIX owl:<http://www.w3.org/2002/07/owl#> " +
                     "SELECT ?s ?o " +
-                    "WHERE { ?s owl:sameAs ?o} ORDER BY ?s ";// LIMIT " + (40000 + oldCount) + " OFFSET " + oldCount;
-            // System.out.println(query);
-            HashSet<ArrayList<String>> ask = ask(query, con);
-            newCount = ask.size() + oldCount;
-            System.out.println("Offset: " + newCount + "-> " + ask.size());
-            result.addAll(ask);
+                    "WHERE { " +
+                    "       SELECT DISTINCT ?s ?o " +
+                    "       WHERE { ?s owl:sameAs ?o. } " +
+                    "       ORDER BY ASC (?s) }  " +
+                    "OFFSET " + oldCount + " " +
+                    "LIMIT " + 40000;
+            System.out.println(query);
+            saveContinously(ask(query, con), endpoint, end);
+            newCount = 40000 + oldCount;
             System.gc();
         } while (oldCount < newCount);
         con.close();
-        return result;
     }
 
-    public static HashSet<ArrayList<String>> ask(String query, RepositoryConnection con) {
+    public static ArrayList<ArrayList<String>> ask(String query, RepositoryConnection con) {
         QueryLanguage queryLanguage = QueryLanguage.SPARQL;
-        HashSet<ArrayList<String>> result = null;
+        ArrayList<ArrayList<String>> result = null;
         try {
-            result = new HashSet<ArrayList<String>>();
+            result = new ArrayList<ArrayList<String>>();
             TupleQuery tupleQuery = con.prepareTupleQuery(queryLanguage, query);
             TupleQueryResultBuilder tQRW = new TupleQueryResultBuilder();
             tupleQuery.evaluate(tQRW);
