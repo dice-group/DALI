@@ -26,7 +26,7 @@ public class NGramTokenizer implements Tokenizer {
         //for (int i = 1; i < q; i++) {
         while(s.length() < q)
         {
-            s = s + "_";
+            s += "_";
         }
         Set<String> tokens = new HashSet<String>();
         for (int i = 0; i < s.length() - q + 1; i++) {

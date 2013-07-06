@@ -16,7 +16,7 @@ import org.apache.log4j.Logger;
  */
 public class DescriptionCollector {
 
-    static Logger logger = Logger.getLogger("DOODLE");
+    static Logger logger = Logger.getLogger(DescriptionCollector.class);
 
     public static boolean isAlive(String sparqlEndpoint) {
         try {
@@ -56,7 +56,8 @@ public class DescriptionCollector {
             logger.warn("Error reading description");
             return null;
         }
-        logger.info("Description for "+sparqlEndpoint+"\n"+d.features);
+        logger.info("created description for "+sparqlEndpoint);
+        logger.trace("features for " + sparqlEndpoint + ":\n"+d.features);
         return d;
     }
 

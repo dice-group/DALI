@@ -9,6 +9,7 @@ import groovy.transform.TypeChecked
  */
 @TypeChecked
 class CompilerTest {
+
     static FastNGram getFastNGram() {
         new FastNGram()
     }

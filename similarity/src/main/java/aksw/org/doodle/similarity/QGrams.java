@@ -27,7 +27,7 @@ public class QGrams implements Similarity{
             {
                 for(String key2: vd2.features.keySet())
                 {
-                    result = result + sim.getSimilarity(key, key2)*vd1.features.get(key)*vd2.features.get(key2);
+                    result += sim.getSimilarity(key, key2)*vd1.features.get(key)*vd2.features.get(key2);
                 }
             }
             return result/Math.sqrt(vd1.squaredLength()*vd2.squaredLength());

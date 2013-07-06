@@ -17,7 +17,8 @@ public class QGramSimilarity {
     int q = 3;
 
     public QGramSimilarity(int q) {
-        tokenizer = new NGramTokenizer();
+        this();
+        this.q = q;
     }
 
     public QGramSimilarity() {
@@ -33,7 +34,7 @@ public class QGramSimilarity {
     public double getSimilarity(Set<String> X, Set<String> Y) {
         double x = (double) X.size();
         double y = (double) Y.size();
-        //create a kopy of X
+        //create a copy of X
         Set<String> K = new HashSet<String>();
         for (String s : X) {
             K.add(s);
