@@ -6,16 +6,16 @@ package aksw.org.doodle.similarity;
 
 import aksw.org.doodle.dataset.Description;
 import aksw.org.doodle.dataset.VectorDescription;
-import de.uni_leipzig.simba.mapper.atomic.fastngram.QGramSimilarity;
+import de.uni_leipzig.simba.mapper.atomic.fastngram.QGramStringSimilarity;
 
 /**
  *
  * @author ngonga
  */
-public class QGrams implements Similarity{
+public class QGramSimilarity implements Similarity{
     
     public double getSimilarity(Description d1, Description d2) {
-        QGramSimilarity sim = new QGramSimilarity();
+        QGramStringSimilarity sim = new QGramStringSimilarity();
         
         if (d1 instanceof VectorDescription && d2 instanceof VectorDescription)
         {

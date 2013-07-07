@@ -28,7 +28,7 @@ public class FastNGram {
     public static Map<String, Map<String, Double>> compute(Set<String> source, Set<String> target, int q, double threshold) {
         Index index = new Index(q);
         double kappa = (1 + threshold) / threshold;
-        QGramSimilarity sim = new QGramSimilarity(q);
+        QGramStringSimilarity sim = new QGramStringSimilarity(q);
         Tokenizer tokenizer = new NGramTokenizer();
         Map<String, Set<String>> targetTokens = new HashMap<String, Set<String>>();
         Map<String, Map<String, Double>> result = new HashMap<String, Map<String, Double>>();

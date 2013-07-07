@@ -30,11 +30,11 @@ public class VectorDescription implements Description, Serializable {
     public double squaredLength() {
         double l = 0;
         for (String key : features.keySet()) {
-            l = l + features.get(key) * features.get(key);
+            l += features.get(key) * features.get(key);
         }
         return l;
     }
-    
+
     public String toString()
     {
         String result = "";

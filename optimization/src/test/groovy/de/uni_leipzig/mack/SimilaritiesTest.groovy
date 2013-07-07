@@ -5,21 +5,20 @@ import aksw.org.doodle.dataset.VectorDescription
 import aksw.org.doodle.engine.Engine
 import aksw.org.doodle.lodstats.EndpointReader
 import aksw.org.doodle.similarity.CosineSimilarity
-import aksw.org.doodle.similarity.QGrams
+import aksw.org.doodle.similarity.QGramSimilarity
 import aksw.org.doodle.similarity.Similarity
 import com.google.common.collect.AbstractMapBasedMultiset
 import com.google.common.collect.HashMultiset
-import com.google.common.collect.ImmutableList
 import com.google.common.collect.ImmutableMap
 import com.google.common.collect.Multiset
 import com.google.common.collect.Multisets
 import com.hp.hpl.jena.query.QueryExecutionFactory
 import com.hp.hpl.jena.query.QueryFactory
 import com.hp.hpl.jena.query.Syntax
-import de.uni_leipzig.simba.mapper.atomic.fastngram.QGramSimilarity
 import groovy.transform.TypeChecked
-import groovy.transform.TypeCheckingMode
 import groovy.util.logging.Log4j
+
+import static aksw.org.doodle.similarity.AbstractNormalizedQGramSimilarity.*
 
 /**
  * Created by Markus Ackermann.
@@ -88,14 +87,17 @@ class SimilaritiesTest extends GroovyTestCase{
         for(e in ['subject uris': subjUris, 'subject namespaces': subjNamespaces].entrySet()) {
             logger.info "Found ${e.value.size()} $e.key"
             logger.debug(e.value.entrySet().collect({ Multiset.Entry me ->
-                sprintf("%.-96s\t%5d", me.element, me.count)
+                sprintf("%96.-96s\t%5d", me.element, me.count)
             }).join('\n'))
         }
     }
 
     void testSimilarityComparison() {
         def eng = Engine.instance
-        def simMeasures = ImmutableMap.copyOf( [qgram: new QGrams(), cosine: new CosineSimilarity()])
+        def simMeasures = ImmutableMap.copyOf([qgram: new QGramSimilarity(),
+                norm_qgram_asym: new NormalizedAssymmetricQGramSimilarity(),
+                norm_qgram_symm: new NormalizedSymmetricQGramSimilarity(),
+                cosine: new CosineSimilarity()])
 
         def dsSample = eng.datasets.entrySet().grep({ Map.Entry<String, Description> e ->
             def desc = e.value

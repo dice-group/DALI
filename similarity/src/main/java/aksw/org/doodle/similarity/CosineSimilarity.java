@@ -24,7 +24,7 @@ public class CosineSimilarity implements Similarity{
             {
                 if(vd2.features.containsKey(key))
                 {
-                    result = result + vd1.features.get(key)*vd2.features.get(key);
+                    result += vd1.features.get(key)*vd2.features.get(key);
                 }
             }
             return result/Math.sqrt(vd1.squaredLength()*vd2.squaredLength());

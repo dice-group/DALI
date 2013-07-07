@@ -11,17 +11,17 @@ import java.util.Set;
  *
  * @author ngonga
  */
-public class QGramSimilarity {
+public class QGramStringSimilarity {
 
     Tokenizer tokenizer;
     int q = 3;
 
-    public QGramSimilarity(int q) {
+    public QGramStringSimilarity(int q) {
         this();
         this.q = q;
     }
 
-    public QGramSimilarity() {
+    public QGramStringSimilarity() {
         tokenizer = new NGramTokenizer();
     }
 
@@ -35,17 +35,14 @@ public class QGramSimilarity {
         double x = (double) X.size();
         double y = (double) Y.size();
         //create a copy of X
-        Set<String> K = new HashSet<String>();
-        for (String s : X) {
-            K.add(s);
-        }
+        Set<String> K = new HashSet<String>(X);
         K.retainAll(Y);
         double z = (double) K.size();
         return z / (x + y - z);
     }
 
     public static void main(String args[]) {
-        System.out.println(new QGramSimilarity().getSimilarity("abcd", "abcde"));
+        System.out.println(new QGramStringSimilarity().getSimilarity("abcd", "abcde"));
     }
 
     

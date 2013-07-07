@@ -6,7 +6,7 @@ package aksw.org.doodle.webservice;
 
 import aksw.org.doodle.engine.DescriptionCollector;
 import aksw.org.doodle.engine.Engine;
-import aksw.org.doodle.similarity.QGrams;
+import aksw.org.doodle.similarity.QGramSimilarity;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -32,7 +32,7 @@ public class Webservice {
         Engine engine = Engine.getInstance();
         logger.info("Running on " + endpoint);
         if (DescriptionCollector.isAlive(endpoint)) {
-            Map<String, Double> result = engine.getScores(endpoint, new QGrams());
+            Map<String, Double> result = engine.getScores(endpoint, new QGramSimilarity());
             if (!result.isEmpty()) {
                 String r = "[ ";
                 for (String e : result.keySet()) {

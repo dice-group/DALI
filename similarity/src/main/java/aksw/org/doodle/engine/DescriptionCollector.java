@@ -6,7 +6,7 @@ package aksw.org.doodle.engine;
 
 import aksw.org.doodle.dataset.Description;
 import aksw.org.doodle.dataset.VectorDescription;
-import aksw.org.doodle.similarity.QGrams;
+import aksw.org.doodle.similarity.QGramSimilarity;
 import com.hp.hpl.jena.query.*;
 import org.apache.log4j.Logger;
 
@@ -63,6 +63,6 @@ public class DescriptionCollector {
 
     public static void main(String args[]) {
         Engine e = Engine.getInstance();
-        System.out.println(e.getScores("http://vocabulary.semantic-web.at/PoolParty/sparql/AustrianSkiTeam", new QGrams()));        
+        System.out.println(e.getScores("http://vocabulary.semantic-web.at/PoolParty/sparql/AustrianSkiTeam", new QGramSimilarity()));
     }
 }
