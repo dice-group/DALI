@@ -1,0 +1,4 @@
+moduleName = DaliOptExtension
+moduleVersion = 1.0
+extensionClasses = extensions.Extensions,extensions.JavaExtensions,extensions.MultisetExtensions,\
+                   groovy.xml.dom.DOMCategory,groovyx.gpars.GParsPoolUtil

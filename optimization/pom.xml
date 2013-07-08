@@ -1,0 +1,123 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dali-opt</artifactId>
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>aksw.org</groupId>
+        <artifactId>dali</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>..</relativePath>
+    </parent>
+
+    <name>Dali-Optimization</name>
+
+    <profiles>
+        <profile>
+            <id>buildWebservice</id>
+             <build>
+                 <plugins>
+                     <plugin>
+                         <groupId>org.apache.maven.plugins</groupId>
+                         <artifactId>maven-shade-plugin</artifactId>
+                         <version>2.1</version>
+                         <executions>
+                             <execution>
+                                 <phase>package</phase>
+                                 <goals>
+                                     <goal>shade</goal>
+                                 </goals>
+                                 <configuration>
+                                     <artifactSet>
+                                         <includes>
+                                             <include>org.codehaus.groovy:*</include>
+                                             <inclue>org.ow2.asm:*</inclue>
+                                         </includes>
+                                         <excludes>
+                                             <exclude>antlr:antlr</exclude>
+                                         </excludes>
+                                     </artifactSet>
+                                     <relocations>
+                                         <relocation>
+                                             <pattern>org.objectweb.asm</pattern>
+                                             <shadedPattern>org.objectweb.asm4.shaded</shadedPattern>
+                                         </relocation>
+                                     </relocations>
+                                     <minimizeJar>true</minimizeJar>
+                                     <dependencyReducedPomLocation>
+                                         ${project.build.directory}/dependency-reduced-pom.xml
+                                     </dependencyReducedPomLocation>
+                                 </configuration>
+                             </execution>
+                         </executions>
+                     </plugin>
+                 </plugins>
+             </build>
+        </profile>
+    </profiles>
+
+    <dependencies>
+        <dependency>
+            <groupId>aksw.org</groupId>
+            <artifactId>dali-sim</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>aksw.org</groupId>
+            <artifactId>dali-opt-extensions</artifactId>
+        </dependency>
+        <!-- groovy will be added to the final jar artifact to shade the ASM 4 library (it is conflicting with
+             ASM 3 dependency of com.sun.jersey:jersey-server:1.16 -->
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <!-- a groovy dependency that doesn't have to be shaded -> so carry it on for regular dep. resolution -->
+        <dependency>
+            <groupId>antlr</groupId>
+            <artifactId>antlr</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-test</artifactId>
+            <scope>test</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <compilerId>groovy-eclipse-compiler</compilerId>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.codehaus.groovy</groupId>
+                        <artifactId>groovy-eclipse-compiler</artifactId>
+                        <version>2.8.0-01</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.codehaus.groovy</groupId>
+                        <artifactId>groovy-eclipse-batch</artifactId>
+                        <version>2.1.5-03</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy-eclipse-compiler</artifactId>
+                <version>2.8.0-01</version>
+                <extensions>true</extensions>  <!-- ensures compilation of src/*/groovy -->
+            </plugin>
+        </plugins>
+    </build>
+</project>

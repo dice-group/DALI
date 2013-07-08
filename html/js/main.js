@@ -11,6 +11,7 @@ requirejs.config({
 });
 
 require(['jquery', 'bootstrap', 'dot', 'spinner'], function(_$, _bootstrap, doT, $) {
+    //var queryEndpoint = "http://localhost:5555/getdatasets",
     var queryEndpoint = "http://139.18.2.164:5555/getdatasets",
         // cache dom pointers
         $goBtn = $("#goBtn"),
