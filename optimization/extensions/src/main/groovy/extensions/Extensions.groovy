@@ -8,17 +8,17 @@ class Extensions {
 
     static <K, V> V getWithDefault(Map<K, V> self, K key, Closure<V> defaultProvider) {
         def value = self.get(key)
-        if (defaultProvider.maximumNumberOfParameters > 1)
-            throw new IllegalArgumentException()
 
         if (value == null && !(key in self)) {
+            if (defaultProvider.maximumNumberOfParameters > 1)
+                throw new IllegalArgumentException()
             if (defaultProvider.maximumNumberOfParameters == 1 && K.class.isCase(defaultProvider.parameterTypes[0])) {
                 value = defaultProvider.call(key)
             } else {
                 value = defaultProvider.call()
             }
+            self.put(key, value)
         }
-        self.put(key, value)
         return value
     }
 

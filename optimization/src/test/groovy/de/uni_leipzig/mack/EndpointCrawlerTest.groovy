@@ -21,8 +21,8 @@ class EndpointCrawlerTest extends GroovyTestCase{
 
         logger.info 'measuring resp times'
         def sw = new Stopwatch().start()
-        def times = crawler.genericResponsTimes(endpointUris)
-        println crawler.responseTimeReport(times)
+        def times = crawler.genericResponseTimes(endpointUris)
+        println crawler.integerReport(times, 'time')
         logger.info "and it took ${sw.elapsed(TimeUnit.MILLISECONDS)} ms"
         logger.info "could measure ${times.size()} of ${endpointUris.size()} endpoints"
     }

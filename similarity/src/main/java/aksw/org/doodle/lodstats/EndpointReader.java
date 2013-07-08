@@ -10,9 +10,6 @@ import aksw.org.doodle.engine.Engine;
 import org.apache.log4j.Logger;
 
 import java.io.*;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 
@@ -108,7 +105,7 @@ public class EndpointReader {
             LinkedList<String> uriList = new LinkedList<String>();
             BufferedReader reader = null;
             try {
-                reader = Files.newBufferedReader(filePath, StandardCharsets.ISO_8859_1);
+                reader = new BufferedReader(new FileReader(filePath.toString()));
                 String line = reader.readLine();
                 while(line != null) {
                     String uri = line.split("\t")[0];

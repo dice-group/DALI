@@ -7,18 +7,15 @@ import aksw.org.doodle.lodstats.EndpointReader
 import aksw.org.doodle.similarity.CosineSimilarity
 import aksw.org.doodle.similarity.QGramSimilarity
 import aksw.org.doodle.similarity.Similarity
-import com.google.common.collect.AbstractMapBasedMultiset
-import com.google.common.collect.HashMultiset
-import com.google.common.collect.ImmutableMap
-import com.google.common.collect.Multiset
-import com.google.common.collect.Multisets
+import com.google.common.collect.*
 import com.hp.hpl.jena.query.QueryExecutionFactory
 import com.hp.hpl.jena.query.QueryFactory
 import com.hp.hpl.jena.query.Syntax
 import groovy.transform.TypeChecked
 import groovy.util.logging.Log4j
 
-import static aksw.org.doodle.similarity.AbstractNormalizedQGramSimilarity.*
+import static aksw.org.doodle.similarity.AbstractNormalizedQGramSimilarity.NormalizedAssymmetricQGramSimilarity
+import static aksw.org.doodle.similarity.AbstractNormalizedQGramSimilarity.NormalizedSymmetricQGramSimilarity
 
 /**
  * Created by Markus Ackermann.
@@ -111,10 +108,10 @@ class SimilaritiesTest extends GroovyTestCase{
         def combs = combWithoutSymmetry(dsSample)
 
         def headings =  ['knowledge base pair'] + (Collection<String>) simMeasures.keySet()
-        printf('%-68s %8s %8s%n', headings)
+        printf('%-68s %8s %8s %8s %8s%n', headings)
         println combs.collect({
              List<Map.Entry<String, Description>> pairList ->
-                 def dsNames = pairList.key.collect({ sprintf('%.32s', it) }).join(' <=> ')
+                 def dsNames = pairList.key.collect({ sprintf('%-32.32s', it) }).join(' <=> ')
                  def line = simMeasures.values().inject(new StringBuffer(dsNames)) { StringBuffer sb, Similarity sim ->
                     sb << sprintf('%8.2f ', sim.getSimilarity(pairList[0].value, pairList[1].value))
                  }

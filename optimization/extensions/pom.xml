@@ -29,14 +29,12 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy</artifactId>
-            <version>${groovy.version}</version>
             <optional>true</optional>
         </dependency>
         <!-- a groovy dependency that doesn't have to be shaded -> so carry it on for dep. resolution -->
         <dependency>
             <groupId>antlr</groupId>
             <artifactId>antlr</artifactId>
-            <version>2.7.7</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -47,9 +45,12 @@
             <artifactId>gpars</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.neodatis.odb</groupId>
+            <artifactId>neodatis-odb</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-test</artifactId>
-            <version>${groovy.version}</version>
             <scope>test</scope>
             <optional>true</optional>
         </dependency>

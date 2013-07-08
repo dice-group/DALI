@@ -5,24 +5,13 @@ import com.google.common.base.Optional
 import com.google.common.base.Stopwatch
 import com.google.common.collect.ImmutableMap
 import com.google.common.collect.Maps
-import groovy.time.Duration
 import groovy.transform.TypeChecked
 import groovy.util.logging.Log4j
 import groovyx.gpars.GParsPool
 
-import java.util.concurrent.Callable
-import java.util.concurrent.ConcurrentHashMap
-import java.util.concurrent.ConcurrentMap
-import java.util.concurrent.ExecutionException
-import java.util.concurrent.ExecutorService
-import java.util.concurrent.Executors
-import java.util.concurrent.Future
-import java.util.concurrent.ThreadPoolExecutor
-import java.util.concurrent.TimeUnit
-import java.util.concurrent.TimeoutException
-import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.*
 
-import static java.util.Map.*
+import static java.util.Map.Entry
 
 /**
  * Created by Markus Ackermann.
@@ -37,7 +26,7 @@ class EndpointCrawler {
 
     def <V> Map<String, V> collectEndpointsData(List<String> endpointUris, Closure<V> work, int timeout) {
         def data = new ConcurrentHashMap<String,V>(endpointUris.size())
-        GParsPool.withPool {
+        GParsPool.withPool(16) {
             endpointUris.eachParallel { String uri ->
                 def result = getDataWithTimeout(uri, work, timeout)
                 if(result.present) {
@@ -61,8 +50,7 @@ class EndpointCrawler {
         ret
     }
 
-
-    Map<String,Integer> genericResponsTimes(List<String> endpointUris) {
+    Map<String,Integer> genericResponseTimes(List<String> endpointUris) {
         def probeRespTime = { String uri ->
             def sw = new Stopwatch().start()
             DescriptionCollector.isAlive(uri)
@@ -73,39 +61,16 @@ class EndpointCrawler {
         ImmutableMap.copyOf(respTimeMap)
     }
 
-
-
-    int collectRespsonseTimes(List<String> endpointUris) {
-        (int) GParsPool.withPool {
-            Closure<Boolean> cl =  { String uri -> measureResponseTime(uri) }
-            endpointUris.collectParallel(cl).grep().size()
+    static String integerReport(Map<String, Integer> data, String dataHeading) {
+        if(data.size() < 1) {
+            throw new IllegalArgumentException("Need at least one observation to show")
         }
-    }
-
-    protected boolean measureResponseTime(String endpointUri) {
-        def sw = new Stopwatch().start()
-        def future = executor.submit({ DescriptionCollector.isAlive(endpointUri) } as Callable<Boolean>)
-        boolean alive = false
-        try{
-            alive = future.get(60, TimeUnit.SECONDS)
-        } catch (TimeoutException toe) {
-            logger.warn "Is-alive test for '$endpointUri' timed out"
-        } catch (ExecutionException ee) {
-            logger.warn "Exception during is-alive test for '$endpointUri':\n${ee}"
-        }
-        if(alive) {
-            responseTimes.putIfAbsent(endpointUri, sw.elapsed(TimeUnit.MILLISECONDS).toInteger())
-        }
-        return alive
-    }
-
-    protected static String responseTimeReport(Map<String, Integer> respTimes) {
-        def endpointMaxLen = respTimes.keySet()*.size().max()
-        def timeMaxLen = respTimes.values()*.toString()*.size().max() /*.max { int t -> t.toString().size() }*/
+        def endpointMaxLen = data.keySet()*.size().max()
+        def timeMaxLen = data.values()*.toString()*.size().max()
         def headFormat = "%-${endpointMaxLen}s\t%-${timeMaxLen}s".toString()
         def lineFormat = "%-${endpointMaxLen}s\t%${timeMaxLen}d".toString()
-        def lines = [sprintf(headFormat,'endpoint', 'time')]
-        (lines + respTimes.entrySet().sort({ Entry<String, Integer> e -> e.value}).collect({
+        def lines = [sprintf(headFormat,'endpoint', dataHeading)]
+        (lines + data.entrySet().sort({ Entry<String, Integer> e -> e.value}).collect({
             Entry<String, Integer> e -> sprintf(lineFormat, e.key, e.value)
         })).join('\n')
     }

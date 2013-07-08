@@ -21,7 +21,7 @@ import java.util.logging.Logger;
  */
 public class Engine {
 
-    public static final String SELECTED_ENDPOINTS_FILE = "../resources/endpoints.txt";
+    public static final String SELECTED_ENDPOINTS_FILE = "../resources/endpoints_selection.txt";
     public static final String COMPLETE_ENDPOINTS_FILE = "../resources/_endpoints.txt";
     public static final String DUMP_FILE = "../resources/sparqlEndpoints.ser";
     public static final String LODSTATS_DATA_DIR = "../resources/LODStats_all_void";

@@ -12,6 +12,8 @@
     <properties>
         <project.version>1.0-SNAPSHOT</project.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <groovy.version>2.1.5</groovy.version>
+        <opt4j.version>3.0.1</opt4j.version>
     </properties>
 
     <modules>
@@ -110,13 +112,37 @@
                 <version>2.7.0-beta1</version>
             </dependency>
             <dependency>
+                <groupId>org.neodatis.odb</groupId>
+                <artifactId>neodatis-odb</artifactId>
+                <version>1.9.30.689</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy</artifactId>
+                <version>${groovy.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy-test</artifactId>
+                <version>${groovy.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.opt4j</groupId>
+                <artifactId>opt4j-core</artifactId>
+                <version>${opt4j.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>commons-logging</groupId>
                 <artifactId>commons-logging</artifactId>
                 <version>1.1.1</version>
             </dependency>
+            <dependency>
+                <groupId>antlr</groupId>
+                <artifactId>antlr</artifactId>
+                <version>2.7.7</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
-
     <build>
         <pluginManagement>
             <plugins>
