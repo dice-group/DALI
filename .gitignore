@@ -1,4 +1,5 @@
 *.class
+java/target/
 java/.classpath
 java/.settings
 java/.project
