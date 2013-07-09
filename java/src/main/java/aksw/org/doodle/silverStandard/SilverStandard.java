@@ -37,13 +37,29 @@ public class SilverStandard {
     public static void main(String args[]) throws RepositoryException, IOException {
         int end = 0;
         for (String endpoint : getEndpoints()) {
-            // get endpoints from _endpoints.txt
-            System.out.println(endpoint);
-            // ask for all owl:sameAs and save them
-            getSameAs("http://dbpedia.org/sparql/", end);
-            // TODO group them by the endpoint
-            end++;
+            try {
+                // System.out.println("Valid endpoint:\t" + endpoint + "\t:\t" + getSizeOfEndpoint(endpoint));
+
+                // ask for all owl:sameAs and save them
+                getSameAs("http://dbpedia.org/sparql/", end++);
+            } catch (Exception e) {
+                log.error("Invalid endpoint:" + endpoint);
+            }
         }
+    }
+
+    private static int getSizeOfEndpoint(String endpoint) throws RepositoryException, IOException {
+        SPARQLRepository rep = new SPARQLRepository(endpoint);
+        rep.initialize();
+        RepositoryConnection con = rep.getConnection();
+        String query = "PREFIX owl:<http://www.w3.org/2002/07/owl#> " +
+                "SELECT count(*) " +
+                "WHERE { " +
+                "       ?s owl:sameAs ?o} ";
+        ArrayList<ArrayList<String>> result = ask(query, con);
+        System.gc();
+        con.close();
+        return Integer.valueOf(result.get(0).get(0));
     }
 
     /**
@@ -72,7 +88,7 @@ public class SilverStandard {
     private static ArrayList<String> getEndpoints() {
         ArrayList<String> list = new ArrayList<String>();
         try {
-            BufferedReader br = new BufferedReader(new FileReader("resources/_endpoints.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("resources/numberOfLinksPerEndpoint"));
             while (br.ready()) {
                 list.add(br.readLine().split("\t")[0]);
             }

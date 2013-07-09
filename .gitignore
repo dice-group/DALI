@@ -1,0 +1,6 @@
+*.class
+java/.classpath
+java/.settings
+java/.project
+java/.springBeans
+
