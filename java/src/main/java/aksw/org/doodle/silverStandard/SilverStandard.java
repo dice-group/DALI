@@ -38,10 +38,10 @@ public class SilverStandard {
         int end = 0;
         for (String endpoint : getEndpoints()) {
             try {
-                System.out.println("Valid endpoint:\t" + endpoint + "\t:\t" + getSizeOfEndpoint(endpoint));
+                log.info("Endpoint:\t" + endpoint + "\t:\t" + getSizeOfEndpoint(endpoint));
                 // ask for all owl:sameAs and save them
                 getSameAs(endpoint, end++);
-                log.info("Extracted: " + endpoint);
+                log.info("\tFinished");
             } catch (Exception e) {
                 log.error("Invalid endpoint:" + endpoint);
                 log.error(e.getLocalizedMessage());
@@ -89,6 +89,8 @@ public class SilverStandard {
             bw.write("<" + row.get(0) + "> owl:sameAs <" + row.get(1) + ">.");
             bw.newLine();
         }
+        bw.flush();
+        System.gc();
     }
 
     private static ArrayList<String> getEndpoints() {
