@@ -38,12 +38,13 @@ public class SilverStandard {
         int end = 0;
         for (String endpoint : getEndpoints()) {
             try {
-                // System.out.println("Valid endpoint:\t" + endpoint + "\t:\t" + getSizeOfEndpoint(endpoint));
-
+                System.out.println("Valid endpoint:\t" + endpoint + "\t:\t" + getSizeOfEndpoint(endpoint));
                 // ask for all owl:sameAs and save them
-                getSameAs("http://dbpedia.org/sparql/", end++);
+                getSameAs(endpoint, end++);
+                log.info("Extracted: " + endpoint);
             } catch (Exception e) {
                 log.error("Invalid endpoint:" + endpoint);
+                log.error(e.getLocalizedMessage());
             }
         }
     }
@@ -62,27 +63,32 @@ public class SilverStandard {
         return Integer.valueOf(result.get(0).get(0));
     }
 
-    /**
-     * saves every triple in the form of ?s ?o leaving out owl:sameAs as predicate due to storage reasons
-     * 
-     * @param sameAs
-     * @param endpoint
-     * @param end
-     * @throws IOException
-     */
-    private static void saveContinously(ArrayList<ArrayList<String>> sameAs, String endpoint, int end) throws IOException {
-        System.out.println("\t" + sameAs.size());
+    private static BufferedWriter startSaving(String endpoint, int end) throws IOException {
         BufferedWriter bw = new BufferedWriter(new FileWriter(new File("resources/endpoint/" + end), true));
-        bw.write(endpoint);
+        bw.write("@prefix owl:<http://www.w3.org/2002/07/owl#>.");
         bw.newLine();
+        bw.write("@prefix void: <http://rdfs.org/ns/void#> .");
+        bw.newLine();
+        bw.write("@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .");
+        bw.newLine();
+        bw.write("@prefix foaf: <http://xmlns.com/foaf/0.1/> .");
+        bw.newLine();
+        bw.write(":this rdf:type void:Dataset ;");
+        bw.newLine();
+        bw.write("      foaf:homepage <" + endpoint + "> .");
+        bw.newLine();
+        return bw;
+    }
+
+    /**
+     * saves every triple
+     * 
+     */
+    private static void saveContinously(BufferedWriter bw, ArrayList<ArrayList<String>> sameAs) throws IOException {
         for (ArrayList<String> row : sameAs) {
-            for (String entry : row) {
-                bw.write(entry);
-                bw.write("\t");
-            }
+            bw.write("<" + row.get(0) + "> owl:sameAs <" + row.get(1) + ">.");
             bw.newLine();
         }
-        bw.close();
     }
 
     private static ArrayList<String> getEndpoints() {
@@ -105,25 +111,24 @@ public class SilverStandard {
         SPARQLRepository rep = new SPARQLRepository(endpoint);
         rep.initialize();
         RepositoryConnection con = rep.getConnection();
-        // TODO build in offset
         int oldCount = 0;
         int newCount = 0;
+        ArrayList<ArrayList<String>> ask = null;
+        BufferedWriter bw = startSaving(endpoint, end);
         do {
             oldCount = newCount;
-            // TODO cursor
             String query = "PREFIX owl:<http://www.w3.org/2002/07/owl#> " +
                     "SELECT ?s ?o " +
-                    "WHERE { " +
-                    "       SELECT DISTINCT ?s ?o " +
-                    "       WHERE { ?s owl:sameAs ?o. } " +
-                    "       ORDER BY ASC (?s) }  " +
-                    "OFFSET " + oldCount + " " +
-                    "LIMIT " + 40000;
-            System.out.println(query);
-            saveContinously(ask(query, con), endpoint, end);
+                    "WHERE {{        " +
+                    "SELECT DISTINCT ?s ?o        " +
+                    "WHERE { ?s owl:sameAs ?o. }        " +
+                    "ORDER BY ASC (?s) } }  LIMIT 40000 OFFSET " + oldCount;
+            ask = ask(query, con);
+            saveContinously(bw, ask);
             newCount = 40000 + oldCount;
             System.gc();
-        } while (oldCount < newCount);
+        } while (ask.size() > 0);
+        bw.close();
         con.close();
     }
 
@@ -149,6 +154,7 @@ public class SilverStandard {
             }
         } catch (QueryEvaluationException e) {
             log.error(query);
+            log.error(e.getLocalizedMessage());
         } catch (TupleQueryResultHandlerException e) {
             log.error(e.getLocalizedMessage());
         } catch (RepositoryException e) {
