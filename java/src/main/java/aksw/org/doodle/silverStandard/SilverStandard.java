@@ -40,8 +40,9 @@ public class SilverStandard {
             try {
                 log.info("Endpoint:\t" + endpoint + "\t:\t" + getSizeOfEndpoint(endpoint));
                 // ask for all owl:sameAs and save them
-                getSameAs(endpoint, end++);
+                getSameAs(endpoint, end);
                 log.info("\tFinished");
+                end++;
             } catch (Exception e) {
                 log.error("Invalid endpoint:" + endpoint);
                 log.error(e.getLocalizedMessage());
